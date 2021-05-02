@@ -1,0 +1,24 @@
+/* Add a blue  background color to the top navigation */
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a.active:hover {
+  color: #0275f4;
+}
+
+.topnav a:hover {
+  color: #00e0e0;
+}
+
+
