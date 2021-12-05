@@ -23,6 +23,9 @@ body{
 .experience{border:5px solid #fff; padding: 20px; background-color: #000; 
   color:#fff; border-style: groove; height: auto; width: 70%; font-size: 18px;}
 
+.education{border:5px solid #fff; padding: 20px; background-color: #000; 
+  color:#fff; border-style: groove; height: auto; width: 70%; font-size: 18px;}
+
 .headpic{height:70px;width:100px;border: #000; border-radius: 5px;}
 .headpic:hover{height:150;width:250px}
 
