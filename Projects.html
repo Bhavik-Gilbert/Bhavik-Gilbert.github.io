@@ -1,15 +1,25 @@
 <head>
     <link rel="stylesheet" type="text/css" href="CSS/Base.css">
     <title>Projects</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("Entity/menu.html");
+            $("#footer").load("Entity/footer.html");
+        });
+    </script>
 </head>
 
-<include src="Entity/menu.html"></include>
+<div id="header"></div>
 
 <body>
 <div align="center">
 <h1>Projects</h1>
-<h3>Current Projects</h3>
-<div class="blockinfo" align="center">
+
+<div class="project" align="center">
 <h4>Photography Booking & Management System</h4>
 <h5>PHP/SQL/HTML/Javascript<br>Coursework<br>09/2020</h5>
 <h6><a href=http://bhavik-portfolio.epizy.com/Websites/Coursework%20-%20Photography/Home.php class=btn>
@@ -22,8 +32,7 @@ supported by card saving and encryption for future use. Company report generatio
 
 <br><br>
 
-<h3>Past Projects</h3>
-<div class=blockinfo align="center">
+<div class=project align="center">
 <h4>QMUL Python Exoplanet Hunting Programme</h4>
 <h5>Python<br>Kepler Data Analysis & Graphical Manipulation<br>10/2019-03/2021</h5>
 <img src="CSS/Images/Titles/Exoplanet.PNG" height=100px width=180px>
@@ -35,5 +44,5 @@ the real data from the Kepler mission, resulting in the use of genuine data, bei
 <br><br>
 </div>
 
-<include src="Entity/footer.html"></include>
+<div id="footer"></div>
 </body>
