@@ -10,15 +10,9 @@ include "Entity/menu.html"
 <body>
 <div align="center">
 <h1>Welcome to my Portfolio</h1>
-<h6>Go to the advertised pages for more information</h6>
 
 <h3>Current Projects</h3>
-<div class="info"> 
-<h4>Photography Website</h4>
-<h5>Coursework</h5>
-<h6><a href=http://bhavik-portfolio.epizy.com/Websites/Coursework%20-%20Photography/Home.php class=btn>
-View Work</a><br></h6>
-<img class="headpic" src="CSS/Images/Titles/Coursework.PNG"></div>
+<div class="info"> </div>
 
 <br><br>
 
@@ -26,28 +20,31 @@ View Work</a><br></h6>
 <div class="info"> 
 <h4>UNIQ Digital - Oxford</h4>
 <h5>Online Course - RStudio</h5>
-<h6><br><br><br> <a href=https://digital.uniq.ox.ac.uk class=btn>View Work</a></h6>
+<h6>An online programme run by Oxford university connecting current students to prospective students. Its focus was on giving us resources to be better prepared for 
+    the university application process through tasks such as research projects and essay writing.An optional R-Studio programming course was provided, 
+    which gave an in-depth explanation and understanding of the language with a programming test at the end to gauge what we learnt at the end of the course, 
+    where I achieved 95/100.
+    <br><br>Link<br>https://digital.uniq.ox.ac.uk/</h6>
 </div>
 <div class="info"> 
 <h4>QMUL Python Exoplanet Hunting Programme</h4>
-<h5>Kepler Data Analysis & Graphical Manipulation</h5>
-    <img class="headpic" src="CSS/Images/Titles/Exoplanet.PNG">
+<h5>Online Course - RStudio</h5>
+<h6>A program run by QMUL which involved the use of python to analyse and manipulate data from data sets using python libraries NumPy and matplotlib to accurately 
+    achieve a phase fold of a change in star luminosity from the Kepler mission, to later calculate the radius of the planet orbiting around it. This programme used 
+    the real data from the Kepler mission, resulting in the use of genuine data, being a great opportunity to expand on previous python knowledge and experience these 2 libraries.</h6>
 </div>
 <br><br>
 
 <h3>Work Experience</h3>
 <div class="info"> 
-<h4>StemItup</h4>
-<h5>Co-Founder and Co-Chief Executive Officer</h5>
-<h6><br><a href=https://www.stemitup.org/ class=btn>View Website</a><br></h6>
-</div>
-<div class="info"> 
 <h4>Springpod</h4>
 <h5>Technology Virtual Work Experience</h5>
-<h6><a href=https://www.linkedin.com/in/bhavik-gilbert-2349631a9/detail/treasury/position:1766009453/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAADC6t4gB9zkJSNbpb2fGu0zKySRQv96N8cQ%2C1618440969668)&section=position%3A1766009453&treasuryCount=2
- class=btn>View Certification</a></h6>
- <br>
-<h6><a href=https://www.springpod.co.uk/experience/technology-work-experience class=btn>View Work</a></h6>
+<h6>- A sound understanding of the inner-workings and concepts related to technology, and the ability to identify the skills needed to pursue a career in this sector.
+- The ability to successfully apply knowledge of the technology sector by completing quizzes, interactive exercises and activities.
+- Meaningful interaction with industry professionals through live webinars. 
+- A better understanding of the career pathways within technology.
+- Knowledge of key employability and transferable skills, as well as a sound awareness of employer expectations.”
+<br><br>Link<br>https://www.springpod.co.uk/experience/<br>technology-work-experience</h6>
 </div>
 <br><br>
 
@@ -66,6 +63,7 @@ View Work</a><br></h6>
 
 <br><br>
 </div>
+
 <?php
 include "Entity/footer.html"
 ?>
