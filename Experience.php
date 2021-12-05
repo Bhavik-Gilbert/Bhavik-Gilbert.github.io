@@ -114,7 +114,6 @@ This OpenLearn course is an adapted extract from the Open University course T849
 This OpenLearn course provides a sample of level 2 study in Computing & IT.
 </div>
 </div>
-<<<<<<< HEAD:Experience.php
 
 <br><br>
 
@@ -123,4 +122,3 @@ This OpenLearn course provides a sample of level 2 study in Computing & IT.
 include "Entity/footer.html"
 ?>
 </body>
-
