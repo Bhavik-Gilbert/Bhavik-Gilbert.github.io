@@ -26,8 +26,8 @@ body{
 .education{border:5px solid #fff; padding: 20px; background-color: #000; 
   color:#fff; border-style: groove; height: auto; width: 70%; font-size: 18px;}
 
-.headpic{height:70px;width:100px;border: #000; border-radius: 5px;}
-.headpic:hover{height:150;width:250px}
+.pic{height:100px;width:180px;border: #fff; border-radius: 5px;}
+.pic:hover{height:300;width: 540px;}
 
 .btn {padding: 10px;font-size: 10px;color: #fff;background: #777777;border: #000;border-radius: 5px;
       text-align: center; border:3px;border-style: solid;}
@@ -37,5 +37,6 @@ body{
 
 
 
-.btn_image{height:100px;width:100px;border: #000; border-radius: 5px;}
-.btn_image:hover{height:200px;width:20px;border: #fff;border-width: 5px;}
+.btn_image{height:40px;width:40px;border: #000; border-radius: 5px;}
+.btn_image:hover{height:100px;width:100px;border: #fff;border-width: 5px;}
+
