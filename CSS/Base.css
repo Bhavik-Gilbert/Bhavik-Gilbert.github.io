@@ -12,12 +12,28 @@ body{
   h5{color: #fff}
   h6{color: #fff}
 
-.info{display: inline-block; overflow:auto; border:5px solid #000;padding: 20px; 
-    border-radius: 10px; background: radial-gradient(circle,#a7adba,#4f5b66); color:#fff; 
-    border-style: double; height: 150px; width: 200px; font-size: 14px; opacity: .8}
+.info{display: inline-block; overflow:auto; border:5px solid #fff;padding: 20px; 
+    border-radius: 10px; background-image: url("Images/info_backdrop.jpg"); color:#fff; 
+    border-style: double; height: 200px; width: 200px; font-size: 14px; opacity: .8}
 
-.info:hover{height: 225px; width:300px; font-size: 21px; opacity:1}
+.info:hover{height: 300px; width:300px; font-size: 21px; opacity:1}
 
-.btn{padding: 10px;
-    border: #fff;
-    border-radius: 2px;}
+.blockinfo{border:5px solid #fff; padding: 20px; background-image: url("Images/blockinfo_backdrop.jpg"); 
+  color:#fff; border-style: groove; height: auto; width: 70%; font-size: 18px;}
+
+.blockabout{border:5px solid #fff; padding: 20px; background-image: url("Images/blockabout_backdrop.jpg"); 
+  color:#fff; border-style: groove; height: auto; width: 70%; font-size: 18px;}
+
+.headpic{height:70px;width:100px;border: #000; border-radius: 5px;}
+.headpic:hover{height:150;width:250px}
+
+.btn {padding: 10px;font-size: 10px;color: #fff;background: #777777;border: #000;border-radius: 5px;
+      text-align: center; border:3px;border-style: solid;}
+.btn:hover {padding: 10px;font-size: 15px;color: #fff;background: #eb0000;border: #000;border-radius: 5px;
+      text-align: center; border:5px; border-style: solid;}
+  
+
+
+
+.btn_link{height:40px;width:40px;border: #000; border-radius: 5px;}
+.btn_link:hover{height:60px;width:60px;border: #fff;border-width: 5px;}
