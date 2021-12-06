@@ -2,8 +2,13 @@ body {
 	background-image: url("Images/background.jpg");
 	background-size: cover;
     background-repeat: no-repeat;
+    scrollbar-width: none;
     background-attachment: fixed;
 	
+}
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
 }
 
 @keyframes gradient {
@@ -19,21 +24,26 @@ body {
 }
 
 
-  h1{color: #fff}
+  h1{color: #fff; font-family: "Courier New","Lucida Console", monospace;}
   h2{color: #fff}
   h3{color: #fff}
   h4{color: #fff}
   h5{color: #fff}
   h6{color: #fff}
 
+  p{font-family: "Garamond", Times, serif; color: #fff}
+
 .info{display: inline-block; overflow:auto; border:5px solid #fff;padding: 20px; 
     border-radius: 10px; color:#fff;border-style: double; 
     height: 200px; width: 200px; font-size: 14px; background-color:#000;
     opacity:0.9}
-.info:hover{height: 300px; width:300px; font-size: 21px; opacity:1;
+.info:hover{height: 300px; width:300px; font-size: 21px; opacity:1; 
     background: linear-gradient(-45deg, #000, #800000, #330000, #000);
     background-size: 400% 400%; background-repeat: no-repeat;
     background-attachment: fixed; animation: gradient 15s ease infinite;}
+.info::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
 
 .project{border:5px solid #fff; padding: 20px; background-color: #000; opacity:0.9;
     color:#fff; border-style: groove; height: auto; width: 70%; font-size: 18px;}
@@ -66,6 +76,6 @@ body {
   
 
 
-
+.file{display: inline-block; height: auto; width: auto; text-align: center; padding: 20px;  font-family: "Brush Script MT", cursive; font-style: italic;}
 .btn_image{padding: 10px; height:20px;width:20px; border-color: #fff; border-radius: 10px; display: inline-block;}
 
