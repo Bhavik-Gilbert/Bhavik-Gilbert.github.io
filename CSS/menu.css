@@ -13,8 +13,11 @@
 }
 
 /* Change the color of links on hover */
-.topnav a.active:hover {
-  color: #0275f4;
+.topnav a.active{
+  color: #fca82b;
+}
+.topnav a.active:hover{
+  color: #fff;
 }
 
 .topnav a:hover {
