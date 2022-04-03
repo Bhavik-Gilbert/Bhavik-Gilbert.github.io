@@ -6,6 +6,7 @@
     background-color: #000;
     height: max-content;
     padding-bottom:50px;
-    border-top:2px solid #fff;}
+    border-top:2px solid #fff;
+}
 
-    .content{display: inline-block; overflow:auto; right:200px}
+.content{display:inline-block; overflow:auto; right:200px}
