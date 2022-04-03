@@ -51,17 +51,23 @@ body {
   p{font-family: "Garamond", Times, serif; color: #fff}
 
 .left {
-  left: 10em; margin-bottom: 0.5em; height:min-content; position: relative;
+  left: 10em; margin-bottom: 0.5em; height:min-content; position: relative; transform: translateX(0); transition: all 0.5s ease;
+}
+.left:hover {
+  transform: translateX(-10em);
 }
 .right {
-  right: 10em; margin-bottom: 0.5em; height:min-content; position: relative;
+  right: 10em; margin-bottom: 0.5em; height:min-content; position: relative; transform: translateX(0); transition: all 0.5s ease;
+}
+.right:hover {
+  transform: translateX(10em);
 }
 
 .info {
   display: inline-block; overflow:auto; border:5px solid #fff;padding: 20px; 
   border-radius: 10px; color:#fff; border-style: double; 
   height: 200px; width: 200px; font-size: 14px; background-color:#000;
-  opacity:0.9; transition: height 0.5s linear; transition: all 0.5s linear;
+  opacity:0.9; transition: all 0.5s ease;
   }
 .info:hover {
     height: 300px; width:300px; font-size: 21px; opacity:1; 
@@ -72,14 +78,14 @@ body {
 
 .project {
   border:5px groove transparent; padding: 0.5em; background-color: #000; opacity:0.9; text-align:center;
-  color:#fff; font-size: 1em; transition: all 1s ease; width: 70%; border-radius: 10em; overflow:hidden;
+  color:#fff; font-size: 1em; transition: all 0.75s ease; width: 70%; border-radius: 10em; overflow:hidden;
 }
 .project:hover {
   opacity:1;
   background: linear-gradient(-45deg, #000, #4B4B4C, #000, #4B4B4C);
   background-size: 400% 400%; background-repeat: no-repeat; 
   background-attachment: fixed; animation: gradient 10s ease infinite;
-  border-color: #fff; border-radius: 0;
+  border-color: #fff; border-radius: 1em;
 }
 .description {
   font-size: 0em; transition: all 0.75s linear;
