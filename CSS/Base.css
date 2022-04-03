@@ -63,6 +63,14 @@ body {
   transform: translateX(10em);
 }
 
+.left:hover .project, .right:hover .project {
+  opacity:1;
+  background: linear-gradient(-45deg, #000, #4B4B4C, #000, #4B4B4C);
+  background-size: 400% 400%; background-repeat: no-repeat; 
+  background-attachment: fixed; animation: gradient 10s ease infinite;
+  border-color: #fff; border-radius: 1em;
+}
+
 .info {
   display: inline-block; overflow:auto; border:5px solid #fff;padding: 20px; 
   border-radius: 10px; color:#fff; border-style: double; 
