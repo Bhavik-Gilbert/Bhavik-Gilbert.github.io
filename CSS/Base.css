@@ -1,11 +1,3 @@
-body {
-	background-image: url("Images/background_simple.jpg");
-	background-size: cover;
-  background-repeat: no-repeat;
-  scrollbar-width: none;
-  overflow-x: hidden; /* Hide horizontal scrollbar */
-}
-
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -103,6 +95,16 @@ body {
 }
 .project:hover .pic{
   opacity: 1; height: auto;
+}
+.project .file{
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  padding:0;
+}
+.project:hover .file{
+  opacity: 1; height: auto;
+  padding:20px;
 }
 
 .pic{height:100px;width:180px;border: #fff; border-radius: 20px; border-style: double; transition: all .5s linear;}
