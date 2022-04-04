@@ -11,6 +11,14 @@ a {
     color: inherit;
 }
 
+.container .left:hover {
+    transform: translateX(-11em);
+}
+
+.container .right:hover {
+    transform: translateX(11em);
+}
+
 .main .project{
     width: 30%;
     display: inline-block;

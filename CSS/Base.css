@@ -42,16 +42,16 @@
   p{font-family: "Garamond", Times, serif; color: #fff}
 
 .left {
-  left: 10em; margin-bottom: 0.5em; height:min-content; position: relative; transform: translateX(0); transition: all 0.5s ease;
+  left: 15em; margin-bottom: 0.5em; height:min-content; position: relative; transform: translateX(0); transition: all 0.5s ease;
 }
 .left:hover {
-  transform: translateX(-10em);
+  transform: translateX(-15em);
 }
 .right {
-  right: 10em; margin-bottom: 0.5em; height:min-content; position: relative; transform: translateX(0); transition: all 0.5s ease;
+  right: 15em; margin-bottom: 0.5em; height:min-content; position: relative; transform: translateX(0); transition: all 0.5s ease;
 }
 .right:hover {
-  transform: translateX(10em);
+  transform: translateX(15em);
 }
 
 .left:hover .project, .right:hover .project {
@@ -73,10 +73,10 @@
 
 .project {
   border:2px solid #000; padding: 0.5em; background-color: #121212; opacity:0.7; text-align:center;
-  color:#fff; font-size: 1em; transition: all 0.75s ease; width: 70%; border-radius: 10em; overflow:hidden;
+  color:#fff; font-size: 1em; transition: all 1s ease; width: 55%; border-radius: 10em; overflow:hidden;
 }
 .project:hover {
-  opacity:1;
+  opacity:1; width:70%;
   background: linear-gradient(-45deg, #000, #1c1c1c, #000, #1c1c1c);
   background-size: 400% 400%; background-repeat: no-repeat; 
   background-attachment: fixed; animation: gradient 10s ease infinite;
