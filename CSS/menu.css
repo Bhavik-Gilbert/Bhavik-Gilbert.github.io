@@ -1,9 +1,15 @@
 .topnav {
   overflow: hidden;
-  padding: 1em;
-  margin-top: 1em;
-  margin-bottom: 3em;
-  width: 100%;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin-bottom: 2.5em;
+  width: 102%;
+  transform: translate3d(-1em, -0.5em, 0);
+  transition: all 0.5s ease;
+}
+
+.topnav:hover {
+  background-color: #121212;
 }
 
 /* Style the links inside the navigation bar */

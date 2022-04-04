@@ -4,7 +4,6 @@ body {
   background-repeat: no-repeat;
   scrollbar-width: none;
   overflow-x: hidden; /* Hide horizontal scrollbar */
-	
 }
 
 /* width */
@@ -64,36 +63,32 @@ body {
 }
 
 .left:hover .project, .right:hover .project {
-  opacity:1;
-  background: linear-gradient(-45deg, #000, #4B4B4C, #000, #4B4B4C);
-  background-size: 400% 400%; background-repeat: no-repeat; 
-  background-attachment: fixed; animation: gradient 10s ease infinite;
-  border-color: #fff; border-radius: 1em;
+  border-color: #fff; opacity: 1; background-color: #000;
 }
 
 .info {
-  display: inline-block; overflow:auto; border:5px solid #fff;padding: 20px; 
-  border-radius: 10px; color:#fff; border-style: double; 
+  display: inline-block; overflow:auto; border:2px solid #121212;padding: 20px; 
+  border-radius: 10px; color:#fff;
   height: 200px; width: 200px; font-size: 14px; background-color:#000;
   opacity:0.9; transition: all 0.5s ease;
   }
 .info:hover {
-    height: 300px; width:300px; font-size: 21px; opacity:1; 
+    height: 300px; width:300px; font-size: 21px; opacity:1; border-style: double; border-color: #fff; border-width: 5px;
   }
 .info::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
 }
 
 .project {
-  border:5px groove transparent; padding: 0.5em; background-color: #000; opacity:0.9; text-align:center;
+  border:2px solid #000; padding: 0.5em; background-color: #121212; opacity:0.7; text-align:center;
   color:#fff; font-size: 1em; transition: all 0.75s ease; width: 70%; border-radius: 10em; overflow:hidden;
 }
 .project:hover {
   opacity:1;
-  background: linear-gradient(-45deg, #000, #4B4B4C, #000, #4B4B4C);
+  background: linear-gradient(-45deg, #000, #1c1c1c, #000, #1c1c1c);
   background-size: 400% 400%; background-repeat: no-repeat; 
   background-attachment: fixed; animation: gradient 10s ease infinite;
-  border-color: #fff; border-radius: 1em;
+  border-color: #fff; border-radius: 1em; border-style: groove; border-width: 5px;
 }
 .description {
   font-size: 0em; transition: all 0.75s linear;
