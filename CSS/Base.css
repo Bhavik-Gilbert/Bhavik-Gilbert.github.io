@@ -43,6 +43,23 @@ html[data-theme="light"] #loader {
   background: #FFF url(Images/lightloader.gif) no-repeat center center;
 }
 
+body {
+  background: var(--bg) url("Images/background_simple_dark.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: clip;
+  /* Hide horizontal scrollbar */
+}
+
+html[data-theme="light"] body:not([data-page="home"]){
+  background-image: url("Images/background_simple_light.jpg");
+}
+
+body[data-page="home"] {
+  background-image: none;
+  /* Hide horizontal scrollbar */
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -74,15 +91,6 @@ html[data-theme="light"] #loader {
 	100% {
 		background-position: 0% 50%;
 	}
-}
-
-/* main site */
-body {
-  background-image: url("Images/background_simple.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow-x: clip;
-  /* Hide horizontal scrollbar */
 }
 
   h1{color: var(--secondary); font-family: "Courier New","Lucida Console", monospace;}
@@ -179,12 +187,6 @@ body {
 .btn_image{padding: 10px; height:20px;width:20px; border-color: var(--secondary); border-radius: 10px; display: inline-block;}
 
 /* home page */
-body[data-page="home"] {
-  background-image: none;
-  background-color: var(--bg);
-  /* Hide horizontal scrollbar */
-}
-
 a {
   text-decoration: none;
   color: inherit;
