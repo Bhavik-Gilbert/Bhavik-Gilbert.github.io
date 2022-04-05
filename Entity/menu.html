@@ -4,15 +4,17 @@
 <link rel="stylesheet" type="text/css" href="CSS/Base.css">
 </head>
 
-<div class="topnav" align="center"> 
-    <div class="controlpanel">
+<div class=navbar>
+    <div class="controlpanel" align="left">
         <input type="checkbox" name="theme" id="switch" /><label for="switch"></label>
     </div>
-    
-	<a href="index.html" id='Home' onmouseover="changeText('Home', 'Home')" onmouseout="changeText('Home', '&#127968;')">&#127968;</a>
-    <a href="Projects.html" id='Projects' onmouseover="changeText('Projects', 'Projects')" onmouseout="changeText('Projects', '&#128187;')">&#128187;</a>
-    <a href="Experience.html" id='Experience' onmouseover="changeText('Experience', 'Experience')" onmouseout="changeText('Experience', '&#128188;')">&#128188;</a>
-    <a href="Education.html" id='Education' onmouseover="changeText('Education', 'Education')" onmouseout="changeText('Education', '&#128218;')">&#128218;</a>
+
+    <div class="topnav" align="center">
+        <a href="index.html" id='Home' onmouseover="changeText('Home', 'Home')" onmouseout="changeBack('Home', '&#127968;')">&#127968;</a>
+        <a href="Projects.html" id='Projects' onmouseover="changeText('Projects', 'Projects')" onmouseout="changeBack('Projects', '&#128187;')">&#128187;</a>
+        <a href="Experience.html" id='Experience' onmouseover="changeText('Experience', 'Experience')" onmouseout="changeBack('Experience', '&#128188;')">&#128188;</a>
+        <a href="Education.html" id='Education' onmouseover="changeText('Education', 'Education')" onmouseout="changeBack('Education', '&#128218;')">&#128218;</a>
+    </div>
 </div>
 
 <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
@@ -27,8 +29,31 @@
 </script>
 
 <script>
-    function changeText(id, text) {
-        trans();
+    const timer = ms => new Promise(res => setTimeout(res, ms))
+
+    async function changeText(id, text) {
+        var display = "";
+
+        var time = 3000/text.length
+
+        if (time > 500) {
+            time = 500;
+        }
+
+        for (let i = 0; i < text.length; i++) {
+            current = document.getElementById(id).innerHTML; 
+            if(current == display || display == "") {
+                display += text[i];
+                document.getElementById(id).innerHTML = display;
+            }
+            else{
+                break;
+            }
+            await timer(time);
+        }
+    }
+
+    function changeBack(id, text) {
         document.getElementById(id).innerHTML = text;
     }
 </script>

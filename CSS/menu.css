@@ -1,15 +1,14 @@
-.topnav {
+.navbar {
   overflow: hidden;
-  padding-top: 1.5em;
-  padding-bottom: 0.5em;
-  margin-bottom: 2.5em;
-  width: 105%;
-  transform: translate3d(-4em, -0.5em, 0);
+  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
+  width: 102%;
+  transform: translate3d(-1em, -0.5em, 0);
   transition: all 0.5s ease;
   display: inline-block
 }
 
-.topnav:hover {
+.navbar:hover {
   background-color: var(--primaryopaque1);
 }
 
@@ -40,27 +39,41 @@
 .topnav a:hover {
   background-color: var(--secondary);
   color: var(--primary);
+  font-size: 18px;
   padding: 1em 1em;
 }
 
 .controlpanel {
   display: inline-block;
-  transform: translate3d(-22em, -1em, 0);
 }
 
-.topnav label, .topnav input:checked+label, .topnav label::after {
+.controlpanel input[type=checkbox], .controlpanel label,
+.controlpanel input:checked+label {
+  transform: translate3d(2em, 1.8em, 0);
+  z-index: 1000;
+}
+
+
+.navbar label,
+.navbar input:checked+label,
+.navbar label::after {
   transition: var(--ease);
 }
-.topnav label::after {
+
+.navbar label::after {
   background-color: transparent
 }
-.topnav:hover label::after {
+
+.navbar:hover label::after {
   background-color: var(--primary);
 }
 
-.topnav label, .topnav input:checked+label {
+.navbar label,
+.navbar input:checked+label {
   background-color: transparent;
 }
-.topnav:hover label, .topnav:hover input:checked+label {
+
+.navbar:hover label,
+.navbar:hover input:checked+label {
   background-color: var(--bg);
 }
