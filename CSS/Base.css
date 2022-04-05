@@ -36,11 +36,11 @@ html.transition, html.transition *, html.transition::before, html.transition::af
 }
 
 html[data-theme="dark"] #loader {
-  background: #0E111F url(images/darkloader.gif) no-repeat center center;
+  background: #0E111F url(Images/darkloader.gif) no-repeat center center;
 }
 
 html[data-theme="light"] #loader {
-  background: #FFF url(images/lightloader.gif) no-repeat center center;
+  background: #FFF url(Images/lightloader.gif) no-repeat center center;
 }
 
 /* width */
