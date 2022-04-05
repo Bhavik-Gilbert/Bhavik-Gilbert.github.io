@@ -1,9 +1,14 @@
 <head>
 <title>Header</title>
 <link rel="stylesheet" type = "text/css" href="CSS/menu.css">
+<link rel="stylesheet" type="text/css" href="CSS/Base.css">
 </head>
 
 <div class="topnav" align="center"> 
+    <div class="controlpanel">
+        <input type="checkbox" name="theme" id="switch" /><label for="switch"></label>
+    </div>
+    
 	<a href="index.html">Home</a>
     <a href="Projects.html">Projects</a>
     <a href="Experience.html">Experience</a>
@@ -19,4 +24,37 @@
             }
         });
     });
+</script>
+
+<script>
+    if (localStorage.getItem("theme") == "true") {
+        document.documentElement.setAttribute("data-theme", "dark");
+        var check = document.getElementById("switch");
+        check.setAttribute("checked", "checked");
+    }
+    else {
+        document.documentElement.setAttribute("data-theme", "light");
+        var check = document.getElementById("switch");
+    }
+</script>
+
+<script>
+    var checkbox = document.querySelector("input[name=theme]");
+
+    checkbox.addEventListener("change", function () {
+        localStorage.setItem("theme", this.checked);
+        trans()
+        if (this.checked) {
+            document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+            document.documentElement.setAttribute("data-theme", "light");
+        }
+    });
+
+    let trans = () => {
+        document.documentElement.classList.add("transition");
+        window.setTimeout(() => {
+            document.documentElement.classList.remove("transition");
+        }, 1000)
+    };
 </script>

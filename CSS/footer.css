@@ -1,7 +1,7 @@
 .footer{
     position: bottom;
     width: 103%;
-    background-color: #121212;
+    background-color: var(--primaryopaque1);
     height: max-content;
     padding-bottom: 2em;
     padding-top: 1em;

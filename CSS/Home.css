@@ -1,6 +1,6 @@
 body {
     background-image: transparent;
-    background-color: #343d52;
+    background-color: var(--bg);
     scrollbar-width: none;
     overflow-x: hidden;
     /* Hide horizontal scrollbar */
@@ -30,28 +30,28 @@ a {
 .main .project:hover {
     opacity:1;
     width: 30%;
-    background: linear-gradient(-45deg, #000, #48536e, #000, #48536e);
+    background: linear-gradient(-45deg, var(--primary), var(--bgopaque), var(--primary), var(--bgopaque));
     background-size: 400% 400%; background-repeat: no-repeat; 
     background-attachment: fixed; animation: gradient 10s ease infinite;
-    border-color: #fff; border-radius: 1em; border-style: groove; border-width: 5px;
+    border-color: var(--secondary); border-radius: 1em; border-style: groove; border-width: 5px;
 }
 
 .page {
-    background-color: #121212;
-    color: #fff;
+    background-color: var(--main);
+    color: var(--secondary);
     height:auto;
     width: 30%;
     transform: perspective(10px) rotateX(1deg);
     transition: all 0.5s linear;
     margin-bottom: 5em;
     display: inline-block;
-    border: 2px solid #000;
+    border: 2px solid var(--primary);
     padding: 1em;
     opacity: 0.7;
     font-size: 0.9em; font-style: normal; font-weight: bold;
 }
 .page:hover {
-    border-radius: 1em; border-color:#fff; border-width: 4px; border-style: double;
+    border-radius: 1em; border-color: var(--secondary); border-width: 4px; border-style: double;
     opacity: 1;
 }
 .page:hover .description {

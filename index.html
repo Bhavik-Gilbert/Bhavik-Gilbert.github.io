@@ -1,6 +1,5 @@
 <head>
     <link rel="stylesheet" type="text/css" href="CSS/Base.css">
-    <link rel="stylesheet" type="text/css" href="CSS/Home.css">
     <title>Landing Page</title>
 
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -14,9 +13,11 @@
     </script>
 </head>
 
+<html data-theme="dark">
+
 <div id="header"></div>
 
-<body>
+<body data-page="home">
 <div align="center">
     <h1>Welcome to my Portfolio</h1>
 
@@ -110,10 +111,21 @@
     </a>
     <img class=leftpageimage src="CSS/Images/Education.jpg">
     </div>
-
     </div>
 
 </div>
+
 </body>
 
 <div id="footer"></div>
+
+</html>
+
+<script>
+    if (localStorage.getItem("theme") == "true") {
+        document.documentElement.setAttribute("data-theme", "dark");
+    }
+    else {
+        document.documentElement.setAttribute("data-theme", "light");
+    }
+</script>

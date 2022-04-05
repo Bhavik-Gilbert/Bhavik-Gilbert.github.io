@@ -6,15 +6,16 @@
   width: 102%;
   transform: translate3d(-1em, -0.5em, 0);
   transition: all 0.5s ease;
+  display: inline-block
 }
 
 .topnav:hover {
-  background-color: #121212;
+  background-color: var(--primaryopaque1);
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
-  color: #fff;
+.topnav a{
+  color: var(--secondary);
   text-align: center;
   text-decoration: none;
   font-weight: bold;
@@ -22,22 +23,30 @@
   font-size: 16px;
   border-radius: 0.5em;
   transition: all 0.3s linear;
-  background-color: #000;
+  background-color: var(--primary);
+  border-width: 0;
 }
 
 /* Change the color of links on hover */
 .topnav a.active{
-  background-color: #4B4B4C;
+  background-color: var(--greydark);
+  color: #fff;
 }
 .topnav a.active:hover{
-  background-color: #4B4B4C;
+  background-color: var(--greydark);
   color: #fff;
 }
 
 .topnav a:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: var(--secondary);
+  color: var(--primary);
   padding: 1em 1em;
 }
 
+.controlpanel {
+  display: inline-block;
+  transform: translate3d(-22em, -1em, 0);
+}
 
+.controlpanel .input[type=checkbox] {
+}

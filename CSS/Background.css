@@ -1,8 +1,0 @@
-body {
-    background-image: url("Images/background_simple.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    scrollbar-width: none;
-    overflow-x: hidden;
-    /* Hide horizontal scrollbar */
-}
