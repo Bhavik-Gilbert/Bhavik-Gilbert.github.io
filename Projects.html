@@ -15,6 +15,17 @@
 
 <html data-theme="dark">
 
+<script>
+    if (localStorage.getItem("theme") == "false") {
+        document.documentElement.setAttribute("data-theme", "light");
+    }
+    else {
+        document.documentElement.setAttribute("data-theme", "dark");
+    }
+</script>
+
+<div id="loader"></div>
+
 <div id="header"></div>
 
 <body>
@@ -186,10 +197,14 @@
 </html>
 
 <script>
-    if (localStorage.getItem("theme") == "true") {
-        document.documentElement.setAttribute("data-theme", "dark");
-    }
-    else {
-        document.documentElement.setAttribute("data-theme", "light");
-    }
+    var loader = document.getElementById("loader");
+
+    window.addEventListener("load", function () {
+        setTimeout(function () {
+            loader.style.opacity = "0";
+            setTimeout(function () {
+                loader.style.display = "none";
+            }, 500);
+        }, 1000);
+    });
 </script>

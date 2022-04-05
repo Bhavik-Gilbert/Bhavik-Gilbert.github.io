@@ -1,7 +1,7 @@
 .topnav {
   overflow: hidden;
   padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-bottom: 0.5em;
   margin-bottom: 2.5em;
   width: 102%;
   transform: translate3d(-1em, -0.5em, 0);
@@ -20,7 +20,7 @@
   text-decoration: none;
   font-weight: bold;
   padding: 0.4em 1em;
-  font-size: 16px;
+  font-size: 20px;
   border-radius: 0.5em;
   transition: all 0.3s linear;
   background-color: var(--primary);
@@ -48,5 +48,19 @@
   transform: translate3d(-22em, -1em, 0);
 }
 
-.controlpanel .input[type=checkbox] {
+.topnav label, .topnav input:checked+label, .topnav label::after {
+  transition: var(--ease);
+}
+.topnav label::after {
+  background-color: transparent
+}
+.topnav:hover label::after {
+  background-color: var(--primary);
+}
+
+.topnav label, .topnav input:checked+label {
+  background-color: transparent;
+}
+.topnav:hover label, .topnav:hover input:checked+label {
+  background-color: var(--bg);
 }

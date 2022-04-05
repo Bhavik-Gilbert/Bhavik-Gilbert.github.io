@@ -9,10 +9,10 @@
         <input type="checkbox" name="theme" id="switch" /><label for="switch"></label>
     </div>
     
-	<a href="index.html">Home</a>
-    <a href="Projects.html">Projects</a>
-    <a href="Experience.html">Experience</a>
-    <a href="Education.html">Education</a>
+	<a href="index.html" id='Home' onmouseover="changeText('Home', 'Home')" onmouseout="changeText('Home', '&#127968;')">&#127968;</a>
+    <a href="Projects.html" id='Projects' onmouseover="changeText('Projects', 'Projects')" onmouseout="changeText('Projects', '&#128187;')">&#128187;</a>
+    <a href="Experience.html" id='Experience' onmouseover="changeText('Experience', 'Experience')" onmouseout="changeText('Experience', '&#128188;')">&#128188;</a>
+    <a href="Education.html" id='Education' onmouseover="changeText('Education', 'Education')" onmouseout="changeText('Education', '&#128218;')">&#128218;</a>
 </div>
 
 <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
@@ -27,14 +27,21 @@
 </script>
 
 <script>
-    if (localStorage.getItem("theme") == "true") {
+    function changeText(id, text) {
+        trans();
+        document.getElementById(id).innerHTML = text;
+    }
+</script>
+
+<script>
+    if (localStorage.getItem("theme") == "false") {
+        document.documentElement.setAttribute("data-theme", "light");
+        var check = document.getElementById("switch");
+    }
+    else {
         document.documentElement.setAttribute("data-theme", "dark");
         var check = document.getElementById("switch");
         check.setAttribute("checked", "checked");
-    }
-    else {
-        document.documentElement.setAttribute("data-theme", "light");
-        var check = document.getElementById("switch");
     }
 </script>
 

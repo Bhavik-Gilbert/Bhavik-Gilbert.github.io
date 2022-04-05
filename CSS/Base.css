@@ -26,6 +26,23 @@ html.transition, html.transition *, html.transition::before, html.transition::af
   transition-delay: 0 !important;
 }
 
+#loader {
+  position: fixed;
+  width: 102%;
+  height: 102%;
+  z-index: 100;
+  transform: translate3d(-1em,-1em,0);
+  transition: var(--ease);
+}
+
+html[data-theme="dark"] #loader {
+  background: #0E111F url(images/darkloader.gif) no-repeat center center;
+}
+
+html[data-theme="light"] #loader {
+  background: #FFF url(images/lightloader.gif) no-repeat center center;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
