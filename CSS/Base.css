@@ -40,7 +40,7 @@ html[data-theme="dark"] #loader {
 }
 
 html[data-theme="light"] #loader {
-  background: #FFF url(images/lightloader.gif) no-repeat center center;
+  background: #FFF url(CSS/images/darkloader.gif) no-repeat center center;
 }
 
 /* width */
