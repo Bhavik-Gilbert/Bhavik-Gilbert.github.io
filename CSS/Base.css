@@ -10,6 +10,8 @@ html {
 
   --ease: all 0.5s ease;
   --linear: all 0.75s linear;
+
+  overflow-x: none; /* Hide horizontal scrollbar */
 }
 
 html[data-theme="light"] {
@@ -47,8 +49,6 @@ body {
   background: var(--bg) url("Images/background_simple_dark.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  overflow-x: clip;
-  /* Hide horizontal scrollbar */
 }
 
 html[data-theme="light"] body:not([data-page="home"]){
@@ -57,7 +57,6 @@ html[data-theme="light"] body:not([data-page="home"]){
 
 body[data-page="home"] {
   background-image: none;
-  /* Hide horizontal scrollbar */
 }
 
 /* width */

@@ -28,11 +28,11 @@
 
 /* Change the color of links on hover */
 .topnav a.active{
-  background-color: var(--greydark);
+  background-color: var(--bgopaque);
   color: #fff;
 }
 .topnav a.active:hover{
-  background-color: var(--greydark);
+  background-color: var(--bg);
   color: #fff;
 }
 
