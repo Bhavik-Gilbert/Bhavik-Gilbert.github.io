@@ -21,8 +21,15 @@
 <script>
     $(function () {
         $('a').each(function () {
-            if ($(this).prop('href') == window.location.href) {
+            var currentpath = window.location.href;
+            var pathArray = currentpath.split('/');
+            if (pathArray[pathArray.length - 1] == "") {
+                currentpath += "index.html";
+            }
+
+            if ($(this).prop('href') == currentpath) {
                 $(this).addClass('active'); $(this).parents('li').addClass('active');
+                return;
             }
         });
     });
