@@ -47,7 +47,7 @@ body {
   background: var(--bg) url("Images/background_simple_dark.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  overflow-x: clip; /* Hide horizontal scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
   overflow-y: scroll; /* Hide vertical scrollbar */
 }
 
@@ -115,7 +115,7 @@ body[data-page="home"] {
 }
 
 .left:hover .project, .right:hover .project {
-  border-color: var(--secondary); opacity: 1; background-color: var(--primary);
+  opacity: 1;
 }
 
 .info {
@@ -140,7 +140,7 @@ body[data-page="home"] {
   background: linear-gradient(-45deg, var(--primary), var(--primaryopaque2), var(--primary), var(--primaryopaque2));
   background-size: 400% 400%; background-repeat: no-repeat; 
   background-attachment: fixed; animation: gradient 10s ease infinite;
-  border-color: var(--secondary); border-radius: 1em; border-style: groove; border-width: 5px;
+  border-color: var(--secondary); border-radius: 1em; border-width: 2px;
 }
 .description {
   font-size: 0em; transition: var(--linear);
@@ -210,15 +210,13 @@ a {
 .main .project:hover {
   opacity: 1;
   width: 30%;
-  background: linear-gradient(-45deg, var(--primary), var(--bgopaque), var(--primary), var(--bgopaque));
+  background: linear-gradient(-45deg, var(--primary), var(--primaryopaque2), var(--primary), var(--primaryopaque2));
   background-size: 400% 400%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   animation: gradient 10s ease infinite;
   border-color: var(--secondary);
   border-radius: 1em;
-  border-style: groove;
-  border-width: 5px;
 }
 
 .page {
