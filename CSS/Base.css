@@ -101,16 +101,16 @@ body[data-page="home"] {
 
   p{font-family: "Garamond", Times, serif; color: var(--secondary)}
 
-.left {
+.right {
   left: 15em; margin-bottom: 0.5em; height:min-content; position: relative; transform: translateX(0); transition: var(--ease);
 }
-.left:hover {
+.right:hover {
   transform: translateX(-15em);
 }
-.right {
+.left {
   right: 15em; margin-bottom: 0.5em; height:min-content; position: relative; transform: translateX(0); transition: var(--ease);
 }
-.right:hover {
+.left:hover {
   transform: translateX(15em);
 }
 
@@ -191,11 +191,11 @@ a {
   color: inherit;
 }
 
-.container .left:hover {
+.container .right:hover {
   transform: translateX(-11em);
 }
 
-.container .right:hover {
+.container .left:hover {
   transform: translateX(11em);
 }
 
@@ -249,7 +249,7 @@ a {
   font-size: 0.9em;
 }
 
-.rightpageimage {
+.leftpageimage {
   width: 10%;
   height: auto;
   transform: translate3d(0.9em, 1.1em, 0);
@@ -261,7 +261,7 @@ a {
   opacity: 1;
 }
 
-.leftpageimage {
+.rightpageimage {
   width: 10%;
   transform: translate3d(-0.9em, 1.1em, 0);
   z-index: 1;
