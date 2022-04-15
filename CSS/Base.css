@@ -358,7 +358,7 @@ label:active::after{
   height: 20px;
   background: rgba(255, 255, 255, 0.2);
   animation: bganimate 25s linear infinite;
-  bottom: -150px;
+  bottom: -9em;
   overflow: clip;
 }
 
