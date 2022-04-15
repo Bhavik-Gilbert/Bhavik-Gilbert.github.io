@@ -347,11 +347,10 @@ label:active::after{
   width: 100%;
   height: 150%;
   z-index: -1000;
-  overflow: hidden;
+  overflow: clip;
 }
 
 .circles li {
-  overflow: hidden;
   position: absolute;
   display: block;
   list-style: none;
@@ -360,6 +359,7 @@ label:active::after{
   background: rgba(255, 255, 255, 0.2);
   animation: bganimate 25s linear infinite;
   bottom: -150px;
+  overflow: clip;
 }
 
 .circles li:nth-child(1) {
