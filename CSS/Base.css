@@ -47,9 +47,14 @@ body {
   background: var(--bg) url("Images/background_simple_dark.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  overflow-x: hidden !important; /* Hide horizontal scrollbar */
-  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    overflow-x: hidden !important; /* Hide horizontal scrollbar */
+    overflow-y: scroll;
+  }
 }
 
 html[data-theme="light"] body:not([data-page="home"]){
