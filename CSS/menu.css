@@ -3,7 +3,8 @@
   padding-bottom: 1.5em;
   margin-bottom: 1.5em;
   width: 102%;
-  transform: translate3d(-1em, -0.5em, 0);
+  margin-top: -0.5em;
+  margin-left: -1em;
   transition: all 0.5s ease;
   display: inline-block
 }

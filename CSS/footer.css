@@ -6,7 +6,8 @@
     padding-bottom: 2em;
     padding-top: 1em;
     margin-top: 5em;
-    transform: translate3d(-1em, 0.5em, 0);
+    margin-bottom: -0.5em;
+    margin-left: -1em;
 }
 
 .content{display:inline-block; overflow:auto;}
