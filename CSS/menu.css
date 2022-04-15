@@ -24,6 +24,8 @@
   transition: all 0.3s linear;
   background-color: var(--primary);
   border-width: 0;
+  margin-right: 0.1em;
+  margin-left: 0.1em;
 }
 
 /* Change the color of links on hover */
@@ -39,8 +41,8 @@
 .topnav a:hover {
   background-color: var(--secondary);
   color: var(--primary);
+  padding: 1em 3em;
   font-size: 18px;
-  padding: 1em 1em;
 }
 
 .controlpanel {
