@@ -66,46 +66,57 @@
 
 
 <div align="center">
-    <h1>Welcome to my Portfolio</h1>
+    <div class="start">
+        <h1>Bhavik Gilbert</h1> 
+        <h2under style="margin-bottom: 5em;"">Software Developer</h2under>
 
-    <div class=main>
-    <div class=project>
-        <h4>About</h4>
-        <div class=description>
-        Driven by an avid interest in Tech, I've come across a range of experiences in several positions within
-        different sectors to help expand my knowledge, trying to find my footholds within the industry. To this end,
-        I've dabbled within several fields varying between: data analysis, game development, machine learning,
-        web development and database systems.
-        Proceeding forward, I want to further develop my knowledge around the field of computer software outside
-        the reach of personal projects, providing a tangible output into the industry, bettering my problem solving
-        and algorithmic thinking in the process.
-        <br><br>
-        Outside of education, I partake in sports such as Badminton and Volleyball in a casual setting, finding
-        them to be both greats ways to maintain physical fitness and mental clarity alongside developing soft skills
-        such as quick-thinking and communication.
-        </div>
-    </div>
-
-    <div class=project>
-        <h4>Documents</h4>
-        <div class=description>
+        <p style="width: 70%">
+            Driven by an avid interest in Tech, I've come across a range of experiences in several positions within
+            different sectors to help expand my knowledge, trying to find my footholds within the industry. To this end,
+            I've dabbled within several fields varying between: data analysis, game development, machine learning,
+            web development and database systems.
+            Proceeding forward, I want to further develop my knowledge around the field of computer software outside
+            the reach of personal projects, providing a tangible output into the industry, bettering my problem solving
+            and algorithmic thinking in the process.
+            <br><br>
+            Outside of education, I partake in sports such as Badminton and Volleyball in a casual setting, finding
+            them to be both greats ways to maintain physical fitness and mental clarity alongside developing soft skills
+            such as quick-thinking and communication.
+        </p>
+        
         <div class=file>
             CV/Resume
             <br>
             <a href=Entity/Work/CV.pdf class="btn_image" type="submit" target="_blank"
                 style="background-image: url(CSS/Images/pdf_logo.png);"></a>
         </div>
-    
+        
         <div class=file>
             Cover Letter
             <br>
             <a href=Entity/Work/Cover_Letter.pdf class="btn_image" type="submit" target="_blank"
                 style="background-image: url(CSS/Images/pdf_logo.png);"></a>
         </div>
+
+        <div class=file>
+            LinkedIn
+            <br>
+            <a href=https://www.linkedin.com/in/bhavik-gilbert-2349631a9/ class="btn_image" type="submit" target="_blank"
+                style="background-image: url(CSS/Images/LinkdIn_logo.png);"></a>
+        </div>
+
+        <div class=file>
+            Github
+            <br>
+            <a href=https://github.com/Bhavik-Gilbert?tab=repositories class="btn_image" type="submit" target="_blank"
+                style="background-image: url(CSS/Images/GitHub_logo.png);"></a>
+        </div>
+
+        <button onclick="nextFunction()" class="tonext"" title="View Portfolio"><span>&#8668;</span></button>
     </div>
 
-    </div>
-
+    <h1 id="welcome">Welcome to my Portfolio</h1>
+    
     <h2>Pages</h2>
 
     <div class=container>
@@ -171,6 +182,72 @@
 </body>
 
 </html>
+
+<script>
+    var prevY = 0;
+    var scrolllock = true;
+    var goal = findPos(welcome);
+
+
+    document.addEventListener('scroll', async function (e) {
+        var welcome = document.getElementById("welcome");
+        var goal = findPos(welcome);
+        if (window.scrollY < goal-5 && prevY < goal-5 && scrolllock) {
+            $('body').addClass('stop-scrolling');
+            $('body').bind('touchmove', function (e) { e.preventDefault() });
+
+            const timer = ms => new Promise(res => setTimeout(res, ms));
+            await timer(1000);
+            if(window.scrollY > 5) {
+               topFunction();
+            }
+        }
+        else if(window.scrollY > goal - 50 && prevY > goal - 50 && scrolllock) {
+            $('body').removeClass('stop-scrolling');
+            $('body').unbind('touchmove', function (e) { e.preventDefault() });
+        }
+
+        prevY = window.scrollY;
+    });
+
+    async function nextFunction() {
+            var increment = 5;
+            var welcome = document.getElementById("welcome");
+            var goal = findPos(welcome);
+
+            await timer(500);
+            while (window.scrollY < goal) {
+                scrolllock = false;
+                var scroll = window.scrollY + increment;
+
+                if (scroll > goal) {
+                    scroll = goal;
+                }
+
+                document.body.scrollTop = scroll; // For Safari
+                document.documentElement.scrollTop = scroll; // For Chrome, Firefox, IE and Opera
+
+
+                if (scroll == goal) {
+                    scrolllock = true;
+                    break;
+                }
+
+                await timer(1);
+            }
+        }
+
+    function findPos(obj) {
+            var curtop = 0;
+            if (obj.offsetParent) {
+                do {
+                    curtop += obj.offsetTop;
+                } while (obj = obj.offsetParent);
+                return [curtop];
+            }
+        }
+</script>
+
 
 <script>
     var loader = document.getElementById("loader");

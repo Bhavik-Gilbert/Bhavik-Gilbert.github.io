@@ -8,7 +8,7 @@
 
 <script>
     async function topFunction() {
-        var increment = 20;
+        var increment = 5;
 
         while(window.scrollY > 0) {
             var scroll = window.scrollY - increment;
@@ -19,6 +19,11 @@
 
             document.body.scrollTop = scroll; // For Safari
             document.documentElement.scrollTop = scroll; // For Chrome, Firefox, IE and Opera
+
+
+            if (scroll == 0) {
+                break;
+            }
 
             await timer(1);
         }

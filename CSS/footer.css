@@ -13,7 +13,7 @@
 .content{display:inline-block; overflow:auto;}
 
 /** to top button **/
-.totop {
+.totop, .tonext {
     z-index: 1;
     font-size: 2em;
     font-weight: bold;
@@ -35,7 +35,7 @@
     transform: rotate(90deg);
 }
 
-.totop:hover {
+.totop:hover, .tonext:hover {
     background-color: var(--bgopaque);
     color: var(--secondary);
     opacity: 1;
@@ -58,7 +58,7 @@ button:hover::after {
 }
 
 /** home colouring **/
-body[data-page="home"] .totop:hover {
+body[data-page="home"] .totop:hover, .tonext:hover {
     box-shadow: 0.1em 0.1em 1em var(--primaryopaque1);
 }
 body[data-page="home"] button:hover::after {
