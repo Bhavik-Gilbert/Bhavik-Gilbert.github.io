@@ -36,7 +36,7 @@
 </script>
 
 <script>
-    const timer = ms => new Promise(res => setTimeout(res, ms))
+    const timer = ms => new Promise(res => setTimeout(res, ms));
     const equals = (a, b) => JSON.stringify(a) === JSON.stringify(b);
 
     async function changeText(id, text) {

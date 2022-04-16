@@ -4,9 +4,30 @@
     <link rel="stylesheet" type = "text/css" href="CSS/Base.css">
 </head>
 
+<button onclick="topFunction()"  class="totop"" title="Go to top"><span>&#8668;</span></button>
+
+<script>
+    async function topFunction() {
+        var increment = 20;
+
+        while(window.scrollY > 0) {
+            var scroll = window.scrollY - increment;
+
+            if(scroll < 0) {
+                scroll = 0;
+            }
+
+            document.body.scrollTop = scroll; // For Safari
+            document.documentElement.scrollTop = scroll; // For Chrome, Firefox, IE and Opera
+
+            await timer(1);
+        }
+    }
+</script>
+
 <div class="footer" align="center">
     <h4> Feel free to contact me if you have any questions</h4>
-
+    
     <div class="content">
         <h5>Bhaviklob@hotmail.com</h5>
     </div>
@@ -15,5 +36,4 @@
         <a href=https://www.linkedin.com/in/bhavik-gilbert-2349631a9/ class="btn_image" type="submit" target="_blank" style="background-image: url(CSS/Images/LinkdIn_logo.png);"></a>
         <a href=https://github.com/Bhavik-Gilbert?tab=repositories class="btn_image" type="submit" target="_blank" style="background-image: url(CSS/Images/GitHub_logo.png);"></a>
     </div>
-
 </div>

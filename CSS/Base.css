@@ -340,6 +340,7 @@ label:active::after{
   width: 45px;
 }
 
+/** animated background effects **/
 .upshape, .downshape {
   overflow: hidden;
   width: 100%;
@@ -359,16 +360,15 @@ label:active::after{
   width: 20px;
   height: 20px;
   background: rgba(255, 255, 255, 0.2);
+  bottom: -9em;
 }
 
 .upshape li {
   animation: upbganimate 25s linear infinite;
-  bottom: -9em;
 }
 
 .downshape li {
   animation: downbganimate 25s linear infinite;
-  bottom: -9em;
 }
 
 .upshape li:nth-child(1) {
