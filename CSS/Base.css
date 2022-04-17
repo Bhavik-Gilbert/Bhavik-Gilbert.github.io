@@ -11,7 +11,7 @@ html {
   --ease: all 0.5s ease;
   --linear: all 0.75s linear;
 
-  max-width: 109vw;
+  max-width: 102vw;
 }
 
 html[data-theme="light"] {
@@ -71,7 +71,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
 }
 
 html[data-theme="light"] body:not([data-page="home"]){
