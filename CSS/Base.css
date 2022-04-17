@@ -669,17 +669,16 @@ label:active::after{
 
 /** mobile optimisations **/
 @media (orientation: portrait) {
-  @media only screen and (max-width: 20cm) {
+  @media only screen and (max-width: 768px) {
     html {
-      max-width: -webkit-fill-available;
-      width: 100%;
+      max-width: 90vw;
+      transform: translateX(50%);
     }
     body {
-      max-width: -webkit-fill-available;
-      width: 102%;
+      max-width: 90vw;
     }
     .start {
-      min-height: -webkit-fill-available;
+      min-height: 110vh;
     }
 
     .page {
@@ -689,7 +688,7 @@ label:active::after{
 }
 
 @media (orientation: landscape) {
-  @media only screen and (max-height: 20cm) {
+  @media only screen and (max-height: 768cm) {
     html {
       max-width: -webkit-fill-available;
       width: 100%;
