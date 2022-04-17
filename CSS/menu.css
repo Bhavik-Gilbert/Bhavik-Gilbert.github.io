@@ -85,3 +85,36 @@
 .navbar:hover input:checked+label {
   background-color: var(--bg);
 }
+
+/** mobile optimisations **/
+@media (orientation: portrait) {
+  @media only screen and (max-width: 600px) {
+    .navbar {
+      width: 240vw;
+      margin-left: -80vw;
+    }
+    .topnav a {
+      display: block;
+      margin-bottom: 0;
+      width: 102%;
+    }
+
+    .controlpanel {
+      display: none;
+    }
+  }
+}
+
+@media (orientation: landscape) {
+  @media only screen and (max-height: 600px) {
+    .navbar {
+      width: 160vw;
+      margin-left: -30vw;
+      overflow: clip;
+    }
+
+    .controlpanel input[type=checkbox], .controlpanel label, .controlpanel input:checked+label {
+      transform: translate3d(2em, 2.2em, 0);
+    }
+  }
+}

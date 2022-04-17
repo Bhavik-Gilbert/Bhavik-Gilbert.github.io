@@ -115,7 +115,7 @@ body[data-page="home"] {
 }
 
   h1{color: var(--secondary); font-family: "Courier New","Lucida Console", monospace;}
-  h2under {color: var(--secondary); font-family: "Courier New","Lucida Console", monospace; font-size: 1em; font-weight: bold; margin-top:-1.5em; display:block;} 
+  h2under {color: var(--secondary); font-family: "Courier New","Lucida Console", monospace; font-size: 1em; font-weight: bold; margin-top:-1.5em; display:block; margin-bottom: 5em;} 
   h2{color: var(--secondary)}
   h3{color: var(--secondary)}
   h4{color: var(--secondary)}
@@ -369,8 +369,6 @@ label:active::after{
   position: fixed;
   top: -1em;
   left: 0;
-  width: 100%;
-  height: 140%;
   z-index: -1000;
 }
 
@@ -669,42 +667,144 @@ label:active::after{
 
 /** mobile optimisations **/
 @media (orientation: portrait) {
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 600px) {
     html {
-      max-width: 90vw;
-      transform: translateX(50%);
+      max-width: 150vw;
+      transform: translateX(70vw);
     }
     body {
-      max-width: 90vw;
+      max-width: 150vw;
     }
     .start {
-      min-height: 110vh;
+      min-height: 300vh;
+    }
+
+    #loader { 
+      width: 260vw;
+      height: 235vh;
+      overflow: clip;
+      transform: translate3d(-80vw, -1vh, 0);
+    }
+
+    h1 { font-size: 11vw;}
+    h2under { font-size: 5vw;}
+    p {font-size: 5vw;}
+
+
+    .project {
+      width: 100%;
+    }
+    .project:hover {
+      width: 180%;
+      font-size: 10vw;
+    }
+    .project:hover h4 {
+      font-size: 8vw;
+    }
+    .project:hover h5{
+      font-size: 6vw;
+    }
+    
+    .right {
+      transform: translateX(-10vw);
+    }
+    
+    .right:hover {
+      transform: translateX(-100vw);
+    }
+    .left:hover {
+      transform: translateX(20vw);
+    }
+    
+
+    .upshape, .downshape {
+      display: none;
+    }
+
+    .tonext {
+      margin-top: 0;
+      bottom: 0;
+      margin-bottom: -127vh;
+      right: 0;
+      margin-right: -25vh;
     }
 
     .page {
-      background-color: red;
+      margin-top: 10vh;
+      width: 80%;
+    }
+    .page marquee{
+      font-size: 7vw
+    }
+    .rightpageimage, .leftpageimage {
+      opacity: 0;
+    }
+
+    .info {
+      width: 50vw;
+      height: 20vh;
+    }
+    .info:hover {
+      width: 150vw;
+      height: 60vh;
+      font-size: 8vw;
+      transform: translateX(-37vw);
+    }
+    .info:hover h5 {
+      font-size: 8vw;
     }
   }
 }
 
 @media (orientation: landscape) {
-  @media only screen and (max-height: 768cm) {
+  @media only screen and (max-height: 600px) {
     html {
-      max-width: -webkit-fill-available;
-      width: 100%;
+      max-width: 150vw;
+      transform: translateX(25vw);
     }
-  
+    
     body {
-      max-width: -webkit-fill-available;
-      width: 102%;
+      max-width: 150vw;
     }
-  
+    
     .start {
-      min-height: -webkit-fill-available;
+      max-width: 150vw;
+      min-height: 300vh;
+      margin-left: -70vw;
+      transform: translateY(-15vh);
     }
-  
-    .page {
-      background-color: blue;
+    .start h1, .start h2under, .start p, .start .file {
+      transform:  translateX(37vw);
+    }
+    
+    #loader {
+      width: 160vw;
+      height: 160vh;
+      overflow: clip;
+      transform: translate3d(-28vw, -2vh, 0);
+    }
+
+    .upshape, .downshape {
+      display: none;
+    }
+    
+    h1 {
+      font-size: 11vh;
+    }
+    
+    h2under {
+      font-size: 5vh;
+      margin-bottom: 0;
+    }
+    
+    p {
+      font-size: 5vh;
+    }
+
+    .tonext {
+      margin-top: 0;
+      bottom: 0;
+      right: 0;
     }
   }
 }

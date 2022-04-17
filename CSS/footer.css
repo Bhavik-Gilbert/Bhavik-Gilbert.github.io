@@ -79,3 +79,31 @@ body[data-page="home"] button:hover::after {
         opacity: 0;
     }
 }
+
+/** mobile optimisations **/
+@media (orientation: portrait) {
+    @media only screen and (max-width: 600px) {
+        .footer {
+            width: 240vw;
+            margin-left: -80vw;
+        }
+
+        .totop, .tonext {
+            width: 5em;
+            height: 5em;
+            border-radius: 20vw;
+        }
+
+        .totop {
+            right: 0;
+            margin-right: -25vh;
+            margin-left: 0em;
+            margin-top: -22vh;
+        }
+    }
+}
+
+@media (orientation: landscape) {
+    @media only screen and (max-height: 600px) {
+    }
+}
