@@ -671,7 +671,7 @@ label:active::after{
 @media only screen and (max-width: 768px) {
   html {
     max-width: -webkit-fill-available;
-    width: 102%;
+    width: 100%;
   }
   body {
     max-width: -webkit-fill-available;
@@ -679,5 +679,9 @@ label:active::after{
   }
   .start {
     min-height: calc(-webkit-fill-available + 20vh);
+  }
+
+  .page {
+    background-color: red;
   }
 }
