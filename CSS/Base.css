@@ -668,20 +668,44 @@ label:active::after{
 
 
 /** mobile optimisations **/
-@media only screen and (max-width: 20cm) {
-  html {
-    max-width: -webkit-fill-available;
-    width: 100%;
-  }
-  body {
-    max-width: -webkit-fill-available;
-    width: 102%;
-  }
-  .start {
-    min-height: calc(-webkit-fill-available + 20vh);
-  }
+@media (orientation: portrait) {
+  @media only screen and (max-width: 20cm) {
+    html {
+      max-width: -webkit-fill-available;
+      width: 100%;
+    }
+    body {
+      max-width: -webkit-fill-available;
+      width: 102%;
+    }
+    .start {
+      min-height: -webkit-fill-available;
+    }
 
-  .page {
-    background-color: red;
+    .page {
+      background-color: red;
+    }
+  }
+}
+
+@media (orientation: landscape) {
+  @media only screen and (max-height: 20cm) {
+    html {
+      max-width: -webkit-fill-available;
+      width: 100%;
+    }
+  
+    body {
+      max-width: -webkit-fill-available;
+      width: 102%;
+    }
+  
+    .start {
+      min-height: -webkit-fill-available;
+    }
+  
+    .page {
+      background-color: blue;
+    }
   }
 }
