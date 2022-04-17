@@ -684,6 +684,7 @@ label:active::after{
     .page {
       background-color: red;
     }
+  }
 }
 
 @media (orientation: landscape) {
