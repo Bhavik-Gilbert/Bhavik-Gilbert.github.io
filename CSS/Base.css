@@ -30,8 +30,8 @@ html.transition, html.transition *, html.transition::before, html.transition::af
 
 #loader {
   position: fixed;
-  width: 102vw;
-  height: 102vh;
+  width: 102%;
+  height: 102%;
   z-index: 100;
   transform: translate3d(-1em,-1em,0);
   transition: var(--ease);
@@ -671,11 +671,13 @@ label:active::after{
 @media only screen and (max-width: 768px) {
   html {
     max-width: -webkit-fill-available;
+    width: 102%;
   }
   body {
     max-width: -webkit-fill-available;
+    width: 102%;
   }
   .start {
-    min-height: -webkit-fill-available;
+    min-height: calc(-webkit-fill-available + 20vh);
   }
 }
