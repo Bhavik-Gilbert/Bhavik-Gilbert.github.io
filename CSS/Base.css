@@ -10,6 +10,8 @@ html {
 
   --ease: all 0.5s ease;
   --linear: all 0.75s linear;
+
+  max-width: 109vw;
 }
 
 html[data-theme="light"] {
@@ -161,10 +163,30 @@ body[data-page="home"] {
 }
 .project:hover {
   opacity:1; width:70%;
-  background: linear-gradient(-45deg, var(--primary), var(--primaryopaque2), var(--primary), var(--primaryopaque2));
-  background-size: 400% 400%; background-repeat: no-repeat; 
-  background-attachment: fixed; animation: gradient 10s ease infinite;
-  border-color: var(--secondary); border-radius: 1em; border-width: 2px;
+  background-size: 400% 400%; background-repeat: no-repeat; background-color: var(--primary);
+  background-attachment: fixed; animation: gradient 10s ease infinite; border-radius: 0; border-width: 0.2em;
+  --angle: 0deg;
+  border-image: linear-gradient(var(--angle), var(--secondary), var(--primary)) 1;
+  animation: 3s rotateborder linear -1s infinite, 1s loadborder linear;
+}
+@keyframes loadborder {
+  0% {
+    border-color: var(--secondary);
+    border-image: none;
+  }
+  100% {
+    border-image: linear-gradient(var(--angle), var(--secondary), var(--primary)) 1;
+  }
+}
+@keyframes rotateborder {
+  to {
+    --angle: 360deg;
+  }
+}
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
 }
 .description {
   font-size: 0em; transition: var(--linear);
@@ -211,7 +233,7 @@ body[data-page="home"] {
 
 /* home page */
 .start {
-  min-height: 85vh;
+  min-height: 100vh;
 }
 
 a {

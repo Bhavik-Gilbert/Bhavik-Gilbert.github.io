@@ -28,6 +28,7 @@
   margin-right: 0.1em;
   margin-left: 0.1em;
   margin-bottom: 1.5em;
+  transform: translateX(-0.9vw)
 }
 
 /* Change the color of links on hover */
