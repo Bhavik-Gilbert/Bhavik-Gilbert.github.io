@@ -786,14 +786,14 @@ label:active::after{
       transform: translateY(-15vh);
     }
     .start h1, .start h2under, .start p, .start .file {
-      transform:  translateX(37vw);
+      transform:  translateX(35vw);
     }
     
     #loader {
       width: 165vw;
       height: 165vh;
       overflow: clip;
-      transform: translate3d(-34vw, -2vh, 0);
+      transform: translate3d(-33vw, -2vh, 0);
     }
 
     .upshape, .downshape {
@@ -812,6 +812,32 @@ label:active::after{
     p {
       font-size: 5vh;
     }
+    
+    .project {
+      width: 70%;
+    }
+    .project:hover {
+      width: 150%;
+      font-size: 3vw;
+    }
+    .project:hover h4 {
+      font-size: 5vw;
+    }
+    .project:hover h5{
+      font-size: 3vw;
+    }
+    .left {
+      transform: translateX(-5vw);
+    }
+    .right {
+      transform: translateX(5vw);
+    }
+    .left:hover {
+      transform: translateX(3vw);
+    }
+    .right:hover {
+      transform: translateX(-55vw);
+    }
 
     .tonext {
       margin-top: 0;
@@ -820,6 +846,43 @@ label:active::after{
       right: 0;
       margin-left: 0vw;
       margin-right: -39vw;
+    }
+
+    .page {
+      width: 70%;
+      margin-top: 10vh;
+      font-size: 2vw;
+    }
+    .leftpageimage, .rightpageimage {
+      opacity: 0;
+    }
+    .left .page {
+      margin-left: -20vw;
+    }
+    .right .page {
+      margin-left: 20vw;
+    }
+    .left:hover .page {
+      margin-left: 5vw
+    }
+    .right:hover .page {
+      margin-left: -5vw
+    }
+
+    .info {
+      width: 40vh;
+      height: 40vh;
+    }
+    
+    .info:hover {
+      width: 100vh;
+      height: 100vh;
+      font-size: 8vh;
+      transform: translateX(-37vh);
+    }
+    
+    .info:hover h5 {
+      font-size: 8vh;
     }
   }
 }
