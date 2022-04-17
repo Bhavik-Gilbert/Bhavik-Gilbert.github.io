@@ -108,13 +108,13 @@
 @media (orientation: landscape) {
   @media only screen and (max-height: 600px) {
     .navbar {
-      width: 160vw;
-      margin-left: -30vw;
+      width: 165vw;
+      margin-left: -33vw;
       overflow: clip;
     }
 
     .controlpanel input[type=checkbox], .controlpanel label, .controlpanel input:checked+label {
-      transform: translate3d(2em, 2.2em, 0);
+      transform: translate3d(5vw, 9vh, 0);
     }
   }
 }

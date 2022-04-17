@@ -88,22 +88,27 @@ body[data-page="home"] button:hover::after {
             margin-left: -80vw;
         }
 
-        .totop, .tonext {
-            width: 5em;
-            height: 5em;
-            border-radius: 20vw;
-        }
-
         .totop {
             right: 0;
             margin-right: -25vh;
             margin-left: 0em;
-            margin-top: -22vh;
+            margin-top: -12vh;
         }
     }
 }
 
 @media (orientation: landscape) {
     @media only screen and (max-height: 600px) {
+        .footer {
+            width: 165vw;
+            margin-left: -33vw;
+        }
+        
+        .totop {
+            right: 0;
+            margin-right: -65vh;
+            margin-left: 0em;
+            margin-top: -25vh;
+        }
     }
 }
