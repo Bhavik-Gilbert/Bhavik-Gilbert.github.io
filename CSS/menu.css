@@ -1,7 +1,7 @@
 .navbar {
   overflow: hidden;
   margin-bottom: 1.5em;
-  width: 102%;
+  width: 102vw;
   margin-top: -0.5em;
   margin-left: -1em;
   transition: all 0.5s ease;
@@ -56,7 +56,7 @@
 
 .controlpanel input[type=checkbox], .controlpanel label,
 .controlpanel input:checked+label {
-  transform: translate3d(2em, 1.8em, 0);
+  transform: translate3d(2em, 2.2em, 0);
   z-index: 1000;
 }
 

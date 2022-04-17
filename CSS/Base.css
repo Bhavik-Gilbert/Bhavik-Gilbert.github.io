@@ -28,8 +28,8 @@ html.transition, html.transition *, html.transition::before, html.transition::af
 
 #loader {
   position: fixed;
-  width: 102%;
-  height: 102%;
+  width: 102vw;
+  height: 102vh;
   z-index: 100;
   transform: translate3d(-1em,-1em,0);
   transition: var(--ease);
@@ -49,6 +49,9 @@ body {
   background-size: cover;
   -webkit-overflow-scrolling: touch;
   animation: bgslide 80s ease infinite;
+  max-width: 102vw;
+  overflow-x: hidden !important; /* Hide horizontal scrollbar */
+  overflow-y: scroll;
 }
 
 
@@ -67,10 +70,6 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  body {
-    overflow-x: hidden !important; /* Hide horizontal scrollbar */
-    overflow-y: scroll;
-  }
 }
 
 html[data-theme="light"] body:not([data-page="home"]){
@@ -212,7 +211,7 @@ body[data-page="home"] {
 
 /* home page */
 .start {
-  height: 85vh;
+  min-height: 85vh;
 }
 
 a {
