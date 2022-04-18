@@ -26,6 +26,13 @@
 </script>
 
 <body data-page="home">
+
+<script>
+    $("html, body").animate({ scrollTop: $(".chat-msg-list") }, 1000);
+    $('body').addClass('stop-scrolling');
+    $('body').bind('touchmove', function (e) { e.preventDefault() });
+</script>
+
 <div id="loader"></div>
 
 <div id="header"></div>
@@ -122,62 +129,61 @@
         
         <h2>Pages</h2>
 
-        <div class=container>
+        <div class=pages>
             
-        <div class=left>
-        <img class=leftpageimage src="CSS/Images/Portfolio.png">
         <a href="Projects.html">
         <div class=page>
-            <marquee behavior="alternate">
-                Portfolio
-            </marquee>
+            <img class=pageimage src="CSS/Images/Portfolio.png">
 
-            <div class=description>
-                <div class=subject>Python</div>
-                <div class=subject>SQL</div>
-                <div class=subject>PHP</div>
-                <div class=subject>Java</div>
-                <div class=subject>C#</div>
-                <div class=subject>Javascript</div>
+            <marquee behavior="alternate">Portfolio</marquee>
+
+            <div class="description" align="left">
+                &#8226; Python<br>
+                &#8226; SQL<br>
+                &#8226; PHP<br>
+                &#8226; Java<br>
+                &#8226; C#<br>
+                &#8226; Javascript
             </div>
         </div>
         </a>
-        </div>
 
-        <div class=right>
         <a href="Experience.html">
         <div class=page>
+            <img class=pageimage src="CSS/Images/Experience.png">
+
             <marquee behavior="alternate">Experience</marquee>
 
-            <div class=description>
-                <div class=subject>Technology Virtual Work Experience</div>
-                <div class=subject>Consulting Work Experience with Deloitte</div> 
-                <div class=subject>Co-Founder and Co-Chief Executive Officer</div>
-                <div class=subject>Computer Science Teacher</div>
-                <div class=subject>Computer Science Mentor</div> 
+            <div class="description" align="left">
+                &#8226; Spring Insight into Software Engineering<br><br>
+                &#8226; Computer Science Mentor<br><br>
+                &#8226; Computer Science Teacher<br><br>
+                &#8226; Co-Founder and Co-Chief Executive Officer<br><br>
+                &#8226; Consulting Work Experience<br>
             </div>
         </div>
         </a>
-        <img class=rightpageimage src="CSS/Images/Experience.png">
-        </div>
-
-        <div class=left>
-        <img class=leftpageimage src="CSS/Images/Education.jpg">
         <a href="Education.html">
         <div class=page>
+            <img class=pageimage src="CSS/Images/Education.jpg">
+
             <marquee behavior="alternate">Education</marquee>
 
-            <div class=description>
-                <div class=subject>Computer Science BSc</div>
-                <div class=subject>Computer Science A Level</div>
-                <div class=subject>Mathematics A Level</div>
-                <div class=subject>Physics A Level</div>
-                <div class=subject>Economics A Level</div>
+            <div class="description" align="left">
+                King's college, London<br>
+                &#8226; Computer Science BSc<br><br>
+
+                Leyton VI Form College<br>
+                &#8226; Computer Science A Level<br>
+                &#8226; Mathematics A Level<br>
+                &#8226; Physics A Level<br>
+                &#8226; Economics A Level
             </div>
         </div>
         </a>
         </div>
         </div>
+
     </div>
 </div>
 
@@ -187,16 +193,32 @@
 </html>
 
 <script>
+    function handheldCheck() {
+        let check = false;
+        const ua = navigator.userAgent;
+        if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+            check = true;
+        }
+        else if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
+            check = true
+        }
+        return check;
+    }
+
+</script>
+
+<script>
     var prevY = 0;
     var scrolllock = true;
     var goal = findPos(welcome);
-    
-    document.body.scrollTop = 1; // For Safari
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 1; // For Chrome, Firefox, IE and Opera
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+
+
 
     document.addEventListener('scroll', async function (e) {
+        if(handheldCheck()) { 
+            return;
+        }
+
         var welcome = document.getElementById("welcome");
         var goal = findPos(welcome);
         if (window.scrollY < goal-120 && prevY < goal-120 && scrolllock) {
@@ -209,7 +231,7 @@
                topFunction();
             }
         }
-        else if(window.scrollY > goal - 50 && prevY > goal - 50 && scrolllock) {
+        else if(window.scrollY > goal - 120 && prevY > goal - 120 && scrolllock) {
             $('body').removeClass('stop-scrolling');
             $('body').unbind('touchmove', function (e) { e.preventDefault() });
         }
@@ -217,6 +239,7 @@
         prevY = window.scrollY;
     });
 
+    
     async function nextFunction() {
             var increment = 20;
             var welcome = document.getElementById("welcome");
@@ -255,7 +278,6 @@
         }
 </script>
 
-
 <script>
     var loader = document.getElementById("loader");
 
@@ -264,6 +286,12 @@
             loader.style.opacity = "0";
             setTimeout(function () {
                 loader.style.display = "none";
+
+                if(handheldCheck()) {
+                    $('body').removeClass('stop-scrolling');
+                    $('body').unbind('touchmove', function (e) { e.preventDefault() });
+                }
+
             }, 500);
         }, 1000);
     });
