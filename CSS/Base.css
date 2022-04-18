@@ -141,19 +141,6 @@ body[data-page="home"] {
   opacity: 1;
 }
 
-.info {
-  display: inline-block; overflow:auto; border:2px solid var(--primaryopaque1);padding: 20px; 
-  border-radius: 10px; color:var(--secondary);
-  height: 200px; width: 200px; font-size: 14px; background-color:var(--primary);
-  opacity:0.9; transition: var(--ease);
-  }
-.info:hover {
-    height: 300px; width:300px; font-size: 21px; opacity:1; border-style: double; border-color: var(--secondary); border-width: 5px;
-  }
-.info::-webkit-scrollbar {
-  display: none; /* for Chrome, Safari, and Opera */
-}
-
 .project {
   border:2px solid var(--primary); padding: 0.5em; background-color: var(--primaryopaque1); opacity:0.7; text-align:center;
   color:var(--secondary); font-size: 1em; transition: var(--ease); width: 55%; border-radius: 10em; overflow:hidden;
@@ -226,8 +213,52 @@ body[data-page="home"] {
 
 
 
-.file{display: inline-block; height: auto; width: auto; text-align: center; padding: 20px;  font-family: "Brush Script MT", cursive; font-style: italic; color: var(--secondary); font-size:1em;}
-.btn_image{padding: 10px; height:20px;width:20px; border-color: var(--secondary); border-radius: 10px; display: inline-block;}
+.file{display: inline-block; height: auto; width: auto; text-align: center; padding: 20px;  font-family: "Brush Script MT", cursive; font-style: italic; color: var(--secondary); font-size:1em; transition: var(--ease);}
+.btn_image{padding: 10px; height:20px;width:20px; border-color: var(--secondary); border-radius: 10px; display: inline-block; transition: var(--ease);}
+
+.mini {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3em;
+}
+.mini .page {
+  margin-left: 1em;
+  margin-right: 1em;
+  width: 15em;
+  height: 20em;
+  border-width: 0.2em;
+  background-color: var(--primaryopaque1);
+}
+.mini .page h4 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.mini .page h5 {
+  font-size: 0.8em;
+}
+.mini .page:hover {
+  width: 20em;
+  height: 30em;
+  padding-bottom: 3em;
+  background-color: var(--bgopaque);
+}
+.mini .page:hover h4 {
+  font-size: 2em;
+}
+.mini .page:hover h5 {
+  font-size: 1.2em;
+}
+.mini .page:hover .file {
+  font-size: 1.5em;
+}
+.mini .page:hover .btn_image {
+  height:40px;width:40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* home page */
 .start, .next {
@@ -258,8 +289,9 @@ a {
   align-items: center;
   justify-content: center;
   width: 102%;
-  border: 0.5em solid var(--secondary);
-  border-style: solid none solid none;
+  border-width: 0.5em;
+  border-color: var(--secondary);
+  border-style: double none double none;
   margin-left: -1.8em;
   padding: 1em;
   transition: var(--ease);
@@ -298,8 +330,9 @@ a {
   background-repeat: no-repeat;
   border: groove var(--secondary);
   border-style: none none solid none;
-  border-radius: 1em 1em 0 0;
+  border-radius: 0.2em 0.2em 0 0;
   margin-bottom: 1em;
+  transition: var(--ease);
 }
 .page .description {
   font-size: 1em;
@@ -313,12 +346,40 @@ a {
   background-color: var(--primaryopaque1);
   overflow: scroll;
   padding-bottom: 3em;
+  --angle: 0deg;
+  border-image: linear-gradient(var(--angle), var(--secondary), var(--primary)) 1;
+  animation: 3s rotateborder linear -1s infinite,
+  1s loadborder linear;
+  border-radius: 0;
+}
+@keyframes loadborder {
+  0% {
+    border-color: var(--secondary);
+    border-image: none;
+  }
+
+  100% {
+    border-image: linear-gradient(var(--angle), var(--secondary), var(--primary)) 1;
+  }
+}
+@keyframes rotateborder {
+  to {
+    --angle: 360deg;
+  }
+}
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
 }
 .page:hover::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
 }
 .page:hover .description {
   font-size: 1.5em;
+}
+.page:hover .pageimage {
+  border-radius: 0;
 }
 
 /** forms */
@@ -752,20 +813,6 @@ label:active::after{
       margin-top: 220vh;
       margin-right: -25vh;
     }
-
-    .info {
-      width: 50vw;
-      height: 20vh;
-    }
-    .info:hover {
-      width: 150vw;
-      height: 60vh;
-      font-size: 8vw;
-      transform: translateX(-37vw);
-    }
-    .info:hover h5 {
-      font-size: 8vw;
-    }
   }
 }
 
@@ -842,6 +889,10 @@ label:active::after{
       transform: translateX(-55vw);
     }
 
+    .mini .page {
+      margin-top: 1em;
+    }
+
     .tonext {
       margin-top: 0;
       margin-bottom: 72vh;
@@ -854,22 +905,6 @@ label:active::after{
     .pages {
       width: 162vw;
       margin-left: -34vw;
-    }
-
-    .info {
-      width: 40vh;
-      height: 40vh;
-    }
-    
-    .info:hover {
-      width: 100vh;
-      height: 100vh;
-      font-size: 8vh;
-      transform: translateX(-37vh);
-    }
-    
-    .info:hover h5 {
-      font-size: 8vh;
     }
   }
 }
