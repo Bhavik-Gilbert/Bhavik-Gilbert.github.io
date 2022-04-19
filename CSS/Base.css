@@ -5,6 +5,8 @@ html {
   --primaryopaque2: #1c1c1c;
   --bg: #343d52;
   --bgopaque: #48536e;
+  --bgopaque2: #4a6bbd;
+
   --greydark: #4B4B4C;
   --greylight: #888;
 
@@ -21,6 +23,7 @@ html[data-theme="light"] {
   --primaryopaque2: #dedede;
   --bg: #FC6A03;
   --bgopaque: #FCAE1E;
+  --bgopaque2: #ffbf4a;
 }
 
 html.transition, html.transition *, html.transition::before, html.transition::after {
@@ -233,17 +236,23 @@ body[data-page="home"] {
   border-width: 0.2em;
   background-color: var(--primaryopaque1);
 }
-.mini .page h4 {
+.mini .page h4, .mini .pagefocus h4{
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
-.mini .page h5 {
+.mini .page h5, .mini .pagefocus h5 {
   font-size: 0.8em;
 }
 .mini .page:hover, .mini .pagefocus:hover {
   width: 20em;
   height: 30em;
   padding-bottom: 3em;
+  background-color: var(--primaryopaque2);
+}
+.select .page:hover {
+  background-color: var(--bgopaque2);
+}
+.mini .pagefocus:hover { 
   background-color: var(--bgopaque);
 }
 .mini .pagefocus {
@@ -254,10 +263,10 @@ body[data-page="home"] {
   background-color: var(--bgopaque);
   border: 0.5em double var(--secondary);
 }
-.mini .page:hover h4, .mini .pagefocus h4{
+.mini .page:hover h4, .mini .pagefocus:hover h4{
   font-size: 2em;
 }
-.mini .page:hover h5, .mini .pagefocus h5 {
+.mini .page:hover h5, .mini .pagefocus:hover h5 {
   font-size: 1.2em;
 }
 .mini .page:hover .file, .mini .pagefocus .file {
