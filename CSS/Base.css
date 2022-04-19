@@ -222,6 +222,7 @@ body[data-page="home"] {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 1em;
   margin-top: 3em;
 }
 .mini .page {
@@ -239,32 +240,66 @@ body[data-page="home"] {
 .mini .page h5 {
   font-size: 0.8em;
 }
-.mini .page:hover {
+.mini .page:hover, .mini .pagefocus:hover {
   width: 20em;
   height: 30em;
   padding-bottom: 3em;
   background-color: var(--bgopaque);
 }
-.mini .page:hover h4 {
+.mini .pagefocus {
+  border-radius: 1em;
+  transition: var(--ease);
+  width: 15em;
+  height: 20em;
+  background-color: var(--bgopaque);
+  border: 0.5em double var(--secondary);
+}
+.mini .page:hover h4, .mini .pagefocus h4{
   font-size: 2em;
 }
-.mini .page:hover h5 {
+.mini .page:hover h5, .mini .pagefocus h5 {
   font-size: 1.2em;
 }
-.mini .page:hover .file {
+.mini .page:hover .file, .mini .pagefocus .file {
   font-size: 1.5em;
 }
-.mini .page:hover .btn_image {
+.mini .page:hover .btn_image, .mini .pagefocus .btn_image {
   height:40px;width:40px;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.mimi .pagefocus .pageimage {
+  border-radius: 1em 1em 0 0;
+  margin-bottom: 1em;
+}
+
+.select .page, .select .pagefocus {
+  cursor: hand;
+}
+
+.infobox {
+  display: none;
+  font-size: 1em;
+  background-color: var(--primaryopaque1);
+  color: var(--secondary);
+  border: 0.2em solid var(--secondary);
+  border-radius: 0em;
+  width: 70%;
+  margin: 2em;
+  padding-top:1em;
+  padding-bottom:1em;
+  transition: var(--ease);
+  overflow: none;
+}
+
 
 /* home page */
 .start, .next {
   min-height: 100vh;
 }
-
+.next {
+  transform: translateX(-1vw);
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -288,6 +323,7 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 1em;
   width: 102%;
   border-width: 0.5em;
   border-color: var(--secondary);
@@ -327,6 +363,7 @@ a {
 }
 .pageimage {
   width: 100%;
+  height: 45%;
   background-repeat: no-repeat;
   border: groove var(--secondary);
   border-style: none none solid none;
@@ -784,26 +821,35 @@ label:active::after{
     }
     
     .right:hover {
-      transform: translateX(-100vw);
+      transform: translateX(-110vw);
     }
     .left:hover {
-      transform: translateX(20vw);
+      transform: translateX(14vw);
     }
     
     .upshape, .downshape {
       display: none;
     }
 
+    .pages, .mini {
+      width: 225vw;
+      margin-left: -71vw;
+    }
     .pages {
-      flex-direction: row; 
-      position: relative;
-      width: 230vw;
-      margin-left: -80vw;
+      margin-left: -71vw;
+    }
+    .mini {
+      transform: translateX(5vw)
     }
     .page 
     {
       margin-top: 1em;
       margin-bottom: 1em;
+    }
+
+    .infobox {
+      width: 200vw;
+      transform: translateX(-63vw);
     }
 
     .tonext {
@@ -883,14 +929,20 @@ label:active::after{
       transform: translateX(5vw);
     }
     .left:hover {
-      transform: translateX(3vw);
+      transform: translateX(0vw);
     }
     .right:hover {
-      transform: translateX(-55vw);
+      transform: translateX(-56vw);
     }
 
+    
     .mini .page {
       margin-top: 1em;
+    }
+    
+    .infobox {
+      width: 130vw;
+      transform: translateX(-20vw);
     }
 
     .tonext {
@@ -902,9 +954,9 @@ label:active::after{
       margin-right: -39vw;
     }
 
-    .pages {
+    .pages, .mini  {
       width: 162vw;
-      margin-left: -34vw;
+      margin-left: -32vw;
     }
   }
 }
