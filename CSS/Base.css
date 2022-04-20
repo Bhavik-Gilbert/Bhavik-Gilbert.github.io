@@ -334,7 +334,7 @@ a {
   justify-content: center;
   gap: 1em;
   width: 102%;
-  border-width: 0.5em;
+  border-width: 0.3em;
   border-color: var(--secondary);
   border-style: double none double none;
   margin-left: -1.8em;
@@ -356,8 +356,8 @@ a {
   color: var(--secondary);
   margin-left: 1em;
   margin-right: 1em;
-  width: 20em;
-  height: 30em;
+  width: 18em;
+  height: 27em;
   overflow: hidden;
   align-content: left;
   justify-content: left;
