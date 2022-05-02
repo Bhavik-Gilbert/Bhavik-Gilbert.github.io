@@ -14,8 +14,8 @@
 
 
 ## What Am I
->#### Think of it as a portal between my professional online presence  
->A portfolio site to hold information on myself ranging from education to skills and experience to projects. It enables employers to get a better view of my skillset 
+#### Think of it as a portal between points in my online professional presence  
+A portfolio site to hold information on myself ranging from education to skills and experience to projects. It enables employers to get a better view of my skillset 
 and provides them with a better idea of whether or not they should contact me or not, which they can also do via the site.
     
 ## Technologies
@@ -28,15 +28,15 @@ and provides them with a better idea of whether or not they should contact me or
   
   
 ## Usage
-### [Home Page](https://bhavik-gilbert.github.io/)
+### Home Page - [Visit](https://bhavik-gilbert.github.io/)
 >Provides a profile of myself alongside important links and documents such as LinkdIn, Github, alongside my CV and Cover letter.
 Also acts a central point providing extra accessibility to the whole site alongside a description of each page.
-### [Projects Page](https://bhavik-gilbert.github.io/Projects.html/Projects.html)
+### Projects Page - [Visit](https://bhavik-gilbert.github.io/Projects.html/Projects.html)
 >A list of all my most important projects with a description of what they are and the best ways to view them.
-### [Education Page](https://bhavik-gilbert.github.io/Education.html)
+### Education Page - [Visit](https://bhavik-gilbert.github.io/Education.html)
 >A list of all my education with grades, alongside other achievements and awards.
-### [Experience Page](https://bhavik-gilbert.github.io/Experience.html)
+### Experience Page - [Visit](https://bhavik-gilbert.github.io/Experience.html)
 >A list of all my work experience, paid and unpaid. Description for all positions I've held alongside what I've done and learnt while there.
-### [Contact Page](https://bhavik-gilbert.github.io/Contact.html)
+### Contact Page - [Visit](https://bhavik-gilbert.github.io/Contact.html)
 > Provides a contact form, where people are able to email me directly with any equiries they may have.  
 >> #### Powered by Email.js
