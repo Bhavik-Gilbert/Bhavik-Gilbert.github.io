@@ -14,7 +14,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/Bhavik-Gilbert/Bhavik-Gilbert.github.io)
 
 
-## What Am I
+## About
 #### Think of it as a portal between points in my online professional presence  
 A portfolio site to hold information on myself ranging from education to skills and experience to projects. It enables employers to get a better view of my skillset 
 and provides them with a better idea of whether or not they should contact me or not, which they can also do via the site.
