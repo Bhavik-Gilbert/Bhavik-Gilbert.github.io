@@ -6,6 +6,7 @@
 ![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https%3A%2F%2Fbhavik-gilbert.github.io%2Findex.html)  
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Bhavik-Gilbert/Bhavik-Gilbert.github.io)
+![GitHub contributors](https://img.shields.io/github/contributors/Bhavik-Gilbert/Bhavik-Gilbert.github.io)
 ![Lines of code](https://img.shields.io/tokei/lines/github/Bhavik-Gilbert/Bhavik-Gilbert.github.io)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Bhavik-Gilbert/Bhavik-Gilbert.github.io)  
 
