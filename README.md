@@ -23,7 +23,7 @@ and provides them with a better idea of whether or not they should contact me or
 ### Framworks/Languages
 >This application is built using the html, css and javascript.  
 >
-#### Future implemenatations may be moved over to react.js
+* #### Future implemenatations may be moved over to react.js
 ### Hosting
 >The website is hosted on [github pages](https://bhavik-gilbert.github.io/) and is currently available for anyone to view
   
@@ -40,4 +40,4 @@ Also acts a central point providing extra accessibility to the whole site alongs
 >A list of all my work experience, paid and unpaid. Description for all positions I've held alongside what I've done and learnt while there.
 ### Contact Page - [Visit](https://bhavik-gilbert.github.io/Contact.html)
 > Provides a contact form, where people are able to email me directly with any equiries they may have.  
- #### Powered by Email.js
+* #### Powered by Email.js
