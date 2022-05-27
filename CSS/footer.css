@@ -43,7 +43,7 @@
 }
 
 /** pulse effect **/
-button:hover::after {
+.scrollbutton button:hover::after {
     content: '';
     width: 2em;
     height: 2em;
@@ -61,7 +61,7 @@ button:hover::after {
 body[data-page="home"] .totop:hover, .tonext:hover {
     box-shadow: 0.1em 0.1em 1em var(--primaryopaque1);
 }
-body[data-page="home"] button:hover::after {
+body[data-page="home"] .scrollbutton button:hover::after {
     border: 6px solid var(--primaryopaque2);
 }
 

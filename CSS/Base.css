@@ -371,6 +371,21 @@ body[data-page="home"] {
   border-radius: 1em 1em 0 0;
   margin-bottom: 1em;
 }
+.mini button {
+  background-color: var(--bg);
+  border-radius: 0.5em;
+  border-width: 0.1em;
+  border-style: solid;
+  border-color: hidden;
+  box-shadow: 0.1em 0.1em 1em #000;
+  padding: 0.5em;
+  margin: 0.5em;
+  font-size: 1em;
+  color: var(--secondary);
+}
+.mini button:hover {
+  border-color: var(--secondary);
+}
 
 .select .page, .select .pagefocus {
   cursor: hand;
