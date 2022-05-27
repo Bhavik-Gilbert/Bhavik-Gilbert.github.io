@@ -6,29 +6,13 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
-        </script>
-    <script>
-        $(function () {
-            $("#header").load("Entity/menu.html");
-            $("#footer").load("Entity/footer.html");
-        });
     </script>
+    <script src="Scripts/LoadPage.js"></script>
 </head>
 
 <html lang="en" data-theme="dark">
-<script>
-    if (localStorage.getItem("theme") == "false") {
-        document.documentElement.setAttribute("data-theme", "light");
-    }
-    else {
-        document.documentElement.setAttribute("data-theme", "dark");
-    }
-</script>
 
 <body>
-    <script>
-        $("html, body").animate({ scrollTop: $(".chat-msg-list") }, 1000);
-    </script>
 
     <div id="loader"></div>
     
@@ -279,109 +263,8 @@
 </body>
 </html>
 
-<script>
-    const regions = new Map();
-
-    function togglefocus(elem, classname, region) {
-        if(!regions.has(region)) {
-            regions.set(region, new Set());
-            regions.get(region).add(elem);
-        }
-        else if(!regions.get(region).has(elem)) {
-            regions.get(region).add(elem);
-        }
-
-        regions.get(region).forEach(e => {
-            if (e !== elem) {
-                document.getElementById(e).className = classname;
-            }
-        })
-
-        if(classname == document.getElementById(elem).className) {
-            document.getElementById(elem).className = classname + "focus";
-
-        }
-        else {
-            document.getElementById(elem).className = classname;
-        }
-    }
-</script>
+<script src="Scripts/PageInfoControls.js"></script>
 
 <script>
-    var wait = false;
-
-    async function displayinfo(elem, classname, region) {
-        togglefocus(elem, classname, region);
-
-        var elementinfo = document.getElementById(elem + "info");
-
-        regions.get(region).forEach(e => {
-            if (e !== elem) {
-                let einfo = document.getElementById(e+"info")
-                if (typeof (einfo) != 'undefined' && einfo != null) {
-                    if(einfo.style.display != "none") {
-                        wait = true;
-                        displayanimateout(einfo);
-                    }
-                }
-            }
-        })
-
-        if(typeof (elementinfo) != 'undefined' && elementinfo != null) {
-            if(elementinfo.style.display == "block") {
-                displayanimateout(elementinfo);
-            }
-            else {
-                if(wait) {
-                   await timer(525);
-                   wait = false;
-                }
-                displayanimatein(elementinfo);
-            }
-        }
-    }
-
-    async function displayanimatein(item) {
-        var current = 0;
-
-        item.style.opacity = current.toString();
-        item.style.display = "block";
-        item.style.marginTop = "2em";
-
-        while (current < 1) {
-            current += 0.1;
-            item.style.opacity = current.toString();
-            await timer(10);
-        }
-    }
-
-    async function displayanimateout(item) {
-        var current = 1;
-
-        item.style.opacity = current.toString();
-
-        while (current > 0) {
-            current -= 0.1;
-            item.style.opacity = current.toString();
-            await timer(10);
-
-            if (item.style.opacity < 0) {
-                await timer(500);
-                item.style.display = "none";
-            }
-        }        
-    }
-</script>
-
-<script>
-    var loader = document.getElementById("loader");
-
-    window.addEventListener("load", function () {
-        setTimeout(function () {
-            loader.style.opacity = "0";
-            setTimeout(function () {
-                loader.style.display = "none";
-            }, 500);
-        }, 1000);
-    });
+    removeloader();
 </script>

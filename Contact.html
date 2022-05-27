@@ -6,66 +6,16 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
-        </script>
-    <script>
-        $(function () {
-            $("#header").load("Entity/menu.html");
-            $("#footer").load("Entity/footer.html");
-        });
     </script>
+    <script src="Scripts/LoadPage.js"></script>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function () {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init('otF2U1AA8agT6_bgG');
-        })();
-    </script>
-    <script type="text/javascript">
-        window.onload = function () {
-            document.getElementById('contact-form').addEventListener('submit', function (event) {
-                const form = document.getElementById('contact-form');
-                const email = form.elements['user_email'];
-
-                var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-
-                if (email.value.match(mailformat)) {
-                    event.preventDefault();
-                    // generate a five digit number for the contact_number variable
-                    this.contact_number.value = Math.random() * 100000 | 0;
-                    // these IDs from the previous steps
-                    emailjs.sendForm('service_864znoa', 'template_amre6di', this)
-                        .then(function () {
-                            window.alert("Email Sent Successfully\n\nWe'll get back to you shortly");
-                        }, function (error) {
-                            window.alert("Error sending email\n\nTry again later");
-                        });
-                }
-                else {
-                    window.alert("Invalid Email Entered");
-                }
-            });
-        }
-    </script>
+    <script src="Scripts/Email.js"></script>
 </head>
 
 <html lang="en" data-theme="dark">
 
-<script>
-    if (localStorage.getItem("theme") == "false") {
-        document.documentElement.setAttribute("data-theme", "light");
-    }
-    else {
-        document.documentElement.setAttribute("data-theme", "dark");
-    }
-</script>
-
 <body>
-
-    <script>
-        $("html, body").animate({ scrollTop: $(".chat-msg-list") }, 1000);
-    </script>
-
     <div id="loader"></div>
 
     <div id="header"></div>
@@ -103,14 +53,5 @@
 </html>
 
 <script>
-    var loader = document.getElementById("loader");
-
-    window.addEventListener("load", function () {
-        setTimeout(function () {
-            loader.style.opacity = "0";
-            setTimeout(function () {
-                loader.style.display = "none";
-            }, 500);
-        }, 1000);
-    });
+    removeloader();
 </script>

@@ -7,30 +7,13 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous">
         </script>
-    <script>
-        $(function () {
-            $("#header").load("Entity/menu.html");
-            $("#footer").load("Entity/footer.html");
-        });
-    </script>
+    <script src="Scripts/LoadPage.js"></script>
+    <script src="Scripts/PageTabControls.js"></script>
 </head>
 
 <html lang="en" data-theme="dark">
 
-<script>
-    if (localStorage.getItem("theme") == "false") {
-        document.documentElement.setAttribute("data-theme", "light");
-    }
-    else {
-        document.documentElement.setAttribute("data-theme", "dark");
-    }
-</script>
-
 <body>
-
-<script>
-    $("html, body").animate({ scrollTop: $(".chat-msg-list") }, 1000);
-</script>
 
 <div id="loader"></div>
 
@@ -68,36 +51,42 @@
     <div class="select">
     <div class=mini>
         <div class=page id="computersciencementorleytonviformcollege" onclick="displayinfo('computersciencementorleytonviformcollege','page', 'work')">
+            <script>addcontainer("work", "computersciencementorleytonviformcollege");</script>
             <img class=pageimage src="CSS/Images/College.png">
             <h4>Computer Science Mentor</h4>
             <h5>Leyton VI Form College<br><br>09/2021-current</h5>
         </div>
 
         <div class=page id="co-found&co-chiefexecStemItUp" onclick="displayinfo('co-found&co-chiefexecStemItUp','page', 'work')">
+            <script>addcontainer("work", "co-found&co-chiefexecStemItUp");</script>
             <img class=pageimage src="CSS/Images/Stemitup.PNG">
             <h4>Co-Founder and Co-Chief Executive Officer</h4>
             <h5>StemItup<br><br>08/2020-current</h5>
         </div>
 
         <div class=page id="computerscienceteacherfuntech2021" onclick="displayinfo('computerscienceteacherfuntech2021','page', 'work')">
+            <script>addcontainer("work", "computerscienceteacherfuntech2021");</script>
             <img class=pageimage src="CSS/Images/Funtech.png">
             <h4>Computer Science Teacher</h4>
             <h5>Funtech<br><br>07/2021-08/2021</h5>
         </div>
 
         <div class=page id="consultingworkexperiencewithdeloittespringpod" onclick="displayinfo('consultingworkexperiencewithdeloittespringpod','page', 'work')">
+            <script>addcontainer("work", "consultingworkexperiencewithdeloittespringpod");</script>
             <img class=pageimage src="CSS/Images/Deloitte.webp">
             <h4>Consulting Work Experience with Deloitte</h4>
             <h5>Springpod<br><br>08/2021-08/2021</h5>
         </div>
 
         <div class=page id="technologyvirtualworkexperiencespringpod" onclick="displayinfo('technologyvirtualworkexperiencespringpod','page', 'work')">
+            <script>addcontainer("work", "technologyvirtualworkexperiencespringpod");</script>
             <img class=pageimage src="CSS/Images/Springpod.png">
             <h4>Technology Virtual Work Experience</h4>
             <h5 >Springpod<br><br>04/2021-04/2021</h5>
         </div>
 
         <div class=page id="careercampdigitalsummercamp" onclick="displayinfo('careercampdigitalsummercamp','page', 'work')">
+             <script>addcontainer("work", "careercampdigitalsummercamp");</script>
             <img class=pageimage src="CSS/Images/CareerCamp.jpg">
             <h4>Career's Camp<h4>
             <h5>Digital Summer Camp
@@ -229,109 +218,9 @@
 </body>
 </html>
 
-<script>
-    const regions = new Map();
-
-    function togglefocus(elem, classname, region) {
-        if (!regions.has(region)) {
-            regions.set(region, new Set());
-            regions.get(region).add(elem);
-        }
-        else if (!regions.get(region).has(elem)) {
-            regions.get(region).add(elem);
-        }
-
-        regions.get(region).forEach(e => {
-            if (e !== elem) {
-                document.getElementById(e).className = classname;
-            }
-        })
-
-        if (classname == document.getElementById(elem).className) {
-            document.getElementById(elem).className = classname + "focus";
-
-        }
-        else {
-            document.getElementById(elem).className = classname;
-        }
-    }
-</script>
+<script src="Scripts/PageInfoControls.js"></script>
 
 <script>
-    var wait = false;
-
-    async function displayinfo(elem, classname, region) {
-        togglefocus(elem, classname, region);
-
-        var elementinfo = document.getElementById(elem + "info");
-
-        regions.get(region).forEach(e => {
-            if (e !== elem) {
-                let einfo = document.getElementById(e + "info")
-                if (typeof (einfo) != 'undefined' && einfo != null) {
-                    if (einfo.style.display != "none") {
-                        wait = true;
-                        displayanimateout(einfo);
-                    }
-                }
-            }
-        })
-
-        if (typeof (elementinfo) != 'undefined' && elementinfo != null) {
-            if (elementinfo.style.display == "block") {
-                displayanimateout(elementinfo);
-            }
-            else {
-                if (wait) {
-                    await timer(625);
-                    wait = false;
-                }
-                displayanimatein(elementinfo);
-            }
-        }
-    }
-
-    async function displayanimatein(item) {
-        var current = 0;
-
-        item.style.opacity = current.toString();
-        item.style.display = "block";
-        item.style.marginTop = "2em";
-
-        while (current < 1) {
-            current += 0.1;
-            item.style.opacity = current.toString();
-            await timer(10);
-        }
-    }
-
-    async function displayanimateout(item) {
-        var current = 1;
-
-        item.style.opacity = current.toString();
-
-        while (current > 0) {
-            current -= 0.1;
-            item.style.opacity = current.toString();
-            await timer(10);
-
-            if (item.style.opacity < 0) {
-                await timer(500);
-                item.style.display = "none";
-            }
-        }
-    }
-</script>
-
-<script>
-    var loader = document.getElementById("loader");
-
-    window.addEventListener("load", function () {
-        setTimeout(function () {
-            loader.style.opacity = "0";
-            setTimeout(function () {
-                loader.style.display = "none";
-            }, 500);
-        }, 1000);
-    });
+    loadcontainers()
+    removeloader();
 </script>

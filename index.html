@@ -6,32 +6,14 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous">
-        </script>
-    <script>
-        $(function () {
-            $("#header").load("Entity/menu.html");
-            $("#footer").load("Entity/footer.html");
-        });
     </script>
+    
+    <script src="Scripts/LoadPage.js"></script>
 </head>
 
 <html lang="en" data-theme="dark">
-<script>
-    if (localStorage.getItem("theme") == "false") {
-        document.documentElement.setAttribute("data-theme", "light");
-    }
-    else {
-        document.documentElement.setAttribute("data-theme", "dark");
-    }
-</script>
 
 <body data-page="home">
-
-<script>
-    $("html, body").animate({ scrollTop: $(".chat-msg-list") }, 1000);
-    $('body').addClass('stop-scrolling');
-    $('body').bind('touchmove', function (e) { e.preventDefault() });
-</script>
 
 <div id="loader"></div>
 
@@ -205,107 +187,8 @@
 
 </html>
 
+<script src="Scripts/HomeScroll.js"></script>
 <script>
-    function handheldCheck() {
-        let check = false;
-        const ua = navigator.userAgent;
-        if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
-            check = true;
-        }
-        else if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
-            check = true
-        }
-        return check;
-    }
-
-</script>
-
-<script>
-    var prevY = 0;
-    var scrolllock = true;
-    var goal = findPos(welcome);
-
-
-
-    document.addEventListener('scroll', async function (e) {
-        if(handheldCheck()) { 
-            return;
-        }
-
-        var welcome = document.getElementById("welcome");
-        var goal = findPos(welcome);
-        if (window.scrollY < goal-120 && prevY < goal-120 && scrolllock) {
-            $('body').addClass('stop-scrolling');
-            $('body').bind('touchmove', function (e) { e.preventDefault() });
-
-            const timer = ms => new Promise(res => setTimeout(res, ms));
-            await timer(500);
-            if(window.scrollY > 5) {
-               topFunction();
-            }
-        }
-        else if(window.scrollY > goal - 120 && prevY > goal - 120 && scrolllock) {
-            $('body').removeClass('stop-scrolling');
-            $('body').unbind('touchmove', function (e) { e.preventDefault() });
-        }
-
-        prevY = window.scrollY;
-    });
-
-    
-    async function nextFunction() {
-            var increment = 20;
-            var welcome = document.getElementById("welcome");
-            var goal = findPos(welcome);
-
-            await timer(200);
-            while (window.scrollY < goal) {
-                scrolllock = false;
-                var scroll = window.scrollY + increment;
-
-                if (scroll > goal) {
-                    scroll = goal;
-                }
-
-                document.body.scrollTop = scroll; // For Safari
-                document.documentElement.scrollTop = scroll; // For Chrome, Firefox, IE and Opera
-
-
-                if (scroll == goal) {
-                    scrolllock = true;
-                    break;
-                }
-
-                await timer(1);
-            }
-        }
-
-    function findPos(obj) {
-            var curtop = 0;
-            if (obj.offsetParent) {
-                do {
-                    curtop += obj.offsetTop;
-                } while (obj = obj.offsetParent);
-                return [curtop];
-            }
-        }
-</script>
-
-<script>
-    var loader = document.getElementById("loader");
-
-    window.addEventListener("load", function () {
-        setTimeout(function () {
-            loader.style.opacity = "0";
-            setTimeout(function () {
-                loader.style.display = "none";
-
-                if(handheldCheck()) {
-                    $('body').removeClass('stop-scrolling');
-                    $('body').unbind('touchmove', function (e) { e.preventDefault() });
-                }
-
-            }, 500);
-        }, 1000);
-    });
+    removeloader();
+    addscrolllock();
 </script>

@@ -176,7 +176,6 @@ body[data-page="home"] {
 
   .contactform {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
   }
   .contactform input{ 
@@ -883,6 +882,7 @@ label:active::after{
       flex-direction: column;
     }
     .contactform {
+      flex-wrap: wrap;
       gap: 3vh;
     }
     .contactform .textarea {

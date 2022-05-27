@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
+        "addcontainer",
         "bgopqaue",
         "checkpath",
         "currentpath",
@@ -8,6 +9,8 @@
         "greydark",
         "greylight",
         "lightloader",
-        "primaryopaque"
+        "listname",
+        "primaryopaque",
+        "scrollelements"
     ]
 }

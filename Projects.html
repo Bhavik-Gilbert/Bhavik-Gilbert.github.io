@@ -6,31 +6,13 @@
     
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous">
-        </script>
-    <script>
-        $(function () {
-            $("#header").load("Entity/menu.html");
-            $("#footer").load("Entity/footer.html");
-        });
     </script>
+    <script src="Scripts/LoadPage.js"></script>
 </head>
 
 <html lang="en" data-theme="dark">
 
-<script>
-    if (localStorage.getItem("theme") == "false") {
-        document.documentElement.setAttribute("data-theme", "light");
-    }
-    else {
-        document.documentElement.setAttribute("data-theme", "dark");
-    }
-</script>
-
 <body>
-
-<script>
-    $("html, body").animate({ scrollTop: $(".chat-msg-list") }, 1000);
-</script>
 
 <div id="loader"></div>
 
@@ -213,14 +195,5 @@
 </html>
 
 <script>
-    var loader = document.getElementById("loader");
-
-    window.addEventListener("load", function () {
-        setTimeout(function () {
-            loader.style.opacity = "0";
-            setTimeout(function () {
-                loader.style.display = "none";
-            }, 500);
-        }, 1000);
-    });
+    removeloader();
 </script>
