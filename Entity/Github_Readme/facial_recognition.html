@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="facial-recognition">Facial-Recognition</h1>
+<h3 id="badges">Badges</h3>
+<p><img src="https://img.shields.io/github/last-commit/Bhavik-Gilbert/Facial-Recognition" alt="GitHub last commit">   <img src="https://img.shields.io/github/contributors/Bhavik-Gilbert/Facial-Recognition" alt="GitHub contributors"><br>
+<img src="https://img.shields.io/tokei/lines/github/Bhavik-Gilbert/Facial-Recognition" alt="Lines of code"> <img src="https://img.shields.io/github/repo-size/Bhavik-Gilbert/Facial-Recognition" alt="GitHub repo size"></p>
+<p><img src="https://img.shields.io/github/languages/top/Bhavik-Gilbert/Facial-Recognition" alt="GitHub top language"> <img src="https://img.shields.io/github/languages/count/Bhavik-Gilbert/Facial-Recognition" alt="GitHub language count"></p>
+<h2 id="about">About</h2>
+<p>This repo contains a basic facial recognition login system where facial biometrics are used in place of traditional passwords. The system strengthens overtime with each<br>
+successfull login adding to the bank of facial images used to discern if the user is who they identify to be.</p>
+<h2 id="technologies">Technologies</h2>
+<h3 id="framworkslanguages">Framworks/Languages</h3>
+<blockquote>
+<p>This application is built using the deepface and tkinter modules in python alongside sql in mysli_connector.</p>
+</blockquote>
+<h3 id="hosting">Hosting</h3>
+<blockquote>
+<p>The application can be run on any device running python 3.7 or later with tkinter, tensorflow, deepface and mysql_connector installed alongside a database setup<br>
+to hold the recoginition data base on the schema in the repo.</p>
+</blockquote>
+<h3 id="installation">Installation</h3>
+<blockquote>
+<h4 id="install-python-3.7-or-above-at-python-installation">Install python 3.7 or above at <a href="https://www.python.org/downloads/">python installation</a></h4>
+<h4 id="open-your-terminal-and-install-the-following-modules-using-pip">Open your terminal and install the following modules using pip</h4>
+<ul>
+<li>pip install tensorflow -&gt; <a href="https://pypi.org/project/tensorflow/">installation</a></li>
+<li>pip install deepface -&gt; <a href="https://pypi.org/project/deepface/">installation</a></li>
+<li>pip install tk  -&gt; <a href="https://www.tutorialspoint.com/how-to-install-tkinter-in-python">installation</a></li>
+<li>pip install mysql-connector  -&gt; <a href="https://pypi.org/project/mysql-connector/">installation</a></li>
+<li>pip install tkcalendar -&gt; <a href="https://pypi.org/project/tkcalendar/">installation</a></li>
+</ul>
+</blockquote>
+<h2 id="usage">Usage</h2>
+<h3 id="getting-started">Getting started</h3>
+<blockquote>
+<p>To use the system, users will first be required to navigate to the signup page</p>
+</blockquote>
+<h3 id="signup">Signup</h3>
+<blockquote>
+<p>Users will be required to input some basic details such as name, username and email into a form. Once done, their image will be taken and displayed on screen. The<br>
+user will then be prompted to either upload or retake the photo, repeating the photography process until the user is satisfied and willing to upload their image. The<br>
+image taken is required to have 1 face in it, or the option to upload will not be available, 0 or multiple faces won’t be accepted. Along with the image, the rest of<br>
+the data is then sent to the database to be stored.</p>
+</blockquote>
+<h3 id="login">Login</h3>
+<blockquote>
+<p>To login, users are prompted to type in their username. Once submitted, an image is taken from their camera, which is compared to the various photos currently<br>
+stored for that user. If the user matches, the new photo taken is added to the database, to improve the accuracy of the system, if not, the user is promtpted<br>
+with an error message.</p>
+</blockquote>
+</div>
+</body>
+
+</html>
