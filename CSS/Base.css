@@ -6,6 +6,7 @@ html {
   --bg: #343d52;
   --bgopaque: #48536e;
   --bgopaque2: #4a6bbd;
+  --bglight: #D9E3F0;
 
   --greydark: #4B4B4C;
   --greylight: #888;
@@ -24,6 +25,7 @@ html[data-theme="light"] {
   --bg: #FC6A03;
   --bgopaque: #FCAE1E;
   --bgopaque2: #ffbf4a;
+  --bglight: #fce6c7;
 }
 
 html.transition, html.transition *, html.transition::before, html.transition::after {
@@ -223,7 +225,7 @@ body[data-page="home"] {
 }
 
 .project {
-  border:2px solid var(--primary); padding: 0.5em; background-color: var(--primaryopaque1); opacity:0.7; text-align:center;
+  border:2px solid var(--primary); padding: 0.5em 0 0 0; background-color: var(--primaryopaque1); opacity:0.7; text-align:center;
   color:var(--secondary); font-size: 1em; transition: var(--ease); width: 55%; border-radius: 10em; overflow:hidden;
 }
 .project:hover {
@@ -270,7 +272,7 @@ body[data-page="home"] {
   opacity: 1; height: auto;
 }
 .project:hover iframe {
-  opacity: 1; height: 50vh;
+  opacity: 1; height: 50vh; margin-top: 3vh;
 }
 .project .file {
   opacity: 0;
@@ -288,9 +290,20 @@ body[data-page="home"] {
 
 iframe {
   display: block;
-  width: 90%;
-  background-color: #fff;
+  width: 100%;
+  background-color: var(--bglight);
+  border-color: var(--bg);
+  border-style: solid none solid solid;
+
+  scrollbar-face-color: #ff8c00;
+  scrollbar-track-color: #fff8dc;
+  scrollbar-arrow-color: #ffffff;
+  scrollbar-highlight-color: #fff8dc;
+  scrollbar-shadow-color: #d2691e;
+  scrollbar-3dlight-color: #ffebcd;
+  scrollbar-darkshadow-color: #8b0000;
 }
+
 .subject {
   border-radius: 10px; background-color: var(--secondary); color: var(--primary); font-size: 1em; display:inline-block; 
   width:max-content; padding: 0.5em; margin: 0.5em;
@@ -954,13 +967,19 @@ label:active::after{
     .project:hover h5{
       font-size: 6vw;
     }
+    .project:hover .description {
+      font-size: 0.7em;
+    }
+    .project:hover iframe {
+      height: 75vh; margin-top: 10vh;
+    }
     
     .right {
       transform: translateX(-10vw);
     }
     
     .right:hover {
-      transform: translateX(-110vw);
+      transform: translateX(-102vw);
     }
     .left:hover {
       transform: translateX(14vw);
@@ -1073,12 +1092,14 @@ label:active::after{
       transform: translateX(5vw);
     }
     .left:hover {
-      transform: translateX(0vw);
+      transform: translateX(2vw);
     }
     .right:hover {
-      transform: translateX(-56vw);
+      transform: translateX(-52vw);
     }
-
+    .project:hover iframe {
+      height: 100vh; margin-top: 10vh;
+    }
     
     .mini .page {
       margin-top: 1em;
@@ -1099,7 +1120,7 @@ label:active::after{
     }
 
     .pages, .mini  {
-      width: 162vw;
+      width: 161.5vw;
       margin-left: -32vw;
     }
   }
