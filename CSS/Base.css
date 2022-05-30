@@ -261,12 +261,12 @@ body[data-page="home"] {
 .project:hover .description {
   margin-top: 0.1em; font-size: 0.9em;
 }
-.project .pic{
+.project .pic, .project iframe{
   opacity: 0;
   height: 0;
   overflow: hidden;
 }
-.project:hover .pic{
+.project:hover .pic, .project:hover iframe{
   opacity: 1; height: auto;
 }
 .project .file{
@@ -283,6 +283,10 @@ body[data-page="home"] {
 .pic{height:100px;width:180px;border: var(--secondary); border-radius: 20px; border-style: double; transition: var(--ease)}
 .pic:hover{height:200;width: 360px;}
 
+iframe {
+  display: block;
+  transform: translateX(35%);
+}
 .subject {
   border-radius: 10px; background-color: var(--secondary); color: var(--primary); font-size: 1em; display:inline-block; 
   width:max-content; padding: 0.5em; margin: 0.5em;

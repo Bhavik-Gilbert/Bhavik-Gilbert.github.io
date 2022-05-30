@@ -75,7 +75,7 @@ function previouselement(listname) {
     let list = scrollelements.get(listname);
     let index = scrollindex.get(listname);
     if(index > 0) {
-        changeelement(list, index-1, index+2)
+        changeelement(list, index-1, index+size-1)
         scrollindex.set(listname, index-1)
     }
     if (scrollindex.get(listname) <= 0) {
