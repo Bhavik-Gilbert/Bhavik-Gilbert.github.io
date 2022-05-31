@@ -160,7 +160,9 @@ body[data-page="home"] {
 .hoptext:hover, .hoptexthold:hover {
   transform: translateY(-0.2em);
   color:  var(--primary);
+  cursor: hand;
 }
+
 h1{color: var(--secondary); font-family: "Courier New","Lucida Console", monospace;}
 h2{color: var(--secondary)}
 h3{color: var(--secondary)}
