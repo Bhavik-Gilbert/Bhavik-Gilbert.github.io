@@ -118,9 +118,32 @@ body[data-page="home"] {
 		background-position: 0% 50%;
 	}
 }
-
+.h1main, .h1hold {
+  color: var(--secondary);
+  font-family: "Courier New", "Lucida Console", monospace;
+  font-size: 3em;
+  font-weight: bold;
+  display: inline;
+  transition: var(--ease);
+}
+.h1hold {
+  color: var(--bgopaque2);
+}
+.h1main:hover, .h1hold:hover {
+  font-family: "Monaco", monospace;
+  font-size: 5em;
+  cursor: hand;
+}
+.h2under {
+  color: var(--bglight);
+  font-family: "Courier New", "Lucida Console", monospace;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: -0.7em;
+  display: block;
+  margin-bottom: 5em;
+}
   h1{color: var(--secondary); font-family: "Courier New","Lucida Console", monospace;}
-  h2under {color: var(--secondary); font-family: "Courier New","Lucida Console", monospace; font-size: 1em; font-weight: bold; margin-top:-1.5em; display:block; margin-bottom: 5em;} 
   h2{color: var(--secondary)}
   h3{color: var(--secondary)}
   h4{color: var(--secondary)}
@@ -294,14 +317,6 @@ iframe {
   background-color: var(--bglight);
   border-color: var(--bg);
   border-style: solid none solid solid;
-
-  scrollbar-face-color: #ff8c00;
-  scrollbar-track-color: #fff8dc;
-  scrollbar-arrow-color: #ffffff;
-  scrollbar-highlight-color: #fff8dc;
-  scrollbar-shadow-color: #d2691e;
-  scrollbar-3dlight-color: #ffebcd;
-  scrollbar-darkshadow-color: #8b0000;
 }
 
 .subject {
@@ -942,8 +957,12 @@ label:active::after{
       min-height: 220vh;
       margin-left: -100vw;
     }
-    .start h1, .start h2under, .start p, .start .file{
+    .start h1, .start .h2under, .start .h1main, .start .h1hold, .start p, .start .file{
       transform:  translateX(50vw);
+    }
+    .start .h1main, .start .h1hold {
+      margin-top: 2vh;
+      display: inline-block;
     }
 
     #loader { 
@@ -954,7 +973,7 @@ label:active::after{
     }
 
     h1 { font-size: 11vw;}
-    h2under { font-size: 5vw;}
+    .h2under { font-size: 5vw; margin-top: 0.2em}
     p {font-size: 5vw;}
     .p {width: 200vw; margin-left: -55vw;}
 
@@ -1049,8 +1068,12 @@ label:active::after{
       margin-left: -70vw;
       transform: translateY(-15vh);
     }
-    .start h1, .start h2under, .start p, .start .file {
-      transform:  translateX(35vw);
+    .start h1, .start .h2under, .start .h1main, .start .h1hold, .start p, .start .file {
+      transform: translateX(35vw);
+    }
+    .start .h1main, .start .h1hold {
+      margin-top: 10vh;
+      display: inline-block;
     }
     
     #loader {
@@ -1068,9 +1091,9 @@ label:active::after{
       font-size: 11vh;
     }
     
-    h2under {
+    .h2under {
       font-size: 5vh;
-      margin-bottom: 0;
+      margin-top: 0.2em;
     }
     
     p {
