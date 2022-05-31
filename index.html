@@ -57,26 +57,26 @@
 
 
 <div align="center">
-    <div class="start">
+    <div class="start" id="start">
         <script>
-            setuph1main("Bhavik Gilbert");
+            reactbyletter("Bhavik Gilbert", "h1", "start", "h1main", "h1hold");
         </script>
         
         <div class="h2under">Software Developer</div>
 
-        <p style="width: 70%">
-            Driven by an avid interest in Tech, I've come across a range of experiences in several positions within
-            different sectors to help expand my knowledge, trying to find my footholds within the industry. To this end,
-            I've dabbled within several fields varying between: data analysis, game development, machine learning,
-            web development and database systems.
-            Proceeding forward, I want to further develop my knowledge around the field of computer software outside
-            the reach of personal projects, providing a tangible output into the industry, bettering my problem solving
-            and algorithmic thinking in the process.
-            <br><br>
-            Outside of education, I partake in sports such as Badminton and Volleyball in a casual setting, finding
-            them to be both greats ways to maintain physical fitness and mental clarity alongside developing soft skills
-            such as quick-thinking and communication.
-        </p>
+        <div id="profile" class="profile">
+        <script>
+            var para1 = "Driven by an avid interest in Tech, I've come across a range of experiences in several positions within different sectors to help expand my knowledge, trying to find my footholds within the industry. To this end, I've dabbled within several fields varying between: data analysis, game development, machine learning, web development and database systems. Proceeding forward, I want to further develop my knowledge around the field of computer software outside the reach of personal projects, providing a tangible output into the industry, bettering my problem solving and algorithmic thinking in the process."; 
+            reactbyword(para1, "p", "profile", "hoptext", "hoptexthold");
+        </script>
+
+        <br><br>
+
+        <script>
+            var para2 = "Outside of education, I partake in sports such as Badminton and Volleyball in a casual setting, finding them to be both greats ways to maintain physical fitness and mental clarity alongside developing soft skills such as quick - thinking and communication.";
+            reactbyword(para2, "p", "profile", "hoptext", "hoptexthold");
+       </script>
+        </div>
         
         <div class=file>
             CV/Resume

@@ -40,35 +40,51 @@ function handheldcheck() {
     return check;
 }
 
-function setuph1main(text) {
+function reactbyletter(text, tag, location, main, secondary) {
     for (let i = 0; i < text.length; i++) {
-        var letter = document.createElement("div");
-        if (handheldcheck() && text[i] == " ") {
-            letter.innerHTML = "_";
-            letter.id = "_" + i;
-            letter.onclick = function () { toggleh1main("_"+ i); };
-        }
-        else {
-            letter.innerHTML = text[i];
-            letter.id = text[i] + i;
-            letter.onclick = function () { toggleh1main(text[i] + i); };
-        }
-        letter.className = "h1main";
-        let parent = document.getElementsByClassName("start")[0];
+        var letter = document.createElement(tag);
+        letter.innerHTML = text[i];
+        letter.id = text[i] + i;
+        letter.className = main;
+
+        letter.onclick = function () { 
+            togglereact(text[i] + i, main, secondary); 
+            
+            let elem = document.getElementById(text[i] + i);
+            elem.innerHTML = reversecapitalize(elem.innerHTML);
+        };
+        
+        let parent = document.getElementById(location);
         parent.appendChild(letter);
     }
 }
 
-function toggleh1main(id) {
+function reactbyword(paragraph, tag, location, main, secondary) {
+    var text = paragraph.split(" ");
+    for (let i = 0; i < text.length; i++) {
+        var word = document.createElement(tag);
+        word.innerHTML = text[i] + " ";
+        word.id = text[i] + i;
+        word.className = main;
+        
+        word.onclick = function () {
+            togglereact(text[i] + i, main, secondary);
+        };
+
+        let parent = document.getElementById(location);
+        parent.appendChild(word);
+    }
+}
+
+function togglereact(id, main, secondary) {
     let letter = document.getElementById(id);
     if (typeof (letter) != 'undefined' && letter != null) {
         classname = letter.className;
-        letter.innerHTML = reversecapitalize(letter.innerHTML);
-        if (classname == "h1main") {
-            letter.className = "h1hold";
+        if (classname == main) {
+            letter.className = secondary;
             return;
         }
-        letter.className = "h1main";
+        letter.className = main;
     }
 }
 

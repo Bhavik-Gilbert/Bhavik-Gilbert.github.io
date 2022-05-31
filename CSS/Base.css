@@ -119,8 +119,6 @@ body[data-page="home"] {
 	}
 }
 .h1main, .h1hold {
-  color: var(--secondary);
-  font-family: "Courier New", "Lucida Console", monospace;
   font-size: 3em;
   font-weight: bold;
   display: inline;
@@ -139,95 +137,113 @@ body[data-page="home"] {
   font-family: "Courier New", "Lucida Console", monospace;
   font-size: 1.1em;
   font-weight: bold;
-  margin-top: -0.7em;
+  margin-top: -0.5em;
   display: block;
   margin-bottom: 5em;
 }
-  h1{color: var(--secondary); font-family: "Courier New","Lucida Console", monospace;}
-  h2{color: var(--secondary)}
-  h3{color: var(--secondary)}
-  h4{color: var(--secondary)}
-  h5{color: var(--secondary)}
-  h6{color: var(--secondary)}
+.hoptext, .hoptexthold {
+  transition: var(--ease);
+  display: inline-block;
+  position: relative;
+  margin-top: 0.1em;
+  margin-right: 0.6em;
+  margin-bottom: 0.5em;
+}
+.hoptexthold {
+  font-style: italic;
+  font-family: "Courier New", "Lucida Console", monospace;
+  font-weight: 800;
+  color: var(--greylight);
+}
+.hoptext:hover, .hoptexthold:hover {
+  transform: translateY(-0.2em);
+  color:  var(--primary);
+}
+h1{color: var(--secondary); font-family: "Courier New","Lucida Console", monospace;}
+h2{color: var(--secondary)}
+h3{color: var(--secondary)}
+h4{color: var(--secondary)}
+h5{color: var(--secondary)}
+h6{color: var(--secondary)}
 
-  p{font-family: "Monaco", monospace; color: var(--secondary)}
+p{font-family: "Monaco", monospace; color: var(--secondary)}
 
-  form {
-    margin: 3vw;
-    padding: 2vw;
-    background-color: var(--primaryopaque1);
-    box-shadow: 0.1em 0.1em 1em #000;
-    width: 70%;
-    border-radius: 1vw;
-    overflow: clip;
-  }
-  .formtitle {
-    font-size: 2em;
-    font-weight: bold;
-    color: var(--secondary);
-    margin-bottom: 1em;
-    font-family: "Monaco", monospace;
-  }
-  input, textarea {
-    display: block;
-    background-color: var(--primaryopaque1);
-    border: 0.1em solid var(--bg);
-    border-radius: 0.2em;
-    font-size: 1em;
-    padding: 0.2vw;
-    text-align: center;
-    color: var(--secondary);
-    font-family: "Monaco", monospace;
-  }
-  input::placeholder, textarea::placeholder {
-    color: var(--greylight);
-  }
-  input:hover, textarea:hover,
-  input:focus, textarea:focus {
-    box-shadow: 0.1em 0.1em 1em var(--secondary);
-    border-color: var(--secondary);
-  }
-  input:hover::placeholder {
-    color: var(--secondary);
-  }
-  .submit input {
-    margin-top: 5vh;
-    width: 100%;
-    padding: 1vh;
-    background-color: var(--bg);
-    color: #fff;
-    font-weight: bold;
-  }
+form {
+  margin: 3vw;
+  padding: 2vw;
+  background-color: var(--primaryopaque1);
+  box-shadow: 0.1em 0.1em 1em #000;
+  width: 70%;
+  border-radius: 1vw;
+  overflow: clip;
+}
+.formtitle {
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--secondary);
+  margin-bottom: 1em;
+  font-family: "Monaco", monospace;
+}
+input, textarea {
+  display: block;
+  background-color: var(--primaryopaque1);
+  border: 0.1em solid var(--bg);
+  border-radius: 0.2em;
+  font-size: 1em;
+  padding: 0.2vw;
+  text-align: center;
+  color: var(--secondary);
+  font-family: "Monaco", monospace;
+}
+input::placeholder, textarea::placeholder {
+  color: var(--greylight);
+}
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+  box-shadow: 0.1em 0.1em 1em var(--secondary);
+  border-color: var(--secondary);
+}
+input:hover::placeholder {
+  color: var(--secondary);
+}
+.submit input {
+  margin-top: 5vh;
+  width: 100%;
+  padding: 1vh;
+  background-color: var(--bg);
+  color: #fff;
+  font-weight: bold;
+}
 
-  .contactform {
-    display: flex;
-    flex-direction: row;
-  }
-  .contactform input{ 
-    font-size: 1.2em;
-    padding-top: 0.5vh;
-    padding-bottom: 0.5vh;
-    padding-left: 2vw;
-    padding-right: 2vw;
-  }
-  .contactform textarea {
-    width: 100%;
-    height: 100%;
-    resize: none;
-    text-align: left;
-    font-size: 1em;
-    padding: 1vh;
-  }
-  .contactform .input {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 3vh;
-  }
-  .contactform .textarea {
-    margin-left: 5%;
-    width: 66.9%;
-  }
+.contactform {
+  display: flex;
+  flex-direction: row;
+}
+.contactform input{ 
+  font-size: 1.2em;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.contactform textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  text-align: left;
+  font-size: 1em;
+  padding: 1vh;
+}
+.contactform .input {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 3vh;
+}
+.contactform .textarea {
+  margin-left: 5%;
+  width: 66.9%;
+}
 
 
 .right {
@@ -461,6 +477,10 @@ iframe {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.profile {
+  width: 70%;
 }
 
 .tonext {
@@ -953,16 +973,13 @@ label:active::after{
       min-height: 220vh;
     }
     .start {
-      width: 150vw;
+      width: 100vw;
       min-height: 220vh;
       margin-left: -100vw;
-    }
-    .start h1, .start .h2under, .start .h1main, .start .h1hold, .start p, .start .file{
       transform:  translateX(50vw);
     }
     .start .h1main, .start .h1hold {
       margin-top: 2vh;
-      display: inline-block;
     }
 
     #loader { 
@@ -978,6 +995,9 @@ label:active::after{
     .p {width: 200vw; margin-left: -55vw;}
 
 
+  .profile { 
+    width: 100vw;
+  }
     .project {
       width: 100%;
     }
@@ -1035,11 +1055,7 @@ label:active::after{
     }
 
     .tonext {
-      margin-top: 0;
-      right: 0;
-      top: 0;
-      margin-top: 220vh;
-      margin-right: -25vh;
+      display: none;
     }
   }
 }
@@ -1064,16 +1080,17 @@ label:active::after{
       min-height: 200vh;
     }
     .start {
-      max-width: 150vw;
+      max-width: 115vw;
       margin-left: -70vw;
       transform: translateY(-15vh);
-    }
-    .start h1, .start .h2under, .start .h1main, .start .h1hold, .start p, .start .file {
       transform: translateX(35vw);
     }
     .start .h1main, .start .h1hold {
       margin-top: 10vh;
-      display: inline-block;
+    }
+
+    .profile {
+      width: 115vw;
     }
     
     #loader {
@@ -1139,12 +1156,7 @@ label:active::after{
     }
 
     .tonext {
-      margin-top: 0;
-      margin-bottom: 72vh;
-      bottom: 0;
-      right: 0;
-      margin-left: 0vw;
-      margin-right: -39vw;
+      display:none;
     }
 
     .pages, .mini  {
