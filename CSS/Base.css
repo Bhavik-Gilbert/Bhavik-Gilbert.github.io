@@ -370,6 +370,7 @@ iframe {
   height: 20em;
   border-width: 0.2em;
   background-color: var(--primaryopaque1);
+  
 }
 .mini .page h4, .mini .pagefocus h4{
   font-weight: bold;
@@ -379,8 +380,8 @@ iframe {
   font-size: 0.8em;
 }
 .mini .page:hover, .mini .pagefocus:hover {
-  width: 20em;
-  height: 30em;
+  width: 17em;
+  height: 25em;
   padding-bottom: 3em;
   border-width: 0;
 }
@@ -562,8 +563,8 @@ a {
   margin-right: 1em;
 }
 .page:hover {
-  width: 23em;
-  height: 37em;
+  width: 21em;
+  height: 30em;
   background-color: var(--primaryopaque1);
   overflow: scroll;
   padding-bottom: 3em;
