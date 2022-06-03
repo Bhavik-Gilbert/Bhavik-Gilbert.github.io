@@ -20,10 +20,16 @@
 
 <div class="next" align="center">
     <h1>Projects</h1>
-    <div class=left>
-    <div class=project align="center">
-        <h4>Ecosystem Simulator</h4>
-        <h5>Java<br>Simulator with GUI(concurrent Executors, Swing, JPanel)</h5>
+    <div class=project id="Ecosystem Simulator" onclick="displayinfo('Ecosystem Simulator','project', 'project')">
+        <img class="project-image" src="CSS/Images/Titles/Ecosystem/ES1.png">
+
+        <div>
+            <h4>Ecosystem Simulator</h4>
+            <h5>Java<br>Simulator with GUI(concurrent Executors, Swing, JPanel)</h5>
+        </div>
+    </div>
+
+    <div class=projectinfo id="Ecosystem Simulatorinfo">
         <div class=file>
             Report
             <br>
@@ -36,25 +42,28 @@
             <a href=https://github.com/Bhavik-Gilbert/Predator-Prey-Simulation class=btn_image target="_blank"
                 style="background-image: url(CSS/Images/GitHub_logo.png);"></a>
         </div>
- 
+
         <div class=description align="center">
             Partner project revolving around the creation of an ecosystem simulator. Includes animals, plants, weather effects, disease and time of
             day, dictating animal actions and effecting action probability. Functional and OOP implementation using Java class
             structure alongside lambdas and executor class to make use of multi-thread operations to speed up performance where
             possible. GUI displays selected actors in ecosystem field alongside population figures, aided by a live pie chart to
             display figures visually.
+        </div>
 
-            <iframe src="https://bhavik-gilbert.github.io/Entity/Github_Readme/ecosystem_simulator.html"></iframe>
+        <iframe src="https://bhavik-gilbert.github.io/Entity/Github_Readme/ecosystem_simulator.html"></iframe>
+    </div>
+
+    <div class=project id="Facial Recognition Login System" onclick="displayinfo('Facial Recognition Login System','project', 'project')">
+        <img class="project-image" src="CSS/Images/Titles/Facial Recognition/FR_2.png">
+
+        <div>
+            <h4>Facial Recognition Login System</h4>
+            <h5>Python<br>AI with Database Systems(Tkinter/PIL/CV2/DeepFace(tensorflow)/MYSQL Connector)</h5>
         </div>
     </div>
-    </div>
-    
-    <br><br>
 
-    <div class=right>
-    <div class=project align="center">
-        <h4>Facial Recognition Login System</h4>
-        <h5>Python<br>AI with Database Systems(Tkinter/PIL/CV2/DeepFace(tensorflow)/MYSQL Connector)</h5></h5>
+    <div class=projectinfo id="Facial Recognition Login Systeminfo">
         <div class=file>
             Repository
             <br>
@@ -78,18 +87,21 @@
             thereby allowing the system to develop and become more accurate the more times a user logs in.
             <br><br>
             Currently for speed, only 20 images per person can be uploaded to the database.
+        </div>
 
-            <iframe src="https://bhavik-gilbert.github.io/Entity/Github_Readme/facial_recognition.html"></iframe>
+        <iframe src="https://bhavik-gilbert.github.io/Entity/Github_Readme/facial_recognition.html"></iframe>
+    </div>
+
+    <div class=project id="Ticketing System" onclick="displayinfo('Ticketing System','project', 'project')">
+        <img class="project-image" src="CSS/Images/Titles/Ticketing System/TS1.png">
+
+        <div>
+            <h4>Ticketing System</h4>
+            <h5>Python/SQL/CSS/HTML/Javascript<br>Web Development Database System(Flask/MYSQL Connector)</h5>
         </div>
     </div>
-    </div>
-    
-    <br><br>
 
-    <div class=left>
-    <div class=project align="center">
-        <h4>Ticketing System</h4>
-        <h5>Python/SQL/CSS/HTML/Javascript<br>Web Development Database System(Flask/MYSQL Connector)</h5>
+    <div class=projectinfo id="Ticketing Systeminfo">
         <div class=file>
             View Work
             <br>
@@ -109,18 +121,21 @@
             <br>
             Users can manage and run groups and projects, with those managers being able to create new tickets as well as delete groups/projects or transfer management. They can also invite and kick users.
             General users can start, drop and finish tickets available in the projects they're in.
-            
-            <iframe src="https://bhavik-gilbert.github.io/Entity/Github_Readme/ticketing_system.html"></iframe>
+        </div>
+
+        <iframe src="https://bhavik-gilbert.github.io/Entity/Github_Readme/ticketing_system.html"></iframe>
+    </div>
+
+    <div class=project id="Photography Booking & Management System" onclick="displayinfo('Photography Booking & Management System','project', 'project')">
+        <img class="project-image" src="CSS/Images/Titles/Booking System/BS1.png">
+
+        <div>
+            <h4>Photography Booking & Management System</h4>
+            <h5>PHP/SQL/HTML/Javascript<br>Coursework</h5>
         </div>
     </div>
-    </div>
 
-    <br><br>
-
-    <div class=right>
-    <div class=project align="center">
-        <h4>Photography Booking & Management System</h4>
-        <h5>PHP/SQL/HTML/Javascript<br>Coursework</h5>
+    <div class="projectinfo" id="Photography Booking & Management Systeminfo">
         <div class=file>
             View Work
             <br>
@@ -142,14 +157,17 @@
             pdf booking receipt, graphical report of sales, imagery portfolio slideshow.
         </div>
     </div>
+
+    <div class=project id="QMUL Python Exoplanet Hunting Programme" onclick="displayinfo('QMUL Python Exoplanet Hunting Programme','project', 'project')">
+        <img class="project-image" src="CSS/Images/Titles/Exoplanet/Phase Fold.PNG">
+
+        <div>
+            <h4>QMUL Python Exoplanet Hunting Programme</h4>
+            <h5>Python<br>Kepler Data Analysis & Graphical Manipulation</h5>
+        </div>
     </div>
 
-    <br><br>
-
-    <div class=left>
-    <div class=project align="center">
-        <h4>QMUL Python Exoplanet Hunting Programme</h4>
-        <h5>Python<br>Kepler Data Analysis & Graphical Manipulation</h5>
+    <div class=projectinfo id="QMUL Python Exoplanet Hunting Programmeinfo">
         <div class=file>
             Repository
             <br> 
@@ -169,10 +187,9 @@
             achieve a phase fold of a change in star luminosity from the Kepler mission, to later calculate the radius of the planet orbiting around it. This programme used 
             the real data from the Kepler mission, resulting in the use of genuine data, being a great opportunity to expand on previous python knowledge and experience these 2 libraries.
         </div> 
-    </div>
     </div> 
 
-    <h2 style="margin-top: 5em;">Additional Projects</h2>
+    <h2>Additional Projects</h2>
 
     <div class=mini>
         <div class=page>
@@ -203,6 +220,8 @@
 
 </body>
 </html>
+
+<script src="Scripts/PageInfoControls.js"></script>
 
 <script>
     removeloader();

@@ -65,7 +65,6 @@ async function displayanimatein(item) {
 
     item.style.opacity = current.toString();
     item.style.display = "block";
-    item.style.marginTop = "2em";
 
     while (current < 1) {
         current += 0.1;

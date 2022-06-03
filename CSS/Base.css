@@ -249,83 +249,33 @@ input:hover::placeholder {
   width: 66.9%;
 }
 
-
-.right {
-  left: 15em; margin-bottom: 0.5em; height:min-content; position: relative; transform: translateX(0); transition: var(--ease);
+.project, .projectfocus {
+  border: 0.2em solid var(--primary); background-color: var(--primaryopaque1); opacity: 0.9;
+  color:var(--secondary); font-size: 1em; transition: var(--ease); width: 70%; overflow:hidden;
+  display: flex; flex-direction: row; gap:5%; cursor:hand; margin-bottom: 2em;
 }
-.right:hover {
-  transform: translateX(-15em);
+.projectfocus {
+  margin-bottom: 0; border-bottom: hidden; opacity: 1; background-color: var(--primary)
 }
-.left {
-  right: 15em; margin-bottom: 0.5em; height:min-content; position: relative; transform: translateX(0); transition: var(--ease);
+.project .project-image, .projectfocus .project-image {
+  max-width: 20%;
+  height:fill;
+  display: block;
+  object-fit: contain;
+  border-right: 0.2em solid var(--primary);
 }
-.left:hover {
-  transform: translateX(15em);
+.project h4, .project h5, .projectfocus h4, .projectfocus h5 {
+  text-align: left;
 }
-
-.left:hover .project, .right:hover .project {
-  opacity: 1;
+.projectinfo {
+  display:none; border: 0.2em solid var(--primary); border-top:hidden; background-color: var(--primaryopaque1); opacity: 1;
+  color:var(--secondary); font-size: 1em; transition: var(--ease); width: 70%; overflow:hidden; margin-bottom:2em;
 }
-
-.project {
-  border:2px solid var(--primary); padding: 0.5em 0 0 0; background-color: var(--primaryopaque1); opacity:0.7; text-align:center;
-  color:var(--secondary); font-size: 1em; transition: var(--ease); width: 55%; border-radius: 10em; overflow:hidden;
+.projectinfo .description {
+  margin: 2vw;
 }
-.project:hover {
-  opacity:1; width:70%;
-  background-size: 400% 400%; background-repeat: no-repeat; background-color: var(--primary);
-  background-attachment: fixed; 
-  animation: gradient 10s ease infinite; border-radius: 0; border-width: 0.2em;
-  --angle: 0deg;
-  border-image: linear-gradient(var(--angle), var(--secondary), var(--primary)) 1;
-  animation: 3s rotateborder linear -1s infinite, 1s loadborder linear;
-  box-shadow: 0.1em 0.1em 1em #000;
-}
-@keyframes loadborder {
-  0% {
-    border-color: var(--secondary);
-    border-image: none;
-  }
-  100% {
-    border-image: linear-gradient(var(--angle), var(--secondary), var(--primary)) 1;
-  }
-}
-@keyframes rotateborder {
-  to {
-    --angle: 360deg;
-  }
-}
-@property --angle {
-  syntax: '<angle>';
-  initial-value: 0deg;
-  inherits: false;
-}
-.description {
-  font-size: 0em; transition: var(--linear);
-}
-.project:hover .description {
-  margin-top: 0.1em; font-size: 0.9em;
-}
-.project .pic, .project iframe {
-  opacity: 0;
-  height: 0;
-  overflow: hidden;
-}
-.project:hover .pic {
-  opacity: 1; height: auto;
-}
-.project:hover iframe {
-  opacity: 1; height: 50vh; margin-top: 3vh;
-}
-.project .file {
-  opacity: 0;
-  height: 0;
-  overflow: hidden;
-  padding:0;
-}
-.project:hover .file {
-  opacity: 1; height: auto;
-  padding:20px;
+.projectinfo iframe {
+  height: 50vh;
 }
 
 .pic {height:100px;width:180px;border: var(--secondary); border-radius: 20px; border-style: double; transition: var(--ease)}
@@ -464,6 +414,7 @@ iframe {
   padding: 1em 0 0.5em 0;
   transition: var(--ease);
   overflow: none;
+  margin-top :2em;
 }
 .infobox p {
   font-family: "Times New Roman", Times, serif; font-weight: 550; font-size: 1em; line-height: 1.4em;
@@ -998,44 +949,14 @@ label:active::after{
     .h2under { font-size: 5vw; margin-top: 0.2em}
     p {font-size: 5vw;}
     .p {width: 200vw; margin-left: -55vw;}
-
-
-  .profile { 
-    width: 100vw;
-  }
-    .project {
-      width: 100%;
-    }
-    .project:hover {
-      width: 180%;
-      font-size: 10vw;
-    }
-    .project:hover h4 {
-      font-size: 8vw;
-    }
-    .project:hover h5{
-      font-size: 6vw;
-    }
-    .project:hover .description {
-      font-size: 0.7em;
-    }
-    .project:hover iframe {
-      height: 75vh; margin-top: 10vh;
-    }
-    
-    .right {
-      transform: translateX(-10vw);
-    }
-    
-    .right:hover {
-      transform: translateX(-102vw);
-    }
-    .left:hover {
-      transform: translateX(14vw);
-    }
     
     .upshape, .downshape {
       display: none;
+    }
+
+    .project, .projectfocus, .projectinfo {
+      width: 170vw;
+      transform: translateX(-39vw);
     }
 
     .pages, .mini {
@@ -1121,34 +1042,10 @@ label:active::after{
     p {
       font-size: 5vh;
     }
-    
-    .project {
-      width: 70%;
-    }
-    .project:hover {
-      width: 150%;
-      font-size: 3vw;
-    }
-    .project:hover h4 {
-      font-size: 5vw;
-    }
-    .project:hover h5{
-      font-size: 3vw;
-    }
-    .left {
-      transform: translateX(-5vw);
-    }
-    .right {
-      transform: translateX(5vw);
-    }
-    .left:hover {
-      transform: translateX(2vw);
-    }
-    .right:hover {
-      transform: translateX(-52vw);
-    }
-    .project:hover iframe {
-      height: 100vh; margin-top: 10vh;
+
+    .project, .projectfocus, .projectinfo {
+      width: 115vw;
+      transform: translateX(-9vw);
     }
     
     .mini .page {
