@@ -262,7 +262,10 @@ input:hover::placeholder {
 .project, .projectfocus {
   border: 0.2em solid var(--primary); background-color: var(--primaryopaque1); opacity: 0.9;
   color:var(--secondary); font-size: 1em; transition: var(--ease); width: 70%; overflow:hidden;
-  display: flex; flex-direction: row, hand; margin-bottom: 2em;
+  display: flex; flex-direction: row, hand; gap:1em; margin-bottom: 2em;
+}
+.project:hover, .projectfocus:hover {
+  background-color: var(--primaryopaque2);
 }
 .projectfocus {
   margin-bottom: 0; border-bottom: hidden; opacity: 1; background-color: var(--primary)
