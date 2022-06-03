@@ -49,6 +49,7 @@
   font-size: 18px;
   margin-bottom: 0;
   margin-top: -0.5em;
+  cursor: var(--knight), hand;
 }
 
 .controlpanel {
@@ -84,6 +85,7 @@
 .navbar:hover label,
 .navbar:hover input:checked+label {
   background-color: var(--bg);
+  cursor: var(--king), hand;
 }
 
 /** mobile optimisations **/

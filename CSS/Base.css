@@ -15,7 +15,12 @@ html {
   --ease: all 0.5s ease;
   --linear: all 0.3s linear;
 
-  max-width: 102vw;
+  --king: url('Images/Cursors/black king.cur');
+  --queen: url('Images/Cursors/black queen.cur');
+  --rook: url('Images/Cursors/black rook.cur');
+  --bishop: url('Images/Cursors/black bishop.cur');
+  --knight: url('Images/Cursors/black knight.cur');
+  --pawn: url('Images/Cursors/black pawn.cur');
 }
 
 html[data-theme="light"] {
@@ -28,6 +33,13 @@ html[data-theme="light"] {
   --bgopaque2: #ffbf4a;
   --bglight: #fce6c7;
   --highlight: #7d5201;
+
+  --king: url('Images/Cursors/white king.cur');
+  --queen: url('Images/Cursors/white queen.cur');
+  --rook: url('Images/Cursors/white rook.cur');
+  --bishop: url('Images/Cursors/white bishop.cur');
+  --knight: url('Images/Cursors/white knight.cur');
+  --pawn: url('Images/Cursors/white pawn.cur');
 }
 
 html.transition, html.transition *, html.transition::before, html.transition::after {
@@ -132,7 +144,6 @@ body[data-page="home"] {
 .h1main:hover, .h1hold:hover {
   font-family: "Monaco", monospace;
   font-size: 5em;
-  cursor: hand;
 }
 .h2under {
   color: var(--bglight);
@@ -160,7 +171,6 @@ body[data-page="home"] {
 .hoptext:hover, .hoptexthold:hover {
   transform: translateY(-0.2em);
   color:  var(--primary);
-  cursor: hand;
 }
 
 h1{color: var(--secondary); font-family: "Courier New","Lucida Console", monospace;}
@@ -252,7 +262,7 @@ input:hover::placeholder {
 .project, .projectfocus {
   border: 0.2em solid var(--primary); background-color: var(--primaryopaque1); opacity: 0.9;
   color:var(--secondary); font-size: 1em; transition: var(--ease); width: 70%; overflow:hidden;
-  display: flex; flex-direction: row; gap:5%; cursor:hand; margin-bottom: 2em;
+  display: flex; flex-direction: row, hand; margin-bottom: 2em;
 }
 .projectfocus {
   margin-bottom: 0; border-bottom: hidden; opacity: 1; background-color: var(--primary)
@@ -393,10 +403,6 @@ iframe {
 .mini button:hover {
   background-color: var(--secondary);
   color: var(--bg);
-}
-
-.select .page, .select .pagefocus {
-  cursor: hand;
 }
 .select .page {
   background-color: transparent;
@@ -892,6 +898,26 @@ label:active::after{
     border-radius: 50%;
   }
 
+}
+
+/** custom cursors **/
+.h1main:hover, .h1hold:hover, .hoptext:hover, .hoptexthold:hover {
+  cursor: var(--pawn), hand;
+}
+.project, .projectfocus {
+  cursor: var(--queen), hand;
+}
+.page {
+  cursor: var(--knight), hand;
+}
+.mini .page {
+  cursor: auto;
+}
+.select .page, .select .pagefocus {
+  cursor: var(--rook), hand;
+}
+.submit input, .file, .btn_image, .mini button {
+  cursor: var(--bishop), hand;
 }
 
 

@@ -40,6 +40,7 @@
     color: var(--secondary);
     opacity: 1;
     box-shadow: 0.1em 0.1em 1em var(--bgopaque);
+    cursor: var(--knight), hand;
 }
 
 /** pulse effect **/
