@@ -274,11 +274,14 @@ input:hover::placeholder {
   max-width: 20%;
   height:fill;
   display: block;
-  object-fit: contain;
+  object-fit: fill;
   border-right: 0.2em solid var(--primary);
 }
 .project h4, .project h5, .projectfocus h4, .projectfocus h5 {
   text-align: left;
+}
+.project .display .logo, .projectfocus .display .logo {
+  float: left; margin-right: 1vw; margin-bottom: 1vw; cursor:inherit;
 }
 .projectinfo {
   display:none; border: 0.2em solid var(--primary); border-top:hidden; background-color: var(--primaryopaque1); opacity: 1;
@@ -293,6 +296,9 @@ input:hover::placeholder {
 
 .pic {height:100px;width:180px;border: var(--secondary); border-radius: 20px; border-style: double; transition: var(--ease)}
 .pic:hover {height:200;width: 360px;}
+
+.logo {width: 3vw; height: 3vw;}
+marquee .logo {padding-right: 4vw;}
 
 iframe {
   display: block;
@@ -311,8 +317,6 @@ iframe {
       text-align: center; border:3px;border-style: solid;}
 .btn:hover {padding: 10px;font-size: 15px;color: var(--secondary);background: #eb0000;border: var(--primary);border-radius: 5px;
       text-align: center; border:5px; border-style: solid;}
-
-
 
 .file{display: inline-block; height: auto; width: auto; text-align: center; padding: 20px;  font-family: "Brush Script MT", cursive; font-style: italic; color: var(--secondary); font-size:1em; transition: var(--ease);}
 .btn_image{padding: 10px; height:20px;width:20px; border-color: var(--secondary); border-radius: 10px; display: inline-block; transition: var(--ease);}
@@ -987,6 +991,8 @@ label:active::after{
       width: 170vw;
       transform: translateX(-39vw);
     }
+    .project .display .logo, .projectfocus .display .logo {margin-right: 1vh; margin-bottom: 1vh;}
+    .logo {width: 4vh; height: 4vh;}
 
     .pages, .mini {
       width: 225vw;
@@ -1076,7 +1082,9 @@ label:active::after{
       width: 115vw;
       transform: translateX(-9vw);
     }
-    
+
+    .logo {width: 5vw; height: 5vw;}
+
     .mini .page {
       margin-top: 1em;
     }
