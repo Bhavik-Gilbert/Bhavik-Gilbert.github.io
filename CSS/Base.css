@@ -403,7 +403,7 @@ iframe {
   box-shadow: 0.1em 0.1em 1em #000;
   padding: 0.5em;
   margin: 0.5em;
-  font-size: 1em;
+  font-size: 1.1em;
   color: var(--secondary);
   transition: var(--linear);
 }
