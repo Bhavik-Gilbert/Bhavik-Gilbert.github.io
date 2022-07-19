@@ -1,3 +1,6 @@
+// timer function
+const timer = ms => new Promise(res => setTimeout(res, ms));
+
 // locks scrolling
 function addscrolllock() {
      if(!handheldcheck()) {
@@ -5,7 +8,6 @@ function addscrolllock() {
         $('body').bind('touchmove', function (e) { e.preventDefault() });
     }
 }
-
 
 // gets current position of scrollY
 var prevY = 0;
@@ -23,7 +25,6 @@ document.addEventListener('scroll', async function (e) {
         $('body').addClass('stop-scrolling');
         $('body').bind('touchmove', function (e) { e.preventDefault() });
 
-        const timer = ms => new Promise(res => setTimeout(res, ms));
         await timer(500);
         if(window.scrollY > 5) {
             topFunction();

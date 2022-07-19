@@ -1,3 +1,6 @@
+// timer function
+const timer = ms => new Promise(res => setTimeout(res, ms));
+
 // creates map for different info lists
 const regions = new Map();
 
