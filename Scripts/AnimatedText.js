@@ -53,3 +53,30 @@ function reversecapitalize(letter) {
 
     return letter.toUpperCase();
 }
+
+async function changeText(id, text) {
+    var display = [];
+
+    var time = 3000/text.length
+
+    if (time > 500) {
+        time = 500;
+    }
+
+    for (let i = 0; i < text.length; i++) {
+        current = document.getElementById(id).innerHTML; 
+        
+        if(equals(current.split(""), display) || display.length == 0) {
+            display.push(text[i]);
+            document.getElementById(id).innerHTML = display.toString().replaceAll(",","");
+        }
+        else{
+            break;
+        }
+        await timer(time);
+    }
+}
+
+function changeBack(id, text) {
+    document.getElementById(id).innerHTML = text;
+}
