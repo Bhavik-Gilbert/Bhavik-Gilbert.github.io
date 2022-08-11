@@ -54,6 +54,8 @@ function reversecapitalize(letter) {
     return letter.toUpperCase();
 }
 
+const equals = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+
 async function changeText(id, text) {
     var display = [];
 
