@@ -71,7 +71,7 @@ body {
   -webkit-overflow-scrolling: touch;
   animation: bgslide 80s ease infinite;
   max-width: 102vw;
-  overflow-x: hidden !important; /* Hide horizontal scrollbar */
+  /*overflow-x: hidden !important;*/ /* Hide horizontal scrollbar */
   overflow-y: scroll;
 }
 
