@@ -1,11 +1,11 @@
 .navbar {
   overflow: hidden;
   margin-bottom: 1.5em;
-  width: 102%;
+  width: 99.9vw;
   margin-top: -0.5em;
   margin-left: -1em;
   transition: all 0.5s ease;
-  display: inline-block
+  display: inline-block;
 }
 
 .navbar:hover {

@@ -1,6 +1,6 @@
 .footer{
     position: bottom;
-    width: 102%;
+    width: 99.9vw;
     background-color: var(--primaryopaque1);
     height: max-content;
     padding-bottom: 2em;
