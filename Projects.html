@@ -10,6 +10,7 @@
     </script>
     <script src="Scripts/LoadPage.js"></script>
     <script src="Scripts/AnimatedText.js"></script>
+    <script src="Scripts/PageTabControls.js"></script>
 </head>
 
 <html lang="en" data-theme="dark">
@@ -27,6 +28,7 @@
         <marquee direction="right">
             <img class=logo src="CSS/Images/Titles/Technology Logos/python.png">
             <img class=logo src="CSS/Images/Titles/Technology Logos/java.png">
+            <img class=logo src="CSS/Images/Titles/Technology Logos/scala.png">
             <img class=logo src="CSS/Images/Titles/Technology Logos/c.png">
             <img class=logo src="CSS/Images/Titles/Technology Logos/c++.png">
             <img class=logo src="CSS/Images/Titles/Technology Logos/csharp.png">
@@ -38,41 +40,35 @@
         </marquee>
     </div>
 
-    <div class=project id="SpeedTypingTest" onclick="displayinfo('SpeedTypingTest','project', 'project')">
-        <img class="project-image" src="CSS/Images/Titles/Typing Speed Test/TST1.png">
+    <div class=project id="StorePatroller" onclick="displayinfo('StorePatroller','project', 'project')">
+        <!-- <img class="project-image" src="CSS/Images/Titles/Typing Speed Test/TST1.png"> -->
 
         <div>
-            <h4>Typing Speed Test</h4>
-            <h5>React Project</h5>
+            <h4>Robotic Storeroom Inventory Scanner</h4>
+            <h5>ROS Robotics(SMACH, YOLO)</h5>
             <div class="display">
-                <img class=logo src="CSS/Images/Titles/Technology Logos/react.png">
-                <img class=logo src="CSS/Images/Titles/Technology Logos/javascript.png">
-                <img class=logo src="CSS/Images/Titles/Technology Logos/CSS.png">
-                <img class=logo src="CSS/Images/Titles/Technology Logos/html.png">
+                <img class=logo src="CSS/Images/Titles/Technology Logos/python.png">
             </div>
         </div>
     </div>
     
 
-    <div class=projectinfo id="SpeedTypingTestinfo">
-        <div class=file>
-            Live Site
-            <br>
-            <a href=https://typingtestspeed.netlify.app/ class=btn_image target="_blank"
-                style="background-image: url(CSS/Images/chrome_logo.jpg);"></a>
-        </div>
-        <div class=file>
-            Repository
-            <br>
-            <a href=https://github.com/Bhavik-Gilbert/SpeedTyping class=btn_image target="_blank"
-                style="background-image: url(CSS/Images/GitHub_logo.png);"></a>
-        </div>
-
+    <div class=projectinfo id="StorePatrollerinfo">
         <div class=description align="center">
-            Typing speed test web app aimed to improve typing speed by tracking and outputting data during and after testing. 
-            Outputs accuracy, WPM, CPM and max WPM, alongside providing in test feedback on correct values, incorrect values, 
-            upper case and longer than valid values. Can be used to track speed improvements in both short bursts and longer
-            periods.
+            Development of a ROS robotics application using SMACH states within a Simple Action Server.
+            The TurtleBot3 navigates to a specified room, and then moves between a set number of points in
+            said room. While moving between points, it continuously scans the room, taking pictures of what it sees.
+            Using the YOLODetector library, the images are then scanned for items, and fed back to the user as a
+            list of items found and the quantity of each item seen. The process of scanning and moving within the room 
+            is repeated until the robot finds the item specified, in this case is cake, where it then outputs the final
+            list of items found in the room alongside the quantity of each item seen and the time taken to find the specified 
+            item.
+
+            <h5>Background</h5>
+            Our robot, a TurtleBot3, is working in a store doing the inventory of items overnight. It
+            must go around the building noting the items it sees. The owner is interested in all items,
+            but in one above all: cake. The inventory robot must navigate on a specific pattern while
+            reporting the objects that it sees, until it finds cake.
         </div>
     </div>
 
@@ -265,10 +261,51 @@
     </div> 
 
     <br><br>
-    <h2>Additional Projects</h2>
-
+    <h2>More Projects</h2>
+    
+    <div class="dotbox" id="moreprojectsdots"></div>
     <div class=mini>
-        <div class=page>
+        <button id="previousmoreprojects" onclick="previouselement('moreprojects')"><span>&#8636;</span></button>
+
+        <div class=page id="Typing Speed Test">
+            <script>addcontainer("moreprojects", "Typing Speed Test");</script>
+
+            <div>
+                <h4>Typing Speed Test</h4>
+                <h5>React Project</h5>
+
+                <div class="display">
+                    <img class=logo src="CSS/Images/Titles/Technology Logos/react.png">
+                    <img class=logo src="CSS/Images/Titles/Technology Logos/javascript.png">
+                    <img class=logo src="CSS/Images/Titles/Technology Logos/CSS.png">
+                    <img class=logo src="CSS/Images/Titles/Technology Logos/html.png">
+                </div>
+
+                <br>
+                <img alt="GitHub repo size" src="https://img.shields.io/github/languages/top/Bhavik-Gilbert/SpeedTyping">
+                <img alt="GitHub repo size" src="https://img.shields.io/github/languages/count/Bhavik-Gilbert/SpeedTyping">
+                <img alt="GitHub repo size" src="https://img.shields.io/github/last-commit/Bhavik-Gilbert/SpeedTyping">
+                <img alt="GitHub repo size" src="https://img.shields.io/github/contributors/Bhavik-Gilbert/SpeedTyping">
+                <br>
+
+                <div class=file>
+                    Live Site
+                    <br>
+                    <a href=https://typingtestspeed.netlify.app/ class=btn_image target="_blank"
+                        style="background-image: url(CSS/Images/chrome_logo.jpg);"></a>
+                </div>
+                <div class=file>
+                    Repository
+                    <br>
+                    <a href=https://github.com/Bhavik-Gilbert/SpeedTyping class=btn_image target="_blank"
+                        style="background-image: url(CSS/Images/GitHub_logo.png);"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class=page id="Property Viewer Application">
+            <script>addcontainer("moreprojects", "Property Viewer Application");</script>
+
             <h4>Property Viewer Application</h4>
             <h5>Java/CSS/XML<br>GUI Application(JavaFx, WebView)</h5>
 
@@ -291,7 +328,9 @@
             </div>
         </div>
 
-        <div class=page>
+        <div class=page id="Ecosystem Simulator">
+            <script>addcontainer("moreprojects", "Ecosystem Simulator");</script>
+
             <h4>Ecosystem Simulator</h4>
             <h5>Java<br>Simulator with GUI(Concurrent Executors, Swing, JPanel)</h5>
 
@@ -335,7 +374,9 @@
             --->
         </div>
 
-        <div class=page>
+        <div class=page id="AI Chatbot">
+            <script>addcontainer("moreprojects", "AI Chatbot");</script>
+
             <h4>AI Chatbot</h4>
             <h5>Python<br><br>Image & Text Data Analysis, Model Development and Optimisation</h5>
 
@@ -358,7 +399,9 @@
             </div>
         </div>
 
-        <div class=page>
+        <div class=page id="Pathfinder">
+            <script>addcontainer("moreprojects", "Pathfinder");</script>
+
             <h4>Pathfinder</h4>
             <h5>Python<br><br>A* Pathfinding Algorithm</h5>
 
@@ -380,6 +423,8 @@
                     style="background-image: url(CSS/Images/GitHub_logo.png);"></a>
             </div>
         </div>
+
+        <button id="nextmoreprojects" onclick="nextelement('moreprojects')"><span>&#8640;</span></button>
     </div>
 </div>
 
@@ -391,5 +436,6 @@
 <script src="Scripts/PageInfoControls.js"></script>
 
 <script>
+    loadcontainers();
     removeloader();
 </script>

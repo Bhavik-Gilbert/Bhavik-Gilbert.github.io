@@ -32,7 +32,7 @@ html[data-theme="light"] {
   --bgopaque: #FCAE1E;
   --bgopaque2: #ffbf4a;
   --bglight: #fce6c7;
-  --highlight: #7d5201;
+  --highlight: #ffcd29;
 
   --king: url('Images/Cursors/white king.cur');
   --queen: url('Images/Cursors/white queen.cur');
@@ -87,6 +87,11 @@ body {
   100% {
     background-position : 0px 0px
   }
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 0.9}
 }
 
 html[data-theme="light"] body:not([data-page="home"]){
@@ -342,6 +347,8 @@ iframe {
 .mini .page h4, .mini .pagefocus h4{
   font-weight: bold;
   font-size: 1.2em;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 .mini .page h5, .mini .pagefocus h5 {
   font-size: 0.8em;
@@ -391,10 +398,6 @@ iframe {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.mimi .pagefocus .pageimage {
-  border-radius: 1em 1em 0 0;
-  margin-bottom: 1em;
-}
 .mini button {
   background-color: var(--bg);
   border-radius: 0.5em;
@@ -413,6 +416,32 @@ iframe {
 }
 .select .page {
   background-color: transparent;
+}
+
+.dotbox {
+  text-align:center;
+  transform: translateY(2em);
+  display: block;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.dot {
+  transition: var(--ease);
+  cursor: pointer;
+  height: 1em;
+  width: 1em;
+  margin: 0 0.2em;
+  background-color: var(--secondary);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: var(--bgopaque2);
+  border-color: var(--secondary);
+  border-width: 0.1em;
+  border-style: solid;
+
 }
 
 .infobox {
