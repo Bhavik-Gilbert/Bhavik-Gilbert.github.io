@@ -74,26 +74,6 @@ body {
   overflow-y: scroll;
 }
 
-
-@keyframes bgslide {
-  0% {
-    background-position : 0px 0px
-  }
-
-  50% {
-    background-position : -1440px 0px
-  }
-
-  100% {
-    background-position : 0px 0px
-  }
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 0.9}
-}
-
 html[data-theme="light"] body:not([data-page="home"]){
   background-image: url("Images/background_simple_light.jpg");
 }
@@ -137,6 +117,40 @@ body[data-page="home"] {
 		background-position: 0% 50%;
 	}
 }
+
+@keyframes bgslide {
+  0% {
+    background-position : 0px 0px
+  }
+
+  50% {
+    background-position : -1440px 0px
+  }
+
+  100% {
+    background-position : 0px 0px
+  }
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 0.9}
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: var(--bgopaque);
+  }
+
+  100% {
+    background-color: var(--primaryopaque1);
+  }
+}
+
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
 .h1main, .h1hold {
   font-size: 3em;
   font-weight: bold;

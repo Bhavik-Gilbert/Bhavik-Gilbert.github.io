@@ -6,7 +6,7 @@ size = 3
 function checksize() {
     let oldSize = size;
 
-    size = Math.floor(screen.availWidth / 400);
+    size = Math.floor($(window).width() / 400);
     if (size < 1) size = 1;
 
     return oldSize == size;
