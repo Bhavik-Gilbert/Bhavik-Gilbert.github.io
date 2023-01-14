@@ -30,9 +30,24 @@ function changeActiveDot(listname, index) {
     let dots = document.getElementById(listname + "dots");
     let list = scrollelements.get(listname);
 
-    for(let i=0; i < list.length; i++) {
+    for(let i=0; i < Math.ceil(list.length/size); i++) {
         dots.children[i].className = dots.children[i].className.replace(" active", "");
-        if(i == index) dots.children[i].className += " active";
+        if(i >= Math.floor(index/size) &&  i <= index/size) dots.children[i].className += " active";
+    }
+}
+
+function deleteDots(listname) {
+    let dots = document.getElementById(listname + "dots");
+
+    while(dots.children.length > 0) dots.children[0].remove()
+}
+
+function replaceDots(listname, list) {
+    deleteDots(listname);
+
+    for(let i=0; i < list.length; i++) {
+        if(i == 0) addDot(listname, 0, true);
+        else if(i % size == 0) addDot(listname, i, false);
     }
 }
 
@@ -44,7 +59,7 @@ function addcontainer(listname, name) {
     scrollelements.get(listname).push(name);
 
     if(scrollelements.get(listname).length - 1 == 0) addDot(listname, 0, true);
-    else addDot(listname, (scrollelements.get(listname).length - 1), false);
+    else if((scrollelements.get(listname).length - 1) % size == 0) addDot(listname, (scrollelements.get(listname).length - 1), false);
 }
 
 function hide(list) {
@@ -74,8 +89,8 @@ function loadcontainers() {
 
         scrollindex.set(key, 0);
 
-        if (size < value.length) document.getElementById(key + 'dots').style.opacity = 1
-        else document.getElementById(key + 'dots').style.opacity = 0
+        if (size < value.length) replaceDots(key, value)
+        else deleteDots(key);
     });
 }
 
