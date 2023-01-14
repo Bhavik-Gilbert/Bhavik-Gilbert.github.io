@@ -32,7 +32,7 @@ function changeActiveDot(listname, index) {
 
     for(let i=0; i < Math.ceil(list.length/size); i++) {
         dots.children[i].className = dots.children[i].className.replace(" active", "");
-        if(i >= Math.floor(index/size) &&  i <= index/size) dots.children[i].className += " active";
+        if((i == Math.floor((index+size-1)/size)) ) dots.children[i].className += " active";
     }
 }
 
