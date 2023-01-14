@@ -16,14 +16,12 @@
 
 ## About
 #### Think of it as a portal between points in my online professional presence  
-A portfolio site to hold information on myself ranging from education to skills and experience to projects. It enables employers to get a better view of my skillset 
-and provides them with a better idea of whether or not they should contact me or not, which they can also do via the site.
+A portfolio site to hold information on myself ranging from education to skills and experience to projects. It enables employers to get a better view of my skillset and provides them with a better idea of whether or not they should contact me or not, which they can also do via the site.
     
 ## Technologies
 ### Framworks/Languages
->This application is built using the html, css and javascript.  
->
-* #### Future implemenatations may be moved over to react.js
+>This application is built using html, css and javascript.  
+
 ### Hosting
 >The website is hosted on [github pages](https://bhavik-gilbert.github.io/) and is currently available for anyone to view
   
@@ -32,7 +30,7 @@ and provides them with a better idea of whether or not they should contact me or
 ### Home Page - [Visit](https://bhavik-gilbert.github.io/)
 >Provides a profile of myself alongside important links and documents such as LinkdIn, Github, alongside my CV and Cover letter.
 Also acts a central point providing extra accessibility to the whole site alongside a description of each page.
-### Projects Page - [Visit](https://bhavik-gilbert.github.io/Projects.html/Projects.html)
+### Projects Page - [Visit](https://bhavik-gilbert.github.io/Projects.html)
 >A list of all my most important projects with a description of what they are and the best ways to view them.
 ### Education Page - [Visit](https://bhavik-gilbert.github.io/Education.html)
 >A list of all my education with grades, alongside other achievements and awards.
