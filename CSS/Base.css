@@ -134,7 +134,16 @@ body[data-page="home"] {
 
 @keyframes fade {
   from {opacity: .4}
-  to {opacity: 0.9}
+  to {opacity: 1}
+}
+
+@keyframes slidein-left {
+  from {transform: translateX(-100%);}
+  to {}
+}
+@keyframes slidein-right {
+  from {transform: translateX(100%);}
+  to {}
 }
 
 @keyframes skeleton-loading {
@@ -147,9 +156,10 @@ body[data-page="home"] {
   }
 }
 
-.skeleton {
-  animation: skeleton-loading 1s linear infinite alternate;
-}
+.skeleton { animation: skeleton-loading 1s linear infinite alternate;}
+
+.slideinleft { animation: fade 2s, slidein-left 1s;}
+.slideinright { animation: fade 2s, slidein-right 1s;}
 
 .h1main, .h1hold {
   font-size: 3em;
@@ -356,16 +366,15 @@ iframe {
   height: 20em;
   border-width: 0.2em;
   background-color: var(--primaryopaque1);
-  
 }
 .mini .page h4, .mini .pagefocus h4{
   font-weight: bold;
   font-size: 1.2em;
-  animation-name: fade;
-  animation-duration: 1.5s;
+
 }
 .mini .page h5, .mini .pagefocus h5 {
   font-size: 0.8em;
+
 }
 .mini .page:hover, .mini .pagefocus:hover {
   width: 17em;

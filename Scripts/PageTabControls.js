@@ -163,15 +163,26 @@ function previouselement(listname) {
 }
 
 function changeelement(list, index, previousindex) {
+    // remove old
     let element = document.getElementById(list[previousindex]);
     if (typeof (element) != 'undefined' && element != null) {
         element.style.display = "none";
     }
     
+    // add new and new arrive
     for(let i=index; i<index+size; i++) {
         let element = document.getElementById(list[i]);
         if(typeof(element) != 'undefined' && element != null){
             element.style.display = "block";
+            for(let n = 0; n < element.children.length; n++) {
+                if(typeof(element.children[n]) != 'undefined' && element.children[n] != null){
+                    element.children[n].classList.remove("slideinleft");
+                    element.children[n].classList.remove("slideinright");
+                    if (index > previousindex) element.children[n].classList.add("slideinright");
+                    else element.children[n].classList.add("slideinleft");
+                }
+            }
+            element.innerHTML = element.innerHTML;
         }
     }    
 }
