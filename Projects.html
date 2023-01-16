@@ -41,7 +41,7 @@
     </div>
 
     <div class=project id="StorePatroller" onclick="displayinfo('StorePatroller','project', 'project')">
-        <!-- <img class="project-image" src="CSS/Images/Titles/Typing Speed Test/TST1.png"> -->
+        <img class="project-image" src="CSS/Images/Titles/ROS Storeageroom Scanner/RSS1.png">
 
         <div>
             <h4>Robotic Storeroom Inventory Scanner</h4>
@@ -54,15 +54,21 @@
     
 
     <div class=projectinfo id="StorePatrollerinfo">
+        <!-- <div class=file>
+            Repository
+            <br>
+            <a href=https://github.com/Bhavik-Gilbert/ROS-Room-Inventory-Scanner class=btn_image target="_blank"
+                style="background-image: url(CSS/Images/GitHub_logo.png);"></a>
+        </div> -->
+
+        
         <div class=description align="center">
-            Development of a ROS robotics application using SMACH states within a Simple Action Server.
-            The TurtleBot3 navigates to a specified room, and then moves between a set number of points in
-            said room. While moving between points, it continuously scans the room, taking pictures of what it sees.
-            Using the YOLODetector library, the images are then scanned for items, and fed back to the user as a
-            list of items found and the quantity of each item seen. The process of scanning and moving within the room 
-            is repeated until the robot finds the item specified, in this case is cake, where it then outputs the final
-            list of items found in the room alongside the quantity of each item seen and the time taken to find the specified 
-            item.
+            Development of a ROS robotics application using concurrent SMACH states, an Action Server and the YOLO image recognition neural network.
+            The TurtleBot3 navigates to a specified room, then moves around the room, continuously scanning the environment around it.
+            Using the YOLODetector library, the feed images are then scanned for items, and fed back to the user as a
+            list of items found and the quantity of each item seen. This process is continued until item specified is found, in this case is cake, 
+            where it then outputs the final list of items encountered in the room alongside the quantity of each item seen and the time taken to find 
+            the specified item.
 
             <h5>Background</h5>
             Our robot, a TurtleBot3, is working in a store doing the inventory of items overnight. It
