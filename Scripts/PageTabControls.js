@@ -96,7 +96,7 @@ function loadcontainers() {
 
 function jumpelement(listname, targetindex) {
     let currentindex = scrollindex.get(listname);
-    let difference = targetindex - currentindex;
+    let difference = Math.ceil((targetindex - currentindex)/size);
 
     while (difference != 0) {
         if (difference > 0) {
@@ -114,12 +114,16 @@ function jumpelement(listname, targetindex) {
 
 function nextelement(listname) {
     let list = scrollelements.get(listname);
-    let index = scrollindex.get(listname);
-    if(list.length > index+size) {
-        changeelement(list, index+1, index)
-        scrollindex.set(listname, index+1)
+    let index = scrollindex.get(listname)
+    
+    for(let i=0; i < size; i++) {
+        if(list.length > index+size+i) {
+            changeelement(list, index+i+1, index+i)
+            scrollindex.set(listname, index+i+1)
 
-        if(scrollindex.get(listname) > list.length) scrollindex.set(listname, index)
+            if(scrollindex.get(listname) > list.length) scrollindex.set(listname, index+i)
+        }
+        else break;
     }
 
     changeActiveDot(listname, scrollindex.get(listname));
@@ -140,11 +144,15 @@ function nextelement(listname) {
 function previouselement(listname) {
     let list = scrollelements.get(listname);
     let index = scrollindex.get(listname);
-    if(index > 0) {
-        changeelement(list, index-1, index+size-1)
-        scrollindex.set(listname, index-1)
 
-        if(scrollindex.get(listname) < 0) scrollindex.set(listname, index)
+    for(let i=0; i < size; i++) {
+        if(index-i > 0) {
+            changeelement(list, index-i-1, index-i+size-1)
+            scrollindex.set(listname, index-i-1)
+
+            if(scrollindex.get(listname) < 0) scrollindex.set(listname, index-i)
+        }
+        else break
     }
 
     changeActiveDot(listname, scrollindex.get(listname));
