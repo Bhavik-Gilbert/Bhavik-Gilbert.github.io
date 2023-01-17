@@ -96,7 +96,10 @@ function loadcontainers() {
 
 function jumpelement(listname, targetindex) {
     let currentindex = scrollindex.get(listname);
-    let difference = Math.ceil((targetindex - currentindex)/size);
+    let difference = (targetindex - currentindex)/size;
+
+    if(difference > 0) difference = Math.ceil(difference);
+    else difference = Math.floor(difference);
 
     while (difference != 0) {
         if (difference > 0) {
