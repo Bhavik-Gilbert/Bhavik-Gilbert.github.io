@@ -1,0 +1,35 @@
+<h1 id="ros-room-inventory-scanner">ROS-Room-Inventory-Scanner</h1>
+<h2 id="badges">Badges</h2>
+<p><img src="https://img.shields.io/github/last-commit/Bhavik-Gilbert/ROS-Room-Inventory-Scanner" alt="GitHub last commit">
+<img src="https://img.shields.io/github/contributors/Bhavik-Gilbert/ROS-Room-Inventory-Scanner" alt="GitHub contributors">
+<img src="https://img.shields.io/tokei/lines/github/Bhavik-Gilbert/ROS-Room-Inventory-Scanner" alt="Lines of code">
+<img src="https://img.shields.io/github/repo-size/Bhavik-Gilbert/ROS-Room-Inventory-Scanner" alt="GitHub repo size">    </p>
+<p><img src="https://img.shields.io/github/languages/top/Bhavik-Gilbert/ROS-Room-Inventory-Scanner" alt="GitHub top language">
+<img src="https://img.shields.io/github/languages/count/Bhavik-Gilbert/ROS-Room-Inventory-Scanner" alt="GitHub language count"></p>
+<h2 id="about">About</h2>
+<p>Our robot, a TurtleBot3, is working in a store doing the inventory of items overnight. It must go around the building noting the items it sees. The owner is interested in all items, but in one above all: cake. The inventory robot must navigate on a specific pattern while reporting the objects that it sees, until it finds cake.</p>
+<h2 id="project-structure">Project structure</h2>
+<p>The package is called <code>ROS Storeroom Inventory Scanner Package</code> where all functionality resides.</p>
+<h2 id="installation-instructions">Installation instructions</h2>
+<p>To install the software and use it in your local development environment, you must first set up a working ros workspace. From the ros workspace:</p>
+<p>Install all required packages:</p>
+<pre><code>$ pip3 <span class="hljs-keyword">install</span> -r requirements.txt
+</code></pre><p>Add package to your ros workspace directory</p>
+<p>##Run instructions
+To run the software, the package must be correctly installed into a working ros workspace, alongside all the required libraries have been installed.</p>
+<p>Setup:
+Specify a room to search in and item to search for in the call_search_server.py file before running to get change objective to find a cake in room c.</p>
+<p>Terminal 1:</p>
+<pre><code><span class="hljs-variable">$ </span>roscore
+</code></pre><p>Terminal 2:</p>
+<pre><code>$ roslaunch rosplan_stage_demo empty_stage_single_robot.<span class="hljs-built_in">launch</span>
+</code></pre><p>Terminal 3:</p>
+<pre><code>$ rosrun rviz rviz -d `rospack <span class="hljs-built_in">find</span> rosplan_stage_demo`/<span class="hljs-built_in">config</span>/rosplan_stage_demo.rviz
+</code></pre><p>Terminal 4:</p>
+<pre><code><span class="hljs-variable">$ </span>rosrun <span class="hljs-string">"ROS Storeroom Inventory Scanner Package"</span> roomservice_node.py
+</code></pre><p>Terminal 5:</p>
+<pre><code><span class="hljs-variable">$ </span>rosrun <span class="hljs-string">"ROS Storeroom Inventory Scanner Package"</span> main_node.py
+</code></pre><p>Terminal 6:</p>
+<pre><code><span class="hljs-variable">$ </span>rosrun <span class="hljs-string">"ROS Storeroom Inventory Scanner Package"</span> call_search_server.py
+</code></pre><h2 id="sources">Sources</h2>
+<p>The packages used by this application are specified in <code>requirements.txt</code></p>
