@@ -1,0 +1,67 @@
+<h1 id="greggor-financial-companion">Greggor-Financial-Companion</h1>
+<h2 id="team-members">Team Members</h2>
+<p>The members of the team are:</p>
+<ul>
+<li>RESHMA DHILLON</li>
+<li>BHAVIK GILBERT</li>
+<li>MICHAEL (Misha) HIGHAM</li>
+<li>KUSHAAGRA KAPOOR</li>
+<li>MATTHEW PALMER</li>
+<li>SAHITYA SAKTHIVEL</li>
+<li>LOUISA SCOTT</li>
+<li>CHARLES (Charles) SUDDENS-SPIERS</li>
+</ul>
+<h2 id="badges">Badges</h2>
+<p><img src="https://img.shields.io/github/last-commit/Bhavik-Gilbert/Greggor-Financial-Companion" alt="GitHub last commit">
+<img src="https://img.shields.io/github/contributors/Bhavik-Gilbert/Greggor-Financial-Companion" alt="GitHub contributors">
+<img src="https://img.shields.io/github/actions/workflow/status/Bhavik-Gilbert/Greggor-Financial-Companion/django.yml" alt="Github build"></p>
+<p><img src="https://img.shields.io/tokei/lines/github/Bhavik-Gilbert/Greggor-Financial-Companion" alt="Lines of code">
+<img src="https://img.shields.io/github/repo-size/Bhavik-Gilbert/Greggor-Financial-Companion" alt="GitHub repo size">
+<img src="https://img.shields.io/github/languages/top/Bhavik-Gilbert/Greggor-Financial-Companion" alt="GitHub top language">
+<img src="https://img.shields.io/github/languages/count/Bhavik-Gilbert/Greggor-Financial-Companion" alt="GitHub language count"></p>
+<h2 id="about">About</h2>
+<p>This project aims to produce an application that allows users to track their expenditures. The expenditure can belong to different categories. The user should be able to create, edit and delete these categories. When adding new spending, there should be a functionality to add a title, a short description, and an optional photo or file for the receipt. Moreover, the user should be able to set spending limits for each category as well as for the overall spending in a selected timeframe. When approaching and exceeding the set limits, the user should get a warning from the system. The app should motivate the user to stick to the set goals through gamification. Lastly, the user should be able to get reports and charts for their spending in a given timeframe.</p>
+<h2 id="project-structure">Project structure</h2>
+<p>The project is called <code>gfc</code> (Greggor Financial Companion).  It currently consists of a single app <code>financial_companion</code> where all functionality resides.</p>
+<h2 id="deployed-application">Deployed application</h2>
+<p>This application is deployed using python anywhere</p>
+<p><br></p>
+<p>Uses can access the website here:</p>
+<h4 id="-live-site-http-greggorfinancialcompanion-pythonanywhere-com-http-greggorfinancialcompanion-pythonanywhere-com-"><a href="http://greggorfinancialcompanion.pythonanywhere.com/">Live Site</a> - <a href="http://greggorfinancialcompanion.pythonanywhere.com/">http://greggorfinancialcompanion.pythonanywhere.com/</a></h4>
+<p><br></p>
+<p>Accounts with admin access can view the admin panel here:</p>
+<h4 id="-admin-panel-http-greggorfinancialcompanion-pythonanywhere-com-admin-http-greggorfinancialcompanion-pythonanywhere-com-admin"><a href="http://greggorfinancialcompanion.pythonanywhere.com/admin">Admin Panel</a> - <a href="http://greggorfinancialcompanion.pythonanywhere.com/admin">http://greggorfinancialcompanion.pythonanywhere.com/admin</a></h4>
+<p><br></p>
+<h2 id="installation-instructions">Installation instructions</h2>
+<p>To install the software and use it in your local development environment, you must first set up and activate a local development environment.  From the root of the project:</p>
+<pre><code><span class="hljs-variable">$ </span>virtualenv venv
+<span class="hljs-variable">$ </span>source venv/bin/activate
+</code></pre><p>Install all required packages:</p>
+<pre><code>$ pip3 <span class="hljs-keyword">install</span> -r requirements.txt
+</code></pre><p>Navigate into the django root directory:</p>
+<pre><code>$ <span class="hljs-built_in">cd</span> gfc
+</code></pre><p>Migrate the database:</p>
+<pre><code>$ python3 manage<span class="hljs-selector-class">.py</span> migrate
+</code></pre><p>Seed the development database with:</p>
+<pre><code>$ python3 manage<span class="hljs-selector-class">.py</span> seed
+</code></pre><p>Use the following accounts when testing the seeded database:</p>
+<p>Format (username, password)</p>
+<pre><code><span class="hljs-attribute">ADMINS</span>:
+<span class="hljs-variable">@michaelkolling</span>, Password123
+<span class="hljs-variable">@adminuser</span>, Password123
+
+NORMAL <span class="hljs-attribute">USER</span>:
+<span class="hljs-variable">@johndoe</span>, Password123
+</code></pre><p>Unseed the development database with:</p>
+<pre><code>$ python3 manage<span class="hljs-selector-class">.py</span> unseed
+</code></pre><p>Run all tests with:</p>
+<pre><code>$ python3 manage<span class="hljs-selector-class">.py</span> test
+</code></pre><h2 id="sources">Sources</h2>
+<p>The packages used by this application are specified in <code>requirements.txt</code></p>
+<p><br /></p>
+<h3 id="tabula">Tabula</h3>
+<p>Usage under the The MIT License (MIT): <a href="https://github.com/tabulapdf/tabula-java/blob/master/LICENSE">https://github.com/tabulapdf/tabula-java/blob/master/LICENSE</a> 
+<br />
+Information about tabula-py: <a href="https://tabula-py.readthedocs.io/en/latest/">https://tabula-py.readthedocs.io/en/latest/</a>
+<br />
+Information about tabula-java: <a href="https://github.com/tabulapdf/tabula-java">https://github.com/tabulapdf/tabula-java</a></p>
