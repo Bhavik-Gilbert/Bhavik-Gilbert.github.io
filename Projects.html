@@ -83,14 +83,52 @@
         </div>
         
         <div class=description align="center">
-            This project aims to produce an application that allows users to track their expenditures. 
-            The expenditure can belong to different categories. The user should be able to create, edit and 
-            delete these categories. When adding new spending, there should be a functionality to add a title, 
-            a short description, and an optional photo or file for the receipt. Moreover, the user should 
-            be able to set spending limits for each category as well as for the overall spending in a selected 
-            timeframe. When approaching and exceeding the set limits, the user should get a warning from the system. 
-            The app should motivate the user to stick to the set goals through gamification. Lastly, the user 
-            should be able to get reports and charts for their spending in a given timeframe.
+            Financial tracker web application, enabling users to track expenditures across multiple banks, categories
+            and currencies.
+
+            <br>
+            
+            <h5>Transactions</h5>
+            Users can log a transaction directly, inputting an amount, currency, sender, receiver,
+            optional category, optional description and optional file upload. They may also opt to upload them in bulk
+            for the month by uploading their bank statement. Standing orders and subscriptions can be created with the same, 
+            information as a transaction alongside a start date, end date, and interval, which will log that given interval
+            between the dates provided.
+
+            <br>
+
+            <h5>Monetary Accounts</h5>
+            These are split into merchant accounts, pot accounts and bank accounts. Merchant accounts don't have
+            a balance, and transactions relating to these won't contribute to a users total spending. Pot accounts are
+            basic saving/spending spaces. Bank accounts are an extension of a pot account used to refer to an actual
+            bank account, with added information such as interest rate and bank name. You can view interest projections
+            for any bank accounts with a positive balance.
+
+            <br>
+
+            <h5>Spending & Saving Targets</h5>
+            Users can set spending and savings targets for different time intervals and currencies. They can be set
+            to a monetary account, category or user. Appropriate warnings are given for nearing or reaching a target.
+
+            <br>
+
+            <h5>Spending Summary</h5>
+            Users can view a summary of their spending for a given time period and currency. They can view graphs displaying
+            overall spending alongside how much they've spent per category.
+
+            <br>
+
+            <h5>User Groups</h5>
+            To motivate the user to create and stick to targets, users are able to enter groups with other users, where
+            they can view a live ranking, scoring based on users nearing or surpassing targets at that point in time, with
+            negative scoring for overspending. It is intended for use between family and friends.
+
+            <br>
+
+            <h5>Financial Quiz</h5>
+            Users can partake in a financial quiz, to help them gain a better understanding of some fundamentals of
+            finances. It is designed to encourage users to retake tests they fail and to allow users to partake no
+            matter how much time they have, with the user being able to dictate the number of questions they are given.
         </div>
 
         <iframe src="https://bhavik-gilbert.github.io/Entity/Github_Readme/greggor_financial_companion.html"></iframe>
@@ -131,6 +169,8 @@
             list of items found and the quantity of each item seen. This process is continued until item specified is found, in this case is cake, 
             where it then outputs the final list of items encountered in the room alongside the quantity of each item seen and the time taken to find 
             the specified item.
+
+            <br>
 
             <h5>Background</h5>
             Our robot, a TurtleBot3, is working in a store doing the inventory of items overnight. It
