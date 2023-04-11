@@ -505,14 +505,14 @@ a {
   box-shadow: inset 0 0 0 0 var(--bg);
   margin: 0 -.25rem;
   padding: 0 .25rem;
-  transition: color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, var(--ease);
+  transition: var(--ease), box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 .link:hover {
   text-decoration-color: var(--bg);
   cursor: var(--bishop), hand;
   box-shadow: inset 100vw 0 0 0 var(--bg);
-  color: white;
+  color: var(--bglight);
 }
 
 .profile {
