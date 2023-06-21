@@ -1,0 +1,54 @@
+.Navbar {
+    overflow: hidden;
+    width: 100vw;
+    margin-bottom: 1.5rem;
+    transition: all 0.5s ease;
+}
+
+.Navbar:hover {
+  background-color: var(--primaryopaque1);
+}
+
+.controls {
+    transform: translate3d(-1vw, -6.7vh,0);
+}
+
+/* Style the links inside the navigation bar */
+.navLinks a{
+    color: var(--secondary);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s linear;
+    background-color: var(--primary);
+    border-width: 0;
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+    margin-bottom: 1.9rem;
+    margin-top: 1.9rem;
+}
+
+/* Change the color of links on hover */
+.navLinks a.active{
+    background-color: var(--bgopaque);
+    color: #fff;
+}
+.navLinks a.active:hover{
+    background-color: var(--bg);
+    color: #fff;
+    box-shadow: var(--highlight) 0rem 0.15rem;
+}
+
+.navLinks a:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 1.2rem 1rem;
+    min-width: 7rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 1.2em;
+    box-shadow: var(--bgopaque) 0rem 0.15rem;
+}
