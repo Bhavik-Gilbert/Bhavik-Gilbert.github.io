@@ -44,6 +44,11 @@ html [data-theme="light"] {
     --pawn: url('Images/Cursors/white pawn.cur'); */
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  text-align: center;
+  color: var(--secondary);
+}
+
 .App {
   background-color: var(--bg);
   min-height: 100vh;

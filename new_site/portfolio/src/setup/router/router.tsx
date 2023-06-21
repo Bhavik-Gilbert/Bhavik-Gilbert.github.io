@@ -10,6 +10,7 @@ const Router = () => {
       <Route path={Pages.pageLinks.Projects} element={<Pages.Projects/>} />
       <Route path={Pages.pageLinks.Experience} element={<Pages.Experience/>} />
       <Route path={Pages.pageLinks.Education} element={<Pages.Education/>} />
+      <Route path={Pages.pageLinks.Settings} element={<Pages.Settings/>} />
     </Routes>
   );
 }
