@@ -17,12 +17,12 @@ html [data-theme="dark"]{
     --bglight: #D9E3F0;
     --highlight: aqua;
   
-    /* --king: url('Images/Cursors/black king.cur');
-    --queen: url('Images/Cursors/black queen.cur');
-    --rook: url('Images/Cursors/black rook.cur');
-    --bishop: url('Images/Cursors/black bishop.cur');
-    --knight: url('Images/Cursors/black knight.cur');
-    --pawn: url('Images/Cursors/black pawn.cur'); */
+    --king: url('./assets/cursors/black king.cur');
+    --queen: url('./assets/cursors/black queen.cur');
+    --rook: url('./assets/cursors/black rook.cur');
+    --bishop: url('./assets/cursors/black bishop.cur');
+    --knight: url('./assets/cursors/black knight.cur');
+    --pawn: url('./assets/cursors/black pawn.cur');
   }
   
 html [data-theme="light"] {
@@ -36,17 +36,35 @@ html [data-theme="light"] {
     --bglight: #fce6c7;
     --highlight: #ffcd29;
   
-    /* --king: url('Images/Cursors/white king.cur');
-    --queen: url('Images/Cursors/white queen.cur');
-    --rook: url('Images/Cursors/white rook.cur');
-    --bishop: url('Images/Cursors/white bishop.cur');
-    --knight: url('Images/Cursors/white knight.cur');
-    --pawn: url('Images/Cursors/white pawn.cur'); */
+    --king: url('./assets/cursors/white king.cur');
+    --queen: url('./assets/cursors/white queen.cur');
+    --rook: url('./assets/cursors/white rook.cur');
+    --bishop: url('./assets/cursors/white bishop.cur');
+    --knight: url('./assets/cursors/white knight.cur');
+    --pawn: url('./assets/cursors/white pawn.cur');
 }
 
 h1, h2, h3, h4, h5, h6, p {
-  text-align: center;
-  color: var(--secondary);
+  color: var(--bglight);
+}
+
+.king {
+  cursor: var(--king);
+}
+.queen {
+  cursor: var(--queen);
+}
+.rook {
+  cursor: var(--rook);
+}
+.bishop {
+  cursor: var(--bishop);
+}
+.knight {
+  cursor: var(--knight);
+}
+.pawn {
+  cursor: var(--pawn);
 }
 
 .App {
@@ -55,4 +73,10 @@ h1, h2, h3, h4, h5, h6, p {
   overflow: hidden;
   width: 100vw;
   transition: all 0.5s ease;
+}
+
+.page {
+  min-height: 100vh;
+  width: 90vw;
+  overflow: hidden;
 }

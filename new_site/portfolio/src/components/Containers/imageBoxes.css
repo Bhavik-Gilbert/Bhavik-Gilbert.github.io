@@ -1,0 +1,26 @@
+.file{
+    display: inline-block;
+    padding: 1.5rem;  
+    font-family: "Brush Script MT", cursive; 
+    font-style: italic; 
+    color: var(--bglight); 
+    font-size: 1.1rem; 
+    transition: var(--ease);
+}
+.file:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.fileImage {
+    padding: 0;
+    margin: 0;
+    transform: translate3d(0.1rem, 0, 0); 
+    height: 2.5rem;
+    width: 2.5rem; 
+    display: inline-block; 
+    transition: var(--ease);
+    border-radius: 0.5rem;
+}
+.file:hover .fileImage{
+    box-shadow: 0.1em 0.1em 1em var(--highlight);
+}

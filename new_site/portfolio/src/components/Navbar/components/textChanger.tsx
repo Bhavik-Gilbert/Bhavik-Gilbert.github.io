@@ -1,4 +1,4 @@
-import { timer } from '../../setup/generics/timer';
+import { timer } from '../../../setup/components/timer';
 
 const equals = (a: any, b: any) => JSON.stringify(a) === JSON.stringify(b);
 

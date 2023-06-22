@@ -1,0 +1,63 @@
+.title, .titleHold {
+    font-size: 3em;
+    font-weight: bold;
+    display: inline;
+    transition: var(--ease);
+  }
+.title {
+    color: var(--bglight)
+}
+.titleHold {
+    color: var(--bgopaque2);
+}
+.title:hover, .titleHold:hover {
+    font-family: "Monaco", monospace;
+    font-size: 5em;
+}
+.subtitle ,.subtitleHold {
+    font-family: "Courier New", "Lucida Console", monospace;
+    font-size: 1.1em;
+    font-weight: bold;
+    display: inline;
+    transition: var(--ease);
+}
+.subtitle {
+    color: var(--bgopaque2);
+}
+.subtitleHold {
+    color: var(--primary);
+    font-style: italic;
+}
+.subtitle:hover, .subtitleHold:hover {
+    color: var(--secondary);
+}
+
+.subtitleBox {
+    transform: translateY(-0.5rem);
+}
+
+.bio, .bioHold {
+    transition: var(--ease);
+    display: inline-block;
+    position: relative;
+    font-family: "Courier New", "Lucida Console", monospace;
+    font-weight: 800;
+}
+.bio {
+    color: var(--bglight);
+}
+.bioHold {
+    font-style: italic;
+    color: var(--highlight);
+}
+.bio:hover, .bioHold:hover {
+    transform: translateY(-0.2rem);
+    color:  var(--primary);
+}
+
+.bioBox {
+    display: inline-block;
+    width: 70vw;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}

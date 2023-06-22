@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 
 import './navbar.css';
-import * as NavbarComponents from './components';
+import * as NavbarComponents from './components/textChanger';
 import { pageNames, pageLinks } from '../../setup/router/pages';
 
 const initialText = new Map<string, string>([
@@ -16,7 +16,7 @@ const initialText = new Map<string, string>([
 function Navbar() {
   return (
     <div className="Navbar">
-      <div className="navLinks">
+      <div className="navLinks d-flex justify-content-center">
             <NavLink to={pageLinks.Home} id={pageNames.Home} onMouseOver={(() => NavbarComponents.changeText(pageNames.Home))} onMouseOut={ ((e) => NavbarComponents.revertText(pageNames.Home, initialText.get(pageNames.Home)!))}>&#127968;</NavLink>
             <NavLink to={pageLinks.Projects} id={pageNames.Projects} onMouseOver={(() => NavbarComponents.changeText(pageNames.Projects))} onMouseOut={ ((e) => NavbarComponents.revertText(pageNames.Projects, initialText.get(pageNames.Projects)!))}>&#128188;</NavLink>
             <NavLink to={pageLinks.Experience} id={pageNames.Experience} onMouseOver={(() => NavbarComponents.changeText(pageNames.Experience))} onMouseOut={ ((e) => NavbarComponents.revertText(pageNames.Experience, initialText.get(pageNames.Experience)!))}>&#128218;</NavLink>
