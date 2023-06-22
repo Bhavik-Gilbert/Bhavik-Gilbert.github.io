@@ -4,9 +4,9 @@ import {bio} from '../constants/constants';
 import {changeClass} from '../../../../setup/components/changeClass';
 
 function Bio() {
-    const title = "Bhavik Gilbert".split("")
-    const subtitle = "Software Developer".split("")
-    const bioList = bio.split("\n")
+    const title = "Bhavik Gilbert".split("");
+    const subtitle = "Software Developer".split("");
+    const bioList = bio.split("\n");
 
     function toggleClass(elementId: string, class1: string, class2: string) {
         let element = document.getElementById(elementId);
@@ -50,13 +50,15 @@ function Bio() {
 
             <div className='bioBox textBox'>
                 {bioList.map((bioLine: string, bioLineIndex: number) => (
-                    bioLine.split(" ").map((bioWord, bioWordIndex: number) => (
-                        <div className="bio" id={"bioBox" + bioLineIndex + "bio" + bioWordIndex + bioWord}
-                        key = {"bioBox" + bioLineIndex + "bio" + bioWordIndex + bioWord} 
-                        onClick={(() => {toggleClass("bioBox" + bioLineIndex + "bio" + bioWordIndex + bioWord, "bio", "bioHold")})}>
-                            {bioWord}&nbsp;
-                        </div>
-                    ))
+                    <div key={"bioBox" + bioLineIndex} className={bioLineIndex + 1 != bioList.length ? "mb-5":""}>
+                        {bioLine.split(" ").map((bioWord, bioWordIndex: number) => (
+                            <div className="bio" id={"bioBox" + bioLineIndex + "bio" + bioWordIndex + bioWord}
+                            key={"bioBox" + bioLineIndex + "bio" + bioWordIndex + bioWord} 
+                            onClick={(() => {toggleClass("bioBox" + bioLineIndex + "bio" + bioWordIndex + bioWord, "bio", "bioHold")})}>
+                                {bioWord}&nbsp;
+                            </div>
+                        ))}
+                    </div>
                 ))}
             </div>
 

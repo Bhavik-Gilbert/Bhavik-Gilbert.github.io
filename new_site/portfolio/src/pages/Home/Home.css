@@ -1,7 +1,8 @@
 .title, .titleHold {
-    font-size: 3em;
+    font-size: 4rem;
     font-weight: bold;
     display: inline;
+    font-family: "Courier New", "Lucida Console", monospace;
     transition: var(--ease);
   }
 .title {
@@ -16,7 +17,7 @@
 }
 .subtitle ,.subtitleHold {
     font-family: "Courier New", "Lucida Console", monospace;
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: bold;
     display: inline;
     transition: var(--ease);
@@ -33,15 +34,16 @@
 }
 
 .subtitleBox {
-    transform: translateY(-0.5rem);
+    transform: translateY(-1.5rem);
 }
 
 .bio, .bioHold {
     transition: var(--ease);
     display: inline-block;
     position: relative;
-    font-family: "Courier New", "Lucida Console", monospace;
+    font-family: "Monaco", monospace;
     font-weight: 800;
+    letter-spacing: 0.2rem;
 }
 .bio {
     color: var(--bglight);
