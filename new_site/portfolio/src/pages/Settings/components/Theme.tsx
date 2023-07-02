@@ -5,7 +5,7 @@ import { colourThemes, defaultTheme } from '../../../setup/components/themes';
 import { Col, Row } from 'react-bootstrap';
 
 function Theme() {
-  const [theme, setTheme] = useLocalStorage<string>('theme', defaultTheme ? colourThemes.Dark : colourThemes.Light);
+  const [theme, setTheme] = useLocalStorage<string>('theme', defaultTheme ? colourThemes.originDark : colourThemes.originLight);
 
   return (
     <div className="marginTop marginBottom">

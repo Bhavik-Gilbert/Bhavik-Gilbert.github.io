@@ -20,7 +20,7 @@
     transition: var(--ease);
 }
 .card:hover p {
-    color: white;
+    color: var(--white);
 }
 
 .card img {

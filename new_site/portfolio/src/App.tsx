@@ -9,7 +9,7 @@ import Background from './components/Background';
 import { colourThemes, defaultTheme } from './setup/components/themes';
 
 function App() {
-  const [theme] = useLocalStorage('theme', defaultTheme ? colourThemes.Dark : colourThemes.Light);
+  const [theme] = useLocalStorage('theme', defaultTheme ? colourThemes.originDark : colourThemes.originLight);
   
   return (
     <>

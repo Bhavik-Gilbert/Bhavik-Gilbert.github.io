@@ -27,15 +27,15 @@ function Pages() {
             </div>
             
             <div className="marginBottom">
-                <div className="file" onClick={() => displayInfo('projects', 'pages')}>
+                <div className="file" id="projects" onClick={() => displayInfo('projects', 'pages', true)}>
                     <h3 className='h3'>Projects</h3>
                 </div>
 
-                <div className="file" onClick={() => displayInfo('experience', 'pages')}>
+                <div className="file" id="experience" onClick={() => displayInfo('experience', 'pages', true)}>
                     <div className='h3'>Experience</div>
                 </div>
 
-                <div className="file" onClick={() => displayInfo('education', 'pages')}>
+                <div className="file" id="education" onClick={() => displayInfo('education', 'pages', true)}>
                     <div className='h3'>Education</div>
                 </div>
             </div>
