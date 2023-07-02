@@ -1,0 +1,23 @@
+@import "cards.css";
+@import "imageBoxes.css";
+@import "textBoxes.css";
+
+.page {
+    min-height: 90vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.marginTop {
+    margin-top: 2rem;
+}
+.marginBottom {
+    margin-bottom: 2rem;
+}
+
+.info {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: var(--ease);
+}

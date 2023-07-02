@@ -1,0 +1,55 @@
+html {
+    --greydark: #4B4B4C;
+    --greylight: #888;
+
+    --ease: all 0.5s ease;
+    --linear: all 0.3s linear;
+}
+
+html [data-theme="dark"]{
+    --primary : #000;
+    --secondary: #fff;
+    --primaryopaque1: #121212;
+    --primaryopaque2: #1c1c1c;
+    --bg: #343d52;
+    --bgopaque: #48536e;
+    --bgopaque2: #4a6bbd;
+    --bglight: #D9E3F0;
+    --highlight: aqua;
+
+    --king: url('../assets/cursors/black king.cur');
+    --queen: url('../assets/cursors/black queen.cur');
+    --rook: url('../assets/cursors/black rook.cur');
+    --bishop: url('../assets/cursors/black bishop.cur');
+    --knight: url('../assets/cursors/black knight.cur');
+    --pawn: url('../assets/cursors/black pawn.cur');
+}
+
+html [data-theme="light"] {
+    --primary : #fff;
+    --secondary: #000;
+    --primaryopaque1: #f0f0f0;
+    --primaryopaque2: #dedede;
+    --bg: #FC6A03;
+    --bgopaque: #FCAE1E;
+    --bgopaque2: #ffbf4a;
+    --bglight: #fce6c7;
+    --highlight: #ffcd29;
+
+    --king: url('../assets/cursors/white king.cur');
+    --queen: url('../assets/cursors/white queen.cur');
+    --rook: url('../assets/cursors/white rook.cur');
+    --bishop: url('../assets/cursors/white bishop.cur');
+    --knight: url('../assets/cursors/white knight.cur');
+    --pawn: url('../assets/cursors/white pawn.cur');
+}
+
+.App {
+    background-color: var(--bg);
+    min-height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+    transition: all 0.5s ease;
+    position: absolute;
+    z-index: -1000;
+}

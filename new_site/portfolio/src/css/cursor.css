@@ -1,0 +1,18 @@
+.king {
+    cursor: var(--king);
+  }
+.queen {
+    cursor: var(--queen);
+}
+.rook {
+    cursor: var(--rook);
+}
+.bishop {
+    cursor: var(--bishop);
+}
+.knight {
+    cursor: var(--knight);
+}
+.pawn {
+    cursor: var(--pawn);
+}
