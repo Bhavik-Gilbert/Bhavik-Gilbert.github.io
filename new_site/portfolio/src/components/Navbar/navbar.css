@@ -3,7 +3,8 @@
     width: 100vw;
     margin-bottom: 1.5rem;
     padding: 2rem 0.5rem;
-    transition: all 0.5s ease;
+    transition: var(--ease);
+    box-shadow: var(--bgopaque) 0px -50px 36px -28px inset, var(--bgopaque) 0px 30px 60px -12px inset, var(--bgopaque) 0px 18px 36px -18px inset;
 }
 
 .Navbar:hover {

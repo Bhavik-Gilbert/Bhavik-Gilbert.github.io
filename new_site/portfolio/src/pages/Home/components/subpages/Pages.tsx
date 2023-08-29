@@ -1,12 +1,12 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 
-
 import { toggleClass, displayInfo } from '../../../../setup/components/changeClass';
 import { toggleCapitalise } from '../../../../setup/components/textEffects';
-import Projects from '../../../Projects/index';
-import Education from '../../../Education/index';
-import Experience from '../../../Experience/index';
+import { pageLinks } from '../../../../setup/router/pages';
+import ProjectHighlights from '../../../Projects/components/subpages/ProjectHighlights';
+import ExperienceHighlights from '../../../Experience/components/subpages/ExperienceHighlights';
+import EducationHighlights from '../../../Education/components/subpages/EducationHighlights';
 
 
 function Pages() {
@@ -18,7 +18,7 @@ function Pages() {
                 {title.map((titleChar: string, titleCharIndex: number) => (
                     <div className="h3 byLetter" id={"pagesTitle" + titleCharIndex + titleChar} key={"pagesTitle" + titleCharIndex + titleChar} 
                     onClick={(() => {
-                        toggleClass("pagesTitle" + titleCharIndex + titleChar, "h2 byLetter", "h2Hold byLetter");
+                        toggleClass("pagesTitle" + titleCharIndex + titleChar, "h3 byLetter", "h3Hold byLetter");
                         toggleCapitalise("pagesTitle" + titleCharIndex + titleChar);
                     })}>
                         {titleChar}
@@ -28,27 +28,36 @@ function Pages() {
             
             <div className="marginBottom">
                 <div className="file" id="projects" onClick={() => displayInfo('projects', 'pages', true)}>
-                    <h3 className='h3'>Projects</h3>
+                    <h3 className='h4'>Projects</h3>
                 </div>
 
                 <div className="file" id="experience" onClick={() => displayInfo('experience', 'pages', true)}>
-                    <div className='h3'>Experience</div>
+                    <div className='h4'>Experience</div>
                 </div>
 
                 <div className="file" id="education" onClick={() => displayInfo('education', 'pages', true)}>
-                    <div className='h3'>Education</div>
+                    <div className='h4'>Education</div>
                 </div>
             </div>
 
             <div>
                 <div id="projectsinfo" className='info'>
-                    <Projects />
+                    <ProjectHighlights />
+                    <NavLink to={pageLinks.Projects} className="file mt-4">
+                        View More
+                    </NavLink>
                 </div>
                 <div id="experienceinfo" className='info'>
-                    <Experience />
+                    <ExperienceHighlights />
+                    <NavLink to={pageLinks.Experience} className="file mt-4">
+                        View More
+                    </NavLink>
                 </div>
                 <div id="educationinfo" className='info'>
-                    <Education />
+                    <EducationHighlights />
+                    <NavLink to={pageLinks.Education} className="file mt-4">
+                        View More
+                    </NavLink>
                 </div>
             </div>
         </div>

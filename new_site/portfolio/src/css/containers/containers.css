@@ -3,7 +3,7 @@
 @import "textBoxes.css";
 
 .page {
-    min-height: 90vh;
+    min-height: 80vh;
     width: 100vw;
     overflow: hidden;
 }
@@ -22,7 +22,7 @@
     transition: var(--ease);
 }
 .infoSelector {
-    box-shadow: var(--bgopaque) 0px 2px 4px, var(--bgopaque2) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: var(--bgopaque) 0px 2px 4px, var(--bgopaque2) 0px 7px 13px -3px, var(--bglight) 0px -3px 0px inset;
     border-radius: 0.5rem;
     text-decoration: underline;
 }

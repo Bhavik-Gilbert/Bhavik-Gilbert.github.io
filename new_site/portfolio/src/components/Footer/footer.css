@@ -1,0 +1,13 @@
+.Footer {
+    overflow: hidden;
+    width: 100vw;
+    padding: 2rem 0.5rem 1rem 0.5rem;
+    margin-bottom: -0.5rem;
+    transition: var(--ease);
+    box-shadow: var(--bgopaque) 0px -50px 36px -28px inset, var(--bgopaque) 0px 30px 60px -12px inset, var(--bgopaque) 0px 18px 36px -18px inset;
+
+}
+
+.Footer:hover {
+    /* background-color: var(--primaryopaque1); */
+}

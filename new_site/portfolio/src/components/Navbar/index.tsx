@@ -23,12 +23,6 @@ function Navbar() {
             <NavLink to={pageLinks.Education} id={pageNames.Education} onMouseOver={(() => NavbarComponents.changeText(pageNames.Education))} onMouseOut={ ((e) => NavbarComponents.revertText(pageNames.Education, initialText.get(pageNames.Education)!))}>&#128221;</NavLink>
             <NavLink to={pageLinks.Settings} id={pageNames.Settings} onMouseOver={(() => NavbarComponents.changeText(pageNames.Settings))} onMouseOut={ ((e) => NavbarComponents.revertText(pageNames.Settings, initialText.get(pageNames.Settings)!))}>&#9881;</NavLink>
       </div>
-      
-
-      {/* <div className="controls">
-        <input type="checkbox" name="theme" id="switch" checked={theme === 'light'} onChange={toggleTheme} /><label htmlFor="switch"></label>
-      </div> */}
-
     </div>
   );
 }

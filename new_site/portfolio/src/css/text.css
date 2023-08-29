@@ -6,34 +6,29 @@ h1, h2, h3, h4, h5, h6, p,
 }
 .h1:hover, .h2:hover, .h3:hover, .h4:hover, .h5:hover, .h6:hover,
 .h1Hold:hover, .h2Hold:hover, .h3Hold:hover, .h4Hold:hover, .h5Hold:hover, .h6Hold:hover {
-    color: var(--greylight)
+    color: var(--greylight);
+    font-weight: bold;
 }
 .h1Hold, .h2Hold, .h3Hold, .h4Hold, .h5Hold, .h6Hold {
     font-family: "Courier New", "Lucida Console", monospace;
 }
 
 .h1, .h1:hover, .h1Hold, .h1Hold:hover {
-    font-weight: bold;
-    font-size: 2.125rem;
+    font-size: 2.5rem;
 }
 .h2, .h2:hover, .h2Hold, .h2Hold:hover {
-    font-weight: bold;
-    font-size: 1.875rem;
+    font-size: 2rem;
 }
 .h3, .h3:hover, .h3Hold, .h3Hold:hover {
-    font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 } 
 .h4, .h4:hover, .h4Hold, .h4Hold:hover {
-    font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 } 
 .h5, .h5:hover, .h5Hold, .h5Hold:hover {
-    font-weight: bold;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
 } 
 .h6, .h6:hover, .h6Hold, .h6Hold:hover {
-    font-weight: bold;
     font-size: 1rem;
 }
 .p, .p:hover {

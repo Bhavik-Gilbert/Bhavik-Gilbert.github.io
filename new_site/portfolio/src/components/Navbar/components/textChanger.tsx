@@ -6,8 +6,6 @@ async function changeText(id: string) {
     if (document.getElementById(id) == null) return;
     let text: string = id;
 
-    console.log(text);
-
     let display: string[] = [];
     let time: number = 3000/text!.length
 
