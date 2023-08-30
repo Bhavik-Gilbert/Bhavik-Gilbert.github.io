@@ -29,7 +29,7 @@
 
 .highlightBox {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    margin-left: 15%; margin-right: 15%; padding: 0;
+    margin-left: 10%; margin-right: 10%; padding: 0;
     color:var(--secondary); transition: var(--ease); overflow:hidden;
     display: flex; flex-direction: row, hand;
     border-radius: 0.5rem;

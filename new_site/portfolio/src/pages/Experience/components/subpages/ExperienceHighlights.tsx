@@ -43,7 +43,7 @@ function ExperienceHighlights() {
           </div>
         </div>
 
-        <div className='highlightBox marginBottom'>
+        <div className='highlightBox'>
           <img className='highlightBoxImage' src="./images/companyLogos/Funtech.png" alt="pdf logo"></img>
 
           <div className='highlightBoxText'>

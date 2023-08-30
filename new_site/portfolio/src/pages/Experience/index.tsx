@@ -24,9 +24,9 @@ function Experience() {
                   {titleChar}
               </div>
           ))}
-      </div>
 
-      <ExperienceHighlights />
+          <ExperienceHighlights />
+      </div>
     </div>
   );
 }

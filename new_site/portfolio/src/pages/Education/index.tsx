@@ -24,9 +24,9 @@ function Education() {
                   {titleChar}
               </div>
           ))}
+
+          <EducationHighlights />
       </div>
-      
-      <EducationHighlights />
     </div>
   );
 }

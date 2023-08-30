@@ -25,9 +25,9 @@ function Projects() {
                   {titleChar}
               </div>
           ))}
-      </div>
 
-      <ProjectHighlights />
+          <ProjectHighlights />
+      </div>
     </div>
   );
 }
