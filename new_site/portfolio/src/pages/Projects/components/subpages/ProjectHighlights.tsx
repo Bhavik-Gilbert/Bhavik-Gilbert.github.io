@@ -20,7 +20,60 @@ function ProjectHighlights() {
       </div>
 
       <div>
-        Projects
+        <div className='highlightBox marginBottom'>
+          <img className='highlightBoxImage' src="./images/projects/Greggor Financial Companion/GFC1.png" alt="Greggor Financial Companion"></img>
+
+          <div className='highlightBoxText'>
+            <h5>Greggor Financial Companion - Financial Tracker</h5>
+            <h6>Django Project</h6>
+            <br/>
+            <img className="fileImageSmall" src="./images/techLogos/python.png" alt="python logo"></img>
+            <img className="fileImageSmall" src="./images/techLogos/javascript.png" alt="javascript logo"></img>
+            <img className="fileImageSmall" src="./images/techLogos/CSS.png" alt="css logo"></img>
+            <img className="fileImageSmall" src="./images/techLogos/html.png" alt="html logo"></img>
+          </div>
+            
+        </div>
+
+        <div className='highlightBox marginBottom'>
+          <img className='highlightBoxImage' src="./images/projects/ROS Storeageroom Scanner/RSS1.png" alt="Robotic Storeroom Inventory Scanner"></img>
+
+          <div className='highlightBoxText'>
+            <h5>Robotic Storeroom Inventory Scanner</h5>
+            <h6>ROS Project</h6>
+            <h6>SMACH & YOLO</h6>
+            <br/>
+            <img className="fileImageSmall" src="./images/techLogos/python.png" alt="python logo"></img>
+          </div>
+            
+        </div>
+
+        <div className='highlightBox marginBottom'>
+          <img className='highlightBoxImage' src="./images/projects/Facial Recognition/FR2.png" alt="Facial Recognition Login System"></img>
+
+          <div className='highlightBoxText'>
+            <h5>Facial Recognition Login System</h5>
+            <h6>AI with Database Systems</h6>
+            <h6>Tkinter & PIL & CV2 & TensorFlow & MYSQL Connector</h6>
+            <br/>
+            <img className="fileImageSmall" src="./images/techLogos/python.png" alt="python logo"></img>
+            <img className="fileImageSmall" src="./images/techLogos/SQL.png" alt="SQL logo"></img>
+          </div>
+            
+        </div>
+
+        <div className='highlightBox marginBottom'>
+          <img className='highlightBoxImage' src="./images/projects/Exoplanet/Phase Fold.png" alt="Phase Folding Kepler Exoplanets"></img>
+
+          <div className='highlightBoxText'>
+            <h5>Phase Folding Kepler Exoplanets</h5>
+            <h6>Data Analysis & Graphical Manipulation </h6>
+            <h6>Numpy & Matplotlib</h6>
+            <br/>
+            <img className="fileImageSmall" src="./images/techLogos/python.png" alt="python logo"></img>
+          </div>
+            
+        </div>
       </div>
     </div>
   );
