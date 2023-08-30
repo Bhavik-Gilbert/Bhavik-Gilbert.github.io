@@ -3,7 +3,7 @@ import React, {useEffect} from 'react';
 import { pageNames } from '../../setup/router/pages';
 import { toggleClass } from '../../setup/components/changeClass';
 import { toggleCapitalise } from '../../setup/components/textEffects';
-import { ExperienceHighlights, WorkExperience, Hackathons } from './components/subpages/Subpages';
+import { ExperienceHighlights, WorkExperience, Hackathons, Experiences } from './components/subpages/Subpages';
 
 function Experience() {
   const title = "Work Experience".split("");
@@ -28,6 +28,8 @@ function Experience() {
           <ExperienceHighlights />
           <br/>
           <WorkExperience />
+          <br/>
+          <Experiences />
           <br/>
           <Hackathons />
       </div>
