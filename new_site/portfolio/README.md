@@ -1,46 +1,40 @@
-# Getting Started with Create React App
+# Portfolio Site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### [Live Site](https://bhavik-gilbert.github.io/) - https://bhavik-gilbert.github.io/
+  
+### Badges
+![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&url=https%3A%2F%2Fbhavik-gilbert.github.io%2Findex.html)  
+![GitHub last commit](https://img.shields.io/github/last-commit/Bhavik-Gilbert/Bhavik-Gilbert.github.io)
+![GitHub contributors](https://img.shields.io/github/contributors/Bhavik-Gilbert/Bhavik-Gilbert.github.io)
 
-## Available Scripts
+![Lines of code](https://img.shields.io/tokei/lines/github/Bhavik-Gilbert/Bhavik-Gilbert.github.io)
+![GitHub repo size](https://img.shields.io/github/repo-size/Bhavik-Gilbert/Bhavik-Gilbert.github.io)
+![GitHub top language](https://img.shields.io/github/languages/top/Bhavik-Gilbert/Bhavik-Gilbert.github.io)
+![GitHub language count](https://img.shields.io/github/languages/count/Bhavik-Gilbert/Bhavik-Gilbert.github.io)
 
-In the project directory, you can run:
 
-### `npm start`
+## About
+#### Think of it as a portal between points in my online professional presence  
+A portfolio site to hold information on myself ranging from education to skills and experience to projects. It enables employers to get a better view of my skillset and provides them with a better idea of whether or not they should contact me or not, which they can also do via the site.
+    
+## Technologies
+### Framworks/Languages
+>This application is built using html, css and javascript.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Hosting
+>The website is hosted on [github pages](https://bhavik-gilbert.github.io/) and is currently available for anyone to view
+  
+  
+## Usage
+### Home Page - [Visit](https://bhavik-gilbert.github.io/)
+>Provides a profile of myself alongside important links and documents such as LinkdIn, Github, alongside my CV and Cover letter.
+Also acts a central point providing extra accessibility to the whole site alongside a description of each page.
+### Projects Page - [Visit](https://bhavik-gilbert.github.io/Projects.html)
+>A list of all my most important projects with a description of what they are and the best ways to view them.
+### Education Page - [Visit](https://bhavik-gilbert.github.io/Education.html)
+>A list of all my education with grades, alongside other achievements and awards.
+### Experience Page - [Visit](https://bhavik-gilbert.github.io/Experience.html)
+>A list of all my work experience, paid and unpaid. Description for all positions I've held alongside what I've done and learnt while there.
+### Contact Page - [Visit](https://bhavik-gilbert.github.io/Contact.html)
+> Provides a contact form, where people are able to email me directly with any equiries they may have.  
+* #### Powered by Email.js

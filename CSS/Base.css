@@ -410,7 +410,7 @@ iframe {
 .mini .page:hover h4, .mini .pagefocus:hover h4{
   font-size: 2em;
 }
-.mini .page:hover h5, .mini .pagefocus:hover h5 {
+.mini .page:hovefr h5, .mini .pagefocus:hover h5 {
   font-size: 1.2em;
 }
 .mini .page:hover .file, .mini .pagefocus .file {
@@ -579,7 +579,7 @@ a {
 .pageimage {
   width: 101%;
   transform: translateX(-0.1em);
-  height: 45%;
+  height: 60%;
   background-repeat: no-repeat;
   border: groove var(--secondary);
   border-style: none none solid none;

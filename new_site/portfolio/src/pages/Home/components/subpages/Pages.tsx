@@ -26,39 +26,40 @@ function Pages() {
                 ))}
             </div>
             
-            <div className="marginBottom">
-                <div className="file" id="projects" onClick={() => displayInfo('projects', 'pages', true)}>
-                    <h3 className='h4'>Projects</h3>
+            <div>
+                <div className="file button marginBottom" id="projects" onClick={() => displayInfo('projects', 'pages', true)}>
+                    <h4>Projects</h4>
                 </div>
 
-                <div className="file" id="experience" onClick={() => displayInfo('experience', 'pages', true)}>
-                    <div className='h4'>Experience</div>
+                <div className="file button marginBottom" id="experience" onClick={() => displayInfo('experience', 'pages', true)}>
+                    <h4>Experience</h4>
                 </div>
 
-                <div className="file" id="education" onClick={() => displayInfo('education', 'pages', true)}>
-                    <div className='h4'>Education</div>
+                <div className="file button marginBottom" id="education" onClick={() => displayInfo('education', 'pages', true)}>
+                    <h4>Education</h4>
                 </div>
             </div>
 
             <div>
                 <div id="projectsinfo" className='info'>
                     <ProjectHighlights />
-                    <NavLink to={pageLinks.Projects} className="file mt-4">
+                    <NavLink to={pageLinks.Projects} className="file button mt-4">
                         View More
                     </NavLink>
                 </div>
                 <div id="experienceinfo" className='info'>
                     <ExperienceHighlights />
-                    <NavLink to={pageLinks.Experience} className="file mt-4">
+                    <NavLink to={pageLinks.Experience} className="file button mt-4">
                         View More
                     </NavLink>
                 </div>
                 <div id="educationinfo" className='info'>
                     <EducationHighlights />
-                    <NavLink to={pageLinks.Education} className="file mt-4">
+                    <NavLink to={pageLinks.Education} className="file button mt-4">
                         View More
                     </NavLink>
                 </div>
+                    <br></br>
             </div>
         </div>
   );

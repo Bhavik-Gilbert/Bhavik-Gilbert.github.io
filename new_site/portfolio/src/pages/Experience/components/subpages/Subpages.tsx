@@ -1,5 +1,7 @@
 import ExperienceHighlights from "./ExperienceHighlights";
+import WorkExperience from "./WorkExperience";
 
 export {
-    ExperienceHighlights
+    ExperienceHighlights,
+    WorkExperience
 }

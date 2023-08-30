@@ -27,10 +27,10 @@ function ProjectHighlights() {
             <h5>Greggor Financial Companion - Financial Tracker</h5>
             <h6>Django Project</h6>
             <br/>
-            <img className="fileImageSmall" src="./images/techLogos/python.png" alt="python logo"></img>
-            <img className="fileImageSmall" src="./images/techLogos/javascript.png" alt="javascript logo"></img>
-            <img className="fileImageSmall" src="./images/techLogos/CSS.png" alt="css logo"></img>
-            <img className="fileImageSmall" src="./images/techLogos/html.png" alt="html logo"></img>
+            <img className="fileImage small" src="./images/techLogos/python.png" alt="python logo"></img>
+            <img className="fileImage small" src="./images/techLogos/javascript.png" alt="javascript logo"></img>
+            <img className="fileImage small" src="./images/techLogos/CSS.png" alt="css logo"></img>
+            <img className="fileImage small" src="./images/techLogos/html.png" alt="html logo"></img>
           </div>
             
         </div>
@@ -43,7 +43,7 @@ function ProjectHighlights() {
             <h6>ROS Project</h6>
             <h6>SMACH & YOLO</h6>
             <br/>
-            <img className="fileImageSmall" src="./images/techLogos/python.png" alt="python logo"></img>
+            <img className="fileImage small" src="./images/techLogos/python.png" alt="python logo"></img>
           </div>
             
         </div>
@@ -56,8 +56,8 @@ function ProjectHighlights() {
             <h6>AI with Database Systems</h6>
             <h6>Tkinter & PIL & CV2 & TensorFlow & MYSQL Connector</h6>
             <br/>
-            <img className="fileImageSmall" src="./images/techLogos/python.png" alt="python logo"></img>
-            <img className="fileImageSmall" src="./images/techLogos/SQL.png" alt="SQL logo"></img>
+            <img className="fileImage small" src="./images/techLogos/python.png" alt="python logo"></img>
+            <img className="fileImage small" src="./images/techLogos/SQL.png" alt="SQL logo"></img>
           </div>
             
         </div>
@@ -70,7 +70,7 @@ function ProjectHighlights() {
             <h6>Data Analysis & Graphical Manipulation </h6>
             <h6>Numpy & Matplotlib</h6>
             <br/>
-            <img className="fileImageSmall" src="./images/techLogos/python.png" alt="python logo"></img>
+            <img className="fileImage small" src="./images/techLogos/python.png" alt="python logo"></img>
           </div>
             
         </div>

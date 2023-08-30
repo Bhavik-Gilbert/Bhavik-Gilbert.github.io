@@ -24,8 +24,8 @@ function Theme() {
 
       <div>
       {Object.values(colourThemes).map((colourTheme: string) => (
-          <div key={colourTheme} className={"card m-3" + (theme == colourTheme ? " selected": "")} data-theme={colourTheme} onClick={((e) => {setTheme(colourTheme)})}>
-            <img src={"./images/colourThemes/"+ colourTheme + ".png"} alt={colourTheme + " theme"}></img>
+          <div key={colourTheme} className={"card medium m-3" + (theme == colourTheme ? " selected": "")} data-theme={colourTheme} onClick={((e) => {setTheme(colourTheme)})}>
+            <img className="bigImg" src={"./images/colourThemes/"+ colourTheme + ".png"} alt={colourTheme + " theme"}></img>
             <p>{colourTheme.charAt(0).toUpperCase() + colourTheme.slice(1)} Theme</p>
           </div>
       ))}

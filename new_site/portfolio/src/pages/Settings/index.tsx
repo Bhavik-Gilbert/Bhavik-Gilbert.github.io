@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react';
 
-import './Settings.css';
-
 import { toggleClass } from '../../setup/components/changeClass';
 import { toggleCapitalise } from '../../setup/components/textEffects';
 import { pageNames } from '../../setup/router/pages';

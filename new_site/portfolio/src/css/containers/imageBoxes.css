@@ -1,6 +1,8 @@
-.file{
+.file {
     display: inline-block;
-    padding: 1.5rem;  
+    padding: 1rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
     font-family: "Courier New", "Lucida Console", monospace;
     font-style: italic; 
     color: var(--bglight); 
@@ -12,7 +14,7 @@
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-.fileImageSmall, .fileImageMedium, .fileImageLarge {
+.fileImage {
     padding: 0;
     margin: 0;
     transform: translate3d(0.1rem, 0, 0); 
@@ -20,20 +22,6 @@
     transition: var(--ease);
     border-radius: 0.5rem;
 }
-.file:hover .fileImageSmall, 
-.file:hover .fileImageMedium, 
-.file:hover .fileImageLarge {
+.file:hover .fileImage {
     box-shadow: 0.1em 0.1em 1em var(--highlight);
-}
-.fileImageSmall {
-    height: 2.5rem;
-    width: 2.5rem; 
-}
-.fileImageMedium {
-    height: 3.5rem;
-    width: 3.5rem; 
-}
-.fileImageLarge {
-    height: 8rem;
-    width: 8rem; 
 }

@@ -24,7 +24,8 @@ function EducationHighlights() {
           <img className='highlightBoxImage' src="./images/companyLogos/KCL.jpg" alt="pdf logo"></img>
 
           <div className='highlightBoxText'>
-            <h5>Undergraduate</h5>
+            <h5>Undegraduate</h5>
+            <h6>Computer Science BSc(Hons)</h6>
             <br/>
             <h6>King's College London</h6>
             <h6>Sep 2021 - May 2024</h6>
@@ -36,7 +37,8 @@ function EducationHighlights() {
           <img className='highlightBoxImage' src="./images/companyLogos/LeytonXIFormCollege.png" alt="pdf logo"></img>
 
           <div className='highlightBoxText'>
-            <h5>Sixth Form</h5>
+            <h5>A Levels</h5>
+            <h5>4 A Levels</h5>
             <br/>
             <h6>Leyton Sixth Form College</h6>
             <h6>Sep 2019 - May 2021</h6>
@@ -47,7 +49,8 @@ function EducationHighlights() {
           <img className='highlightBoxImage' src="./images/companyLogos/StAloy.jpg" alt="pdf logo"></img>
 
           <div className='highlightBoxText'>
-            <h5>Secondary</h5>
+            <h5>GCSEs</h5>
+            <h6>12 GCSEs</h6>
             <br/>
             <h6>St.Aloysius R.C College</h6>
             <h6>Sep 2014 - Jun 2019</h6>

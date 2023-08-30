@@ -1,6 +1,20 @@
 @import "cards.css";
 @import "imageBoxes.css";
 @import "textBoxes.css";
+@import "buttons.css";
+
+.small {
+    height: 2.5rem;
+    width: 2.5rem; 
+}
+.medium {
+    height: 12rem;
+    width: 12rem; 
+}
+.long {
+    height: 20rem;
+    width: 15rem; 
+}
 
 .page {
     min-height: 80vh;
@@ -20,9 +34,9 @@
     opacity: 0;
     overflow: hidden;
     transition: var(--ease);
+    padding-bottom: 0.5rem;
 }
 .infoSelector {
-    box-shadow: var(--bgopaque) 0px 2px 4px, var(--bgopaque2) 0px 7px 13px -3px, var(--bglight) 0px -3px 0px inset;
     border-radius: 0.5rem;
     text-decoration: underline;
 }
@@ -35,7 +49,7 @@
     border-radius: 0.5rem;
 }
 .highlightBox .highlightBoxImage {
-    max-width: 25%;
+    max-width: 22%;
     display: block;
   }
 .highlightBoxText {

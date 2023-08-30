@@ -8,6 +8,11 @@
 
 }
 
+.card .bigImg {
+    height: 60%;
+    width: 115%;
+}
+
 .Footer:hover {
     /* background-color: var(--primaryopaque1); */
 }
