@@ -6,10 +6,10 @@ import { toggleCapitalise } from '../../setup/components/textEffects';
 import { ExperienceHighlights } from './components/subpages/Subpages';
 
 function Experience() {
-  const title = "Experience".split("");
+  const title = "Work Experience".split("");
   
   useEffect(() => {
-    document.title = 'Experience';
+    document.title = "Work Experience";
   });
 
   return (

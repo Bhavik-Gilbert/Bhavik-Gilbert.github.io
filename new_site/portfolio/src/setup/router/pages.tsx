@@ -12,7 +12,7 @@ const enum pageNames {
     Experience = "Experience",
     Education = "Education",
     Settings = "Settings",
-    Contact = "Contact Me"
+    Contact = "Contact"
 }
 
 const enum pageLinks {

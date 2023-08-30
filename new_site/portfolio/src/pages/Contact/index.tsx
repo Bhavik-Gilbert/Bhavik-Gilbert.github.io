@@ -5,7 +5,7 @@ import { toggleClass } from '../../setup/components/changeClass';
 import { toggleCapitalise } from '../../setup/components/textEffects';
 
 function Contact() {
-  const title = "Contact".split("");
+  const title = "Contact Me".split("");
 
   useEffect(() => {
     document.title = 'Contact Me';
