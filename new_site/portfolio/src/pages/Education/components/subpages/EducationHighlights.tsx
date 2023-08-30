@@ -21,7 +21,7 @@ function EducationHighlights() {
 
       <div>
         <div className='highlightBox marginBottom'>
-          <img className='highlightBoxImage' src="./images/companyLogos/KCL.jpg" alt="pdf logo"></img>
+          <img className='highlightBoxImage' src="./images/companyLogos/KCL.jpg" alt="KCL"></img>
 
           <div className='highlightBoxText'>
             <h5>Undegraduate</h5>
@@ -34,7 +34,7 @@ function EducationHighlights() {
         </div>
         
         <div className='highlightBox marginBottom'>
-          <img className='highlightBoxImage' src="./images/companyLogos/LeytonXIFormCollege.png" alt="pdf logo"></img>
+          <img className='highlightBoxImage' src="./images/companyLogos/LeytonXIFormCollege.png" alt="Leyton XI Form College"></img>
 
           <div className='highlightBoxText'>
             <h5>A Levels</h5>
@@ -46,7 +46,7 @@ function EducationHighlights() {
         </div>
 
         <div className='highlightBox'>
-          <img className='highlightBoxImage' src="./images/companyLogos/StAloy.jpg" alt="pdf logo"></img>
+          <img className='highlightBoxImage' src="./images/companyLogos/StAloy.jpg" alt="St Aloysius R.C College"></img>
 
           <div className='highlightBoxText'>
             <h5>GCSEs</h5>
