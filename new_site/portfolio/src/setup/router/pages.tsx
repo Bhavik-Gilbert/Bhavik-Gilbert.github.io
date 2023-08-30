@@ -4,13 +4,15 @@ import Projects from '../../pages/Projects';
 import Experience from '../../pages/Experience';
 import Education from '../../pages/Education';
 import Settings from '../../pages/Settings';
+import Contact from '../../pages/Contact';
 
 const enum pageNames {
     Home = "Home",
     Projects = "Projects",
     Experience = "Experience",
     Education = "Education",
-    Settings = "Settings"
+    Settings = "Settings",
+    Contact = "Contact Me"
 }
 
 const enum pageLinks {
@@ -18,7 +20,8 @@ const enum pageLinks {
     Projects = "/Projects",
     Experience = "/Experience",
     Education = "/Education",
-    Settings = "Settings"
+    Settings = "Settings",
+    Contact = "Contact"
 }
 
 export {
@@ -27,6 +30,7 @@ export {
     Experience,
     Education,
     Settings,
+    Contact,
     pageNames,
     pageLinks
 }; 
