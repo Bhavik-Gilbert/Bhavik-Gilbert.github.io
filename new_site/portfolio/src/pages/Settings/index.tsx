@@ -3,7 +3,8 @@ import React, { useEffect } from 'react';
 import { toggleClass } from '../../setup/components/changeClass';
 import { toggleCapitalise } from '../../setup/components/textEffects';
 import { pageNames } from '../../setup/router/pages';
-import Theme from './components/Theme';
+
+import {Theme} from './components/Subpages';
 
 function Settings() {
   const title = "Settings".split("");

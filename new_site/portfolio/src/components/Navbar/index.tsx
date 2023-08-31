@@ -14,7 +14,6 @@ function Navbar() {
             <NavLink to={pageLinks.Experience} id={pageNames.Experience} onMouseOver={(() => NavbarComponents.changeText(pageNames.Experience))} onMouseOut={ ((e) => NavbarComponents.revertText(pageNames.Experience, "&#128188;"))}>&#128188;</NavLink>
             <NavLink to={pageLinks.Education} id={pageNames.Education} onMouseOver={(() => NavbarComponents.changeText(pageNames.Education))} onMouseOut={ ((e) => NavbarComponents.revertText(pageNames.Education, "&#128218;"))}>&#128218;</NavLink>
             <NavLink to={pageLinks.Contact} id={pageNames.Contact} onMouseOver={(() => NavbarComponents.changeText(pageNames.Contact))} onMouseOut={ ((e) => NavbarComponents.revertText(pageNames.Contact, "&#128221;"))}>&#128221;</NavLink>
-            <NavLink to={pageLinks.Settings} id={pageNames.Settings} onMouseOver={(() => NavbarComponents.changeText(pageNames.Settings))} onMouseOut={ ((e) => NavbarComponents.revertText(pageNames.Settings, "&#9881;"))}>&#9881;</NavLink>
       </div>
     </div>
   );

@@ -12,15 +12,9 @@ function Home() {
 
   return (
     <div className={pageNames.Home}>
-      <div>
-        <Welcome/>
-      </div>
-      <div>
-        <Bio/>
-      </div>
-      <div>
-        <Pages/>
-      </div>
+      <Welcome/>
+      <Bio/>
+      <Pages/>
     </div>
   );
 }

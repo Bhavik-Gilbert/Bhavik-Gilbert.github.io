@@ -11,7 +11,7 @@ function Theme() {
   const [theme, setTheme] = useLocalStorage<string>('theme', defaultTheme ? colourThemes.originDark : colourThemes.originLight);
 
   return (
-    <div className="marginTop marginBottom">
+    <div className="bioBox textBox">
       {title.map((titleChar: string, titleCharIndex: number) => (
             <div className="h3 byLetter marginBottom" id={"pagesTitle" + titleCharIndex + titleChar} key={"pagesTitle" + titleCharIndex + titleChar} 
             onClick={(() => {

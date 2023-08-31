@@ -56,10 +56,3 @@
     transform: translateY(-0.2rem);
     color:  var(--primary);
 }
-
-.bioBox {
-    display: inline-block;
-    width: 70vw;
-    margin-top: 4rem;
-    margin-bottom: 1.5rem;
-}
