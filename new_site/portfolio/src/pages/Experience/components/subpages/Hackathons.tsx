@@ -21,7 +21,7 @@ function Hackathons() {
 
       <div>
         <div className="card long m-3">
-            <img src="./images/companyLogos/JPMorgan.jpg" alt="JP"></img>
+            <img className="header" src="./images/companyLogos/JPMorgan.jpg" alt="JP"></img>
             <h5>Code For Good</h5>
             <br/>
             <h6>J.P Morgan</h6>
@@ -29,7 +29,7 @@ function Hackathons() {
         </div>
 
         <div className="card long m-3">
-            <img src="./images/companyLogos/Polygon.jpg" alt="Polygon"></img>
+            <img className="header" src="./images/companyLogos/Polygon.jpg" alt="Polygon"></img>
             <h5>Polygon x Easy A</h5>
             <br/>
             <h6>Polygon</h6>
@@ -37,7 +37,7 @@ function Hackathons() {
         </div>
 
         <div className="card long m-3">
-            <img src="./images/companyLogos/Meta.png" alt="Meta"></img>
+            <img className="header" src="./images/companyLogos/Meta.png" alt="Meta"></img>
             <h5>Meta  Global Hackathon</h5>
             <br/>
             <h6>Meta</h6>

@@ -26,6 +26,7 @@ function ProjectHighlights() {
           <div className='highlightBoxText'>
             <h5>Greggor Financial Companion - Financial Tracker</h5>
             <h6>Django Project</h6>
+            <h6>8 Contributors</h6>
             <br/>
             <img className="fileImage small" src="./images/techLogos/python.png" alt="Python"></img>
             <img className="fileImage small" src="./images/techLogos/javascript.png" alt="Javascript"></img>
@@ -69,6 +70,7 @@ function ProjectHighlights() {
             <h5>Phase Folding Kepler Exoplanets</h5>
             <h6>Data Analysis & Graphical Manipulation </h6>
             <h6>Numpy & Matplotlib</h6>
+            <h6>2 Contributors</h6>
             <br/>
             <img className="fileImage small" src="./images/techLogos/python.png" alt="Python"></img>
           </div>

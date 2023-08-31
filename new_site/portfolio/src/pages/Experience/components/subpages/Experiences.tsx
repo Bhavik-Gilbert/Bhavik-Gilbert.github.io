@@ -2,8 +2,8 @@ import React from 'react';
 import { toggleClass } from '../../../../setup/components/changeClass';
 import { toggleCapitalise } from '../../../../setup/components/textEffects';
 
-function Hackathons() {
-  const title = "Hackathons".split("");
+function Experiences() {
+  const title = "Experiences".split("");
   
   return (
     <>
@@ -21,7 +21,7 @@ function Hackathons() {
 
       <div>
         <div className="card long m-3">
-            <img src="./images/companyLogos/Expedia.jpg" alt="Expedia"></img>
+            <img className="header" src="./images/companyLogos/Expedia.jpg" alt="Expedia"></img>
             <h5>Expedia Career Discovery Program</h5>
             <br/>
             <h6>Expedia</h6>
@@ -29,7 +29,7 @@ function Hackathons() {
         </div>
 
         <div className="card long m-3">
-            <img src="./images/companyLogos/BrightNetwork.jpg" alt="BrightNetwork"></img>
+            <img className="header" src="./images/companyLogos/BrightNetwork.jpg" alt="BrightNetwork"></img>
             <h5>Internship Experience UK 2022: On Demand - Technology</h5>
             <br/>
             <h6>Bright Network</h6>
@@ -37,7 +37,7 @@ function Hackathons() {
         </div>
 
         <div className="card long m-3">
-            <img src="./images/companyLogos/JPMorganChase.jpg" alt="JPMC"></img>
+            <img className="header" src="./images/companyLogos/JPMorganChase.jpg" alt="JPMC"></img>
             <h5>Spring Insight into Software Engineering</h5>
             <br/>
             <h6>J.P Morgan Chase & Co</h6>
@@ -45,7 +45,7 @@ function Hackathons() {
         </div>
 
         <div className="card long m-3">
-            <img src="./images/companyLogos/Deloitte.webp" alt="Deloitte"></img>
+            <img className="header" src="./images/companyLogos/Deloitte.webp" alt="Deloitte"></img>
             <h5>Consulting Work Experience with Deloitte</h5>
             <br/>
             <h6>Springpod</h6>
@@ -53,7 +53,7 @@ function Hackathons() {
         </div>
 
         <div className="card long m-3">
-            <img src="./images/companyLogos/Springpod.png" alt="Springpod"></img>
+            <img className="header" src="./images/companyLogos/Springpod.png" alt="Springpod"></img>
             <h5>Technology Virtual Work Experience</h5>
             <br/>
             <h6>Springpod</h6>
@@ -61,7 +61,7 @@ function Hackathons() {
         </div>
 
         <div className="card long m-3">
-            <img src="./images/companyLogos/CareerCamp.jpg" alt="Careers Camp CIC"></img>
+            <img className="header" src="./images/companyLogos/CareerCamp.jpg" alt="Careers Camp CIC"></img>
             <h5>Design Competition</h5>
             <br/>
             <h6>Careers Camp CIC</h6>
@@ -72,4 +72,4 @@ function Hackathons() {
   );
 }
 
-export default Hackathons;
+export default Experiences;

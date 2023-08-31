@@ -2,14 +2,15 @@
     border-radius: 0.5rem;
     box-shadow: 0.1rem 0.1rem 1rem #000;
     border-width: 0;
-    background-color: var(--bg);
-    overflow: hidden;
-    align-content: left;
-    justify-content: left;
+    background: none;
+    overflow-x: hidden;
     transition: var(--ease);
     display: inline-block;
     padding: 0.7rem;
   }
+.card.background {
+    background: var(--bg);
+}
 .card:hover {
     background: var(--bgopaque);
 }
@@ -27,14 +28,18 @@
     color: var(--white);
 }
 
-.card img {
+.card .header {
     width: 112%;
     transform: translate3d(-0.8rem, -0.8rem, 0);
     height: 45%;
     margin-bottom: 1rem;
     transition: var(--ease);
 }
-.card:hover img {
+.card .header.large {
+    height: 60%;
+    width: 115%;
+}
+.card:hover .header {
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 

@@ -3,7 +3,7 @@ import React, {useEffect} from 'react';
 import { pageNames } from '../../setup/router/pages';
 import { toggleClass } from '../../setup/components/changeClass';
 import { toggleCapitalise } from '../../setup/components/textEffects';
-import { ProjectHighlights } from './components/subpages/Subpages';
+import { ProjectHighlights, MoreProjects } from './components/subpages/Subpages';
 
 function Projects() {
   const title = "Projects".split("");
@@ -27,6 +27,8 @@ function Projects() {
           ))}
 
           <ProjectHighlights />
+          <br/>
+          <MoreProjects />
       </div>
     </div>
   );
