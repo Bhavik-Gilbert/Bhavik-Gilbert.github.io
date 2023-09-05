@@ -7,7 +7,7 @@ function Skills() {
   const title = "Skills".split("");
   
   return (
-    <div className='bioBox textBox'>
+    <div className='bioBox textBox' style={{paddingLeft: 0, paddingRight: 0}}>
       <div>
         {title.map((titleChar: string, titleCharIndex: number) => (
             <div className="h3 byLetter marginBottom" id={"pagesTitle" + titleCharIndex + titleChar} key={"pagesTitle" + titleCharIndex + titleChar} 
