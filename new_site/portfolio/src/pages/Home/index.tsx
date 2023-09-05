@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 import './Home.css';
 import { pageNames } from '../../setup/router/pages';
-import { Bio, Welcome, Pages } from './components/subpages/Subpages';
+import { Bio, Welcome, Pages, Skills } from './components/subpages/Subpages';
 
 
 function Home() {
@@ -14,6 +14,7 @@ function Home() {
     <div className={pageNames.Home}>
       <Welcome/>
       <Bio/>
+      <Skills/>
       <Pages/>
     </div>
   );

@@ -8,6 +8,10 @@
     width: 2.5rem; 
 }
 .medium {
+    height: 6rem;
+    width: 6rem;  
+}
+.large {
     height: 12rem;
     width: 12rem; 
 }
@@ -27,6 +31,12 @@
 }
 .marginBottom {
     margin-bottom: 2rem;
+}
+.marginLeft {
+    margin-left: 2rem;
+}
+.marginRight {
+    margin-right: 2rem;
 }
 
 .info {
