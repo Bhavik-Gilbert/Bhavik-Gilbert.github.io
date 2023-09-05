@@ -6,7 +6,7 @@ function ExperienceHighlights() {
   const title = "Highlights".split("");
   
   return (
-    <>
+    <div className="marginTop marginBottom">
       <div className="marginTop marginBottom">
         {title.map((titleChar: string, titleCharIndex: number) => (
             <div className="h3 byLetter marginBottom" id={"pagesTitle" + titleCharIndex + titleChar} key={"pagesTitle" + titleCharIndex + titleChar} 
@@ -54,7 +54,7 @@ function ExperienceHighlights() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

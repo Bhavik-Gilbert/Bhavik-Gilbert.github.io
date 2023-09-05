@@ -6,7 +6,7 @@ function MoreProjects() {
   const title = "More Projects".split("");
   
   return (
-    <div>
+    <div className="textBox cardScrollBox">
       <div className="marginTop marginBottom">
         {title.map((titleChar: string, titleCharIndex: number) => (
             <div className="h3 byLetter marginBottom" id={"pagesTitle" + titleCharIndex + titleChar} key={"pagesTitle" + titleCharIndex + titleChar} 
@@ -19,7 +19,7 @@ function MoreProjects() {
         ))}
       </div>
 
-      <div>
+      <div className="scrollBox">
         <div className="card long m-3">
             <img className="header" src="./images/projects/Penguin Empire/PE1.png" alt="Penguin Empire"></img>
             <h5>Penguin Empire</h5>

@@ -6,7 +6,7 @@ function WorkExperience() {
   const title = "Work".split("");
   
   return (
-    <>
+    <div className="textBox marginTop cardScrollBox">
       <div className="marginTop marginBottom">
         {title.map((titleChar: string, titleCharIndex: number) => (
             <div className="h3 byLetter marginBottom" id={"pagesTitle" + titleCharIndex + titleChar} key={"pagesTitle" + titleCharIndex + titleChar} 
@@ -19,7 +19,7 @@ function WorkExperience() {
         ))}
       </div>
 
-      <div>
+      <div className="scrollBox">
         <div className="card long m-3">
             <img className="header" src="./images/companyLogos/JPMorganChase.jpg" alt="JPMC"></img>
             <h5>Software Engineer Analyst Intern</h5>
@@ -60,7 +60,7 @@ function WorkExperience() {
             <h6>Jul 2021 - Aug 2021</h6>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

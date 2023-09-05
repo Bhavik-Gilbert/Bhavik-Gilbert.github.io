@@ -6,7 +6,7 @@ function Experiences() {
   const title = "Experiences".split("");
   
   return (
-    <>
+    <div className="textBox marginTop cardScrollBox">
       <div className="marginTop marginBottom">
         {title.map((titleChar: string, titleCharIndex: number) => (
             <div className="h3 byLetter marginBottom" id={"pagesTitle" + titleCharIndex + titleChar} key={"pagesTitle" + titleCharIndex + titleChar} 
@@ -19,7 +19,7 @@ function Experiences() {
         ))}
       </div>
 
-      <div>
+      <div className="scrollBox">
         <div className="card long m-3">
             <img className="header" src="./images/companyLogos/Expedia.jpg" alt="Expedia"></img>
             <h5>Expedia Career Discovery Program</h5>
@@ -68,7 +68,7 @@ function Experiences() {
             <h6>Nov 2019 - Dec 2019</h6>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

@@ -3,6 +3,7 @@
     box-shadow: 0.1rem 0.1rem 1rem #000;
     border-width: 0;
     background: none;
+    white-space: wrap;
     overflow-x: hidden;
     transition: var(--ease);
     display: inline-block;

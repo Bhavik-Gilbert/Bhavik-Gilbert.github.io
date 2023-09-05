@@ -13,7 +13,7 @@ function Pages() {
     const title = "Pages".split("");
 
     return (
-        <div className='textBox bioBox px-0'>
+        <div className='textBox bioBox px-0 pb-0'>
             <div className="mb-3">
                 {title.map((titleChar: string, titleCharIndex: number) => (
                     <div className="h3 byLetter" id={"pagesTitle" + titleCharIndex + titleChar} key={"pagesTitle" + titleCharIndex + titleChar} 

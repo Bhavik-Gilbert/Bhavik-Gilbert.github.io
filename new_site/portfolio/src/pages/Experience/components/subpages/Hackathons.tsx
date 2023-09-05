@@ -6,7 +6,7 @@ function Hackathons() {
   const title = "Hackathons".split("");
   
   return (
-    <>
+    <div className="textBox marginTop cardScrollBox">
       <div className="marginTop marginBottom">
         {title.map((titleChar: string, titleCharIndex: number) => (
             <div className="h3 byLetter marginBottom" id={"pagesTitle" + titleCharIndex + titleChar} key={"pagesTitle" + titleCharIndex + titleChar} 
@@ -19,7 +19,7 @@ function Hackathons() {
         ))}
       </div>
 
-      <div>
+      <div className="scrollBox">
         <div className="card long m-3">
             <img className="header" src="./images/companyLogos/JPMorgan.jpg" alt="JP"></img>
             <h5>Code For Good</h5>
@@ -44,7 +44,7 @@ function Hackathons() {
             <h6>Sept 2022</h6>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

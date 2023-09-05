@@ -6,7 +6,7 @@ function Courses() {
   const title = "Courses".split("");
   
   return (
-    <>
+    <div className="textBox marginTop cardScrollBox">
       <div className="marginTop marginBottom">
         {title.map((titleChar: string, titleCharIndex: number) => (
             <div className="h3 byLetter marginBottom" id={"pagesTitle" + titleCharIndex + titleChar} key={"pagesTitle" + titleCharIndex + titleChar} 
@@ -19,7 +19,7 @@ function Courses() {
         ))}
       </div>
 
-      <div>
+      <div className="scrollBox">
         <div className="card long m-3">
             <img className="header" src="./images/companyLogos/Harvard.png" alt="Harvard University"></img>
             <h5>CS50x</h5>
@@ -70,7 +70,7 @@ function Courses() {
             <h6>OpenLearn University</h6>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

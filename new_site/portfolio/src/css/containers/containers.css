@@ -2,6 +2,7 @@
 @import "imageBoxes.css";
 @import "textBoxes.css";
 @import "buttons.css";
+@import "scrollBox.css";
 
 .small {
     height: 2.5rem;
@@ -51,11 +52,14 @@
     text-decoration: underline;
 }
 
-.bioBox {
+.bioBox, .cardScrollBox {
     display: inline-block;
     width: 70vw;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+.cardScrollBox {
+    padding: 0
 }
 
 .highlightBox {

@@ -11,24 +11,26 @@ function Theme() {
   const [theme, setTheme] = useLocalStorage<string>('theme', defaultTheme ? colourThemes.originDark : colourThemes.originLight);
 
   return (
-    <div className="bioBox textBox">
-      {title.map((titleChar: string, titleCharIndex: number) => (
-            <div className="h3 byLetter marginBottom" id={"pagesTitle" + titleCharIndex + titleChar} key={"pagesTitle" + titleCharIndex + titleChar} 
-            onClick={(() => {
-                toggleClass("pagesTitle" + titleCharIndex + titleChar, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
-                toggleCapitalise("pagesTitle" + titleCharIndex + titleChar);
-            })}>
-                {titleChar}
+    <div className="textBox cardScrollBox">
+      <div className="marginTop marginBottom">
+        {title.map((titleChar: string, titleCharIndex: number) => (
+              <div className="h3 byLetter marginBottom" id={"pagesTitle" + titleCharIndex + titleChar} key={"pagesTitle" + titleCharIndex + titleChar} 
+              onClick={(() => {
+                  toggleClass("pagesTitle" + titleCharIndex + titleChar, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
+                  toggleCapitalise("pagesTitle" + titleCharIndex + titleChar);
+              })}>
+                  {titleChar}
+              </div>
+          ))}
+      </div>
+
+      <div className="scrollBox">
+        {Object.values(colourThemes).map((colourTheme: string) => (
+            <div key={colourTheme} className={"card large m-3" + (theme == colourTheme ? " selected": " background")} data-theme={colourTheme} onClick={((e) => {setTheme(colourTheme)})}>
+              <img className="header large" src={"./images/colourThemes/"+ colourTheme + ".png"} alt={colourTheme + " theme"}></img>
+              <p>{colourTheme.charAt(0).toUpperCase() + colourTheme.slice(1)} Theme</p>
             </div>
         ))}
-
-      <div>
-      {Object.values(colourThemes).map((colourTheme: string) => (
-          <div key={colourTheme} className={"card large m-3" + (theme == colourTheme ? " selected": " background")} data-theme={colourTheme} onClick={((e) => {setTheme(colourTheme)})}>
-            <img className="header large" src={"./images/colourThemes/"+ colourTheme + ".png"} alt={colourTheme + " theme"}></img>
-            <p>{colourTheme.charAt(0).toUpperCase() + colourTheme.slice(1)} Theme</p>
-          </div>
-      ))}
       </div>
     </div>
   );
