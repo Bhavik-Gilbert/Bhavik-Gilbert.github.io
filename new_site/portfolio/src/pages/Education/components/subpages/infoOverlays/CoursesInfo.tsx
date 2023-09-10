@@ -2,9 +2,8 @@ import React from 'react';
 
 import  { closeElements } from '../../../../../setup/components/displayControls';
 
-function CoursesInfo() {
-  return (
-    <div className="overlayBackground" id="coursesOverlay">
+function CS50X() {
+    return (
         <div className="overlayInfo" id="cs50">
             <div className="topRight">
                 <div className="file button marginLeft" onClick={(e) => closeElements(["coursesOverlay", "cs50"])}>
@@ -24,7 +23,12 @@ function CoursesInfo() {
 
             <hr/>
         </div>
+    );
+}
 
+
+function JPSoftwareEngineeringVirtualExperience() {
+    return (
         <div className="overlayInfo" id="jpSoftwareEngineeringVirtualExperience">
             <div className="topRight">
                 <div className="file button marginLeft" onClick={(e) => closeElements(["coursesOverlay", "jpSoftwareEngineeringVirtualExperience"])}>
@@ -44,7 +48,12 @@ function CoursesInfo() {
 
             <hr/>
         </div>
+    );
+}
 
+
+function UniqDigital() {
+    return (
         <div className="overlayInfo" id="uniqDigital">
             <div className="topRight">
                 <div className="file button marginLeft" onClick={(e) => closeElements(["coursesOverlay", "uniqDigital"])}>
@@ -64,7 +73,12 @@ function CoursesInfo() {
 
             <hr/>
         </div>
+    );
+}
 
+
+function OUDesignThinking() {
+    return (
         <div className="overlayInfo" id="ouDesignThinking">
             <div className="topRight">
                 <div className="file button marginLeft" onClick={(e) => closeElements(["coursesOverlay", "ouDesignThinking"])}>
@@ -84,7 +98,12 @@ function CoursesInfo() {
 
             <hr/>
         </div>
-        
+    );
+}
+
+
+function OUIntroductiontoSoftwareDevelopment() {
+    return (
         <div className="overlayInfo" id="ouIntroductiontoSoftwareDevelopment">
             <div className="topRight">
                 <div className="file button marginLeft" onClick={(e) => closeElements(["coursesOverlay", "OUIntroductiontoSoftwareDevelopment"])}>
@@ -104,7 +123,12 @@ function CoursesInfo() {
 
             <hr/>
         </div>
-        
+    );
+}
+
+
+function OUTechnologicalInnovation() {
+    return (
         <div className="overlayInfo" id="ouTechnologicalInnovation">
             <div className="topRight">
                 <div className="file button marginLeft" onClick={(e) => closeElements(["coursesOverlay", "ouTechnologicalInnovation"])}>
@@ -124,7 +148,12 @@ function CoursesInfo() {
 
             <hr/>
         </div>
+    );
+}
 
+
+function OUComputersandComputerSystems() {
+    return (
         <div className="overlayInfo" id="ouComputersandComputerSystems">
             <div className="topRight">
                 <div className="file button marginLeft" onClick={(e) => closeElements(["coursesOverlay", "ouComputersandComputerSystems"])}>
@@ -144,6 +173,18 @@ function CoursesInfo() {
 
             <hr/>
         </div>
+    );
+}
+function CoursesInfo() {
+  return (
+    <div className="overlayBackground" id="coursesOverlay">
+        <CS50X/>
+        <JPSoftwareEngineeringVirtualExperience/>
+        <UniqDigital/>
+        <OUDesignThinking/>
+        <OUIntroductiontoSoftwareDevelopment/>
+        <OUTechnologicalInnovation/>
+        <OUComputersandComputerSystems/>
     </div>
   );
 }
