@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ProjectHighlightsInfo from './infoOverlays/ProjectHighlightsInfo';
+import  { openElements } from '../../../../setup/components/displayControls';
 import { toggleClass } from '../../../../setup/components/changeClass';
 import { toggleCapitalise } from '../../../../setup/components/textEffects';
 
@@ -7,7 +9,7 @@ function ProjectHighlights() {
   const title = "Highlights".split("");
   
   return (
-    <div>
+    <>
       <div className="marginTop marginBottom">
         {title.map((titleChar: string, titleCharIndex: number) => (
             <div className="h3 byLetter marginBottom" id={"pagesTitle" + titleCharIndex + titleChar} key={"pagesTitle" + titleCharIndex + titleChar} 
@@ -34,7 +36,7 @@ function ProjectHighlights() {
             <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
             <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="Html" loading="lazy"/>
 
-            <div className="file button bottomRight">
+            <div className="file button bottomRight" onClick={(e) => openElements(["projectHighlightsOverlay", "greggorFinancialCompanion"])}>
               More Info
             </div>
           </div>
@@ -51,7 +53,7 @@ function ProjectHighlights() {
             <img className="skeleton fileImage small" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
           </div>
             
-          <div className="file button bottomRight">
+          <div className="file button bottomRight" onClick={(e) => openElements(["projectHighlightsOverlay", "roboticStoreroomInventoryScanner"])}>
             More Info
           </div>
         </div>
@@ -68,7 +70,7 @@ function ProjectHighlights() {
             <img className="skeleton fileImage small" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
           </div>
 
-          <div className="file button bottomRight">
+          <div className="file button bottomRight" onClick={(e) => openElements(["projectHighlightsOverlay", "facialRecognitionLoginSystem"])}>
             More Info
           </div>
         </div>
@@ -85,12 +87,14 @@ function ProjectHighlights() {
             <img className="skeleton fileImage small" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
           </div>
           
-          <div className="file button bottomRight">
+          <div className="file button bottomRight" onClick={(e) => openElements(["projectHighlightsOverlay", "phaseFoldingKeplerExoplanets"])}>
             More Info
           </div> 
         </div>
       </div>
-    </div>
+
+      <ProjectHighlightsInfo/>
+    </>
   );
 }
 
