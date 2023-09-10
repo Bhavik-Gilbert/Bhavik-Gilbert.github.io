@@ -1,0 +1,30 @@
+.overlayBackground {
+  display: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 99;
+}
+
+.overlayInfo {
+  display: none;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  background-color: var(--bgopaque);
+  border-width: 0.5rem;
+  border-style: double; 
+  border-color: var(--bglight);
+  border-radius: 0.5rem;
+  width: 70vw;
+  height: 70vh;
+  padding: 1rem;
+  text-align: left;
+}
+
+hr {
+  border-top: 0.1rem solid var(--primary);
+}

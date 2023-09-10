@@ -3,6 +3,7 @@
 @import "textBoxes.css";
 @import "buttons.css";
 @import "scrollBox.css";
+@import "infoOverlay.css";
 
 @keyframes skeleton-loading {
     0% {
@@ -31,6 +32,17 @@
 .long {
     height: 20rem;
     width: 15rem; 
+}
+
+.topRight {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+.bottomRight {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
 }
 
 .page {
