@@ -28,8 +28,8 @@ function EducationHighlights() {
             <img className="skeleton highlightBoxImage" src="./images/companyLogos/KCL.jpg" alt="KCL" loading="lazy"/>
 
             <div className="highlightBoxText">
-              <h5>Undegraduate</h5>
-              <h6>Computer Science BSc(Hons)</h6>
+              <h5>Computer Science BSc(Hons)</h5>
+              <h6>Undegraduate</h6>
               <br/>
               <h6>King's College London</h6>
               <h6>Sep 2021 - May 2024</h6>

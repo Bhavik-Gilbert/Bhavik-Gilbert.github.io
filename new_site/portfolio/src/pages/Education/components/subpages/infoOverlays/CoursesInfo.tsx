@@ -36,7 +36,8 @@ function JPSoftwareEngineeringVirtualExperience() {
                 </div>
             </div>
 
-            <h1>Software Engineering</h1><h3>Virtual Experience</h3>
+            <h1>Software Engineering</h1>
+            <h5>Virtual Experience</h5>
             <h3>- J.P Morgan Chase & Co -</h3>
 
             <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">
@@ -61,7 +62,8 @@ function UniqDigital() {
                 </div>
             </div>
 
-            <h1>Uniq Digital</h1><h3>R-Studio Course</h3>
+            <h1>Uniq Digital</h1>
+            <h5>R-Studio Course</h5>
             <h3>- Oxford University -</h3>
 
             <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">
@@ -136,7 +138,8 @@ function OUTechnologicalInnovation() {
                 </div>
             </div>
 
-            <h1>Technological Innovation</h1><h3>A Resource-Based View</h3>
+            <h1>Technological Innovation</h1>
+            <h5>A Resource-Based View</h5>
             <h3>- OpenLearn University -</h3>
 
             <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">

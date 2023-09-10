@@ -11,7 +11,8 @@ function PenguinEmpire() {
         </div>
       </div>
 
-      <h1>Penguin Empire</h1><h3>Social Media Application</h3>
+      <h1>Penguin Empire</h1>
+      <h5>Social Media Application</h5>
       <h3>- Django Project -</h3>
       
       <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">
@@ -186,7 +187,8 @@ function PhotographyBookingManagementSystem() {
         </div>
       </div>
 
-      <h1>Booking & Management System</h1><h3>Photography Website</h3>
+      <h1>Booking & Management System</h1>
+      <h5>Photographer Booking Website</h5>
       <h3>- Web Development -</h3>
 
       <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">

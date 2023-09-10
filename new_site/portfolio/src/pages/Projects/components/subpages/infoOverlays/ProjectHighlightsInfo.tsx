@@ -11,7 +11,8 @@ function GreggorFinancialCompanion() {
         </div>
       </div>
 
-      <h1>Greggor Financial Companion</h1><h3>Financial Tracker</h3>
+      <h1>Greggor Financial Companion</h1>
+      <h5>Financial Tracker</h5>
       <h3>- Django Project -</h3>
       
       <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">

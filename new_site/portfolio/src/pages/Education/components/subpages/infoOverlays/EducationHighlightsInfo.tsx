@@ -11,7 +11,8 @@ function CompsciKCLUndergrad() {
         </div>
       </div>
 
-      <h1>Undergraduate</h1><h3>Computer Science BSc(Hons)</h3>
+      <h1>Computer Science BSc(Hons)</h1>
+      <h5>Undegraduate</h5>
       <h3>- King's College London -</h3>
       
       <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">
@@ -36,7 +37,8 @@ function ALevels() {
         </div>
       </div>
 
-      <h1>A Levels</h1><h3>4 A Levels</h3>
+      <h1>A Levels</h1>
+      <h5>4 A Levels</h5>
       <h3>- Leyton XI Form College -</h3>
 
       <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">
@@ -61,7 +63,8 @@ function GCSEs() {
         </div>
       </div>
 
-      <h1>GCSEs</h1><h3>12 GCSEs</h3>
+      <h1>GCSEs</h1>
+      <h5>12 GCSEs</h5>
       <h3>- St.Aloysius R.C College -</h3>
 
       <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">
