@@ -35,25 +35,25 @@ function Bio() {
                 </div>
 
                 <a href="./work/files/CV.pdf" type="submit" target="_blank" className="file">
-                    <img className="fileImage small" src="./images/logos/PDFLogo.png" alt="PDF"></img>
+                    <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
                     <br/><br/>
                     CV/Resume
                 </a>
 
                 <a href="./work/files/CoverLetter.pdf" type="submit" target="_blank" className="file">
-                    <img className="fileImage small" src="./images/logos/PDFLogo.png" alt="PDF"></img>
+                    <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
                     <br/><br/>
                     Cover Letter
                 </a>
 
                 <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">
-                    <img className="fileImage small" src="./images/logos/LinkedInLogo.png" alt="LinkedIn"></img>
+                    <img className="skeleton fileImage small" src="./images/logos/LinkedInLogo.png" alt="LinkedIn" loading="lazy"/>
                     <br/><br/>
                     LinkedIn
                 </a>
 
                 <a href="https://github.com/Bhavik-Gilbert?tab=repositories" type="submit" target="_blank" className="file">
-                    <img className="fileImage small" src="./images/logos/GithubLogo.png" alt="Github"></img>
+                    <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
                     <br/><br/>
                     Github
                 </a>

@@ -20,10 +20,10 @@ function ExperienceHighlights() {
       </div>
 
       <div>
-        <div className='highlightBox marginBottom'>
-          <img className='highlightBoxImage' src="./images/companyLogos/JPMorganChase.jpg" alt="JPMC"></img>
+        <div className="highlightBox marginBottom">
+          <img className="skeleton highlightBoxImage" src="./images/companyLogos/JPMorganChase.jpg" alt="JPMC" loading="lazy"/>
 
-          <div className='highlightBoxText'>
+          <div className="highlightBoxText">
             <h5>Software Engineer Analyst Intern</h5>
             <br/>
             <h6>J.P Morgan Chase</h6>
@@ -32,10 +32,10 @@ function ExperienceHighlights() {
             
         </div>
         
-        <div className='highlightBox marginBottom'>
-          <img className='highlightBoxImage' src="./images/companyLogos/LeytonXIFormCollege.png" alt="Leyton XI Form College"></img>
+        <div className="highlightBox marginBottom">
+          <img className="skeleton highlightBoxImage" src="./images/companyLogos/LeytonXIFormCollege.png" alt="Leyton XI Form College" loading="lazy"/>
 
-          <div className='highlightBoxText'>
+          <div className="highlightBoxText">
             <h5>Computer Science Student Mentor</h5>
             <br/>
             <h6>Leyton Sixth Form College</h6>
@@ -43,10 +43,10 @@ function ExperienceHighlights() {
           </div>
         </div>
 
-        <div className='highlightBox'>
-          <img className='highlightBoxImage' src="./images/companyLogos/Funtech.png" alt="FunTech"></img>
+        <div className="highlightBox">
+          <img className="skeleton highlightBoxImage" src="./images/companyLogos/Funtech.png" alt="FunTech" loading="lazy"/>
 
-          <div className='highlightBoxText'>
+          <div className="highlightBoxText">
             <h5>Location Camp Manger</h5>
             <br/>
             <h6>FunTech</h6>

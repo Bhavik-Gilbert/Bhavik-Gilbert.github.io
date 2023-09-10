@@ -21,7 +21,7 @@ function WorkExperience() {
 
       <div className="scrollBox">
         <div className="card long m-3">
-            <img className="header" src="./images/companyLogos/JPMorganChase.jpg" alt="JPMC"></img>
+            <img className="skeleton header" src="./images/companyLogos/JPMorganChase.jpg" alt="JPMC" loading="lazy"/>
             <h5>Software Engineer Analyst Intern</h5>
             <br/>
             <h6>J.P Morgan Chase</h6>
@@ -29,7 +29,7 @@ function WorkExperience() {
         </div>
 
         <div className="card long m-3">
-            <img className="header" src="./images/companyLogos/LeytonXIFormCollege.png" alt="Leyton XI Form College"></img>
+            <img className="skeleton header" src="./images/companyLogos/LeytonXIFormCollege.png" alt="Leyton XI Form College" loading="lazy"/>
             <h5>Computer Science Student Mentor</h5>
             <br/>
             <h6>Leyton Sixth Form College</h6>
@@ -37,7 +37,7 @@ function WorkExperience() {
         </div>
 
         <div className="card long m-3">
-            <img className="header" src="./images/companyLogos/KCL.jpg" alt="KCL"></img>
+            <img className="skeleton header" src="./images/companyLogos/KCL.jpg" alt="KCL" loading="lazy"/>
             <h5>K+ Mentor</h5>
             <br/>
             <h6>King's College London</h6>
@@ -45,7 +45,7 @@ function WorkExperience() {
         </div>
 
         <div className="card long m-3">
-            <img className="header" src="./images/companyLogos/Funtech.png" alt="FunTech"></img>
+            <img className="skeleton header" src="./images/companyLogos/Funtech.png" alt="FunTech" loading="lazy"/>
             <h5>Location Camp Manger</h5>
             <br/>
             <h6>FunTech</h6>
@@ -53,7 +53,7 @@ function WorkExperience() {
         </div>
 
         <div className="card long m-3">
-            <img className="header" src="./images/companyLogos/Funtech.png" alt="FunTech"></img>
+            <img className="skeleton header" src="./images/companyLogos/Funtech.png" alt="FunTech" loading="lazy"/>
             <h5>Computer Science Teacher</h5>
             <br/>
             <h6>FunTech</h6>

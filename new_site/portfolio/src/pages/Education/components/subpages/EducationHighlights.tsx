@@ -20,10 +20,10 @@ function EducationHighlights() {
       </div>
 
       <div>
-        <div className='highlightBox marginBottom'>
-          <img className='highlightBoxImage' src="./images/companyLogos/KCL.jpg" alt="KCL"></img>
+        <div className="highlightBox marginBottom">
+          <img className="skeleton highlightBoxImage" src="./images/companyLogos/KCL.jpg" alt="KCL" loading="lazy"/>
 
-          <div className='highlightBoxText'>
+          <div className="highlightBoxText">
             <h5>Undegraduate</h5>
             <h6>Computer Science BSc(Hons)</h6>
             <br/>
@@ -33,10 +33,10 @@ function EducationHighlights() {
             
         </div>
         
-        <div className='highlightBox marginBottom'>
-          <img className='highlightBoxImage' src="./images/companyLogos/LeytonXIFormCollege.png" alt="Leyton XI Form College"></img>
+        <div className="highlightBox marginBottom">
+          <img className="skeleton highlightBoxImage" src="./images/companyLogos/LeytonXIFormCollege.png" alt="Leyton XI Form College" loading="lazy"/>
 
-          <div className='highlightBoxText'>
+          <div className="highlightBoxText">
             <h5>A Levels</h5>
             <h5>4 A Levels</h5>
             <br/>
@@ -45,10 +45,10 @@ function EducationHighlights() {
           </div>
         </div>
 
-        <div className='highlightBox'>
-          <img className='highlightBoxImage' src="./images/companyLogos/StAloy.jpg" alt="St Aloysius R.C College"></img>
+        <div className="highlightBox">
+          <img className="skeleton highlightBoxImage" src="./images/companyLogos/StAloy.jpg" alt="St Aloysius R.C College" loading="lazy"/>
 
-          <div className='highlightBoxText'>
+          <div className="highlightBoxText">
             <h5>GCSEs</h5>
             <h6>12 GCSEs</h6>
             <br/>

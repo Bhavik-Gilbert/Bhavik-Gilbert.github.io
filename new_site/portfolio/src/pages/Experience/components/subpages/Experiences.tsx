@@ -21,7 +21,7 @@ function Experiences() {
 
       <div className="scrollBox">
         <div className="card long m-3">
-            <img className="header" src="./images/companyLogos/Expedia.jpg" alt="Expedia"></img>
+            <img className="skeleton header" src="./images/companyLogos/Expedia.jpg" alt="Expedia" loading="lazy"/>
             <h5>Expedia Career Discovery Program</h5>
             <br/>
             <h6>Expedia</h6>
@@ -29,7 +29,7 @@ function Experiences() {
         </div>
 
         <div className="card long m-3">
-            <img className="header" src="./images/companyLogos/BrightNetwork.jpg" alt="BrightNetwork"></img>
+            <img className="skeleton header" src="./images/companyLogos/BrightNetwork.jpg" alt="BrightNetwork" loading="lazy"/>
             <h5>Internship Experience UK 2022: On Demand - Technology</h5>
             <br/>
             <h6>Bright Network</h6>
@@ -37,7 +37,7 @@ function Experiences() {
         </div>
 
         <div className="card long m-3">
-            <img className="header" src="./images/companyLogos/JPMorganChase.jpg" alt="JPMC"></img>
+            <img className="skeleton header" src="./images/companyLogos/JPMorganChase.jpg" alt="JPMC" loading="lazy"/>
             <h5>Spring Insight into Software Engineering</h5>
             <br/>
             <h6>J.P Morgan Chase & Co</h6>
@@ -45,7 +45,7 @@ function Experiences() {
         </div>
 
         <div className="card long m-3">
-            <img className="header" src="./images/companyLogos/Deloitte.webp" alt="Deloitte"></img>
+            <img className="skeleton header" src="./images/companyLogos/Deloitte.webp" alt="Deloitte" loading="lazy"/>
             <h5>Consulting Work Experience with Deloitte</h5>
             <br/>
             <h6>Springpod</h6>
@@ -53,7 +53,7 @@ function Experiences() {
         </div>
 
         <div className="card long m-3">
-            <img className="header" src="./images/companyLogos/Springpod.png" alt="Springpod"></img>
+            <img className="skeleton header" src="./images/companyLogos/Springpod.png" alt="Springpod" loading="lazy"/>
             <h5>Technology Virtual Work Experience</h5>
             <br/>
             <h6>Springpod</h6>
@@ -61,7 +61,7 @@ function Experiences() {
         </div>
 
         <div className="card long m-3">
-            <img className="header" src="./images/companyLogos/CareerCamp.jpg" alt="Careers Camp CIC"></img>
+            <img className="skeleton header" src="./images/companyLogos/CareerCamp.jpg" alt="Careers Camp CIC" loading="lazy"/>
             <h5>Design Competition</h5>
             <br/>
             <h6>Careers Camp CIC</h6>

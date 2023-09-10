@@ -4,6 +4,18 @@
 @import "buttons.css";
 @import "scrollBox.css";
 
+@keyframes skeleton-loading {
+    0% {
+        background-color: var(--bgopaque);
+    }
+
+    100% {
+        background-color: var(--primaryopaque1);
+    }
+}
+
+.skeleton { animation: skeleton-loading 1s linear infinite alternate;}
+
 .small {
     height: 2.5rem;
     width: 2.5rem; 
@@ -70,7 +82,7 @@
     border-radius: 0.5rem;
 }
 .highlightBox .highlightBoxImage {
-    max-width: 22%;
+    width: 22%;
     display: block;
   }
 .highlightBoxText {
