@@ -26,6 +26,9 @@ function Experiences() {
             <br/>
             <h6>Expedia</h6>
             <h6>Jul 2022</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -34,6 +37,9 @@ function Experiences() {
             <br/>
             <h6>Bright Network</h6>
             <h6>Jun 2022 - Jul 2022</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -42,6 +48,9 @@ function Experiences() {
             <br/>
             <h6>J.P Morgan Chase & Co</h6>
             <h6>Apr 2022</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -50,6 +59,9 @@ function Experiences() {
             <br/>
             <h6>Springpod</h6>
             <h6>Aug 2021</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -58,6 +70,9 @@ function Experiences() {
             <br/>
             <h6>Springpod</h6>
             <h6>Apr 2021</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -66,6 +81,9 @@ function Experiences() {
             <br/>
             <h6>Careers Camp CIC</h6>
             <h6>Nov 2019 - Dec 2019</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
       </div>
     </div>

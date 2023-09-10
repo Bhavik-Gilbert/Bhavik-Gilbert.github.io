@@ -29,7 +29,10 @@ function ExperienceHighlights() {
             <h6>J.P Morgan Chase</h6>
             <h6>Jun 2023 - Aug 2023</h6>
           </div>
-            
+          
+          <div className="file button bottomRight">
+            More Info
+          </div>
         </div>
         
         <div className="highlightBox marginBottom">
@@ -41,6 +44,10 @@ function ExperienceHighlights() {
             <h6>Leyton Sixth Form College</h6>
             <h6>Sep 2021 - Oct 2022</h6>
           </div>
+
+          <div className="file button bottomRight">
+            More Info
+          </div>
         </div>
 
         <div className="highlightBox">
@@ -51,6 +58,10 @@ function ExperienceHighlights() {
             <br/>
             <h6>FunTech</h6>
             <h6>Jul 2022 - Aug 2022</h6>
+          </div>
+
+          <div className="file button bottomRight">
+            More Info
           </div>
         </div>
       </div>

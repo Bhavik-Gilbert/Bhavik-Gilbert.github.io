@@ -32,6 +32,10 @@ function MoreProjects() {
             <img className="skeleton fileImage small" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
             <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
             <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="Html" loading="lazy"/>
+
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -43,6 +47,10 @@ function MoreProjects() {
             <br/>
             <img className="skeleton fileImage small" src="./images/techLogos/java.png" alt="Java" loading="lazy"/>
             <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
+
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
         
         <div className="card long m-3">
@@ -57,6 +65,10 @@ function MoreProjects() {
             <img className="skeleton fileImage small" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
             <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
             <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="Html" loading="lazy"/>
+
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -70,6 +82,10 @@ function MoreProjects() {
             <img className="skeleton fileImage small" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
             <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
             <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="Html" loading="lazy"/>
+
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -82,6 +98,10 @@ function MoreProjects() {
             <img className="skeleton fileImage small" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
             <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
             <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="Html" loading="lazy"/>
+
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -93,6 +113,10 @@ function MoreProjects() {
             <br/>
             <img className="skeleton fileImage small" src="./images/techLogos/java.png" alt="Java" loading="lazy"/>
             <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
+
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -104,6 +128,10 @@ function MoreProjects() {
             <h6>2 Contributors</h6>
             <br/>
             <img className="skeleton fileImage small" src="./images/techLogos/java.png" alt="Java" loading="lazy"/>
+            <br/>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -117,6 +145,10 @@ function MoreProjects() {
             <img className="skeleton fileImage small" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
             <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
             <img className="skeleton fileImage small" src="./images/techLogos/Html.png" alt="Html" loading="lazy"/>
+
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -127,6 +159,10 @@ function MoreProjects() {
             {/* <h6>Tkinter & PIL & TensorFlow & Numpy & Google Cloud</h6> */}
             <br/>
             <img className="skeleton fileImage small" src="./images/techLogos/Python.png" alt="Python" loading="lazy"/>
+            <br/>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -136,6 +172,10 @@ function MoreProjects() {
             <h6>A* Pathfinder</h6>
             <br/>
             <img className="skeleton fileImage small" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
+            <br/>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
       </div>
     </div>

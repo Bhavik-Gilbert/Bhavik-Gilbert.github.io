@@ -26,6 +26,9 @@ function WorkExperience() {
             <br/>
             <h6>J.P Morgan Chase</h6>
             <h6>Jun 2023 - Aug 2023</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -34,6 +37,9 @@ function WorkExperience() {
             <br/>
             <h6>Leyton Sixth Form College</h6>
             <h6>Sep 2021 - Oct 2022</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -42,6 +48,9 @@ function WorkExperience() {
             <br/>
             <h6>King's College London</h6>
             <h6>Jan 2022 - Dec 2022</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -50,6 +59,9 @@ function WorkExperience() {
             <br/>
             <h6>FunTech</h6>
             <h6>Jul 2022 - Aug 2022</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -58,6 +70,9 @@ function WorkExperience() {
             <br/>
             <h6>FunTech</h6>
             <h6>Jul 2021 - Aug 2021</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
       </div>
     </div>

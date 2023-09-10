@@ -33,8 +33,11 @@ function ProjectHighlights() {
             <img className="skeleton fileImage small" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
             <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
             <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="Html" loading="lazy"/>
+
+            <div className="file button bottomRight">
+              More Info
+            </div>
           </div>
-            
         </div>
 
         <div className="highlightBox marginBottom">
@@ -48,6 +51,9 @@ function ProjectHighlights() {
             <img className="skeleton fileImage small" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
           </div>
             
+          <div className="file button bottomRight">
+            More Info
+          </div>
         </div>
 
         <div className="highlightBox marginBottom">
@@ -61,7 +67,10 @@ function ProjectHighlights() {
             <img className="skeleton fileImage small" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
             <img className="skeleton fileImage small" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
           </div>
-            
+
+          <div className="file button bottomRight">
+            More Info
+          </div>
         </div>
 
         <div className="highlightBox marginBottom">
@@ -75,7 +84,10 @@ function ProjectHighlights() {
             <br/>
             <img className="skeleton fileImage small" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
           </div>
-            
+          
+          <div className="file button bottomRight">
+            More Info
+          </div> 
         </div>
       </div>
     </div>

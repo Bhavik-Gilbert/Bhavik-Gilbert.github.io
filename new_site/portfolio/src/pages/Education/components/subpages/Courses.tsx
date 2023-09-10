@@ -25,6 +25,9 @@ function Courses() {
             <h5>CS50x</h5>
             <br/>
             <h6>Harvard University</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -32,6 +35,9 @@ function Courses() {
             <h5>Software Engineering Virtual Experience</h5>
             <br/>
             <h6>J.P Morgan Chase & Co</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -40,6 +46,9 @@ function Courses() {
             <h6>R-Studio Course</h6>
             <br/>
             <h6>Oxford University</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -47,6 +56,9 @@ function Courses() {
             <h5>Design Thinking</h5>
             <br/>
             <h6>OpenLearn University</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -54,6 +66,9 @@ function Courses() {
             <h5>An Introduction to Software Development</h5>
             <br/>
             <h6>OpenLearn University</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -61,6 +76,9 @@ function Courses() {
             <h5>Technological Innovation: A Resource-Based View</h5>
             <br/>
             <h6>OpenLearn University</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -68,6 +86,9 @@ function Courses() {
             <h5>Computers and Computer Systems</h5>
             <br/>
             <h6>OpenLearn University</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
       </div>
     </div>

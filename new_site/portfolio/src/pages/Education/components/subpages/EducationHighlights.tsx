@@ -30,7 +30,10 @@ function EducationHighlights() {
             <h6>King's College London</h6>
             <h6>Sep 2021 - May 2024</h6>
           </div>
-            
+
+          <div className="file button bottomRight">
+            More Info
+          </div>
         </div>
         
         <div className="highlightBox marginBottom">
@@ -43,6 +46,10 @@ function EducationHighlights() {
             <h6>Leyton Sixth Form College</h6>
             <h6>Sep 2019 - May 2021</h6>
           </div>
+
+          <div className="file button bottomRight">
+            More Info
+          </div>
         </div>
 
         <div className="highlightBox">
@@ -54,6 +61,10 @@ function EducationHighlights() {
             <br/>
             <h6>St.Aloysius R.C College</h6>
             <h6>Sep 2014 - Jun 2019</h6>
+          </div>
+
+          <div className="file button bottomRight">
+            More Info
           </div>
         </div>
       </div>

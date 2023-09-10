@@ -26,6 +26,9 @@ function Hackathons() {
             <br/>
             <h6>J.P Morgan</h6>
             <h6>Nov 2022</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -34,6 +37,9 @@ function Hackathons() {
             <br/>
             <h6>Polygon</h6>
             <h6>Oct 2022</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
 
         <div className="card long m-3">
@@ -42,6 +48,9 @@ function Hackathons() {
             <br/>
             <h6>Meta</h6>
             <h6>Sept 2022</h6>
+            <div className="file button marginTop">
+                More Info
+            </div>
         </div>
       </div>
     </div>
