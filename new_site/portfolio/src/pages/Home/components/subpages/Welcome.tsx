@@ -34,13 +34,13 @@ function Bio() {
                 ))}
                 </div>
 
-                <a href="./work/files/CV.pdf" type="submit" target="_blank" className="file button">
+                <a href="./files/resume/CV.pdf" type="submit" target="_blank" className="file button">
                     <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
                     <br/><br/>
                     CV/Resume
                 </a>
 
-                <a href="./work/files/CoverLetter.pdf" type="submit" target="_blank" className="file button">
+                <a href="./files/resume/CoverLetter.pdf" type="submit" target="_blank" className="file button">
                     <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
                     <br/><br/>
                     Cover Letter

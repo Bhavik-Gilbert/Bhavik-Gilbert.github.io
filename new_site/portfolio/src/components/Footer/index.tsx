@@ -17,11 +17,11 @@ function Footer() {
           <br/>
           <h6>bhaviklob@hotmail.com</h6>
 
-          <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">
+          <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file button">
               <img className="skeleton fileImage small" src="./images/logos/LinkedInLogo.png" alt="pdf logo"></img>
           </a>
 
-          <a href="https://github.com/Bhavik-Gilbert?tab=repositories" type="submit" target="_blank" className="file">
+          <a href="https://github.com/Bhavik-Gilbert?tab=repositories" type="submit" target="_blank" className="file button">
               <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="pdf logo"></img>
           </a>
         </div>

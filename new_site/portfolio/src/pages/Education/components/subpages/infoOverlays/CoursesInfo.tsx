@@ -14,14 +14,32 @@ function CS50X() {
             <h1>CS50x</h1>
             <h3>- Harvard University -</h3>
             
-            <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">
-                <img className="skeleton fileImage small button" src="./images/logos/LinkedInLogo.png" alt="LinkedIn" loading="lazy"/>
-            </a>
-            <a href="https://github.com/Bhavik-Gilbert?tab=repositories" type="submit" target="_blank" className="file">
-                <img className="skeleton fileImage button small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
+            <a href="https://certificates.cs50.io/5144cbf9-40a0-49b2-8f32-329c7e7f9b35.pdf?size=letter" type="submit" target="_blank" className="file button justify-content-center text-center">
+                <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
+                &nbsp;
+                Certificate
             </a>
 
             <hr/>
+
+            <img className="skeleton fileImage small marginRight" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
+            <img className="skeleton fileImage small marginRight" src="./images/techLogos/c.png" alt="C" loading="lazy"/>
+            <img className="skeleton fileImage small marginRight" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
+            <img className="skeleton fileImage small marginRight" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
+            <img className="skeleton fileImage small marginRight" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
+
+            <hr/>
+
+            <h6>Flask</h6>
+
+            <hr/>
+
+            <ul>
+                <li>10 weeks of lectures</li>
+                <li>10 Problem sets</li>
+                <li>8 Labs</li>
+                <li>1 Final Project</li>
+            </ul>
         </div>
     );
 }
@@ -40,14 +58,24 @@ function JPSoftwareEngineeringVirtualExperience() {
             <h5>Virtual Experience</h5>
             <h3>- J.P Morgan Chase & Co -</h3>
 
-            <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">
-                <img className="skeleton fileImage small button" src="./images/logos/LinkedInLogo.png" alt="LinkedIn" loading="lazy"/>
-            </a>
-            <a href="https://github.com/Bhavik-Gilbert?tab=repositories" type="submit" target="_blank" className="file">
-                <img className="skeleton fileImage button small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
+            <a href="https://insidesherpa.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_znzZkM8qP52Cxx5zK_1641498096553_completion_certificate.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
+                <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
+                &nbsp;
+                Certificate
             </a>
 
             <hr/>
+
+            <img className="skeleton fileImage small marginRight" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
+
+            <hr/>
+
+            <ul>
+                <li>The Forage certification offered a great learning experience, providing a better understanding of the development of fintech services, alongside a deeper dive into web applications and financial analysis</li>
+                <li>Task 1 : Interface with a stock price data feed</li>
+                <li>Task 2 : Use JPMorgan Chase frameworks and tools</li>
+                <li>Task 3 : Display data visually for traders</li>
+            </ul>
         </div>
     );
 }
@@ -66,14 +94,23 @@ function UniqDigital() {
             <h5>R-Studio Course</h5>
             <h3>- Oxford University -</h3>
 
-            <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">
-                <img className="skeleton fileImage small button" src="./images/logos/LinkedInLogo.png" alt="LinkedIn" loading="lazy"/>
-            </a>
-            <a href="https://github.com/Bhavik-Gilbert?tab=repositories" type="submit" target="_blank" className="file">
-                <img className="skeleton fileImage button small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
+            <a href="https://www.uniq.ox.ac.uk/uniqdigital" type="submit" target="_blank" className="file button justify-content-center text-center">
+                <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
+                &nbsp;
+                Website
             </a>
 
             <hr/>
+
+            <img className="skeleton fileImage small marginRight" src="./images/techLogos/R.png" alt="R Studio" loading="lazy"/>
+
+            <hr/>
+
+            <ul>
+                <li>An online programme run by Oxford University connecting current students to prospective students</li>
+                <li>Focus was on giving us resources to better prepare for the university application process through tasks such as research projects and essay writing</li>
+                <li>An optional R-Studio programming course was provided, which gave an in-depth explanation and understanding of the language with a programming test to gauge what we learnt, where I achieved 95/100</li>
+            </ul>
         </div>
     );
 }
@@ -91,14 +128,17 @@ function OUDesignThinking() {
             <h1>Design Thinking</h1>
             <h3>- OpenLearn University -</h3>
 
-            <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">
-                <img className="skeleton fileImage small button" src="./images/logos/LinkedInLogo.png" alt="LinkedIn" loading="lazy"/>
-            </a>
-            <a href="https://github.com/Bhavik-Gilbert?tab=repositories" type="submit" target="_blank" className="file">
-                <img className="skeleton fileImage button small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
+            <a href="./files/courses/Design Thinking U101_1_statement.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
+                <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
+                &nbsp;
+                Certificate
             </a>
 
             <hr/>
+
+            <ul>
+                <li>An adapted extract from the Open University course U101Design thinking: creativity for the 21st century</li>
+            </ul>
         </div>
     );
 }
@@ -108,7 +148,7 @@ function OUIntroductiontoSoftwareDevelopment() {
     return (
         <div className="overlayInfo" id="ouIntroductiontoSoftwareDevelopment">
             <div className="topRight">
-                <div className="file button marginLeft" onClick={(e) => closeElements(["coursesOverlay", "OUIntroductiontoSoftwareDevelopment"])}>
+                <div className="file button marginLeft" onClick={(e) => closeElements(["coursesOverlay", "ouIntroductiontoSoftwareDevelopment"])}>
                 &#10005;
                 </div>
             </div>
@@ -116,14 +156,17 @@ function OUIntroductiontoSoftwareDevelopment() {
             <h1>Introduction to Software Development</h1>
             <h3>- OpenLearn University -</h3>
 
-            <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">
-                <img className="skeleton fileImage small button" src="./images/logos/LinkedInLogo.png" alt="LinkedIn" loading="lazy"/>
-            </a>
-            <a href="https://github.com/Bhavik-Gilbert?tab=repositories" type="submit" target="_blank" className="file">
-                <img className="skeleton fileImage button small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
+            <a href="./files/courses/An Introduction to Software Development M813_1_statement.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
+                <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
+                &nbsp;
+                Certificate
             </a>
 
             <hr/>
+
+            <ul>
+                <li>An adapted extract from the Open University course M813 Software development</li>
+            </ul>
         </div>
     );
 }
@@ -142,14 +185,17 @@ function OUTechnologicalInnovation() {
             <h5>A Resource-Based View</h5>
             <h3>- OpenLearn University -</h3>
 
-            <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">
-                <img className="skeleton fileImage small button" src="./images/logos/LinkedInLogo.png" alt="LinkedIn" loading="lazy"/>
-            </a>
-            <a href="https://github.com/Bhavik-Gilbert?tab=repositories" type="submit" target="_blank" className="file">
-                <img className="skeleton fileImage button small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
+            <a href="./files/courses/Technological Innovation a Resource-Based T849_1_statement.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
+                <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
+                &nbsp;
+                Certificate
             </a>
 
             <hr/>
+
+            <ul>
+                <li>An adapted extract from the Open University course T849 Strategic capabilities for technological innovation</li>
+            </ul>
         </div>
     );
 }
@@ -167,14 +213,17 @@ function OUComputersandComputerSystems() {
             <h1>Computers and Computer Systems</h1>
             <h3>- OpenLearn University -</h3>
 
-            <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">
-                <img className="skeleton fileImage small button" src="./images/logos/LinkedInLogo.png" alt="LinkedIn" loading="lazy"/>
-            </a>
-            <a href="https://github.com/Bhavik-Gilbert?tab=repositories" type="submit" target="_blank" className="file">
-                <img className="skeleton fileImage button small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
+            <a href="./files/courses/Computers and Computer Systems T224_1_statement.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
+                <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
+                &nbsp;
+                Certificate
             </a>
 
             <hr/>
+
+            <ul>
+                <li>A sample of level 2 study in Computing & IT</li>
+            </ul>
         </div>
     );
 }
