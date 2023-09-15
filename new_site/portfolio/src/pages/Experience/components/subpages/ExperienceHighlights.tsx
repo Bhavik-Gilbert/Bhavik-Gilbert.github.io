@@ -13,10 +13,10 @@ function ExperienceHighlights() {
       <div className="marginTop marginBottom">
         <div className="marginTop marginBottom">
           {title.map((titleChar: string, titleCharIndex: number) => (
-              <div className="h3 byLetter marginBottom" id={"pagesTitle" + titleCharIndex + titleChar} key={"pagesTitle" + titleCharIndex + titleChar} 
+              <div className="h3 byLetter marginBottom" id={"experienceHighlightsTitle" + titleCharIndex + titleChar} key={"experienceHighlightsTitle" + titleCharIndex + titleChar} 
               onClick={(() => {
-                  toggleClass("pagesTitle" + titleCharIndex + titleChar, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
-                  toggleCapitalise("pagesTitle" + titleCharIndex + titleChar);
+                  toggleClass("experienceHighlightsTitle" + titleCharIndex + titleChar, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
+                  toggleCapitalise("experienceHighlightsTitle" + titleCharIndex + titleChar);
               })}>
                   {titleChar}
               </div>

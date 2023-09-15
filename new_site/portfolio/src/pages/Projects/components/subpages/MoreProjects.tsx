@@ -13,10 +13,10 @@ function MoreProjects() {
         <div className="textBox cardScrollBox">
             <div className="marginTop marginBottom">
                 {title.map((titleChar: string, titleCharIndex: number) => (
-                    <div className="h3 byLetter marginBottom" id={"pagesTitle" + titleCharIndex + titleChar} key={"pagesTitle" + titleCharIndex + titleChar} 
+                    <div className="h3 byLetter marginBottom" id={"moreProjectsTitle" + titleCharIndex + titleChar} key={"moreProjectsTitle" + titleCharIndex + titleChar} 
                     onClick={(() => {
-                        toggleClass("pagesTitle" + titleCharIndex + titleChar, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
-                        toggleCapitalise("pagesTitle" + titleCharIndex + titleChar);
+                        toggleClass("moreProjectsTitle" + titleCharIndex + titleChar, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
+                        toggleCapitalise("moreProjectsTitle" + titleCharIndex + titleChar);
                     })}>
                         {titleChar}
                     </div>

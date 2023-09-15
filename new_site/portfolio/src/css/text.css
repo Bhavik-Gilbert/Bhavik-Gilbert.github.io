@@ -1,6 +1,6 @@
 h1, h2, h3, h4, h5, h6, p,
 .h1, .h2, .h3, .h4, .h5, .h6, .p,
-.h1Hold, .h2Hold, .h3Hold, .h4Hold, .h5Hold, .h6Hold {
+.h1Hold, .h2Hold, .h3Hold, .h4Hold, .h5Hold, .h6Hold, li {
     color: var(--bglight);
     transition: var(--ease);
 }

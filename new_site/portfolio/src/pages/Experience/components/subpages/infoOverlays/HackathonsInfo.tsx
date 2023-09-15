@@ -15,14 +15,38 @@ function CodeForGood() {
       <h5>Nov 2022</h5>
       <h3>- J.P Morgan Chase & Co -</h3>
 
-      <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">
-          <img className="skeleton fileImage small button" src="./images/logos/LinkedInLogo.png" alt="LinkedIn" loading="lazy"/>
-      </a>
-      <a href="https://github.com/Bhavik-Gilbert?tab=repositories" type="submit" target="_blank" className="file">
-          <img className="skeleton fileImage button small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
+      <a href="https://careers.jpmorgan.com/us/en/students/programs/code-for-good" type="submit" target="_blank" className="file button justify-content-center text-center">
+          <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
+          &nbsp;
+          Website
       </a>
 
       <hr/>
+
+      <img className="skeleton fileImage small marginRight" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
+      
+      <hr/>
+
+      <h6>Flask | Node | React</h6>
+
+      <hr/>
+
+      <ul>
+        <li>Code for Good is an opportunity for university students to brainstorm alongside developing MVPs for twenty-four hours on how nonprofits can solve a challenge that they're facing</li>
+        <br/>
+        <li>NGO: DeafBlindUK</li>
+        <li>Partially blind friendly social media and events app including:
+          <ul>
+            <li>Facial recognition login/signup</li>
+            <li>Image daltonization</li>
+            <li>Inbuilt unlimited image zoom</li>
+          </ul>
+        </li>
+      </ul>
     </div>
   );
 }
@@ -41,14 +65,37 @@ function PolygonxEasyA() {
       <h5>Oct 2022</h5>
       <h3>- Polygon -</h3>
 
-      <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">
-          <img className="skeleton fileImage small button" src="./images/logos/LinkedInLogo.png" alt="LinkedIn" loading="lazy"/>
-      </a>
-      <a href="https://github.com/Bhavik-Gilbert?tab=repositories" type="submit" target="_blank" className="file">
-          <img className="skeleton fileImage button small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
+      <a href="https://www.easya.io/events/polygon-x-easya-hackathon" type="submit" target="_blank" className="file button justify-content-center text-center">
+          <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
+          &nbsp;
+          Website
       </a>
 
+     <hr/>
+
+      <img className="skeleton fileImage small marginRight" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
+      
       <hr/>
+
+      <h6>Node | React</h6>
+      
+      <hr/>
+
+      <ul>
+        <li>Hackathon to demonstrate versatility of blockchain technologies using the Polygon network</li>
+        <br/>
+        <li>Crowd funded charity donation application
+          <ul>
+            <li>Users donate to a given category</li>
+            <li>Every quarter, the final pot for each category will be split between the partnered smaller charities from that category</li>
+            <li>Helps to prove where money goes as everything is on-chain</li>
+            <li>Promotes donating to smaller lesser known charities</li>
+          </ul>
+        </li>
+      </ul>
     </div>
   );
 }
@@ -67,14 +114,23 @@ function MetaGlobalHackathon() {
       <h5>Sept 2022</h5>
       <h3>- Meta -</h3>
 
-      <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file">
-          <img className="skeleton fileImage small button" src="./images/logos/LinkedInLogo.png" alt="LinkedIn" loading="lazy"/>
-      </a>
-      <a href="https://github.com/Bhavik-Gilbert?tab=repositories" type="submit" target="_blank" className="file">
-          <img className="skeleton fileImage button small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
+      <a href="https://metaglobalhackon2022.splashthat.com/" type="submit" target="_blank" className="file button justify-content-center text-center">
+          <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
+          &nbsp;
+          Website
       </a>
 
       <hr/>
+
+      <img className="skeleton fileImage small marginRight" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
+      
+      <hr/>
+
+      <ul>
+        <li>Top 400 finisher</li>
+        <li>Participated in activities such as Coding Challenge, Linux Challenge, Find the Bug Challenge and more</li>
+      </ul>
     </div>
   );
 }

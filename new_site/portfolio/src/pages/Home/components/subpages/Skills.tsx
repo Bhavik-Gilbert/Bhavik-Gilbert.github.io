@@ -10,10 +10,10 @@ function Skills() {
     <div className="bioBox textBox" style={{paddingLeft: 0, paddingRight: 0}}>
       <div>
         {title.map((titleChar: string, titleCharIndex: number) => (
-            <div className="h3 byLetter marginBottom" id={"pagesTitle" + titleCharIndex + titleChar} key={"pagesTitle" + titleCharIndex + titleChar} 
+            <div className="h3 byLetter marginBottom" id={"skillsTitle" + titleCharIndex + titleChar} key={"skillsTitle" + titleCharIndex + titleChar} 
             onClick={(() => {
-                toggleClass("pagesTitle" + titleCharIndex + titleChar, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
-                toggleCapitalise("pagesTitle" + titleCharIndex + titleChar);
+                toggleClass("skillsTitle" + titleCharIndex + titleChar, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
+                toggleCapitalise("skillsTitle" + titleCharIndex + titleChar);
             })}>
                 {titleChar}
             </div>

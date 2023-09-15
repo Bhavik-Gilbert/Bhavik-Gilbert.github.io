@@ -13,10 +13,10 @@ function Hackathons() {
       <div className="textBox marginTop cardScrollBox">
         <div className="marginTop marginBottom">
           {title.map((titleChar: string, titleCharIndex: number) => (
-              <div className="h3 byLetter marginBottom" id={"pagesTitle" + titleCharIndex + titleChar} key={"pagesTitle" + titleCharIndex + titleChar} 
+              <div className="h3 byLetter marginBottom" id={"hackathonsTitle" + titleCharIndex + titleChar} key={"hackathonsTitle" + titleCharIndex + titleChar} 
               onClick={(() => {
-                  toggleClass("pagesTitle" + titleCharIndex + titleChar, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
-                  toggleCapitalise("pagesTitle" + titleCharIndex + titleChar);
+                  toggleClass("hackathonsTitle" + titleCharIndex + titleChar, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
+                  toggleCapitalise("hackathonsTitle" + titleCharIndex + titleChar);
               })}>
                   {titleChar}
               </div>

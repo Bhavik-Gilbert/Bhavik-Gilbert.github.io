@@ -15,10 +15,10 @@ function Contact() {
     <div className={pageNames.Contact}>
       <div className="marginBottom">
         {title.map((titleChar: string, titleCharIndex: number) => (
-              <div className="h1 byLetter" id={"pagesTitle" + titleCharIndex + titleChar} key={"pagesTitle" + titleCharIndex + titleChar} 
+              <div className="h1 byLetter" id={"contactTitle" + titleCharIndex + titleChar} key={"contactTitle" + titleCharIndex + titleChar} 
               onClick={(() => {
-                  toggleClass("pagesTitle" + titleCharIndex + titleChar, "h1 byLetter", "h1Hold byLetter");
-                  toggleCapitalise("pagesTitle" + titleCharIndex + titleChar);
+                  toggleClass("contactTitle" + titleCharIndex + titleChar, "h1 byLetter", "h1Hold byLetter");
+                  toggleCapitalise("contactTitle" + titleCharIndex + titleChar);
               })}>
                   {titleChar}
               </div>
