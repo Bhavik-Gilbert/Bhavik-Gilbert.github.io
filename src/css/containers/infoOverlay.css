@@ -27,16 +27,23 @@
   overflow-x: hidden;
 }
 
-.outputInfo {
+.outputInfoBackground {
+  background:linear-gradient(var(--bgopaque),rgba(50, 50, 50, 0.2));
+}
+
+.outputInfoBox {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
 }
-.outputInfoMessage {
+.outputInfo {
   text-align: center;
   overflow-wrap: break-word;
   width: 90%;
+}
+.outputInfoMessage {
+  color: white;
 }
 .outputInfoSymbol {
   font-size: 15rem;
