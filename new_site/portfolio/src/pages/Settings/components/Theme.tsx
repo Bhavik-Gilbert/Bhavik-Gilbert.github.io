@@ -8,7 +8,7 @@ import { toggleCapitalise } from '../../../setup/components/textEffects';
 function Theme() {
   const title = "Theme".split("");
 
-  const [theme, setTheme] = useLocalStorage<string>('theme', defaultTheme ? colourThemes.originDark : colourThemes.originLight);
+  const [theme, setTheme] = useLocalStorage<string>('theme', defaultTheme ? colourThemes.darker : colourThemes.lighter);
 
   return (
     <div className="textBox cardScrollBox">
@@ -28,7 +28,7 @@ function Theme() {
         {Object.values(colourThemes).map((colourTheme: string) => (
             <div key={colourTheme} className={"card large m-3" + (theme == colourTheme ? " selected": " background")} data-theme={colourTheme} onClick={((e) => {setTheme(colourTheme)})}>
               <img className="skeleton header large" src={"./images/colourThemes/"+ colourTheme + ".png"} alt={colourTheme + " theme"}></img>
-              <p>{colourTheme.charAt(0).toUpperCase() + colourTheme.slice(1)} Theme</p>
+              <p>{colourTheme.charAt(0).toUpperCase() + colourTheme.slice(1)}</p>
             </div>
         ))}
       </div>

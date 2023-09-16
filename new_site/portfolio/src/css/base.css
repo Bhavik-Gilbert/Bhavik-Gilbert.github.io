@@ -6,7 +6,7 @@ html {
     --linear: all 0.3s linear;
 }
 
-html [data-theme="originDark"]{
+html [data-theme="darker"]{
     --primary : #000;
     --secondary: #fff;
     --primaryopaque1: #121212;
@@ -26,7 +26,7 @@ html [data-theme="originDark"]{
     --pawn: url('../assets/cursors/black pawn.cur');
 }
 
-html [data-theme="originLight"] {
+html [data-theme="lighter"] {
     --primary : #fff;
     --secondary: #000;
     --primaryopaque1: #f0f0f0;
@@ -46,7 +46,7 @@ html [data-theme="originLight"] {
     --pawn: url('../assets/cursors/white pawn.cur');
 }
 
-html [data-theme="dark"]{
+html [data-theme="darkest"]{
     --primary : #000;
     --secondary: #fff;
     --primaryopaque1: #121212;
@@ -66,7 +66,7 @@ html [data-theme="dark"]{
     --pawn: url('../assets/cursors/black pawn.cur');
 }
 
-html [data-theme="light"] {
+html [data-theme="lightest"] {
     --primary : #fff;
     --secondary: #000;
     --primaryopaque1: #f0f0f0;

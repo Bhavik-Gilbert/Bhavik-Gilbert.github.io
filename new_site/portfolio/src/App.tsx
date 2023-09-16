@@ -10,7 +10,7 @@ import { colourThemes, defaultTheme } from './setup/components/themes';
 import Footer from './components/Footer';
 
 function App() {
-  const [theme] = useLocalStorage('theme', defaultTheme ? colourThemes.originDark : colourThemes.originLight);
+  const [theme] = useLocalStorage('theme', defaultTheme ? colourThemes.darker : colourThemes.lighter);
   
   return (
     <>
