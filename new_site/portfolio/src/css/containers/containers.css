@@ -47,7 +47,6 @@
 
 .page {
     min-height: 80vh;
-    width: 100vw;
     overflow: hidden;
 }
 
@@ -78,7 +77,7 @@
 
 .bioBox, .cardScrollBox {
     display: inline-block;
-    width: 70vw;
+    width: 90vw;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -89,7 +88,7 @@
 .highlightBox {
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    margin-left: 15%; margin-right: 15%; padding: 0;
+    margin-left: 5%; margin-right: 5%; padding: 0;
     color:var(--secondary); transition: var(--ease); overflow:hidden;
     display: flex; flex-direction: row, hand;
     border-radius: 0.5rem;
@@ -97,11 +96,28 @@
 .highlightBox .highlightBoxImage {
     width: 22%;
     display: block;
-  }
+}
 .highlightBoxText {
     text-align: left; padding: 2rem;
 }
 
 .highlightBox:hover {    
     background-color: var(--bgopaque);
+}
+
+/** mobile optimisations **/
+@media (orientation: portrait) {
+    @media only screen and (max-width: 600px) {
+        .highlightBox {
+            display: block;
+        }
+        .highlightBox .highlightBoxImage {
+            height: 40vh;
+            width: 100%;
+        }
+        .highlightBoxText {
+            margin-bottom: 4rem;
+            text-align: center;
+        }
+    }
 }

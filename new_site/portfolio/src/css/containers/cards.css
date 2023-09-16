@@ -16,11 +16,6 @@
     background: var(--bgopaque);
 }
 
-.cardSmall {
-    width: 12rem;
-    height: 12rem;
-}
-
 .card p {
     margin: 0.5rem;
     transition: var(--ease);

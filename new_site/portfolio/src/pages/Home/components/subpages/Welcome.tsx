@@ -34,25 +34,25 @@ function Bio() {
                 ))}
                 </div>
 
-                <a href="./files/resume/CV.pdf" type="submit" target="_blank" className="file button">
+                <a href="./files/resume/CV.pdf" type="submit" target="_blank" className="file button my-2">
                     <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
                     <br/><br/>
                     CV/Resume
                 </a>
 
-                <a href="./files/resume/CoverLetter.pdf" type="submit" target="_blank" className="file button">
+                <a href="./files/resume/CoverLetter.pdf" type="submit" target="_blank" className="file button my-2">
                     <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
                     <br/><br/>
                     Cover Letter
                 </a>
 
-                <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file button">
+                <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/" type="submit" target="_blank" className="file button my-2">
                     <img className="skeleton fileImage small" src="./images/logos/LinkedInLogo.png" alt="LinkedIn" loading="lazy"/>
                     <br/><br/>
                     LinkedIn
                 </a>
 
-                <a href="https://github.com/Bhavik-Gilbert?tab=repositories" type="submit" target="_blank" className="file button">
+                <a href="https://github.com/Bhavik-Gilbert?tab=repositories" type="submit" target="_blank" className="file button my-2">
                     <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
                     <br/><br/>
                     Github
