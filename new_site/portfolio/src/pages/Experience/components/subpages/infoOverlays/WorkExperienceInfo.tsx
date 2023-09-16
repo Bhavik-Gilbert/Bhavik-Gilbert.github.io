@@ -2,6 +2,34 @@ import React from 'react';
 
 import  { closeElements } from '../../../../../setup/components/displayControls';
 
+function KCLTeachingAssistant() {
+  return (
+    <div className="overlayInfo" id="kclTeachingAssistant">
+      <div className="topRight">
+        <div className="file button marginLeft" onClick={(e) => closeElements(["workExperienceOverlay", "kclTeachingAssistant"])}>
+          &#10005;
+        </div>
+      </div>
+
+      <h1>Teaching Assistant</h1>
+      <h5>Sep 2023 - Current</h5>
+      <h3>- King's College London -</h3>
+
+      <hr/>
+
+      <img className="skeleton fileImage small marginRight" src="./images/techLogos/C++.png" alt="C++" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight" src="./images/techLogos/scala.png" alt="Scala" loading="lazy"/>
+      
+      <hr/>
+
+      <ul>
+        <li>5CCS2PEP Practical Experiences of Programming</li>
+      </ul>
+    </div>
+  );
+}
+
+
 function KPlusMentorKCL() {
   return (
     <div className="overlayInfo" id="k+MentorKCL">
@@ -83,6 +111,7 @@ function FuntechComputerScienceTeacher() {
 function WorkExperienceInfo() {
   return (
     <div className="overlayBackground" id="workExperienceOverlay">
+      <KCLTeachingAssistant/>
       <FuntechComputerScienceTeacher/>
       <KPlusMentorKCL/>
     </div>      
