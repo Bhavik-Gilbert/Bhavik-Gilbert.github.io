@@ -12,6 +12,7 @@ function Home() {
 
   return (
     <div className={pageNames.Home}>
+      hi
       <Welcome/>
       <Bio/>
       <Skills/>
