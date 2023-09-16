@@ -1,0 +1,32 @@
+form {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%
+}
+form input, form textarea, form button {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: "Courier New", "Lucida Console", monospace;
+    font-style: italic; 
+}
+form input, form textarea {
+    background-color: var(--bgopaque);
+    color: var(--white);
+}
+form textarea {
+    height: 25vh;
+}
+form button {
+    background-color: transparent;
+}
+form button:hover {
+    background-color: var(--bgopaque);
+}
+
+input::placeholder, textarea::placeholder {
+    color: var(--bglight);
+}

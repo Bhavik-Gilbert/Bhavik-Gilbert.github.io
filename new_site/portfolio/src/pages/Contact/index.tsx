@@ -3,6 +3,7 @@ import React, {useEffect} from 'react';
 import { pageNames } from '../../setup/router/pages';
 import { toggleClass } from '../../setup/components/changeClass';
 import { toggleCapitalise } from '../../setup/components/textEffects';
+import { ContactForm } from './components/Subpages'
 
 function Contact() {
   const title = "Contact Me".split("");
@@ -25,6 +26,7 @@ function Contact() {
           ))}
       </div>
       
+      <ContactForm/>
     </div>
   );
 }
