@@ -1,5 +1,10 @@
-import { triggerAsyncId } from 'async_hooks';
 import React, {useEffect} from 'react';
+
+import { displayMessage } from './displayControls';
+
+const elementIds = ["infoOverlay", "info"]
+const messageElementId = "outputMessage"
+const symbolElementId = "outputSymbol"
 
 function sendMailTo(event: React.FormEvent) {
     event.preventDefault()
@@ -9,7 +14,9 @@ function sendMailTo(event: React.FormEvent) {
     const messageElement = document.getElementById("message") as HTMLInputElement
 
     if (subjectElement == null || messageElement == null) {
-        window.alert("Error getting subject and message");
+        let outputSymbol = "&#x274C;"
+        let outputMessage = "Error getting subject and message";
+        displayMessage(elementIds, messageElementId, outputMessage, symbolElementId, outputSymbol);
         return false;
     }
     
@@ -17,7 +24,9 @@ function sendMailTo(event: React.FormEvent) {
     const message = messageElement.value
 
     if (message.length == 0) {
-        window.alert("Input a message to continue");
+        let outputSymbol = "&#x26A0;"
+        let outputMessage = "Input a message to continue";
+        displayMessage(elementIds, messageElementId, outputMessage, symbolElementId, outputSymbol);
         return false;
     }
 
@@ -26,7 +35,9 @@ function sendMailTo(event: React.FormEvent) {
                    "&body=" + message;
     window.location.href = output;
 
-    window.alert("MailTo opened successfully");
+    let outputSymbol = " &#x2705;"
+    let outputMessage = "MailTo opened successfully";
+    displayMessage(elementIds, messageElementId, outputMessage, symbolElementId, outputSymbol);
 
     (document.getElementById("subject") as HTMLInputElement).value = "";
     (document.getElementById("message") as HTMLInputElement).value = "";

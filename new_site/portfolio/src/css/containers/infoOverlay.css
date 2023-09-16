@@ -27,6 +27,21 @@
   overflow-x: hidden;
 }
 
+.outputInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.outputInfoMessage {
+  text-align: center;
+  overflow-wrap: break-word;
+  width: 90%;
+}
+.outputInfoSymbol {
+  font-size: 15rem;
+}
+
 hr {
   border-top: 0.1rem solid var(--bglight);
 }

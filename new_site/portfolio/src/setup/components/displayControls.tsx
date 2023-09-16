@@ -14,7 +14,17 @@ function closeElements(elementIds: string[]) {
     })
 }
 
+function displayMessage(elementIds: string[], messageElementId: string, message: string, symbolElementId: string = "", symbol: string = "") {
+    let messageElement = document.getElementById(messageElementId);
+    let symbolElement = document.getElementById(symbolElementId);
+    if (messageElement == null) return;
+    if (symbolElementId != null) symbolElement!.innerHTML = symbol;
+    messageElement.innerHTML = message;
+    openElements(elementIds)
+}
+
 export {
     openElements, 
-    closeElements
+    closeElements,
+    displayMessage,
 };
