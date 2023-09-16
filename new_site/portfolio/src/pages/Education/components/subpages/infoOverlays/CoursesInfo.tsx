@@ -69,9 +69,9 @@ function JPSoftwareEngineeringVirtualExperience() {
             <img className="skeleton fileImage small marginRight" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
 
             <hr/>
-
+            
+            <p>The Forage certification offered a great learning experience, providing a better understanding of the development of fintech services, alongside a deeper dive into web applications and financial analysis.</p>
             <ul>
-                <li>The Forage certification offered a great learning experience, providing a better understanding of the development of fintech services, alongside a deeper dive into web applications and financial analysis</li>
                 <li>Task 1 : Interface with a stock price data feed</li>
                 <li>Task 2 : Use JPMorgan Chase frameworks and tools</li>
                 <li>Task 3 : Display data visually for traders</li>
@@ -136,9 +136,7 @@ function OUDesignThinking() {
 
             <hr/>
 
-            <ul>
-                <li>An adapted extract from the Open University course U101Design thinking: creativity for the 21st century</li>
-            </ul>
+            <p>An adapted extract from the Open University course U101Design thinking: creativity for the 21st century.</p>
         </div>
     );
 }
@@ -164,9 +162,7 @@ function OUIntroductiontoSoftwareDevelopment() {
 
             <hr/>
 
-            <ul>
-                <li>An adapted extract from the Open University course M813 Software development</li>
-            </ul>
+            <p>An adapted extract from the Open University course M813 Software development.</p>
         </div>
     );
 }
@@ -193,9 +189,7 @@ function OUTechnologicalInnovation() {
 
             <hr/>
 
-            <ul>
-                <li>An adapted extract from the Open University course T849 Strategic capabilities for technological innovation</li>
-            </ul>
+            <p>An adapted extract from the Open University course T849 Strategic capabilities for technological innovation.</p>
         </div>
     );
 }
@@ -221,9 +215,7 @@ function OUComputersandComputerSystems() {
 
             <hr/>
 
-            <ul>
-                <li>A sample of level 2 study in Computing & IT</li>
-            </ul>
+            <p>A sample of level 2 study in Computing & IT.</p>
         </div>
     );
 }

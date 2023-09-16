@@ -32,30 +32,29 @@ function CompsciKCLUndergrad() {
 
       <hr/>
 
+      <h6>Average: First (1st) with class honours</h6>
+
+      <br/>
+
+      <h6>Year 2: First (1st) with class honours</h6>
+      
+      <p>Highlights</p>
       <ul>
-        <h6>Average: First (1st) with class honours</h6>
+        <li>Introduction to Robotics: 95% | 15 credits</li>
+        <li>Practical Experiences of Programming: 92% | 15 credits</li>
+        <li>Software Engineering Group Project: 87% | 30 credits</li>
+        <li>Foundations of Computing 2: 87% | 15 credits</li>
+      </ul>
 
-        <br/>
+      <br/>
 
-        <h6>Year 2: First (1st) with class honours</h6>
-        <li>Highlights</li>
-        <ul>
-          <li>Introduction to Robotics: 95% | 15 credits</li>
-          <li>Practical Experiences of Programming: 92% | 15 credits</li>
-          <li>Software Engineering Group Project: 87% | 30 credits</li>
-          <li>Foundations of Computing 2: 87% | 15 credits</li>
-        </ul>
-
-        <br/>
-
-        <h6>Year 1: First (1st) with class honours</h6>
-        <li>Highlights</li>
-        <ul>
-          <li>Foundations of Computing 1: 90% | 15 credits</li>
-          <li>Elementary Logic With Applications: 87% | 15 credits</li>
-          <li>Data Structures: 80% | 15 credits</li>
-          <li>Programming Practice and Applications: 78% | 30 credits</li>
-        </ul>
+      <h6>Year 1: First (1st) with class honours</h6>
+      <p>Highlights</p>
+      <ul>
+        <li>Foundations of Computing 1: 90% | 15 credits</li>
+        <li>Elementary Logic With Applications: 87% | 15 credits</li>
+        <li>Data Structures: 80% | 15 credits</li>
+        <li>Programming Practice and Applications: 78% | 30 credits</li>
       </ul>
     </div>
   );

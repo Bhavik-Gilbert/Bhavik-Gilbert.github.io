@@ -35,9 +35,9 @@ function CodeForGood() {
 
       <hr/>
 
+      <p>Code for Good is an opportunity for university students to brainstorm alongside developing MVPs for twenty-four hours on how nonprofits can solve a challenge that they're facing.</p>
+
       <ul>
-        <h6>Code for Good is an opportunity for university students to brainstorm alongside developing MVPs for twenty-four hours on how nonprofits can solve a challenge that they're facing</h6>
-        <br/>
         <li>NGO: DeafBlindUK</li>
         <li>Partially blind friendly social media and events app including:
           <ul>
@@ -84,9 +84,9 @@ function PolygonxEasyA() {
       
       <hr/>
 
+      <p>Hackathon to demonstrate versatility of blockchain technologies using the Polygon network.</p>
+
       <ul>
-        <h6>Hackathon to demonstrate versatility of blockchain technologies using the Polygon network</h6>
-        <br/>
         <li>Crowd funded charity donation application
           <ul>
             <li>Users donate to a given category</li>
