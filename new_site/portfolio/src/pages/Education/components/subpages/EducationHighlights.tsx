@@ -51,7 +51,7 @@ function EducationHighlights() {
               <h6>Sep 2019 - May 2021</h6>
             </div>
 
-            <div className="file button bottomRight" onClick={(e) => openElements(["educationHighlightsOverlay", "alevels"])}>
+            <div className="file button bottomRight mt-3" onClick={(e) => openElements(["educationHighlightsOverlay", "alevels"])}>
               More Info
             </div>
           </div>

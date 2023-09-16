@@ -23,11 +23,11 @@ function CodeForGood() {
 
       <hr/>
 
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
       
       <hr/>
 
@@ -73,10 +73,10 @@ function PolygonxEasyA() {
 
      <hr/>
 
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
       
       <hr/>
 
@@ -122,8 +122,8 @@ function MetaGlobalHackathon() {
 
       <hr/>
 
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
       
       <hr/>
 

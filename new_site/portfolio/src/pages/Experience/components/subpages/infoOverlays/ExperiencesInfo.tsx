@@ -47,7 +47,7 @@ function InternshipExperienceUK2022() {
 
       <hr/>
 
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
 
       <hr/>
 

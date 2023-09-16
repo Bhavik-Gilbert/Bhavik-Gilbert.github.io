@@ -30,7 +30,6 @@ function MoreProjects() {
                     <h6>Social Media Application</h6>
                     <br/>
                     <h6>Django Project</h6>
-                    <h6>Three.js</h6>
                     <br/>
                     <img className="skeleton fileImage small" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
@@ -62,7 +61,6 @@ function MoreProjects() {
                     <h5>Ticketing System</h5>
                     <br/>
                     <h6>Flask Project</h6>
-                    {/* <h6>Flask & MYSQL Connector</h6> */}
                     <br/>
                     <img className="skeleton fileImage small" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
@@ -80,7 +78,7 @@ function MoreProjects() {
                     <h5>Music School Management System</h5>
                     <br/>
                     <h6>Django Project</h6>
-                    <h6>5 Contributors</h6>
+                    <h6>4 Collaborators</h6>
                     <br/>
                     <img className="skeleton fileImage small" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
@@ -98,7 +96,6 @@ function MoreProjects() {
                     <br/>
                     <h6>React Project</h6>
                     <br/>
-                    <img className="skeleton fileImage small" src="./images/techLogos/react.png" alt="React" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="Html" loading="lazy"/>
@@ -113,7 +110,7 @@ function MoreProjects() {
                     <h5>Property Viewer</h5>
                     <br/>
                     <h6>Java GUI</h6>
-                    <h6>4 Contributors</h6>
+                    <h6>3 Collaborators</h6>
                     <br/>
                     <img className="skeleton fileImage small" src="./images/techLogos/java.png" alt="Java" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
@@ -128,8 +125,7 @@ function MoreProjects() {
                     <h5>Ecosystem Simulator</h5>
                     <br/>
                     <h6>Java GUI</h6>
-                    {/* <h6>Concurrent Executors & Swing & JPanel</h6> */}
-                    <h6>2 Contributors</h6>
+                    <h6>1 Collaborator</h6>
                     <br/>
                     <img className="skeleton fileImage small" src="./images/techLogos/java.png" alt="Java" loading="lazy"/>
                     <br/>
@@ -160,7 +156,6 @@ function MoreProjects() {
                     <h5>AI Chatbot</h5>
                     <br/>
                     <h6>Image & Text Data Analysis</h6>
-                    {/* <h6>Tkinter & PIL & TensorFlow & Numpy & Google Cloud</h6> */}
                     <br/>
                     <img className="skeleton fileImage small" src="./images/techLogos/Python.png" alt="Python" loading="lazy"/>
                     <br/>

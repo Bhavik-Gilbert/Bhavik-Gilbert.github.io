@@ -22,11 +22,11 @@ function CS50X() {
 
             <hr/>
 
-            <img className="skeleton fileImage small marginRight" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
-            <img className="skeleton fileImage small marginRight" src="./images/techLogos/c.png" alt="C" loading="lazy"/>
-            <img className="skeleton fileImage small marginRight" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
-            <img className="skeleton fileImage small marginRight" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
-            <img className="skeleton fileImage small marginRight" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
+            <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
+            <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/c.png" alt="C" loading="lazy"/>
+            <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
+            <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
+            <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
 
             <hr/>
 
@@ -66,7 +66,7 @@ function JPSoftwareEngineeringVirtualExperience() {
 
             <hr/>
 
-            <img className="skeleton fileImage small marginRight" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
+            <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
 
             <hr/>
             
@@ -102,7 +102,7 @@ function UniqDigital() {
 
             <hr/>
 
-            <img className="skeleton fileImage small marginRight" src="./images/techLogos/R.png" alt="R Studio" loading="lazy"/>
+            <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/R.png" alt="R Studio" loading="lazy"/>
 
             <hr/>
 

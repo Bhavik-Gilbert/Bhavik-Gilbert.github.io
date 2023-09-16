@@ -17,8 +17,8 @@ function JPSoftwareEngineerAnalystIntern() {
 
       <hr/>
 
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
       
       <hr/>
 
@@ -54,10 +54,10 @@ function LeytonComputerScienceStudentMentor() {
 
       <hr/>
 
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/csharp.png" alt="C#" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/PHP.png" alt="PHP" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/csharp.png" alt="C#" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/PHP.png" alt="PHP" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
       
       <hr/>
 
@@ -96,8 +96,8 @@ function FuntechLocationCampManger() {
 
       <hr/>
 
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight" src="./images/techLogos/c++.png" alt="C++" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/c++.png" alt="C++" loading="lazy"/>
       <img className="skeleton fileImage small" src="./images/techLogos/java.png" alt="Java" loading="lazy"/>
       
       <hr/>
