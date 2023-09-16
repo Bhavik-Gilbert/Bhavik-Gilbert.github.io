@@ -7,14 +7,14 @@ async function changeText(id: string) {
     let text: string = id;
 
     let display: string[] = [];
-    let time: number = 3000/text!.length
+    let time: number = 3000/text.length
 
     if (time > 500) time = 500;
 
-    for (const element of text!) {
+    for (const element of text) {
         let current = document.getElementById(id)!.innerHTML; 
         
-        if(equals(current.split(""), display) || display.length == 0) {
+        if(equals(current.split(""), display) || display.length === 0) {
             display.push(element);
             document.getElementById(id)!.innerHTML = display.toString().replaceAll(",","");
         }

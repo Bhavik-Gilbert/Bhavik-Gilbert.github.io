@@ -15,12 +15,12 @@ function PenguinEmpire() {
       <h5>Social Media Application</h5>
       <h3>- Django Project -</h3>
       
-      <a href="https://github.com/Bhavik-Gilbert/Empire-Penguin" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://github.com/Bhavik-Gilbert/Empire-Penguin" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
           &nbsp;
           Repository
       </a>
-      <a href="https://penguinempire.pythonanywhere.com/" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://penguinempire.pythonanywhere.com/" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
           &nbsp;
           Live Site
@@ -61,7 +61,7 @@ function MinigameSuite() {
       <h1>Minigame Suite</h1>
       <h3>- Java GUI -</h3>
 
-      <a href="https://github.com/Bhavik-Gilbert/Minigame-Suite" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://github.com/Bhavik-Gilbert/Minigame-Suite" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
           &nbsp;
           Repository
@@ -116,12 +116,12 @@ function TicketingSystem() {
       <h1>Ticketing System</h1>
       <h3>- Flask Project -</h3>
 
-      <a href="https://github.com/Bhavik-Gilbert/Ticketing-System" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://github.com/Bhavik-Gilbert/Ticketing-System" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
           &nbsp;
           Repository
       </a>
-      <a href="https://bhavikgilbert.pythonanywhere.com/" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://bhavikgilbert.pythonanywhere.com/" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
           &nbsp;
           Live Site
@@ -243,12 +243,12 @@ function TypingSpeedTest() {
       <h1>Typing Speed Test</h1>
       <h3>- React Project -</h3>
 
-      <a href="https://github.com/Bhavik-Gilbert/SpeedTyping" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://github.com/Bhavik-Gilbert/SpeedTyping" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
           &nbsp;
           Repository
       </a>
-      <a href="https://typingtestspeed.netlify.app/" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://typingtestspeed.netlify.app/" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
           &nbsp;
           Live Site
@@ -314,9 +314,9 @@ function PropertyViewer() {
 
       <h6>3 Collaborators</h6>
       <ul>
-        <li><a href="https://www.linkedin.com/in/ninapeire/" className="link" target="_blank">Nina Peire</a></li>
-        <li><a href="https://www.linkedin.com/in/lavish-k-9749ab209//" className="link" target="_blank">Lavish Kamal Kumar</a></li>
-        <li><a href="https://heman-s.github.io/index.html" className="link" target="_blank">Heman Seegolam</a></li>
+        <li><a href="https://www.linkedin.com/in/ninapeire/" className="link" target="_blank" rel="noreferrer">Nina Peire</a></li>
+        <li><a href="https://www.linkedin.com/in/lavish-k-9749ab209//" className="link" target="_blank" rel="noreferrer">Lavish Kamal Kumar</a></li>
+        <li><a href="https://heman-s.github.io/index.html" className="link" target="_blank" rel="noreferrer">Heman Seegolam</a></li>
       </ul>
 
       <hr/>
@@ -339,7 +339,7 @@ function EcosystemSimulator() {
       <h1>Ecosystem Simulator</h1>
       <h3>- Java GUI -</h3>
 
-      <a href="https://github.com/Bhavik-Gilbert/Predator-Prey-Simulation" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://github.com/Bhavik-Gilbert/Predator-Prey-Simulation" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
           &nbsp;
           Repository
@@ -362,7 +362,7 @@ function EcosystemSimulator() {
 
       <h6>1 Collaborator</h6>
       <ul>
-        <li><a href="https://heman-s.github.io/index.html" className="link" target="_blank">Heman Seegolam</a></li>
+        <li><a href="https://heman-s.github.io/index.html" className="link" target="_blank" rel="noreferrer">Heman Seegolam</a></li>
       </ul>
 
       <hr/>
@@ -429,12 +429,12 @@ function PhotographyBookingManagementSystem() {
       <h5>Photographer Booking Website</h5>
       <h3>- Web Development -</h3>
 
-      <a href="https://github.com/Bhavik-Gilbert/Booking-System" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://github.com/Bhavik-Gilbert/Booking-System" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
           &nbsp;
           Repository
       </a>
-      <a href="http://bhavik-portfolio.epizy.com/Photography%20Booking%20System/Home.php" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="http://bhavik-portfolio.epizy.com/Photography%20Booking%20System/Home.php" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
           &nbsp;
           Live Site
@@ -469,7 +469,7 @@ function AIChatbot() {
       <h1>AI Chatbot</h1>
       <h3>- Image & Text Data Analysis -</h3>
 
-      <a href="https://github.com/Bhavik-Gilbert/AI-Chatbot" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://github.com/Bhavik-Gilbert/AI-Chatbot" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
           &nbsp;
           Repository
@@ -503,7 +503,7 @@ function Pathfinder() {
       <h1>Pathfinder</h1>
       <h3>- A* Pathfinder -</h3>
 
-      <a href="https://github.com/Bhavik-Gilbert/A-Star_Pathfinder" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://github.com/Bhavik-Gilbert/A-Star_Pathfinder" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
           &nbsp;
           Repository

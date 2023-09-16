@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 
 import { sendMailTo } from '../../../setup/components/mail';
 import FormOutputInfo from './infoOverlays/FormOutputInfo';

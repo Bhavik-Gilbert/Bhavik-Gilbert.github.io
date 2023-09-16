@@ -9,7 +9,7 @@ function toggleClass(elementId: string, class1: string, class2: string) {
     let element = document.getElementById(elementId);
     if (element == null) return;
     let className = class1;
-    if (element.className == class1) className = class2;
+    if (element.className === class1) className = class2;
     changeClass(elementId, className);
 }
 
@@ -42,11 +42,11 @@ async function displayInfo(elementId: string, region: string, selectElement: boo
     regions.get(region)!.forEach(regionElementId => {
         let regionInfoElement = document.getElementById(regionElementId + "info")
         if (typeof (regionInfoElement) != 'undefined' && regionInfoElement != null) {
-            if(regionInfoElement.style.maxHeight == "1000vh") {
+            if(regionInfoElement.style.maxHeight === "1000vh") {
                 regionInfoElement.style.maxHeight = "0";
                 regionInfoElement.style.opacity = "0";       
                 waitElementLeave = true;
-                if (regionElementId == elementId) elementIsOpen = true;
+                if (regionElementId === elementId) elementIsOpen = true;
                 let regionSelectorElement = document.getElementById(regionElementId);
                 if (typeof (regionInfoElement) != 'undefined' && regionInfoElement != null) {
                     changeClass(regionElementId, regionSelectorElement!.className.replace(" infoSelector", ""));
@@ -57,7 +57,7 @@ async function displayInfo(elementId: string, region: string, selectElement: boo
 
     if(typeof (infoElement) == 'undefined' || infoElement == null) return;
 
-    if(infoElement.style.maxHeight != "1000vh" && !elementIsOpen) {
+    if(infoElement.style.maxHeight !== "1000vh" && !elementIsOpen) {
         let selectorElement = document.getElementById(elementId);
         if (typeof (selectorElement) != 'undefined' && selectorElement != null) {
             changeClass(elementId, selectorElement!.className + " infoSelector");

@@ -46,7 +46,7 @@ function LeytonComputerScienceStudentMentor() {
       <h5>Sep 2021 - Oct 2022</h5>
       <h3>- Leyton Sixth Form College -</h3>
 
-      <a href="https://www.leyton.ac.uk/" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://www.leyton.ac.uk/" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
           &nbsp;
           Website
@@ -88,7 +88,7 @@ function FuntechLocationCampManger() {
       <h5>Jul 2022 - Aug 2022</h5>
       <h3>- FunTech -</h3>
 
-      <a href="https://funtech.co.uk/" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://funtech.co.uk/" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
           &nbsp;
           Website

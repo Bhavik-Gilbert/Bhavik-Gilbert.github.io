@@ -15,7 +15,7 @@ function CodeForGood() {
       <h5>Nov 2022</h5>
       <h3>- J.P Morgan Chase & Co -</h3>
 
-      <a href="https://careers.jpmorgan.com/us/en/students/programs/code-for-good" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://careers.jpmorgan.com/us/en/students/programs/code-for-good" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
           &nbsp;
           Website
@@ -65,7 +65,7 @@ function PolygonxEasyA() {
       <h5>Oct 2022</h5>
       <h3>- Polygon -</h3>
 
-      <a href="https://www.easya.io/events/polygon-x-easya-hackathon" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://www.easya.io/events/polygon-x-easya-hackathon" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
           &nbsp;
           Website
@@ -114,7 +114,7 @@ function MetaGlobalHackathon() {
       <h5>Sept 2022</h5>
       <h3>- Meta -</h3>
 
-      <a href="https://metaglobalhackon2022.splashthat.com/" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://metaglobalhackon2022.splashthat.com/" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
           &nbsp;
           Website

@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 
 import { displayMessage } from './displayControls';
 
@@ -23,7 +23,7 @@ function sendMailTo(event: React.FormEvent) {
     const subject = subjectElement.value
     const message = messageElement.value
 
-    if (message.length == 0) {
+    if (message.length === 0) {
         let outputSymbol = "&#x26A0;"
         let outputMessage = "Input a message to continue";
         displayMessage(elementIds, messageElementId, outputMessage, symbolElementId, outputSymbol);

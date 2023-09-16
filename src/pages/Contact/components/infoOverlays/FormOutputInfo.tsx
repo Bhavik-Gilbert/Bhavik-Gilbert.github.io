@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 
 import  { closeElements } from '../../../../setup/components/displayControls';
 
@@ -14,7 +14,7 @@ function FormInfo() {
       <div className="outputInfoBox">
         <div className="outputInfo">
           <div className='outputInfoSymbol' id="outputSymbol"></div>
-          <h4 className="outputInfoMessage" id="outputMessage"></h4>
+          <h4 className="outputInfoMessage" id="outputMessage">Popup Message</h4>
         </div>
       </div>
     </div>

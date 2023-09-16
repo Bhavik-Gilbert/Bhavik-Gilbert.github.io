@@ -15,12 +15,12 @@ function GreggorFinancialCompanion() {
       <h5>Financial Tracker</h5>
       <h3>- Django Project -</h3>
       
-      <a href="https://github.com/Bhavik-Gilbert/Greggor-Financial-Companion" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://github.com/Bhavik-Gilbert/Greggor-Financial-Companion" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
           &nbsp;
           Repository
       </a>
-      <a href="https://greggorfinancialcompanion.pythonanywhere.com/" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://greggorfinancialcompanion.pythonanywhere.com/" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
           &nbsp;
           Live Site
@@ -41,13 +41,13 @@ function GreggorFinancialCompanion() {
 
       <h6>7 Collaborators</h6>
       <ul>
-        <li><a href="https://www.linkedin.com/in/reshma-dhillon-6ba5b21a2/" className="link" target="_blank">Reshma Dhillon</a></li>
-        <li><a href="https://www.mishahigham.co.uk/" className="link" target="_blank">Michael Higham</a></li>
-        <li><a href="https://www.linkedin.com/in/kushaagra-kapoor-2b0167219/" className="link" target="_blank">Kushaagra Kapoor</a></li>
-        <li><a href="https://mpalmer8.github.io/" className="link" target="_blank">Matthew Palmer</a></li>
-        <li><a href="https://www.linkedin.com/in/sahitya-sakthivel-08299a213/" className="link" target="_blank">Sahitya Sakthivel</a></li> 
-        <li><a href="https://www.linkedin.com/in/louisa-scott-98718725a/" className="link" target="_blank">Louisa Scott</a></li>
-        <li><a href="https://www.linkedin.com/in/charles-suddens-spiers-281317255/" className="link" target="_blank">Charles Suddens-Spiers</a></li>
+        <li><a href="https://www.linkedin.com/in/reshma-dhillon-6ba5b21a2/" className="link" target="_blank" rel="noreferrer">Reshma Dhillon</a></li>
+        <li><a href="https://www.mishahigham.co.uk/" className="link" target="_blank" rel="noreferrer">Michael Higham</a></li>
+        <li><a href="https://www.linkedin.com/in/kushaagra-kapoor-2b0167219/" className="link" target="_blank" rel="noreferrer">Kushaagra Kapoor</a></li>
+        <li><a href="https://mpalmer8.github.io/" className="link" target="_blank" rel="noreferrer">Matthew Palmer</a></li>
+        <li><a href="https://www.linkedin.com/in/sahitya-sakthivel-08299a213/" className="link" target="_blank" rel="noreferrer">Sahitya Sakthivel</a></li> 
+        <li><a href="https://www.linkedin.com/in/louisa-scott-98718725a/" className="link" target="_blank" rel="noreferrer">Louisa Scott</a></li>
+        <li><a href="https://www.linkedin.com/in/charles-suddens-spiers-281317255/" className="link" target="_blank" rel="noreferrer">Charles Suddens-Spiers</a></li>
       </ul>
 
       <hr/>
@@ -125,7 +125,7 @@ function RoboticStoreroomInventoryScanner() {
       <h1>Robotic Storeroom Inventory Scanner</h1>
       <h3>- ROS Project -</h3>
 
-      <a href="https://github.com/Bhavik-Gilbert/ROS-Room-Inventory-Scanner" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://github.com/Bhavik-Gilbert/ROS-Room-Inventory-Scanner" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
           &nbsp;
           Repository
@@ -170,7 +170,7 @@ function FacialRecognitionLoginSystem() {
       <h1>Facial Recognition Login System</h1>
       <h3>- AI with Database Systems -</h3>
 
-      <a href="https://github.com/Bhavik-Gilbert/Facial-Recognition" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://github.com/Bhavik-Gilbert/Facial-Recognition" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
           &nbsp;
           Repository
@@ -210,7 +210,7 @@ function PhaseFoldingKeplerExoplanets() {
       <h1>Phase Folding Kepler Exoplanets</h1>
       <h3>- Data Analysis & Graphical Manipulation -</h3>
 
-      <a href="https://github.com/Bhavik-Gilbert/Kepler-Data" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://github.com/Bhavik-Gilbert/Kepler-Data" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
           &nbsp;
           Repository

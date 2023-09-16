@@ -43,7 +43,7 @@ function KPlusMentorKCL() {
       <h5>Jan 2022 - Dec 2022</h5>
       <h3>- King's College London -</h3>
 
-      <a href="https://kplus.london/maths-computer-science/" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://kplus.london/maths-computer-science/" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small " src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
           &nbsp;
           Website
@@ -72,7 +72,7 @@ function FuntechComputerScienceTeacher() {
       <h5>Jul 2021 - Aug 2021</h5>
       <h3>- Funtech -</h3>
 
-      <a href="https://funtech.co.uk/" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://funtech.co.uk/" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
           &nbsp;
           Website

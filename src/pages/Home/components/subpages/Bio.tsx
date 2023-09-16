@@ -23,7 +23,7 @@ function Bio() {
             </div>
             
             {bioList.map((bioLine: string, bioLineIndex: number) => (
-                <div key={"bioBox" + bioLineIndex} className={bioLineIndex + 1 != bioList.length ? "mb-5":""}>
+                <div key={"bioBox" + bioLineIndex} className={bioLineIndex + 1 !== bioList.length ? "mb-5":""}>
                     {bioLine.split(" ").map((bioWord, bioWordIndex: number) => (
                         <div className="bio" id={"bioBox" + bioLineIndex + "bio" + bioWordIndex + bioWord}
                         key={"bioBox" + bioLineIndex + "bio" + bioWordIndex + bioWord} 
