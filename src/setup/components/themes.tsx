@@ -1,6 +1,6 @@
 import React from 'react';
 
-const defaultTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+const defaultTheme = "darker";
 
 enum colourThemes {
     darkest = "darkest",

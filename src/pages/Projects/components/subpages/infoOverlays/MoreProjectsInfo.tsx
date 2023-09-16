@@ -29,7 +29,7 @@ function PenguinEmpire() {
       <hr/>
 
       <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/Javascript.png" alt="Javascript" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
       <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
       <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
 
@@ -352,7 +352,7 @@ function EcosystemSimulator() {
 
       <hr/>
 
-      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/Java.png" alt="Java" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/java.png" alt="Java" loading="lazy"/>
 
       <hr/>
 

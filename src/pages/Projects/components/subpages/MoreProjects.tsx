@@ -34,7 +34,7 @@ function MoreProjects() {
                     <img className="skeleton fileImage small" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
-                    <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="Html" loading="lazy"/>
+                    <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
 
                     <div className="file button marginTop" onClick={(e) => openElements(["moreProjectsOverlay", "penguinEmpire"])}>
                         More Info
@@ -66,7 +66,7 @@ function MoreProjects() {
                     <img className="skeleton fileImage small" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
-                    <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="Html" loading="lazy"/>
+                    <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
 
                     <div className="file button marginTop" onClick={(e) => openElements(["moreProjectsOverlay", "ticketingSystem"])}>
                         More Info
@@ -83,7 +83,7 @@ function MoreProjects() {
                     <img className="skeleton fileImage small" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
-                    <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="Html" loading="lazy"/>
+                    <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
 
                     <div className="file button marginTop" onClick={(e) => openElements(["moreProjectsOverlay", "musicSchoolManagementSystem"])}>
                         More Info
@@ -98,7 +98,7 @@ function MoreProjects() {
                     <br/>
                     <img className="skeleton fileImage small" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
-                    <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="Html" loading="lazy"/>
+                    <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
 
                     <div className="file button marginTop" onClick={(e) => openElements(["moreProjectsOverlay", "typingSpeedTest"])}>
                         More Info
@@ -140,11 +140,11 @@ function MoreProjects() {
                     <br/>
                     <h6>Web Development</h6>
                     <br/>
-                    <img className="skeleton fileImage small" src="./images/techLogos/PHP.png" alt="PHP" loading="lazy"/>
+                    <img className="skeleton fileImage small" src="./images/techLogos/php.png" alt="PHP" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
-                    <img className="skeleton fileImage small" src="./images/techLogos/Html.png" alt="Html" loading="lazy"/>
+                    <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
 
                     <div className="file button marginTop" onClick={(e) => openElements(["moreProjectsOverlay", "photographyBooking&ManagementSystem"])}>
                         More Info
@@ -157,7 +157,7 @@ function MoreProjects() {
                     <br/>
                     <h6>Image & Text Data Analysis</h6>
                     <br/>
-                    <img className="skeleton fileImage small" src="./images/techLogos/Python.png" alt="Python" loading="lazy"/>
+                    <img className="skeleton fileImage small" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
                     <br/>
                     <div className="file button marginTop" onClick={(e) => openElements(["moreProjectsOverlay", "aiChatbot"])}>
                         More Info

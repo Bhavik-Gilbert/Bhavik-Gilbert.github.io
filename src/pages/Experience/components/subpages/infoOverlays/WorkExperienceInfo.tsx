@@ -17,7 +17,7 @@ function KCLTeachingAssistant() {
 
       <hr/>
 
-      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/C++.png" alt="C++" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/c++.png" alt="C++" loading="lazy"/>
       <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/scala.png" alt="Scala" loading="lazy"/>
       
       <hr/>

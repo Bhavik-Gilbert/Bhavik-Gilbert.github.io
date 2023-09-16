@@ -34,7 +34,7 @@ function ProjectHighlights() {
             <img className="skeleton fileImage small" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
             <img className="skeleton fileImage small" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
             <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
-            <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="Html" loading="lazy"/>
+            <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
 
             <div className="file button bottomRight" onClick={(e) => openElements(["projectHighlightsOverlay", "greggorFinancialCompanion"])}>
               More Info
