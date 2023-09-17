@@ -74,7 +74,7 @@ function ProjectHighlights() {
         </div>
 
         <div className="highlightBox marginBottom">
-          <img className="skeleton highlightBoxImage" src="./images/projects/Exoplanet/Phase Fold.png" alt="Phase Folding Kepler Exoplanets" loading="lazy"/>
+          <img className="skeleton highlightBoxImage" src="./images/projects/Exoplanet/PF1.png" alt="Phase Folding Kepler Exoplanets" loading="lazy"/>
 
           <div className="highlightBoxText">
             <h5>Phase Folding Kepler Exoplanets</h5>
