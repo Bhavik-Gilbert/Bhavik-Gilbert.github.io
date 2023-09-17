@@ -14,6 +14,7 @@
 .title:hover, .titleHold:hover {
     font-family: "Monaco", monospace;
     font-size: 5em;
+    color: var(--white);
 }
 .subtitle, .subtitleHold {
     font-family: "Courier New", "Lucida Console", monospace;
@@ -26,11 +27,11 @@
     color: var(--bgopaque2);
 }
 .subtitleHold {
-    color: var(--primary);
+    color: var(--bglight);
     font-style: italic;
 }
 .subtitle:hover, .subtitleHold:hover {
-    color: var(--secondary);
+    color: var(--white);
 }
 
 .subtitleBox {

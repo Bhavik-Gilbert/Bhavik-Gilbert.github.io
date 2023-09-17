@@ -3,10 +3,11 @@ h1, h2, h3, h4, h5, h6, p,
 .h1Hold, .h2Hold, .h3Hold, .h4Hold, .h5Hold, .h6Hold, li, a {
     color: var(--bglight);
     transition: var(--ease);
+    font-family: "Monaco", monospace;
 }
 .h1:hover, .h2:hover, .h3:hover, .h4:hover, .h5:hover, .h6:hover,
 .h1Hold:hover, .h2Hold:hover, .h3Hold:hover, .h4Hold:hover, .h5Hold:hover, .h6Hold:hover {
-    color: var(--greylight);
+    color: var(--secondary);
     font-weight: bold;
 }
 .h1Hold, .h2Hold, .h3Hold, .h4Hold, .h5Hold, .h6Hold {
