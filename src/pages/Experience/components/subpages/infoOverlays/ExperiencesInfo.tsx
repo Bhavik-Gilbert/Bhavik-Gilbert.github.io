@@ -39,12 +39,17 @@ function InternshipExperienceUK2022() {
       <h5>Jun 2022 - Jul 2022</h5>
       <h3>- Bright Network -</h3>
 
-      <a href="https://www.brightnetwork.co.uk/certificates/internship-experience-uk-2022-_c8rvgnjonx89kf/" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
-          <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
+      <a href="./files/certificates/InternshipExperienceUK2022OnDemandTechnology.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
+          <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
           &nbsp;
           Certificate
       </a>
-
+      <a href="https://www.brightnetwork.co.uk/certificates/internship-experience-uk-2022-_c8rvgnjonx89kf/" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
+          <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
+          &nbsp;
+          Web Certificate
+      </a>
+      
       <hr/>
 
       <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
@@ -105,8 +110,8 @@ function ConsultingWorkExperiencewithDeloitte() {
       <h5>Aug 2021</h5>
       <h3>- Springpod -</h3>
 
-      <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/details/experience/1635466301516/single-media-viewer/?profileId=ACoAADC6t4gB9zkJSNbpb2fGu0zKySRQv96N8cQ" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
-          <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
+      <a href="./files/certificates/ConsultingWorkExperiencewithDeloitte.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
+          <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
           &nbsp;
           Certificate
       </a>
@@ -138,8 +143,8 @@ function TechnologyVirtualWorkExperience() {
       <h5>Apr 2021</h5>
       <h3>- Springpod -</h3>
 
-     <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/details/experience/1766009453/multiple-media-viewer/?profileId=ACoAADC6t4gB9zkJSNbpb2fGu0zKySRQv96N8cQ&treasuryMediaId=1618440969668" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
-          <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
+      <a href="./files/certificates/TechnologyVirtualWorkExperienceSpringpod.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
+          <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
           &nbsp;
           Certificate
       </a>
@@ -171,8 +176,8 @@ function CareersCampCIC() {
       <h5>Nov 2019 - Dec 2019</h5>
       <h3>- Careers Camp CIC -</h3>
 
-      <a href="https://www.linkedin.com/in/bhavik-gilbert-2349631a9/details/experience/1618441276401/single-media-viewer/?profileId=ACoAADC6t4gB9zkJSNbpb2fGu0zKySRQv96N8cQ" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
-          <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
+      <a href="./files/certificates/OpenAwardsEntryLevelAwardinEmployabilityandProfessionalDevelopment.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
+          <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
           &nbsp;
           Certificate
       </a>

@@ -14,10 +14,15 @@ function CS50X() {
             <h1>CS50x</h1>
             <h3>- Harvard University -</h3>
             
+            <a href="./files/certificates/CS50X.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
+                <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
+                &nbsp;
+                Certificate
+            </a>
             <a href="https://certificates.cs50.io/5144cbf9-40a0-49b2-8f32-329c7e7f9b35.pdf?size=letter" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
                 <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
                 &nbsp;
-                Certificate
+                Web Certificate
             </a>
 
             <hr/>
@@ -58,10 +63,15 @@ function JPSoftwareEngineeringVirtualExperience() {
             <h5>Virtual Experience</h5>
             <h3>- J.P Morgan Chase & Co -</h3>
 
+            <a href="./files/certificates/JPSoftwareEngineeringVirtualExperience.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
+                <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
+                &nbsp;
+                Certificate
+            </a>
             <a href="https://insidesherpa.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_znzZkM8qP52Cxx5zK_1641498096553_completion_certificate.pdf" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
                 <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
                 &nbsp;
-                Certificate
+                Web Certificate
             </a>
 
             <hr/>
