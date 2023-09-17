@@ -1,5 +1,5 @@
 .physicalNavbar {
-    width: 100vw;
+    width: 100dvw;
     height: 8.5rem;
 }
 
@@ -7,7 +7,7 @@
     z-index: 100;
     position: fixed;
     overflow: hidden;
-    width: 100vw;
+    width: 100dvw;
     margin-bottom: 1.5rem;
     padding: 2rem 0.5rem;
     transition: var(--ease);
@@ -70,7 +70,7 @@
     .navLinks {
         display: flex;
         flex-direction: column;
-        transform: translateX(-2vw);
+        transform: translateX(-2dvw);
     }
     .navLinks a {
         width: 100%;

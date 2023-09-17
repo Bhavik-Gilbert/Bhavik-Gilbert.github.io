@@ -3,8 +3,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100dvw;
+  height: 100dvh;
   background-color: rgba(0,0,0,0.8);
   z-index: 99;
 }
@@ -12,15 +12,15 @@
 .overlayInfo {
   display: none;
   position: absolute;
-  top: 15vh;
-  left: 10vw;
+  top: 15dvh;
+  left: 10dvw;
   background-color: var(--bgopaque);
   border-width: 0.5rem;
   border-style: double; 
   border-color: var(--bglight);
   border-radius: 0.5rem;
-  width: 80vw;
-  height: 80vh;
+  width: 80dvw;
+  height: 80dvh;
   padding: 1rem;
   text-align: left;
   overflow-y: auto;
@@ -61,10 +61,10 @@ hr {
       z-index: 101;
     }
     .overlayInfo {
-      width: 90svw;
-      height: 90svh;
-      top: 5svh;
-      left: 5svw;
+      width: 90dvw;
+      height: 90dvh;
+      top: 5dvh;
+      left: 5dvw;
     }
   }
 }
@@ -74,10 +74,10 @@ hr {
       z-index: 101;
     }
     .overlayInfo {
-      width: 90svw;
-      height: 90svh;
-      top: 5svh;
-      left: 5svw;
+      width: 90dvw;
+      height: 90dvh;
+      top: 5dvh;
+      left: 5dvw;
     }
   }
 }

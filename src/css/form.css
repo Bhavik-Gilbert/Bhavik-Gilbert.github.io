@@ -18,7 +18,7 @@ form input, form textarea {
     color: var(--white);
 }
 form textarea {
-    height: 25vh;
+    height: 25dvh;
 }
 form button {
     background-color: transparent;
