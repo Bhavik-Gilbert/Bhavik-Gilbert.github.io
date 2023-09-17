@@ -78,7 +78,7 @@ function MinigameSuite() {
 
       <hr/>
 
-      <p>Bundle of mini-games built using javafx and java</p>
+      <p>Bundle of mini-games built using java and javafx</p>
       
       <ul>
         <li>Games included:
@@ -144,16 +144,25 @@ function TicketingSystem() {
       <p>The development of a task ticketing system between groups and projects. Uses the flask and mysql-connector libraries to run the site communicate with a database to store all system information</p>
       
       <ul>
-        <li>Users can manage and run groups and projects</li>
-        <li>Managers are able to:
+        <li>Users can create and manage or join and be a member of groups and projects</li>
+        <li>
+          Managers are able to:
           <ul>
             <li>Create new tickets</li>
             <li>Delete owned groups and projects</li>
             <li>Invite and remove users from owned groups and projects</li>
             <li>Transfer management of owned groups and projects </li>
+            <li>Alongside that of which members can do</li>
           </ul>
         </li>
-        <li>General users can start, drop and finish tickets available in the projects they're in</li>
+        <li>
+          Members can:
+          <ul>
+            <li>Start available tickets</li>
+            <li>Drop available tickets</li>
+            <li>Complete available tickets</li>
+          </ul>
+        </li>
       </ul>
     </div>
   );
@@ -321,7 +330,58 @@ function PropertyViewer() {
 
       <hr/>
 
-      <p>TO BE ADDED</p>
+      <p>The property viewer application displays 4 distinct panels which each give insight into the London Property Marketplace.</p>
+      <ul>
+        <li>Incorporates a full suite of automated unit tests</li>
+      </ul>
+      
+      <br/>
+
+      <p>Welcome Panel</p>
+      <ul>
+        <li>Introduces and welcomes the user to the application</li>
+        <li>To access the other panels, the user needs to select their preferred price range</li>
+      </ul>
+      
+      <br/>
+
+      <p>Map Panel</p>
+      <ul>
+        <li>Allows the user to select a borough and view its available properties</li>
+        <li>Displays the property viewer window which displays each property</li>
+        <li>Each borough is assigned a colour on a gradient based on its rank using the selected statistic:</li>
+        <ul>
+          <li>Number of Properties</li>
+          <li>Current Weather</li>
+          <li>Amount of Crime</li>
+          <li>Number of Pubs</li>
+        </ul>
+      </ul>
+
+      <br/>
+
+      <p>Statistics Panel</p>
+      <ul>
+        <li>Gives numerical value to information related to the properties</li>
+      </ul>
+
+      <br/>
+
+      <p>Favourites Panel</p>
+      <ul>
+        <li>Displays a quick-view list of liked properties</li>
+      </ul>
+
+      <br/>
+
+      <p>Property Viewer Window</p>
+      <ul>
+        <li>Open street maps window showing location and transport routes around property</li>
+        <li>Individual property window to show all available information</li>
+        <li>Property search based on: PropertyID, HostID, HostName, MinimumStay, RoomType</li>
+        <li>Overall price calculator based on length of stay</li>
+        <li>Like property to add to quick-view</li>
+      </ul>
     </div>
   );
 }
@@ -450,7 +510,31 @@ function PhotographyBookingManagementSystem() {
 
       <hr/>
 
-      <p>TO BE ADDED</p>
+      <p>Photography company booking management website.</p>
+
+      <br/>
+
+      <p>Photographers</p>
+      <ul>
+        <li>Login</li>
+        <li>Create new photographer accounts</li>
+        <li>Create new package offerings and pricing</li>
+        <li>Edit package pricing</li>
+        <li>Confirm their bookings</li>
+        <li>View their bookings</li>
+        <li>Manage account details</li>
+      </ul>
+
+      <br/>
+
+      <p>Clients</p>
+      <ul>
+        <li>Login/Signup</li>
+        <li>Make bookings</li>
+        <li>View their bookings</li>
+        <li>Pay for their bookings</li>
+        <li>Manage account details</li>
+      </ul>
 
     </div>
   );
@@ -485,7 +569,75 @@ function AIChatbot() {
 
       <hr/>
 
-      <p>TO BE ADDED</p>
+      <p>Chatbot using token parsing to direct requests to required model for requested output.</p>
+
+      <br/>
+
+      <p>Digit Recognition Agent</p>
+      <ul>
+        <li>
+          Determines digits from writing in image:
+          <ul>
+            <li>Tensorflow keras dataset and optimisation layers</li>
+            <li>Mnsist dataset</li>
+            <li>Trains model on known digit data</li>
+            <li>Inputs image into trained model and outputs highest matching result</li>
+          </ul>
+        </li>
+      </ul>
+
+      <br/>
+
+      <p>Landmark Detection Agent</p>
+      <ul>
+        <li>
+          Identifies landmark in images:
+          <ul>
+            <li>Google cloud vision model</li>
+            <li>Inputs image into trained model and outputs result if landmark(s) found</li>
+          </ul>
+        </li>
+      </ul>
+
+      <br/>
+
+      <p>Sentiment Analysis Agent</p>
+      <ul>
+        <li>
+          Determines sentiment or basic emotion behind a piece of text:  
+          <ul>
+            <li>Google cloud language model</li>
+            <li>Inputs text into trained model and outputs highest matching result</li>
+          </ul>
+        </li>
+      </ul>
+      
+      <br/>
+
+      <p>Cat Or Dog Agent</p>
+      <ul>
+        <li>
+          Cat Or Dog Agent - Determines if entity in image is a cat or dog: 
+          <ul>
+            <li>Tensorflow keras training suite used to make model</li>
+            <li>Previously trained model using dataset</li>
+            <li>Inputs image into trained model and outputs result if found</li>
+          </ul>
+        </li>
+      </ul>
+
+      <br/>
+      
+      <p>Entity Analysis Agent</p>
+      <ul>
+        <li>
+          Determines the living entities in an image: 
+          <ul>
+            <li>Google cloud language model</li>
+            <li>Inputs image into trained model and outputs list of entites found</li>
+          </ul>
+        </li>
+      </ul>
     </div>
   );
 }
@@ -515,7 +667,11 @@ function Pathfinder() {
 
       <hr/>
 
-      <p>TO BE ADDED</p>
+      <p>A command line pathfinding application making use of the heuristic A* algorithm based on amazon warehouse sorting robots.</p> 
+      <ul> 
+        <li>Places 20 random obstacles in a 10 by 10 grid and outputs the shortest path from the start to the endpoint</li>
+        <li>If no path is possible, reassessment of the route occurs and a path removing the least number of obstacles is given</li>
+      </ul>
     </div>
   );
 }

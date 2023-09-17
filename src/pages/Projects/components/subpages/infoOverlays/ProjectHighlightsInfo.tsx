@@ -190,8 +190,22 @@ function FacialRecognitionLoginSystem() {
       <p>The development of a facial recognition user login system, storing user information and images, alongside taking, manipulating and analysing images using a facial recognition model.
       </p>
       
+      <p>Usage:</p>
       <ul>
-        <li>The system once given the username of the user that wants to login, will take a picture and check it against all available images in the system under that username, if it matches over 80% of the images in the system, the image taken is then added to the list for future login purposes, thereby allowing the system to develop and become more accurate the more times a user logs in</li>
+        <li>Users signup</li>
+        <li>Take and upload image of themselves</li>
+        <li>Validates image meets requirements:</li>
+        <ul>
+            <li>At least 1 face required</li>
+            <li>Maximum 1 face identified</li>
+        </ul>
+        <li>On login:</li>
+        <ul>
+            <li>New image is taken with the same requirements</li>
+            <li>Face checked against existing images for user</li>
+            <li>User logged in if it reaches an adequate match rate</li>
+            <li>If logged in, new image will be added to database for future accesses</li>
+        </ul>
       </ul>
     </div>
   );
@@ -230,9 +244,22 @@ function PhaseFoldingKeplerExoplanets() {
 
       <hr/>
 
-      <p>A program run by QMUL which involved the use of python to analyse and manipulate data from data sets using python libraries NumPy and matplotlib to accurately achieve a phase fold of a change in star luminosity from the Kepler mission, to later calculate the radius of the planet orbiting around it</p>
+      <p>A program run by QMUL to calculate the radius and orbital period of an exoplanet from the luminosity of the star it's orbiting.</p>
       <ul>
-        <li>This programme used the real data from the Kepler mission, resulting in the use of genuine data, being a great opportunity to expand on previous python knowledge and experience these 2 libraries</li>
+        <li>Data used from the Kepler mission</li>
+        <li>Analyse and manipulate star luminosity data to produce the phase fold on the change in luminosity</li>
+        <li>Calculating the orbital period</li>
+        <ul>
+          <li>Use phase fold to determine the length of time the star luminosity dips</li>
+          <li>Take luminosity dipping time as 1/2 an orbital period due to star visibility from sensors</li>
+          <li>Double luminosity dipping time to determine the orbital period</li>
+        </ul>
+        <li>Calculating radius</li>
+        <ul>
+          <li>Use phase fold to determine the dip in the star's luminosity via exoplanet orbital cover</li>
+          <li>Use the percentage dip in the star's luminosity to calculate the radius of the exoplanet</li>
+          <li>Above uses the luminosity equation of star and planet to substitute for the radius</li>
+        </ul>
       </ul>
     </div>
   );
