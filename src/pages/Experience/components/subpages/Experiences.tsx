@@ -30,6 +30,7 @@ function Experiences() {
                     <br/>
                     <h6>Expedia</h6>
                     <h6>Jul 2022</h6>
+                    <br/>
                     <div className="file button marginTop" onClick={(e) => openElements(["experiencesOverlay", "expediaCareerDiscoveryProgram"])}>
                         More Info
                     </div>
@@ -41,6 +42,7 @@ function Experiences() {
                     <br/>
                     <h6>Bright Network</h6>
                     <h6>Jun 2022 - Jul 2022</h6>
+                    <br/>
                     <div className="file button marginTop" onClick={(e) => openElements(["experiencesOverlay", "internshipExperienceUK2022"])}>
                         More Info
                     </div>
@@ -52,6 +54,7 @@ function Experiences() {
                     <br/>
                     <h6>J.P Morgan Chase & Co</h6>
                     <h6>Apr 2022</h6>
+                    <br/>
                     <div className="file button marginTop" onClick={(e) => openElements(["experiencesOverlay", "jpSpringInsightintoSoftwareEngineering"])}>
                         More Info
                     </div>
@@ -63,6 +66,7 @@ function Experiences() {
                     <br/>
                     <h6>Springpod</h6>
                     <h6>Aug 2021</h6>
+                    <br/>
                     <div className="file button marginTop" onClick={(e) => openElements(["experiencesOverlay", "consultingWorkExperiencewithDeloitte"])}>
                         More Info
                     </div>
@@ -74,6 +78,7 @@ function Experiences() {
                     <br/>
                     <h6>Springpod</h6>
                     <h6>Apr 2021</h6>
+                    <br/>
                     <div className="file button marginTop" onClick={(e) => openElements(["experiencesOverlay", "technologyVirtualWorkExperience"])}>
                         More Info
                     </div>
@@ -85,6 +90,7 @@ function Experiences() {
                     <br/>
                     <h6>Careers Camp CIC</h6>
                     <h6>Nov 2019 - Dec 2019</h6>
+                    <br/>
                     <div className="file button marginTop" onClick={(e) => openElements(["experiencesOverlay", "careersCampCIC"])}>
                         More Info
                     </div>

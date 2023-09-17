@@ -30,6 +30,7 @@ function Hackathons() {
               <br/>
               <h6>J.P Morgan Chase & Co</h6>
               <h6>Nov 2022</h6>
+              <br/>
               <div className="file button marginTop" onClick={(e) => openElements(["hackathonsOverlay", "codeForGood"])}>
                   More Info
               </div>
@@ -41,6 +42,7 @@ function Hackathons() {
               <br/>
               <h6>Polygon</h6>
               <h6>Oct 2022</h6>
+              <br/>
               <div className="file button marginTop" onClick={(e) => openElements(["hackathonsOverlay", "polygonxEasyA"])}>
                   More Info
               </div>
@@ -52,6 +54,7 @@ function Hackathons() {
               <br/>
               <h6>Meta</h6>
               <h6>Sept 2022</h6>
+              <br/>
               <div className="file button marginTop" onClick={(e) => openElements(["hackathonsOverlay", "metaGlobalHackathon2022"])}>
                   More Info
               </div>

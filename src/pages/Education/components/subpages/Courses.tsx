@@ -29,6 +29,7 @@ function Courses() {
                 <h5>CS50x</h5>
                 <br/>
                 <h6>Harvard University</h6>
+                <br/>
                 <div className="file button marginTop" onClick={(e) => openElements(["coursesOverlay", "cs50"])}>
                     More Info
                 </div>
@@ -39,6 +40,7 @@ function Courses() {
                 <h5>Software Engineering Virtual Experience</h5>
                 <br/>
                 <h6>J.P Morgan Chase & Co</h6>
+                <br/>
                 <div className="file button marginTop" onClick={(e) => openElements(["coursesOverlay", "jpSoftwareEngineeringVirtualExperience"])}>
                     More Info
                 </div>
@@ -50,6 +52,7 @@ function Courses() {
                 <h6>R-Studio Course</h6>
                 <br/>
                 <h6>Oxford University</h6>
+                <br/>
                 <div className="file button marginTop" onClick={(e) => openElements(["coursesOverlay", "uniqDigital"])}>
                     More Info
                 </div>
@@ -60,6 +63,7 @@ function Courses() {
                 <h5>Design Thinking</h5>
                 <br/>
                 <h6>OpenLearn University</h6>
+                <br/>
                 <div className="file button marginTop" onClick={(e) => openElements(["coursesOverlay", "ouDesignThinking"])}>
                     More Info
                 </div>
@@ -70,6 +74,7 @@ function Courses() {
                 <h5>An Introduction to Software Development</h5>
                 <br/>
                 <h6>OpenLearn University</h6>
+                <br/>
                 <div className="file button marginTop" onClick={(e) => openElements(["coursesOverlay", "ouIntroductiontoSoftwareDevelopment"])}>
                     More Info
                 </div>
@@ -80,6 +85,7 @@ function Courses() {
                 <h5>Technological Innovation: A Resource-Based View</h5>
                 <br/>
                 <h6>OpenLearn University</h6>
+                <br/>
                 <div className="file button marginTop" onClick={(e) => openElements(["coursesOverlay", "ouTechnologicalInnovation"])}>
                     More Info
                 </div>
@@ -90,6 +96,7 @@ function Courses() {
                 <h5>Computers and Computer Systems</h5>
                 <br/>
                 <h6>OpenLearn University</h6>
+                <br/>
                 <div className="file button marginTop" onClick={(e) => openElements(["coursesOverlay", "ouComputersandComputerSystems"])}>
                     More Info
                 </div>
