@@ -42,11 +42,11 @@
 /* Change the color of links on hover */
 .navLinks a.active{
     background-color: var(--bgopaque);
-    color: #fff;
+    color: var(--white);
 }
 .navLinks a.active:hover{
     background-color: var(--bg);
-    color: #fff;
+    color: var(--white);
     box-shadow: var(--highlight) 0rem 0.15rem;
 }
 
