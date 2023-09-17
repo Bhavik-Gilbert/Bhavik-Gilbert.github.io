@@ -7,10 +7,11 @@ function ContactForm() {
 
   return (
     <>
-      <form className='textBox' onSubmit={sendMailTo}>
+      <form className='textBox'>
+        <h3>Email</h3>
         <input type="text" name="subject" id="subject" placeholder="Subject" />
         <textarea name="message" id="message" placeholder="Message" ></textarea>
-        <button className="file button" type="submit" name="Submit" id="sendWebsite">Send</button>
+        <button className="file button" type="submit" name="Submit" id="sendMailTo" onClick={sendMailTo}>Send</button>
 
         <br/><br/>
 
