@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.367f2318.css",
-    "main.js": "/static/js/main.459f5f1f.js",
+    "main.js": "/static/js/main.99ece0b9.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/black bishop.cur": "/static/media/black bishop.12e24e3d76839b21d5ff.cur",
     "static/media/black king.cur": "/static/media/black king.9bc2814bf6ab454ce09d.cur",
@@ -17,11 +17,11 @@
     "static/media/white rook.cur": "/static/media/white rook.4cc2f4dfba0ab71f7025.cur",
     "index.html": "/index.html",
     "main.367f2318.css.map": "/static/css/main.367f2318.css.map",
-    "main.459f5f1f.js.map": "/static/js/main.459f5f1f.js.map",
+    "main.99ece0b9.js.map": "/static/js/main.99ece0b9.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.367f2318.css",
-    "static/js/main.459f5f1f.js"
+    "static/js/main.99ece0b9.js"
   ]
 }
