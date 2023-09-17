@@ -1,8 +1,8 @@
 .overlayBackground {
   display: none;
   position: fixed;
-  top: 0%;
-  left: 0%;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
   background-color: rgba(0,0,0,0.8);
@@ -12,8 +12,8 @@
 .overlayInfo {
   display: none;
   position: absolute;
-  top: 15%;
-  left: 10%;
+  top: 15vh;
+  left: 10vw;
   background-color: var(--bgopaque);
   border-width: 0.5rem;
   border-style: double; 
@@ -56,28 +56,28 @@ hr {
 
 /** mobile optimisations **/
 @media (orientation: portrait) {
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 864px) {
     .overlayBackground {
       z-index: 101;
     }
     .overlayInfo {
-      width: 90vw;
-      height: 90vh;
-      top: 5%;
-      left: 5%;
+      width: 90svw;
+      height: 90svh;
+      top: 5svh;
+      left: 5svw;
     }
   }
 }
 @media (orientation: landscape) {
-  @media only screen and (max-height: 600px) {
+  @media only screen and (max-height: 864px) {
     .overlayBackground {
       z-index: 101;
     }
     .overlayInfo {
-      width: 90vw;
-      height: 90vh;
-      top: 5%;
-      left: 5%;
+      width: 90svw;
+      height: 90svh;
+      top: 5svh;
+      left: 5svw;
     }
   }
 }
