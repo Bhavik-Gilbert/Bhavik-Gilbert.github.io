@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 
 import * as Pages from './pages';
 
@@ -12,6 +12,7 @@ const Router = () => {
         <Route path={Pages.pageLinks.Experience} element={<Pages.Experience/>} />
         <Route path={Pages.pageLinks.Education} element={<Pages.Education/>} />
         <Route path={Pages.pageLinks.Contact} element={<Pages.Contact/>} />
+        <Route path="*" element={<Navigate to={Pages.pageLinks.Home} replace/>} />
       </Routes>
     </div>
   );
