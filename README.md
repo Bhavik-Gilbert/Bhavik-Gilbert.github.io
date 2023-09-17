@@ -15,11 +15,11 @@
 
 ## About
 #### Think of it as a portal between points in my online professional presence  
-A portfolio site to hold information on myself ranging from education to skills and experience to projects. It enables employers to get a better view of my skillset and provides them with a better idea of whether or not they should contact me or not, which they can also do via the site.
+A portfolio site to hold information on me ranging from education to skills to experience to projects. It enables employers to get a better view of my skillset. Provides my contact information alongside a direct means of contact via the site.
     
 ## Technologies
-### Framworks/Languages
->This application is built using html, css and javascript.  
+### Frameworks/Languages
+>This application is built in React using Typescript and CSS.  
 
 ### Hosting
 >The website is hosted on [github pages](https://bhavik-gilbert.github.io/) and is currently available for anyone to view
@@ -27,14 +27,14 @@ A portfolio site to hold information on myself ranging from education to skills 
   
 ## Usage
 ### Home Page - [Visit](https://bhavik-gilbert.github.io/)
->Provides a profile of myself alongside important links and documents such as LinkdIn, Github, alongside my CV and Cover letter.
-Also acts a central point providing extra accessibility to the whole site alongside a description of each page.
+> Provides a profile of myself alongside important links and documents such as LinkedIn, Github, my CV and Cover letter.
+Also acts as a central point providing extra accessibility to the whole site alongside a description of each page.
 ### Projects Page - [Visit](https://bhavik-gilbert.github.io/Projects.html)
 >A list of all my most important projects with a description of what they are and the best ways to view them.
 ### Education Page - [Visit](https://bhavik-gilbert.github.io/Education.html)
 >A list of all my education with grades, alongside other achievements and awards.
 ### Experience Page - [Visit](https://bhavik-gilbert.github.io/Experience.html)
->A list of all my work experience, paid and unpaid. Description for all positions I've held alongside what I've done and learnt while there.
+>A list of all my work experience, paid and unpaid. Description of all positions I've held alongside what I've done and learnt while there.
 ### Contact Page - [Visit](https://bhavik-gilbert.github.io/Contact.html)
-> Provides a contact form, where people are able to email me directly with any equiries they may have.  
+> Provides a contact form, where people are able to email me with any enquiries they may have.  
 * #### Powered by Email.js
