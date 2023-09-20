@@ -13,7 +13,7 @@
     background: var(--bg);
 }
 .card:hover {
-    background: var(--bgopaque);
+    background: var(--bgopaque2);
 }
 
 .card p {
