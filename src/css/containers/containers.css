@@ -103,7 +103,7 @@
 }
 
 .highlightBox:hover {    
-    background-color: var(--bgopaque);
+    background-color: var(--bgopaque2);
 }
 
 /** mobile optimisations **/
