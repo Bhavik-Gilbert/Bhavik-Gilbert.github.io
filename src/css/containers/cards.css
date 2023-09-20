@@ -12,9 +12,6 @@
 .card.background {
     background: var(--bg);
 }
-.card:hover {
-    background: var(--bgopaque2);
-}
 
 .card p {
     margin: 0.5rem;
