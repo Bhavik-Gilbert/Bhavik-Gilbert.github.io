@@ -32,11 +32,11 @@ function CompsciKCLUndergrad() {
 
       <hr/>
 
-      <h6>Average: First (1st) with class honours</h6>
+      <h6>Average: First (1st) class with honours</h6>
 
       <br/>
 
-      <h6>Year 2: First (1st) with class honours</h6>
+      <h6>Year 2: First (1st) class with honours</h6>
       
       <p>Highlights</p>
       <ul>
@@ -48,7 +48,7 @@ function CompsciKCLUndergrad() {
 
       <br/>
 
-      <h6>Year 1: First (1st) with class honours</h6>
+      <h6>Year 1: First (1st) class with honours</h6>
       <p>Highlights</p>
       <ul>
         <li>Foundations of Computing 1: 90% | 15 credits</li>
