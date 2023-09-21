@@ -29,6 +29,9 @@
 .overlayInfo .button {
   background-color: var(--bg);
 }
+.overlayInfo .button:hover {
+    background-color: var(--bgopaque2);
+}
 
 .outputInfoBackground {
   background:linear-gradient(var(--bgopaque),rgba(50, 50, 50, 0.2));
