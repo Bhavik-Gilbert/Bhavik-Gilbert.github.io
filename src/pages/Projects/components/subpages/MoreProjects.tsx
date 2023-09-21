@@ -24,7 +24,7 @@ function MoreProjects() {
             </div>
 
             <div className="scrollBox">
-                <div className="card long m-3">
+                <div className="card long m-3" onClick={(e) => openElements(["moreProjectsOverlay", "penguinEmpire"])}>
                     <img className="skeleton header" src="./images/projects/Penguin Empire/PE1.png" alt="Penguin Empire" loading="lazy"/>
                     <h5>Penguin Empire</h5>
                     <h6>Social Media Application</h6>
@@ -36,12 +36,12 @@ function MoreProjects() {
                     <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
                     <br/>
-                    <div className="file button marginTop" onClick={(e) => openElements(["moreProjectsOverlay", "penguinEmpire"])}>
+                    <div className="file button marginTop">
                         More Info
                     </div>
                 </div>
 
-                <div className="card long m-3">
+                <div className="card long m-3" onClick={(e) => openElements(["moreProjectsOverlay", "minigameSuite"])}>
                     <img className="skeleton header" src="./images/projects/Minigame Suite/MGS1.png" alt="Minigame Suite" loading="lazy"/>
                     <h5>Minigame Suite</h5>
                     <br/>
@@ -50,12 +50,12 @@ function MoreProjects() {
                     <img className="skeleton fileImage small" src="./images/techLogos/java.png" alt="Java" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
                     <br/>
-                    <div className="file button marginTop" onClick={(e) => openElements(["moreProjectsOverlay", "minigameSuite"])}>
+                    <div className="file button marginTop">
                         More Info
                     </div>
                 </div>
                 
-                <div className="card long m-3">
+                <div className="card long m-3" onClick={(e) => openElements(["moreProjectsOverlay", "ticketingSystem"])}>
                     <img className="skeleton header" src="./images/projects/Ticketing System/TS1.png" alt="Ticketing System" loading="lazy"/>
                     <h5>Ticketing System</h5>
                     <br/>
@@ -67,12 +67,12 @@ function MoreProjects() {
                     <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
                     <br/>
-                    <div className="file button marginTop" onClick={(e) => openElements(["moreProjectsOverlay", "ticketingSystem"])}>
+                    <div className="file button marginTop">
                         More Info
                     </div>
                 </div>
 
-                <div className="card long m-3">
+                <div className="card long m-3"onClick={(e) => openElements(["moreProjectsOverlay", "musicSchoolManagementSystem"])}>
                     <img className="skeleton header" src="./images/projects/Music School Management System/MSMS1.png" alt="Music School Management System" loading="lazy"/>
                     <h5>Music School Management System</h5>
                     <br/>
@@ -84,12 +84,12 @@ function MoreProjects() {
                     <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
                     <br/>
-                    <div className="file button marginTop" onClick={(e) => openElements(["moreProjectsOverlay", "musicSchoolManagementSystem"])}>
+                    <div className="file button marginTop">
                         More Info
                     </div>
                 </div>
 
-                <div className="card long m-3">
+                <div className="card long m-3" onClick={(e) => openElements(["moreProjectsOverlay", "typingSpeedTest"])}>
                     <img className="skeleton header" src="./images/projects/Typing Speed Test/TST1.png" alt="Typing Speed Test" loading="lazy"/>
                     <h5>Typing Speed Test</h5>
                     <br/>
@@ -99,12 +99,12 @@ function MoreProjects() {
                     <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
                     <br/>
-                    <div className="file button marginTop" onClick={(e) => openElements(["moreProjectsOverlay", "typingSpeedTest"])}>
+                    <div className="file button marginTop">
                         More Info
                     </div>
                 </div>
 
-                <div className="card long m-3">
+                <div className="card long m-3" onClick={(e) => openElements(["moreProjectsOverlay", "propertyViewer"])}>
                     <img className="skeleton header" src="./images/projects/Property Viewer/PV1.png" alt="Property Viewer" loading="lazy"/>
                     <h5>Property Viewer</h5>
                     <br/>
@@ -114,12 +114,12 @@ function MoreProjects() {
                     <img className="skeleton fileImage small" src="./images/techLogos/java.png" alt="Java" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
                     <br/>
-                    <div className="file button marginTop" onClick={(e) => openElements(["moreProjectsOverlay", "propertyViewer"])}>
+                    <div className="file button marginTop">
                         More Info
                     </div>
                 </div>
 
-                <div className="card long m-3">
+                <div className="card long m-3" onClick={(e) => openElements(["moreProjectsOverlay", "ecosystemSimulator"])}>
                     <img className="skeleton header" src="./images/projects/Ecosystem/ES1.png" alt="Ecosystem Simulator" loading="lazy"/>
                     <h5>Ecosystem Simulator</h5>
                     <br/>
@@ -128,12 +128,12 @@ function MoreProjects() {
                     <br/>
                     <img className="skeleton fileImage small" src="./images/techLogos/java.png" alt="Java" loading="lazy"/>
                     <br/>
-                    <div className="file button marginTop" onClick={(e) => openElements(["moreProjectsOverlay", "ecosystemSimulator"])}>
+                    <div className="file button marginTop">
                         More Info
                     </div>
                 </div>
 
-                <div className="card long m-3">
+                <div className="card long m-3" onClick={(e) => openElements(["moreProjectsOverlay", "photographyBooking&ManagementSystem"])}>
                     <img className="skeleton header" src="./images/projects/Photography Booking System/BS1.png" alt="Photography Booking System" loading="lazy"/>
                     <h5>Photography Booking & Management System</h5>
                     <br/>
@@ -145,12 +145,12 @@ function MoreProjects() {
                     <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
                     <br/>
-                    <div className="file button marginTop" onClick={(e) => openElements(["moreProjectsOverlay", "photographyBooking&ManagementSystem"])}>
+                    <div className="file button marginTop">
                         More Info
                     </div>
                 </div>
 
-                <div className="card long m-3">
+                <div className="card long m-3" onClick={(e) => openElements(["moreProjectsOverlay", "aiChatbot"])}>
                     <img className="skeleton header" src="./images/projects/Projects.png" alt="Projects" loading="lazy"/>
                     <h5>AI Chatbot</h5>
                     <br/>
@@ -158,12 +158,12 @@ function MoreProjects() {
                     <br/>
                     <img className="skeleton fileImage small" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
                     <br/>
-                    <div className="file button marginTop" onClick={(e) => openElements(["moreProjectsOverlay", "aiChatbot"])}>
+                    <div className="file button marginTop">
                         More Info
                     </div>
                 </div>
 
-                <div className="card long m-3">
+                <div className="card long m-3" onClick={(e) => openElements(["moreProjectsOverlay", "pathfinder"])}>
                     <img className="skeleton header" src="./images/projects/Projects.png" alt="Projects" loading="lazy"/>
                     <h5>Pathfinder</h5>
                     <br/>
@@ -171,7 +171,7 @@ function MoreProjects() {
                     <br/>
                     <img className="skeleton fileImage small" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
                     <br/>
-                    <div className="file button marginTop" onClick={(e) => openElements(["moreProjectsOverlay", "pathfinder"])}>
+                    <div className="file button marginTop">
                         More Info
                     </div>
                 </div>

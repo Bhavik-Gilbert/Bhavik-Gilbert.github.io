@@ -24,7 +24,7 @@ function ExperienceHighlights() {
         </div>
 
         <div>
-          <div className="highlightBox marginBottom">
+          <div className="highlightBox marginBottom" onClick={(e) => openElements(["experienceHighlightsOverlay", "jpSoftwareEngineerAnalystIntern"])}>
             <img className="skeleton highlightBoxImage" src="./images/companyLogos/JPMorganChase.jpg" alt="JPMC" loading="lazy"/>
 
             <div className="highlightBoxText">
@@ -34,12 +34,12 @@ function ExperienceHighlights() {
               <h6>Jun 2023 - Aug 2023</h6>
             </div>
             
-            <div className="file button bottomRight" onClick={(e) => openElements(["experienceHighlightsOverlay", "jpSoftwareEngineerAnalystIntern"])}>
+            <div className="file button bottomRight">
               More Info
             </div>
           </div>
           
-          <div className="highlightBox marginBottom">
+          <div className="highlightBox marginBottom" onClick={(e) => openElements(["experienceHighlightsOverlay", "leytonComputerScienceStudentMentor"])}>
             <img className="skeleton highlightBoxImage" src="./images/companyLogos/LeytonXIFormCollege.png" alt="Leyton XI Form College" loading="lazy"/>
 
             <div className="highlightBoxText">
@@ -49,12 +49,12 @@ function ExperienceHighlights() {
               <h6>Sep 2021 - Oct 2022</h6>
             </div>
 
-            <div className="file button bottomRight" onClick={(e) => openElements(["experienceHighlightsOverlay", "leytonComputerScienceStudentMentor"])}>
+            <div className="file button bottomRight">
               More Info
             </div>
           </div>
 
-          <div className="highlightBox">
+          <div className="highlightBox" onClick={(e) => openElements(["experienceHighlightsOverlay", "funtechLocationCampManger"])}>
             <img className="skeleton highlightBoxImage" src="./images/companyLogos/Funtech.png" alt="FunTech" loading="lazy"/>
 
             <div className="highlightBoxText">
@@ -64,7 +64,7 @@ function ExperienceHighlights() {
               <h6>Jul 2022 - Aug 2022</h6>
             </div>
 
-            <div className="file button bottomRight" onClick={(e) => openElements(["experienceHighlightsOverlay", "funtechLocationCampManger"])}>
+            <div className="file button bottomRight">
               More Info
             </div>
           </div>

@@ -24,80 +24,80 @@ function Courses() {
         </div>
 
         <div className="scrollBox">
-            <div className="card long m-3">
+            <div className="card long m-3" onClick={(e) => openElements(["coursesOverlay", "cs50"])}>
                 <img className="skeleton header" src="./images/companyLogos/Harvard.png" alt="Harvard University" loading="lazy"/>
                 <h5>CS50x</h5>
                 <br/>
                 <h6>Harvard University</h6>
                 <br/>
-                <div className="file button marginTop" onClick={(e) => openElements(["coursesOverlay", "cs50"])}>
+                <div className="file button marginTop">
                     More Info
                 </div>
             </div>
 
-            <div className="card long m-3">
+            <div className="card long m-3" onClick={(e) => openElements(["coursesOverlay", "jpSoftwareEngineeringVirtualExperience"])}>
                 <img className="skeleton header" src="./images/companyLogos/JPMorganChase.jpg" alt="JPMC" loading="lazy"/>
                 <h5>Software Engineering Virtual Experience</h5>
                 <br/>
                 <h6>J.P Morgan Chase & Co</h6>
                 <br/>
-                <div className="file button marginTop" onClick={(e) => openElements(["coursesOverlay", "jpSoftwareEngineeringVirtualExperience"])}>
+                <div className="file button marginTop">
                     More Info
                 </div>
             </div>
 
-            <div className="card long m-3">
+            <div className="card long m-3" onClick={(e) => openElements(["coursesOverlay", "uniqDigital"])}>
                 <img className="skeleton header" src="./images/companyLogos/Oxford.png" alt="Oxford University" loading="lazy"/>
                 <h5>Uniq Digital</h5>
                 <h6>R-Studio Course</h6>
                 <br/>
                 <h6>Oxford University</h6>
                 <br/>
-                <div className="file button marginTop" onClick={(e) => openElements(["coursesOverlay", "uniqDigital"])}>
+                <div className="file button marginTop">
                     More Info
                 </div>
             </div>
 
-            <div className="card long m-3">
+            <div className="card long m-3" onClick={(e) => openElements(["coursesOverlay", "ouDesignThinking"])}>
                 <img className="skeleton header" src="./images/companyLogos/OpenLearn.jpg" alt="OpenLearn University" loading="lazy"/>
                 <h5>Design Thinking</h5>
                 <br/>
                 <h6>OpenLearn University</h6>
                 <br/>
-                <div className="file button marginTop" onClick={(e) => openElements(["coursesOverlay", "ouDesignThinking"])}>
+                <div className="file button marginTop">
                     More Info
                 </div>
             </div>
 
-            <div className="card long m-3">
+            <div className="card long m-3" onClick={(e) => openElements(["coursesOverlay", "ouIntroductiontoSoftwareDevelopment"])}>
                 <img className="skeleton header" src="./images/companyLogos/OpenLearn.jpg" alt="OpenLearn University" loading="lazy"/>
                 <h5>An Introduction to Software Development</h5>
                 <br/>
                 <h6>OpenLearn University</h6>
                 <br/>
-                <div className="file button marginTop" onClick={(e) => openElements(["coursesOverlay", "ouIntroductiontoSoftwareDevelopment"])}>
+                <div className="file button marginTop">
                     More Info
                 </div>
             </div>
 
-            <div className="card long m-3">
+            <div className="card long m-3" onClick={(e) => openElements(["coursesOverlay", "ouTechnologicalInnovation"])}>
                 <img className="skeleton header" src="./images/companyLogos/OpenLearn.jpg" alt="OpenLearn University" loading="lazy"/>
                 <h5>Technological Innovation: A Resource-Based View</h5>
                 <br/>
                 <h6>OpenLearn University</h6>
                 <br/>
-                <div className="file button marginTop" onClick={(e) => openElements(["coursesOverlay", "ouTechnologicalInnovation"])}>
+                <div className="file button marginTop">
                     More Info
                 </div>
             </div>
 
-            <div className="card long m-3">
+            <div className="card long m-3" onClick={(e) => openElements(["coursesOverlay", "ouComputersandComputerSystems"])}>
                 <img className="skeleton header" src="./images/companyLogos/OpenLearn.jpg" alt="OpenLearn University" loading="lazy"/>
                 <h5>Computers and Computer Systems</h5>
                 <br/>
                 <h6>OpenLearn University</h6>
                 <br/>
-                <div className="file button marginTop" onClick={(e) => openElements(["coursesOverlay", "ouComputersandComputerSystems"])}>
+                <div className="file button marginTop">
                     More Info
                 </div>
             </div>

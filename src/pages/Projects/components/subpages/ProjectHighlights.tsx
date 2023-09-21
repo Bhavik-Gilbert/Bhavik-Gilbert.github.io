@@ -23,7 +23,7 @@ function ProjectHighlights() {
       </div>
 
       <div>
-        <div className="highlightBox marginBottom">
+        <div className="highlightBox marginBottom" onClick={(e) => openElements(["projectHighlightsOverlay", "greggorFinancialCompanion"])}>
           <img className="skeleton highlightBoxImage" src="./images/projects/Greggor Financial Companion/GFC1.png" alt="Greggor Financial Companion" loading="lazy"/>
 
           <div className="highlightBoxText">
@@ -36,13 +36,13 @@ function ProjectHighlights() {
             <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
             <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
 
-            <div className="file button bottomRight" onClick={(e) => openElements(["projectHighlightsOverlay", "greggorFinancialCompanion"])}>
+            <div className="file button bottomRight">
               More Info
             </div>
           </div>
         </div>
 
-        <div className="highlightBox marginBottom">
+        <div className="highlightBox marginBottom" onClick={(e) => openElements(["projectHighlightsOverlay", "roboticStoreroomInventoryScanner"])}>
           <img className="skeleton highlightBoxImage" src="./images/projects/ROS Storageroom Scanner/RSS1.png" alt="Robotic Storeroom Inventory Scanner" loading="lazy"/>
 
           <div className="highlightBoxText">
@@ -52,12 +52,12 @@ function ProjectHighlights() {
             <img className="skeleton fileImage small" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
           </div>
             
-          <div className="file button bottomRight" onClick={(e) => openElements(["projectHighlightsOverlay", "roboticStoreroomInventoryScanner"])}>
+          <div className="file button bottomRight">
             More Info
           </div>
         </div>
 
-        <div className="highlightBox marginBottom">
+        <div className="highlightBox marginBottom" onClick={(e) => openElements(["projectHighlightsOverlay", "facialRecognitionLoginSystem"])}>
           <img className="skeleton highlightBoxImage" src="./images/projects/Facial Recognition/FR2.png" alt="Facial Recognition Login System" loading="lazy"/>
 
           <div className="highlightBoxText">
@@ -68,12 +68,12 @@ function ProjectHighlights() {
             <img className="skeleton fileImage small" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
           </div>
 
-          <div className="file button bottomRight" onClick={(e) => openElements(["projectHighlightsOverlay", "facialRecognitionLoginSystem"])}>
+          <div className="file button bottomRight">
             More Info
           </div>
         </div>
 
-        <div className="highlightBox marginBottom">
+        <div className="highlightBox marginBottom" onClick={(e) => openElements(["projectHighlightsOverlay", "phaseFoldingKeplerExoplanets"])}>
           <img className="skeleton highlightBoxImage" src="./images/projects/Exoplanet/PF1.png" alt="Phase Folding Kepler Exoplanets" loading="lazy"/>
 
           <div className="highlightBoxText">
@@ -84,7 +84,7 @@ function ProjectHighlights() {
             <img className="skeleton fileImage small" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
           </div>
           
-          <div className="file button bottomRight" onClick={(e) => openElements(["projectHighlightsOverlay", "phaseFoldingKeplerExoplanets"])}>
+          <div className="file button bottomRight">
             More Info
           </div> 
         </div>

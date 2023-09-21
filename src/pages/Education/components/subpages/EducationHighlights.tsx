@@ -24,7 +24,7 @@ function EducationHighlights() {
         </div>
 
         <div>
-          <div className="highlightBox marginBottom">
+          <div className="highlightBox marginBottom" onClick={(e) => openElements(["educationHighlightsOverlay", "compsciKCLUndergrad"])}>
             <img className="skeleton highlightBoxImage" src="./images/companyLogos/KCL.jpg" alt="KCL" loading="lazy"/>
 
             <div className="highlightBoxText">
@@ -35,12 +35,12 @@ function EducationHighlights() {
               <h6>Sep 2021 - May 2024</h6>
             </div>
 
-            <div className="file button bottomRight" onClick={(e) => openElements(["educationHighlightsOverlay", "compsciKCLUndergrad"])}>
+            <div className="file button bottomRight">
               More Info
             </div>
           </div>
           
-          <div className="highlightBox marginBottom">
+          <div className="highlightBox marginBottom" onClick={(e) => openElements(["educationHighlightsOverlay", "alevels"])}>
             <img className="skeleton highlightBoxImage" src="./images/companyLogos/LeytonXIFormCollege.png" alt="Leyton XI Form College" loading="lazy"/>
 
             <div className="highlightBoxText">
@@ -51,12 +51,12 @@ function EducationHighlights() {
               <h6>Sep 2019 - May 2021</h6>
             </div>
 
-            <div className="file button bottomRight mt-3" onClick={(e) => openElements(["educationHighlightsOverlay", "alevels"])}>
+            <div className="file button bottomRight mt-3">
               More Info
             </div>
           </div>
 
-          <div className="highlightBox">
+          <div className="highlightBox" onClick={(e) => openElements(["educationHighlightsOverlay", "gcses"])}>
             <img className="skeleton highlightBoxImage" src="./images/companyLogos/StAloy.jpg" alt="St Aloysius R.C College" loading="lazy"/>
 
             <div className="highlightBoxText">
@@ -67,7 +67,7 @@ function EducationHighlights() {
               <h6>Sep 2014 - Jun 2019</h6>
             </div>
 
-            <div className="file button bottomRight" onClick={(e) => openElements(["educationHighlightsOverlay", "gcses"])}>
+            <div className="file button bottomRight">
               More Info
             </div>
           </div>
