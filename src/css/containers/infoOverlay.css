@@ -26,6 +26,9 @@
   overflow-y: auto;
   overflow-x: hidden;
 }
+.overlayInfo .button {
+  background-color: var(--bg);
+}
 
 .outputInfoBackground {
   background:linear-gradient(var(--bgopaque),rgba(50, 50, 50, 0.2));
