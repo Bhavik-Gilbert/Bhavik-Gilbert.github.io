@@ -29,12 +29,11 @@ A portfolio site to hold information on me ranging from education to skills to e
 ### Home Page - [Visit](https://bhavik-gilbert.github.io/)
 > Provides a profile of myself alongside important links and documents such as LinkedIn, Github, my CV and Cover letter.
 Also acts as a central point providing extra accessibility to the whole site alongside a description of each page.
-### Projects Page - [Visit](https://bhavik-gilbert.github.io/Projects.html)
+### Projects Page - [Visit](https://bhavik-gilbert.github.io/Projects)
 >A list of all my most important projects with a description of what they are and the best ways to view them.
-### Education Page - [Visit](https://bhavik-gilbert.github.io/Education.html)
+### Education Page - [Visit](https://bhavik-gilbert.github.io/Education)
 >A list of all my education with grades, alongside other achievements and awards.
-### Experience Page - [Visit](https://bhavik-gilbert.github.io/Experience.html)
+### Experience Page - [Visit](https://bhavik-gilbert.github.io/Experience)
 >A list of all my work experience, paid and unpaid. Description of all positions I've held alongside what I've done and learnt while there.
-### Contact Page - [Visit](https://bhavik-gilbert.github.io/Contact.html)
-> Provides a contact form, where people are able to email me with any enquiries they may have.  
-* #### Powered by Email.js
+### Contact Page - [Visit](https://bhavik-gilbert.github.io/Contact)
+> Provides a contact form, where people can email me with any enquiries they may have.  
