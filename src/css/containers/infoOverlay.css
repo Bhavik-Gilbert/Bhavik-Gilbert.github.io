@@ -28,6 +28,8 @@
 }
 .overlayInfo .button {
   background-color: var(--bg);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .overlayInfo .button:hover {
     background-color: var(--bgopaque2);
