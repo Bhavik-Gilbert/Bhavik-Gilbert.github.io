@@ -11,9 +11,11 @@ function CS50X() {
                 </div>
             </div>
 
-            <h1>CS50x</h1>
-            <h3>- Harvard University -</h3>
-            
+            <div className="infoHeader">
+                <h1>CS50x</h1>
+                <h3>- Harvard University -</h3>
+            </div>
+                
             <a href="./files/certificates/CS50X.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
                 <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
                 &nbsp;
@@ -59,9 +61,11 @@ function JPSoftwareEngineeringVirtualExperience() {
                 </div>
             </div>
 
-            <h1>Software Engineering</h1>
-            <h5>Virtual Experience</h5>
-            <h3>- J.P Morgan Chase & Co -</h3>
+            <div className="infoHeader">
+                <h1>Software Engineering</h1>
+                <h5>Virtual Experience</h5>
+                <h3>- J.P Morgan Chase & Co -</h3>
+            </div>
 
             <a href="./files/certificates/JPSoftwareEngineeringVirtualExperience.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
                 <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
@@ -99,10 +103,12 @@ function UniqDigital() {
                 &#10005;
                 </div>
             </div>
-
-            <h1>Uniq Digital</h1>
-            <h5>R-Studio Course</h5>
-            <h3>- Oxford University -</h3>
+            
+            <div className="infoHeader">
+                <h1>Uniq Digital</h1>
+                <h5>R-Studio Course</h5>
+                <h3>- Oxford University -</h3>
+            </div>
 
             <a href="https://www.uniq.ox.ac.uk/uniqdigital" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
                 <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
@@ -135,8 +141,10 @@ function OUDesignThinking() {
                 </div>
             </div>
 
-            <h1>Design Thinking</h1>
-            <h3>- OpenLearn University -</h3>
+            <div className="infoHeader">
+                <h1>Design Thinking</h1>
+                <h3>- OpenLearn University -</h3>
+            </div>
 
             <a href="./files/courses/Design Thinking U101_1_statement.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
                 <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
@@ -161,8 +169,10 @@ function OUIntroductiontoSoftwareDevelopment() {
                 </div>
             </div>
 
-            <h1>Introduction to Software Development</h1>
-            <h3>- OpenLearn University -</h3>
+            <div className="infoHeader">
+                <h1>Introduction to Software Development</h1>
+                <h3>- OpenLearn University -</h3>
+            </div>
 
             <a href="./files/courses/An Introduction to Software Development M813_1_statement.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
                 <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
@@ -187,9 +197,11 @@ function OUTechnologicalInnovation() {
                 </div>
             </div>
 
-            <h1>Technological Innovation</h1>
-            <h5>A Resource-Based View</h5>
-            <h3>- OpenLearn University -</h3>
+            <div className="infoHeader">
+                <h1>Technological Innovation</h1>
+                <h5>A Resource-Based View</h5>
+                <h3>- OpenLearn University -</h3>
+            </div>
 
             <a href="./files/courses/Technological Innovation a Resource-Based T849_1_statement.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
                 <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
@@ -214,8 +226,10 @@ function OUComputersandComputerSystems() {
                 </div>
             </div>
 
-            <h1>Computers and Computer Systems</h1>
-            <h3>- OpenLearn University -</h3>
+            <div className="infoHeader">
+                <h1>Computers and Computer Systems</h1>
+                <h3>- OpenLearn University -</h3>
+            </div>
 
             <a href="./files/courses/Computers and Computer Systems T224_1_statement.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
                 <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>

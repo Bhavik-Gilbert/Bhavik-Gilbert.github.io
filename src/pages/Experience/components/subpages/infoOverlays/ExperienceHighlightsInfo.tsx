@@ -11,9 +11,11 @@ function JPSoftwareEngineerAnalystIntern() {
         </div>
       </div>
 
-      <h1>Software Engineer Analyst Intern</h1>
-      <h5>Jun 2023 - Aug 2023</h5>
-      <h3>- J.P Morgan Chase & Co -</h3>
+      <div className="infoHeader">
+        <h1>Software Engineer Analyst Intern</h1>
+        <h5>Jun 2023 - Aug 2023</h5>
+        <h3>- J.P Morgan Chase & Co -</h3>
+      </div>
 
       <hr/>
 
@@ -42,9 +44,11 @@ function LeytonComputerScienceStudentMentor() {
         </div>
       </div>
 
-      <h1>Computer Science Student Mentor</h1>
-      <h5>Sep 2021 - Oct 2022</h5>
-      <h3>- Leyton Sixth Form College -</h3>
+      <div className="infoHeader">
+        <h1>Computer Science Student Mentor</h1>
+        <h5>Sep 2021 - Oct 2022</h5>
+        <h3>- Leyton Sixth Form College -</h3>
+      </div>
 
       <a href="https://www.leyton.ac.uk/" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
@@ -84,9 +88,11 @@ function FuntechLocationCampManger() {
         </div>
       </div>
 
-      <h1>Location Camp Manger</h1>
-      <h5>Jul 2022 - Aug 2022</h5>
-      <h3>- FunTech -</h3>
+      <div className="infoHeader">
+        <h1>Location Camp Manger</h1>
+        <h5>Jul 2022 - Aug 2022</h5>
+        <h3>- FunTech -</h3>
+      </div>
 
       <a href="https://funtech.co.uk/" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>

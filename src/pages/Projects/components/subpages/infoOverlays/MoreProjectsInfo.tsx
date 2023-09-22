@@ -11,10 +11,12 @@ function PenguinEmpire() {
         </div>
       </div>
 
-      <h1>Penguin Empire</h1>
-      <h5>Social Media Application</h5>
-      <h3>- Django Project -</h3>
-      
+      <div className="infoHeader">
+        <h1>Penguin Empire</h1>
+        <h5>Social Media Application</h5>
+        <h3>- Django Project -</h3>
+      </div>
+
       <a href="https://github.com/Bhavik-Gilbert/Empire-Penguin" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
           &nbsp;
@@ -58,8 +60,10 @@ function MinigameSuite() {
         </div>
       </div>
 
-      <h1>Minigame Suite</h1>
-      <h3>- Java GUI -</h3>
+      <div className="infoHeader">
+        <h1>Minigame Suite</h1>
+        <h3>- Java GUI -</h3>
+      </div>
 
       <a href="https://github.com/Bhavik-Gilbert/Minigame-Suite" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
@@ -113,8 +117,10 @@ function TicketingSystem() {
         </div>
       </div>
 
-      <h1>Ticketing System</h1>
-      <h3>- Flask Project -</h3>
+      <div className="infoHeader">
+        <h1>Ticketing System</h1>
+        <h3>- Flask Project -</h3>
+      </div>
 
       <a href="https://github.com/Bhavik-Gilbert/Ticketing-System" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
@@ -178,8 +184,10 @@ function MusicSchoolManagementSystem() {
         </div>
       </div>
 
-      <h1>Music School Management System</h1>
-      <h3>- Django Project -</h3>
+      <div className="infoHeader">
+        <h1>Music School Management System</h1>
+        <h3>- Django Project -</h3>
+      </div>
 
       <hr/>
 
@@ -249,8 +257,10 @@ function TypingSpeedTest() {
         </div>
       </div>
 
-      <h1>Typing Speed Test</h1>
-      <h3>- React Project -</h3>
+      <div className="infoHeader">
+        <h1>Typing Speed Test</h1>
+        <h3>- React Project -</h3>
+      </div>
 
       <a href="https://github.com/Bhavik-Gilbert/SpeedTyping" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
@@ -301,8 +311,10 @@ function PropertyViewer() {
         </div>
       </div>
 
-      <h1>Property Viewer</h1>
-      <h3>- Java GUI -</h3>
+      <div className="infoHeader">
+        <h1>Property Viewer</h1>
+        <h3>- Java GUI -</h3>
+      </div>
 
       <a href="./files/projects/PropertyViewerReport.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
@@ -396,8 +408,10 @@ function EcosystemSimulator() {
         </div>
       </div>
 
-      <h1>Ecosystem Simulator</h1>
-      <h3>- Java GUI -</h3>
+      <div className="infoHeader">
+        <h1>Ecosystem Simulator</h1>
+        <h3>- Java GUI -</h3>
+      </div>
 
       <a href="https://github.com/Bhavik-Gilbert/Predator-Prey-Simulation" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
@@ -485,9 +499,11 @@ function PhotographyBookingManagementSystem() {
         </div>
       </div>
 
-      <h1>Booking & Management System</h1>
-      <h5>Photographer Booking Website</h5>
-      <h3>- Web Development -</h3>
+      <div className="infoHeader">
+        <h1>Booking & Management System</h1>
+        <h5>Photographer Booking Website</h5>
+        <h3>- Web Development -</h3>
+      </div>
 
       <a href="https://github.com/Bhavik-Gilbert/Booking-System" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
@@ -550,8 +566,10 @@ function AIChatbot() {
         </div>
       </div>
 
-      <h1>AI Chatbot</h1>
-      <h3>- Image & Text Data Analysis -</h3>
+      <div className="infoHeader">
+        <h1>AI Chatbot</h1>
+        <h3>- Image & Text Data Analysis -</h3>
+      </div>
 
       <a href="https://github.com/Bhavik-Gilbert/AI-Chatbot" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
@@ -652,8 +670,10 @@ function Pathfinder() {
         </div>
       </div>
 
-      <h1>Pathfinder</h1>
-      <h3>- A* Pathfinder -</h3>
+      <div className="infoHeader">
+        <h1>Pathfinder</h1>
+        <h3>- A* Pathfinder -</h3>
+      </div>
 
       <a href="https://github.com/Bhavik-Gilbert/A-Star_Pathfinder" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>

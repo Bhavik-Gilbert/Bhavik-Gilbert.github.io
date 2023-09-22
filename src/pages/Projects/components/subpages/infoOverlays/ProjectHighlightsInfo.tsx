@@ -11,9 +11,11 @@ function GreggorFinancialCompanion() {
         </div>
       </div>
 
-      <h1>Greggor Financial Companion</h1>
-      <h5>Financial Tracker</h5>
-      <h3>- Django Project -</h3>
+      <div className="infoHeader">
+        <h1>Greggor Financial Companion</h1>
+        <h5>Financial Tracker</h5>
+        <h3>- Django Project -</h3>
+      </div>
       
       <a href="https://github.com/Bhavik-Gilbert/Greggor-Financial-Companion" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
@@ -122,8 +124,10 @@ function RoboticStoreroomInventoryScanner() {
         </div>
       </div>
 
-      <h1>Robotic Storeroom Inventory Scanner</h1>
-      <h3>- ROS Project -</h3>
+      <div className="infoHeader">
+        <h1>Robotic Storeroom Inventory Scanner</h1>
+        <h3>- ROS Project -</h3>
+      </div>
 
       <a href="https://github.com/Bhavik-Gilbert/ROS-Room-Inventory-Scanner" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
@@ -167,8 +171,10 @@ function FacialRecognitionLoginSystem() {
         </div>
       </div>
 
-      <h1>Facial Recognition Login System</h1>
-      <h3>- AI with Database Systems -</h3>
+      <div className="infoHeader">
+        <h1>Facial Recognition Login System</h1>
+        <h3>- AI with Database Systems -</h3>
+      </div>
 
       <a href="https://github.com/Bhavik-Gilbert/Facial-Recognition" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>
@@ -221,8 +227,10 @@ function PhaseFoldingKeplerExoplanets() {
         </div>
       </div>
 
-      <h1>Phase Folding Kepler Exoplanets</h1>
-      <h3>- Data Analysis & Graphical Manipulation -</h3>
+      <div className="infoHeader">
+        <h1>Phase Folding Kepler Exoplanets</h1>
+        <h3>- Data Analysis & Graphical Manipulation -</h3>
+      </div>
 
       <a href="https://github.com/Bhavik-Gilbert/Kepler-Data" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/GithubLogo.png" alt="Github" loading="lazy"/>

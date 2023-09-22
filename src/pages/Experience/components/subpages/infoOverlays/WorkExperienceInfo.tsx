@@ -11,9 +11,11 @@ function KCLTeachingAssistant() {
         </div>
       </div>
 
-      <h1>Teaching Assistant</h1>
-      <h5>Sep 2023 - Current</h5>
-      <h3>- King's College London -</h3>
+      <div className="infoHeader">
+        <h1>Graduate Teaching Assistant</h1>
+        <h5>Sep 2023 - Current</h5>
+        <h3>- King's College London -</h3>
+      </div>
 
       <hr/>
 
@@ -39,9 +41,11 @@ function KPlusMentorKCL() {
         </div>
       </div>
 
-      <h1>K+ Mentor</h1>
-      <h5>Jan 2022 - Dec 2022</h5>
-      <h3>- King's College London -</h3>
+      <div className="infoHeader">
+        <h1>K+ Mentor</h1>
+        <h5>Jan 2022 - Dec 2022</h5>
+        <h3>- King's College London -</h3>
+      </div>
 
       <a href="https://kplus.london/maths-computer-science/" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small " src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
@@ -68,9 +72,11 @@ function FuntechComputerScienceTeacher() {
         </div>
       </div>
 
-      <h1>Computer Science Teacher</h1>
-      <h5>Jul 2021 - Aug 2021</h5>
-      <h3>- Funtech -</h3>
+      <div className="infoHeader">
+        <h1>Computer Science Teacher</h1>
+        <h5>Jul 2021 - Aug 2021</h5>
+        <h3>- Funtech -</h3>
+      </div>
 
       <a href="https://funtech.co.uk/" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>

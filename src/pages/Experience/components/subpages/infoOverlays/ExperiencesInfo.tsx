@@ -11,9 +11,11 @@ function ExpediaCareerDiscoveryProgram() {
         </div>
       </div>
 
-      <h1>Expedia Career Discovery Program</h1>
-      <h5>Jul 2022</h5>
-      <h3>- Expedia -</h3>
+      <div className="infoHeader">
+        <h1>Expedia Career Discovery Program</h1>
+        <h5>Jul 2022</h5>
+        <h3>- Expedia -</h3>
+      </div>
 
       <hr/>
 
@@ -35,9 +37,11 @@ function InternshipExperienceUK2022() {
         </div>
       </div>
 
-      <h1>Internship Experience UK 2022: On Demand - Technology</h1>
-      <h5>Jun 2022 - Jul 2022</h5>
-      <h3>- Bright Network -</h3>
+      <div className="infoHeader">
+        <h1>Internship Experience UK 2022: On Demand - Technology</h1>
+        <h5>Jun 2022 - Jul 2022</h5>
+        <h3>- Bright Network -</h3>
+      </div>
 
       <a href="./files/certificates/InternshipExperienceUK2022OnDemandTechnology.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
@@ -74,9 +78,11 @@ function JPSpringInsightintoSoftwareEngineering() {
         </div>
       </div>
 
-      <h1>Spring Insight into Software Engineering</h1>
-      <h5>Apr 2022</h5>
-      <h3>- J.P Morgan Chase & Co -</h3>
+      <div className="infoHeader">
+        <h1>Spring Insight into Software Engineering</h1>
+        <h5>Apr 2022</h5>
+        <h3>- J.P Morgan Chase & Co -</h3>
+      </div>
 
       <hr/>
 
@@ -106,9 +112,11 @@ function ConsultingWorkExperiencewithDeloitte() {
         </div>
       </div>
 
-      <h1>Consulting Work Experience with Deloitte</h1>
-      <h5>Aug 2021</h5>
-      <h3>- Springpod -</h3>
+      <div className="infoHeader">
+        <h1>Consulting Work Experience with Deloitte</h1>
+        <h5>Aug 2021</h5>
+        <h3>- Springpod -</h3>
+      </div>
 
       <a href="./files/certificates/ConsultingWorkExperiencewithDeloitte.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
@@ -139,9 +147,11 @@ function TechnologyVirtualWorkExperience() {
         </div>
       </div>
 
-      <h1>Technology Virtual Work Experience</h1>
-      <h5>Apr 2021</h5>
-      <h3>- Springpod -</h3>
+      <div className="infoHeader">
+        <h1>Technology Virtual Work Experience</h1>
+        <h5>Apr 2021</h5>
+        <h3>- Springpod -</h3>
+      </div>
 
       <a href="./files/certificates/TechnologyVirtualWorkExperienceSpringpod.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
@@ -172,9 +182,11 @@ function CareersCampCIC() {
         </div>
       </div>
 
-      <h1>Design Competition</h1>
-      <h5>Nov 2019 - Dec 2019</h5>
-      <h3>- Careers Camp CIC -</h3>
+      <div className="infoHeader">
+        <h1>Design Competition</h1>
+        <h5>Nov 2019 - Dec 2019</h5>
+        <h3>- Careers Camp CIC -</h3>
+      </div>
 
       <a href="./files/certificates/OpenAwardsEntryLevelAwardinEmployabilityandProfessionalDevelopment.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>

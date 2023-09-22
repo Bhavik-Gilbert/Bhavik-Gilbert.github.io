@@ -11,9 +11,11 @@ function CodeForGood() {
         </div>
       </div>
 
-      <h1>Code For Good</h1>
-      <h5>Nov 2022</h5>
-      <h3>- J.P Morgan Chase & Co -</h3>
+      <div className="infoHeader">
+        <h1>Code For Good</h1>
+        <h5>Nov 2022</h5>
+        <h3>- J.P Morgan Chase & Co -</h3>
+      </div>
 
       <a href="https://careers.jpmorgan.com/us/en/students/programs/code-for-good" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
@@ -61,9 +63,11 @@ function PolygonxEasyA() {
         </div>
       </div>
 
-      <h1>Polygon x Easy A</h1>
-      <h5>Oct 2022</h5>
-      <h3>- Polygon -</h3>
+      <div className="infoHeader">
+        <h1>Polygon x Easy A</h1>
+        <h5>Oct 2022</h5>
+        <h3>- Polygon -</h3>
+      </div>
 
       <a href="https://www.easya.io/events/polygon-x-easya-hackathon" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
@@ -110,9 +114,11 @@ function MetaGlobalHackathon() {
         </div>
       </div>
 
-      <h1>Meta Global Hackathon</h1>
-      <h5>Sept 2022</h5>
-      <h3>- Meta -</h3>
+      <div className="infoHeader">
+        <h1>Meta Global Hackathon</h1>
+        <h5>Sept 2022</h5>
+        <h3>- Meta -</h3>
+      </div>
 
       <a href="https://metaglobalhackon2022.splashthat.com/" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>

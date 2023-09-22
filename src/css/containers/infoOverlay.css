@@ -50,7 +50,7 @@
   overflow-wrap: break-word;
   width: 90%;
 }
-.overlayInfo h1, .overlayInfo h3, .overlayInfo h5 {
+.overlayInfo .infoHeader {
   padding-right: 3rem;
 }
 .outputInfoMessage {
@@ -76,6 +76,9 @@ hr {
       height: 90dvh;
       top: 5dvh;
       left: 5dvw;
+    }
+    .overlayInfo .infoHeader {
+      padding-right: 3.5rem;
     }
   }
 }

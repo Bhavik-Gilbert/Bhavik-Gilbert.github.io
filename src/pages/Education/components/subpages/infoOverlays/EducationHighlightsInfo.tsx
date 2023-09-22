@@ -11,10 +11,12 @@ function CompsciKCLUndergrad() {
         </div>
       </div>
 
-      <h1>Computer Science BSc(Hons)</h1>
-      <h5>Undegraduate</h5>
-      <h3>- King's College London -</h3>
-      
+      <div className="infoHeader">
+        <h1>Computer Science BSc(Hons)</h1>
+        <h5>Undegraduate</h5>
+        <h3>- King's College London -</h3>
+      </div>
+
       <hr/>
 
       <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
@@ -70,9 +72,11 @@ function ALevels() {
         </div>
       </div>
 
-      <h1>A Levels</h1>
-      <h5>4 A Levels</h5>
-      <h3>- Leyton XI Form College -</h3>
+      <div className="infoHeader">
+        <h1>A Levels</h1>
+        <h5>4 A Levels</h5>
+        <h3>- Leyton XI Form College -</h3>
+      </div>
 
       <hr/>
 
@@ -85,7 +89,7 @@ function ALevels() {
       <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
 
       <hr/>
-
+      
       <h6>2 A*-A</h6>
 
       <br/>
@@ -108,10 +112,12 @@ function GCSEs() {
         </div>
       </div>
 
-      <h1>GCSEs</h1>
-      <h5>12 GCSEs</h5>
-      <h3>- St.Aloysius R.C College -</h3>
-
+      <div className="infoHeader">
+        <h1>GCSEs</h1>
+        <h5>12 GCSEs</h5>
+        <h3>- St.Aloysius R.C College -</h3>
+      </div>
+      
       <hr/>
 
       <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
