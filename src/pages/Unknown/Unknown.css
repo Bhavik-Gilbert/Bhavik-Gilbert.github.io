@@ -1,0 +1,39 @@
+.title, .titleHold {
+    font-size: 4rem;
+    font-weight: bold;
+    display: inline;
+    font-family: "Courier New", "Lucida Console", monospace;
+    transition: var(--ease);
+  }
+.title {
+    color: var(--bglight)
+}
+.titleHold {
+    color: var(--bgopaque2);
+}
+.title:hover, .titleHold:hover {
+    font-family: "Monaco", monospace;
+    font-size: 5em;
+    color: var(--white);
+}
+.subtitle, .subtitleHold {
+    font-family: "Courier New", "Lucida Console", monospace;
+    font-size: 1.3em;
+    font-weight: bold;
+    display: inline;
+    transition: var(--ease);
+}
+.subtitle {
+    color: var(--bgopaque2);
+}
+.subtitleHold {
+    color: var(--bglight);
+    font-style: italic;
+}
+.subtitle:hover, .subtitleHold:hover {
+    color: var(--white);
+}
+
+.subtitleBox {
+    transform: translateY(-1.5rem);
+}

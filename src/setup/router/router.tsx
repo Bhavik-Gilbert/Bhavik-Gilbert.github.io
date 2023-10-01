@@ -12,7 +12,8 @@ const Router = () => {
         <Route path={Pages.pageLinks.Experience} element={<Pages.Experience/>} />
         <Route path={Pages.pageLinks.Education} element={<Pages.Education/>} />
         <Route path={Pages.pageLinks.Contact} element={<Pages.Contact/>} />
-        <Route path="*" element={<Navigate to={Pages.pageLinks.Home} replace/>} />
+        <Route path={Pages.pageLinks.Unknown} element={<Pages.Unknown/>} />
+        <Route path="*" element={<Navigate to={Pages.pageLinks.Unknown} replace/>} />
       </Routes>
     </div>
   );

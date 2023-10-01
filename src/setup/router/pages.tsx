@@ -3,6 +3,7 @@ import Projects from '../../pages/Projects';
 import Experience from '../../pages/Experience';
 import Education from '../../pages/Education';
 import Contact from '../../pages/Contact';
+import Unknown from '../../pages/Unknown';
 
 const enum pageNames {
     Home = "Home",
@@ -10,7 +11,8 @@ const enum pageNames {
     Experience = "Experience",
     Education = "Education",
     Settings = "Settings",
-    Contact = "Contact"
+    Contact = "Contact",
+    Unknown = "Unknown"
 }
 
 const enum pageLinks {
@@ -18,7 +20,8 @@ const enum pageLinks {
     Projects = "/Projects",
     Experience = "/Experience",
     Education = "/Education",
-    Contact = "Contact"
+    Contact = "/Contact",
+    Unknown = "/404"
 }
 
 export {
@@ -27,6 +30,7 @@ export {
     Experience,
     Education,
     Contact,
+    Unknown,
     pageNames,
     pageLinks
 }; 
