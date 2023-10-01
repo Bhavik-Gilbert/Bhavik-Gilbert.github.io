@@ -32,8 +32,8 @@ function toggleCollapsible(collapsibleElementId: string, expandClass: string, co
         if (buttonElement == null) return false;
         
         let collapsibleElement = document.getElementById(collapsibleElementId);
-        if (collapsibleElement!.className == expandClass) buttonElement.innerHTML = "Expand";
-        else if (collapsibleElement!.className == collapseClass) buttonElement.innerHTML = "Collapse";
+        if (collapsibleElement!.className === expandClass) buttonElement.innerHTML = "Expand";
+        else if (collapsibleElement!.className === collapseClass) buttonElement.innerHTML = "Collapse";
     }
 }
 
