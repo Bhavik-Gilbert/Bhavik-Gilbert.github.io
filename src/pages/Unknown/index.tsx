@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 
-import './Unknown.css';
+import '../Home/Home.css';
 import { toggleClass } from '../../setup/components/changeClass';
 import { toggleCapitalise } from '../../setup/components/textEffects';
 import { pageNames } from '../../setup/router/pages';
@@ -40,28 +40,30 @@ function Unknown() {
           ))}
         </div>
 
-        <div className="marginTop marginBottom">
-          {message1.map((message1Char: string, message1CharIndex: number) => (
-              <div className="h3 byLetter marginBottom" id={"message1" + message1CharIndex + message1Char} key={"message1" + message1CharIndex + message1Char} 
-              onClick={(() => {
-                  toggleClass("message1" + message1CharIndex + message1Char, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
-                  toggleCapitalise("message1" + message1CharIndex + message1Char);
-              })}>
-                  {message1Char}
-              </div>
-          ))}
-        </div>
-              
-        <div className="marginTop marginBottom">
-          {message2.map((message2Char: string, message2CharIndex: number) => (
-              <div className="h3 byLetter marginBottom" id={"message2" + message2CharIndex + message2Char} key={"message2" + message2CharIndex + message2Char} 
-              onClick={(() => {
-                  toggleClass("message2" + message2CharIndex + message2Char, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
-                  toggleCapitalise("message2" + message2CharIndex + message2Char);
-              })}>
-                  {message2Char}
-              </div>
-          ))}
+        <div className="textBox bioBox marginTop">
+          <div className="marginTop marginBottom">
+            {message1.map((message1Char: string, message1CharIndex: number) => (
+                <div className="h3 byLetter marginBottom" id={"message1" + message1CharIndex + message1Char} key={"message1" + message1CharIndex + message1Char} 
+                onClick={(() => {
+                    toggleClass("message1" + message1CharIndex + message1Char, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
+                    toggleCapitalise("message1" + message1CharIndex + message1Char);
+                })}>
+                    {message1Char}
+                </div>
+            ))}
+          </div>
+                
+          <div className="marginTop marginBottom">
+            {message2.map((message2Char: string, message2CharIndex: number) => (
+                <div className="h3 byLetter marginBottom" id={"message2" + message2CharIndex + message2Char} key={"message2" + message2CharIndex + message2Char} 
+                onClick={(() => {
+                    toggleClass("message2" + message2CharIndex + message2Char, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
+                    toggleCapitalise("message2" + message2CharIndex + message2Char);
+                })}>
+                    {message2Char}
+                </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
