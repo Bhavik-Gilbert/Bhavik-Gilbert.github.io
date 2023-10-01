@@ -6,7 +6,7 @@ import { toggleClass } from '../../../../setup/components/changeClass';
 import { toggleCapitalise } from '../../../../setup/components/textEffects';
 
 function EducationHighlights() {
-  const title = "Formal Education".split("");
+  const title = "Core Education".split("");
   
   return (
     <>
