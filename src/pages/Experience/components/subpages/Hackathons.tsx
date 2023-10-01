@@ -27,7 +27,7 @@ function Hackathons() {
           ))}
         </div>
 
-        <div className="file button marginBottom" id="hackathonsScrollBoxCollapseButton" onClick={(e) => toggleCollapsible("hackathonsScrollBox", "scrollBox", "")}>
+        <div className="file button marginBottom" id="hackathonsScrollBoxCollapseButton" onClick={(e) => toggleCollapsible("hackathonsScrollBox", "scrollBox")}>
             Expand
         </div>
 

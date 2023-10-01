@@ -29,7 +29,7 @@ function Themes() {
           ))}
       </div>
 
-      <div className="file button marginBottom" id="themesScrollBoxCollapseButton" onClick={(e) => toggleCollapsible("themesScrollBox", "scrollBox", "")}>
+      <div className="file button marginBottom" id="themesScrollBoxCollapseButton" onClick={(e) => toggleCollapsible("themesScrollBox", "scrollBox")}>
           Expand
       </div>
 

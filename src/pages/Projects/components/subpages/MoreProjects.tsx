@@ -27,7 +27,7 @@ function MoreProjects() {
                 ))}
             </div>
 
-            <div className="file button marginBottom" id="moreProjectsScrollBoxCollapseButton" onClick={(e) => toggleCollapsible("moreProjectsScrollBox", "scrollBox", "")}>
+            <div className="file button marginBottom" id="moreProjectsScrollBoxCollapseButton" onClick={(e) => toggleCollapsible("moreProjectsScrollBox", "scrollBox")}>
                 Expand
             </div>
 

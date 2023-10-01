@@ -27,7 +27,7 @@ function Experiences() {
                 ))}
             </div>
             
-            <div className="file button marginBottom" id="experiencesScrollBoxCollapseButton" onClick={(e) => toggleCollapsible("experiencesScrollBox", "scrollBox", "")}>
+            <div className="file button marginBottom" id="experiencesScrollBoxCollapseButton" onClick={(e) => toggleCollapsible("experiencesScrollBox", "scrollBox")}>
                 Expand
             </div>
 
