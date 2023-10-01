@@ -1,5 +1,5 @@
-import Theme from './Theme';
+import Themes from './Themes';
 
 export {
-    Theme
+    Themes
 };

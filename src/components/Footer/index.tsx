@@ -1,12 +1,12 @@
 import './footer.css';
 
-import {Theme}  from '../../pages/Settings/components/Subpages';
+import {Themes}  from '../../pages/Settings/components/Subpages';
 
 function Footer() {
   return (
     <>
       <div className="d-flex justify-content-center text-center">
-        <Theme />
+        <Themes />
       </div>
 
       <div className="d-flex justify-content-center text-center marginTop">

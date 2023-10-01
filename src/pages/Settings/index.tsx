@@ -4,7 +4,7 @@ import { toggleClass } from '../../setup/components/changeClass';
 import { toggleCapitalise } from '../../setup/components/textEffects';
 import { pageNames } from '../../setup/router/pages';
 
-import {Theme} from './components/Subpages';
+import {Themes} from './components/Subpages';
 
 function Settings() {
   const title = "Settings".split("");
@@ -27,7 +27,7 @@ function Settings() {
           ))}
       </div>
 
-      <Theme/>
+      <Themes/>
     </div>
   );
 }

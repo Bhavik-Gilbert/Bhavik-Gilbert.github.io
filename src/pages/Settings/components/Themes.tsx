@@ -1,12 +1,13 @@
 import React from 'react';
 import useLocalStorage from 'use-local-storage';
 
+import  { toggleCollapsible } from '../../../setup/components/displayControls';
 import { colourThemes, defaultTheme } from '../../../setup/components/themes';
 import { toggleClass } from '../../../setup/components/changeClass';
 import { toggleCapitalise } from '../../../setup/components/textEffects';
 
-function Theme() {
-  const title = "Theme".split("");
+function Themes() {
+  const title = "Themes".split("");
 
   const [theme, setTheme] = useLocalStorage<string>('theme', defaultTheme ? colourThemes.darker : colourThemes.lighter);
 
@@ -24,7 +25,11 @@ function Theme() {
           ))}
       </div>
 
-      <div className="scrollBox">
+      <div className="file button marginBottom" id="themesScrollBoxCollapseButton" onClick={(e) => toggleCollapsible("themesScrollBox", "scrollBox", "")}>
+          Expand
+      </div>
+
+      <div className="scrollBox" id="themesScrollBox">
         {Object.values(colourThemes).map((colourTheme: string) => (
             <div key={colourTheme} className={"card large m-3" + (theme === colourTheme ? " selected": " background")} data-theme={colourTheme} onClick={((e) => {setTheme(colourTheme)})}>
               <img className="skeleton header large" src={"./images/colourThemes/"+ colourTheme + ".png"} alt={colourTheme + " theme"}></img>
@@ -36,4 +41,4 @@ function Theme() {
   );
 }
 
-export default Theme;
+export default Themes;
