@@ -1,12 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import CoursesInfo from './infoOverlays/CoursesInfo';
-import  { openElements, toggleCollapsible } from '../../../../setup/components/displayControls';
+import  { openElements, toggleCollapsible, collapseEventListeners } from '../../../../setup/components/displayControls';
 import { toggleClass } from '../../../../setup/components/changeClass';
 import { toggleCapitalise } from '../../../../setup/components/textEffects';
 
 function Courses() {
   const title = "Courses".split("");
+
+  useEffect(() => {
+    collapseEventListeners(["coursesScrollBox"]);
+  }, []);
   
   return (
     <>

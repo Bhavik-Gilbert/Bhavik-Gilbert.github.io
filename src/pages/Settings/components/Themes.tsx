@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import useLocalStorage from 'use-local-storage';
 
-import  { toggleCollapsible } from '../../../setup/components/displayControls';
+import  { toggleCollapsible, collapseEventListeners } from '../../../setup/components/displayControls';
 import { colourThemes, defaultTheme } from '../../../setup/components/themes';
 import { toggleClass } from '../../../setup/components/changeClass';
 import { toggleCapitalise } from '../../../setup/components/textEffects';
@@ -10,6 +10,10 @@ function Themes() {
   const title = "Themes".split("");
 
   const [theme, setTheme] = useLocalStorage<string>('theme', defaultTheme ? colourThemes.darker : colourThemes.lighter);
+
+  useEffect(() => {
+    collapseEventListeners(["themesScrollBox"]);
+  }, []);
 
   return (
     <div className="textBox cardScrollBox">

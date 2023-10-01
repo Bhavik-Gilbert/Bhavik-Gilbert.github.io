@@ -1,13 +1,17 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import HackathonsInfo from './infoOverlays/HackathonsInfo';
-import  { openElements, toggleCollapsible } from '../../../../setup/components/displayControls';
+import  { openElements, toggleCollapsible, collapseEventListeners } from '../../../../setup/components/displayControls';
 import { toggleClass } from '../../../../setup/components/changeClass';
 import { toggleCapitalise } from '../../../../setup/components/textEffects';
 
 function Hackathons() {
   const title = "Hackathons".split("");
   
+  useEffect(() => {
+    collapseEventListeners(["hackathonsScrollBox"]);
+  }, []);
+
   return (
     <>
       <div className="textBox marginTop cardScrollBox">

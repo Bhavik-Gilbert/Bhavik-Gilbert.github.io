@@ -1,13 +1,17 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import MoreProjectsInfo from './infoOverlays/MoreProjectsInfo';
-import  { openElements, toggleCollapsible } from '../../../../setup/components/displayControls';
+import  { openElements, toggleCollapsible, collapseEventListeners } from '../../../../setup/components/displayControls';
 import { toggleClass } from '../../../../setup/components/changeClass';
 import { toggleCapitalise } from '../../../../setup/components/textEffects';
 
 function MoreProjects() {
   const title = "More Projects".split("");
   
+  useEffect(() => {
+    collapseEventListeners(["moreProjectsScrollBox"]);
+  }, []);
+
   return (
     <>
         <div className="textBox cardScrollBox">

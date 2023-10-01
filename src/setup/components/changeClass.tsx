@@ -1,4 +1,5 @@
 import { timer } from './timer';
+
 function changeClass(elementId: string, newClass: string) {
     let element = document.getElementById(elementId);
     if (element == null || typeof (element) == 'undefined') return false;
