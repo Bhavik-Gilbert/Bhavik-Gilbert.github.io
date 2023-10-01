@@ -1,7 +1,7 @@
 import React from 'react';
 
 import HackathonsInfo from './infoOverlays/HackathonsInfo';
-import  { openElements } from '../../../../setup/components/displayControls';
+import  { openElements, toggleCollapsible } from '../../../../setup/components/displayControls';
 import { toggleClass } from '../../../../setup/components/changeClass';
 import { toggleCapitalise } from '../../../../setup/components/textEffects';
 
@@ -23,7 +23,11 @@ function Hackathons() {
           ))}
         </div>
 
-        <div className="scrollBox">
+        <div className="file button marginBottom" id="hackathonsScrollBoxCollapseButton" onClick={(e) => toggleCollapsible("hackathonsScrollBox", "scrollBox", "")}>
+            Expand
+        </div>
+
+        <div className="scrollBox" id="hackathonsScrollBox">
           <div className="card long m-3" onClick={(e) => openElements(["hackathonsOverlay", "codeForGood"])}>
               <img className="skeleton header" src="./images/companyLogos/JPMorganChase.jpg" alt="JPMC" loading="lazy"/>
               <h5>Code For Good</h5>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import WorkExperienceInfo from './infoOverlays/WorkExperienceInfo';
-import  { openElements } from '../../../../setup/components/displayControls';
+import  { openElements, toggleCollapsible } from '../../../../setup/components/displayControls';
 import { toggleClass } from '../../../../setup/components/changeClass';
 import { toggleCapitalise } from '../../../../setup/components/textEffects';
 
@@ -23,7 +23,11 @@ function WorkExperience() {
                 ))}
             </div>
 
-            <div className="scrollBox">
+            <div className="file button marginBottom" id="workExperienceScrollBoxCollapseButton" onClick={(e) => toggleCollapsible("workExperienceScrollBox", "scrollBox", "")}>
+                Expand
+            </div>
+
+            <div className="scrollBox" id="workExperienceScrollBox">
                 <div className="card long m-3" onClick={(e) => openElements(["workExperienceOverlay", "kclTeachingAssistant"])}>
                     <img className="skeleton header" src="./images/companyLogos/KCL.jpg" alt="KCL" loading="lazy"/>
                     <h5>Graduate Teaching Assistant</h5>

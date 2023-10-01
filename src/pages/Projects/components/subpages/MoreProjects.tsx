@@ -1,7 +1,7 @@
 import React from 'react';
 
 import MoreProjectsInfo from './infoOverlays/MoreProjectsInfo';
-import  { openElements } from '../../../../setup/components/displayControls';
+import  { openElements, toggleCollapsible } from '../../../../setup/components/displayControls';
 import { toggleClass } from '../../../../setup/components/changeClass';
 import { toggleCapitalise } from '../../../../setup/components/textEffects';
 
@@ -23,7 +23,11 @@ function MoreProjects() {
                 ))}
             </div>
 
-            <div className="scrollBox">
+            <div className="file button marginBottom" id="moreProjectsScrollBoxCollapseButton" onClick={(e) => toggleCollapsible("moreProjectsScrollBox", "scrollBox", "")}>
+                Expand
+            </div>
+
+            <div className="scrollBox" id="moreProjectsScrollBox">
                 <div className="card long m-3" onClick={(e) => openElements(["moreProjectsOverlay", "penguinEmpire"])}>
                     <img className="skeleton header" src="./images/projects/Penguin Empire/PE1.png" alt="Penguin Empire" loading="lazy"/>
                     <h5>Penguin Empire</h5>

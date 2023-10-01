@@ -1,7 +1,7 @@
 import React from 'react';
 
 import CoursesInfo from './infoOverlays/CoursesInfo';
-import  { openElements } from '../../../../setup/components/displayControls';
+import  { openElements, toggleCollapsible } from '../../../../setup/components/displayControls';
 import { toggleClass } from '../../../../setup/components/changeClass';
 import { toggleCapitalise } from '../../../../setup/components/textEffects';
 
@@ -23,7 +23,11 @@ function Courses() {
             ))}
         </div>
 
-        <div className="scrollBox">
+        <div className="file button marginBottom" id="coursesScrollBoxCollapseButton" onClick={(e) => toggleCollapsible("coursesScrollBox", "scrollBox", "")}>
+            Expand
+        </div>
+
+        <div className="scrollBox" id="coursesScrollBox">
             <div className="card long m-3" onClick={(e) => openElements(["coursesOverlay", "cs50"])}>
                 <img className="skeleton header" src="./images/companyLogos/Harvard.png" alt="Harvard University" loading="lazy"/>
                 <h5>CS50x</h5>

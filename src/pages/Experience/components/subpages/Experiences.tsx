@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ExperiencesInfo from './infoOverlays/ExperiencesInfo';
-import  { openElements } from '../../../../setup/components/displayControls';
+import  { openElements, toggleCollapsible } from '../../../../setup/components/displayControls';
 import { toggleClass } from '../../../../setup/components/changeClass';
 import { toggleCapitalise } from '../../../../setup/components/textEffects';
 
@@ -22,8 +22,12 @@ function Experiences() {
                     </div>
                 ))}
             </div>
+            
+            <div className="file button marginBottom" id="experiencesScrollBoxCollapseButton" onClick={(e) => toggleCollapsible("experiencesScrollBox", "scrollBox", "")}>
+                Expand
+            </div>
 
-            <div className="scrollBox">
+            <div className="scrollBox" id="experiencesScrollBox">
                 <div className="card long m-3" onClick={(e) => openElements(["experiencesOverlay", "expediaCareerDiscoveryProgram"])}>
                     <img className="skeleton header" src="./images/companyLogos/Expedia.jpg" alt="Expedia" loading="lazy"/>
                     <h5>Expedia Career Discovery Program</h5>

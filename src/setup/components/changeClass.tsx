@@ -1,16 +1,17 @@
 import { timer } from './timer';
 function changeClass(elementId: string, newClass: string) {
     let element = document.getElementById(elementId);
-    if (element == null || typeof (element) == 'undefined') return;
+    if (element == null || typeof (element) == 'undefined') return false;
     element.className = newClass;
+    return true;
 }
 
 function toggleClass(elementId: string, class1: string, class2: string) {
     let element = document.getElementById(elementId);
-    if (element == null) return;
+    if (element == null) return false;
     let className = class1;
     if (element.className === class1) className = class2;
-    changeClass(elementId, className);
+    return changeClass(elementId, className);
 }
 
 // creates map for different info lists
