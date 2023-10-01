@@ -30,8 +30,8 @@
     width: 12rem; 
 }
 .long {
-    height: 20rem;
-    width: 15rem; 
+    height: 25rem;
+    width: 18rem; 
 }
 
 .topRight {
@@ -119,6 +119,14 @@
         .highlightBoxText {
             margin-bottom: 4rem;
             text-align: center;
+        }
+    }
+}
+@media (orientation: landscape) {
+    @media only screen and (max-height: 600px) {
+        .long {
+            height: 20rem;
+            width: 15rem; 
         }
     }
 }
