@@ -16,7 +16,7 @@ function ContactForm() {
           {contactFormTitle.map((contactFormTitleChar: string, contactFormTitleCharIndex: number) => (
               <div className="h3 byLetter" id={"bioTitle" + contactFormTitleCharIndex + contactFormTitleChar} key={"bioTitle" + contactFormTitleCharIndex + contactFormTitleChar} 
               onClick={(() => {
-                  toggleClass("bioTitle" + contactFormTitleCharIndex + contactFormTitleChar, "h3 byLetter", "h3Hold byLetter");
+                  toggleClass("bioTitle" + contactFormTitleCharIndex + contactFormTitleChar, "h3", "h3Hold");
                   toggleCapitalise("bioTitle" + contactFormTitleCharIndex + contactFormTitleChar);
               })}>
                   {contactFormTitleChar}

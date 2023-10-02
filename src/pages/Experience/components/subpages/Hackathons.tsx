@@ -20,7 +20,7 @@ function Hackathons() {
           {title.map((titleChar: string, titleCharIndex: number) => (
               <div className="h3 byLetter marginBottom" id={"hackathonsTitle" + titleCharIndex + titleChar} key={"hackathonsTitle" + titleCharIndex + titleChar} 
               onClick={(() => {
-                  toggleClass("hackathonsTitle" + titleCharIndex + titleChar, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
+                  toggleClass("hackathonsTitle" + titleCharIndex + titleChar, "h3", "h3Hold");
                   toggleCapitalise("hackathonsTitle" + titleCharIndex + titleChar);
               })}>
                   {titleChar}

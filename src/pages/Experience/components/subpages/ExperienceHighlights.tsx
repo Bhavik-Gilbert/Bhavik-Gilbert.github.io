@@ -15,7 +15,7 @@ function ExperienceHighlights() {
           {title.map((titleChar: string, titleCharIndex: number) => (
               <div className="h3 byLetter marginBottom" id={"experienceHighlightsTitle" + titleCharIndex + titleChar} key={"experienceHighlightsTitle" + titleCharIndex + titleChar} 
               onClick={(() => {
-                  toggleClass("experienceHighlightsTitle" + titleCharIndex + titleChar, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
+                  toggleClass("experienceHighlightsTitle" + titleCharIndex + titleChar, "h3", "h3Hold");
                   toggleCapitalise("experienceHighlightsTitle" + titleCharIndex + titleChar);
               })}>
                   {titleChar}

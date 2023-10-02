@@ -21,7 +21,7 @@ function Themes() {
         {title.map((titleChar: string, titleCharIndex: number) => (
               <div className="h3 byLetter marginBottom" id={"themeTitle" + titleCharIndex + titleChar} key={"themeTitle" + titleCharIndex + titleChar} 
               onClick={(() => {
-                  toggleClass("themeTitle" + titleCharIndex + titleChar, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
+                  toggleClass("themeTitle" + titleCharIndex + titleChar, "h3", "h3Hold");
                   toggleCapitalise("themeTitle" + titleCharIndex + titleChar);
               })}>
                   {titleChar}

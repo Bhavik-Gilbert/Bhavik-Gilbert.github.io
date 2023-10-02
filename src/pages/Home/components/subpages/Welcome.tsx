@@ -63,7 +63,7 @@ function Bio() {
                 {welcome.map((welcomeChar: string, welcomeCharIndex: number) => (
                         <div className="h1 byLetter" id={"welcome" + welcomeCharIndex + welcomeChar} key={"welcome" + welcomeCharIndex + welcomeChar} 
                         onClick={(() => {
-                            toggleClass("welcome" + welcomeCharIndex + welcomeChar, "h1 byLetter", "h1Hold byLetter");
+                            toggleClass("welcome" + welcomeCharIndex + welcomeChar, "h1", "h1Hold");
                             toggleCapitalise("welcome" + welcomeCharIndex + welcomeChar);
                         })}>
                             {welcomeChar}

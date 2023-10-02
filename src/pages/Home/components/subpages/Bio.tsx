@@ -14,7 +14,7 @@ function Bio() {
                 {title.map((titleChar: string, titleCharIndex: number) => (
                     <div className="h3 byLetter" id={"bioTitle" + titleCharIndex + titleChar} key={"bioTitle" + titleCharIndex + titleChar} 
                     onClick={(() => {
-                        toggleClass("bioTitle" + titleCharIndex + titleChar, "h3 byLetter", "h3Hold byLetter");
+                        toggleClass("bioTitle" + titleCharIndex + titleChar, "h3", "h3Hold");
                         toggleCapitalise("bioTitle" + titleCharIndex + titleChar);
                     })}>
                         {titleChar}

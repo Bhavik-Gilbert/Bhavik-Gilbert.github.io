@@ -18,7 +18,7 @@ function Education() {
         {title.map((titleChar: string, titleCharIndex: number) => (
               <div className="h1 byLetter" id={"pagesTitle" + titleCharIndex + titleChar} key={"pagesTitle" + titleCharIndex + titleChar} 
               onClick={(() => {
-                  toggleClass("pagesTitle" + titleCharIndex + titleChar, "h1 byLetter", "h1Hold byLetter");
+                  toggleClass("pagesTitle" + titleCharIndex + titleChar, "h1", "h1Hold");
                   toggleCapitalise("pagesTitle" + titleCharIndex + titleChar);
               })}>
                   {titleChar}

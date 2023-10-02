@@ -18,7 +18,7 @@ function Contact() {
         {title.map((titleChar: string, titleCharIndex: number) => (
               <div className="h1 byLetter" id={"contactTitle" + titleCharIndex + titleChar} key={"contactTitle" + titleCharIndex + titleChar} 
               onClick={(() => {
-                  toggleClass("contactTitle" + titleCharIndex + titleChar, "h1 byLetter", "h1Hold byLetter");
+                  toggleClass("contactTitle" + titleCharIndex + titleChar, "h1", "h1Hold");
                   toggleCapitalise("contactTitle" + titleCharIndex + titleChar);
               })}>
                   {titleChar}

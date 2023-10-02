@@ -45,7 +45,7 @@ function Unknown() {
             {message1.map((message1Char: string, message1CharIndex: number) => (
                 <div className="h3 byLetter marginBottom" id={"message1" + message1CharIndex + message1Char} key={"message1" + message1CharIndex + message1Char} 
                 onClick={(() => {
-                    toggleClass("message1" + message1CharIndex + message1Char, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
+                    toggleClass("message1" + message1CharIndex + message1Char, "h3", "h3Hold");
                     toggleCapitalise("message1" + message1CharIndex + message1Char);
                 })}>
                     {message1Char}
@@ -57,7 +57,7 @@ function Unknown() {
             {message2.map((message2Char: string, message2CharIndex: number) => (
                 <div className="h3 byLetter marginBottom" id={"message2" + message2CharIndex + message2Char} key={"message2" + message2CharIndex + message2Char} 
                 onClick={(() => {
-                    toggleClass("message2" + message2CharIndex + message2Char, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
+                    toggleClass("message2" + message2CharIndex + message2Char, "h3", "h3Hold");
                     toggleCapitalise("message2" + message2CharIndex + message2Char);
                 })}>
                     {message2Char}

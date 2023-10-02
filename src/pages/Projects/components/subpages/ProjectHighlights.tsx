@@ -14,7 +14,7 @@ function ProjectHighlights() {
         {title.map((titleChar: string, titleCharIndex: number) => (
             <div className="h3 byLetter marginBottom" id={"projectHighlightsTitle" + titleCharIndex + titleChar} key={"projectHighlightsTitle" + titleCharIndex + titleChar} 
             onClick={(() => {
-                toggleClass("projectHighlightsTitle" + titleCharIndex + titleChar, "h3 byLetter marginBottom", "h3Hold byLetter marginBottom");
+                toggleClass("projectHighlightsTitle" + titleCharIndex + titleChar, "h3", "h3Hold");
                 toggleCapitalise("projectHighlightsTitle" + titleCharIndex + titleChar);
             })}>
                 {titleChar}

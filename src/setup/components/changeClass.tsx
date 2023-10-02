@@ -5,12 +5,21 @@ function changeClass(elementId: string, newClass: string) {
     return true;
 }
 
-function toggleClass(elementId: string, class1: string, class2: string) {
+function toggleClass(elementId: string, className1: string, className2: string) {
     let element = document.getElementById(elementId);
     if (element == null) return false;
-    let className = class1;
-    if (element.className === class1) className = class2;
-    return changeClass(elementId, className);
+
+    let classList1 = className1.split(" ")
+    let classList2 = className2.split(" ")
+    let classList = classList1;
+    let elementClassList = element!.className.split(" ")
+
+    if (classList1.every(className => elementClassList.includes(className))) classList = classList2;
+    classList1.forEach((classList1Class) => element!.classList.remove(classList1Class))
+    classList2.forEach((classList2Class) => element!.classList.remove(classList2Class))
+    classList.forEach((classListClass) => element!.classList.add(classListClass))
+
+    return true
 }
 
 function toggleCollapsible(collapsibleElementId: string, expandClass: string) {
