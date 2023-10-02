@@ -9,9 +9,10 @@
     display: inline-block;
     padding: 0.7rem;
   }
-.card.background {
+.card.background, .card:hover.selected {
     background: var(--bg);
 }
+
 
 .card p {
     margin: 0.5rem;
