@@ -1,9 +1,11 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 
-import { toggleClass, displayInfo } from '../../../../setup/components/changeClass';
+import { toggleClass } from '../../../../setup/components/changeClass';
 import { toggleCapitalise } from '../../../../setup/components/textEffects';
 import { pageLinks } from '../../../../setup/router/pages';
+import { displayInfo } from '../../../../setup/components/displayControls';
+
 import ProjectHighlights from '../../../Projects/components/subpages/ProjectHighlights';
 import ExperienceHighlights from '../../../Experience/components/subpages/ExperienceHighlights';
 import EducationHighlights from '../../../Education/components/subpages/EducationHighlights';

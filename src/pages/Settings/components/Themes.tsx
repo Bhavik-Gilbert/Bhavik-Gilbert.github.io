@@ -1,10 +1,10 @@
 import React, {useEffect} from 'react';
 import useLocalStorage from 'use-local-storage';
 
-import  { toggleCollapsible, collapseEventListeners } from '../../../setup/components/displayControls';
 import { colourThemes, defaultTheme } from '../../../setup/components/themes';
-import { toggleClass } from '../../../setup/components/changeClass';
+import { toggleClass, toggleCollapsible } from '../../../setup/components/changeClass';
 import { toggleCapitalise } from '../../../setup/components/textEffects';
+import { collapseEventListeners } from '../../../setup/components/eventListeners';
 
 function Themes() {
   const title = "Themes".split("");

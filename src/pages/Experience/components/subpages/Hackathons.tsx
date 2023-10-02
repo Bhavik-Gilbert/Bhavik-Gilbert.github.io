@@ -1,9 +1,10 @@
 import React, {useEffect} from 'react';
 
 import HackathonsInfo from './infoOverlays/HackathonsInfo';
-import  { openElements, toggleCollapsible, collapseEventListeners } from '../../../../setup/components/displayControls';
-import { toggleClass } from '../../../../setup/components/changeClass';
+import  { openElements } from '../../../../setup/components/displayControls';
+import { toggleClass, toggleCollapsible } from '../../../../setup/components/changeClass';
 import { toggleCapitalise } from '../../../../setup/components/textEffects';
+import { collapseEventListeners } from '../../../../setup/components/eventListeners';
 
 function Hackathons() {
   const title = "Hackathons".split("");
