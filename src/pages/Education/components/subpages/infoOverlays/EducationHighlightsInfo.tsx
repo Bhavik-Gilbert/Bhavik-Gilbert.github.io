@@ -91,6 +91,7 @@ function ALevels() {
       <hr/>
       
       <h6>2 A*-A</h6>
+      <h6>236 UCAS Tariff Points</h6>
 
       <br/>
 
@@ -117,6 +118,12 @@ function GCSEs() {
         <h5>12 GCSEs</h5>
         <h3>- St.Aloysius R.C College -</h3>
       </div>
+
+      <a href="https://www.islington.media/news/2019-gcse-results" type="submit" target="_blank" className="file button justify-content-center text-center">
+          <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
+          &nbsp;
+          Islington News Article
+      </a>
       
       <hr/>
 
@@ -138,7 +145,7 @@ function GCSEs() {
       <h6>Physics: 7 (A)</h6>
       <h6>Religion: 7 (A)</h6>
       <h6>Business: 7 (A)</h6>
-      <h6>Furhter Mathematics: B</h6>
+      <h6>Further Mathematics: B</h6>
       <h6>English Language: 6 (B)</h6>
       <h6>Spanish: 4 (C)</h6>
     </div>
