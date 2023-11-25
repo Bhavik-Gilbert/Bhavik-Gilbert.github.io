@@ -39,14 +39,14 @@ function ExperienceHighlights() {
             </div>
           </div>
           
-          <div className="highlightBox marginBottom" onClick={(e) => openElements(["experienceHighlightsOverlay", "leytonComputerScienceStudentMentor"])}>
-            <img className="skeleton highlightBoxImage" src="./images/companyLogos/LeytonXIFormCollege.png" alt="Leyton XI Form College" loading="lazy"/>
+          <div className="highlightBox marginBottom" onClick={(e) => openElements(["experienceHighlightsOverlay", "kclTeachingAssistant"])}>
+            <img className="skeleton highlightBoxImage" src="./images/companyLogos/KCL.jpg" alt="KCL" loading="lazy"/>
 
             <div className="highlightBoxText">
-              <h5>Computer Science Student Mentor</h5>
+              <h5>Graduate Teaching Assistant</h5>
               <br/>
-              <h6>Leyton Sixth Form College</h6>
-              <h6>Sep 2021 - Oct 2022</h6>
+              <h6>King's College London</h6>
+              <h6>Sep 2023 - Current</h6>
             </div>
 
             <div className="file button bottomRight">

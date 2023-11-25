@@ -33,7 +33,7 @@ function WorkExperience() {
             </div>
 
             <div className="scrollBox" id="workExperienceScrollBox">
-                <div className="card long m-3" onClick={(e) => openElements(["workExperienceOverlay", "kclTeachingAssistant"])}>
+                <div className="card long m-3" onClick={(e) => openElements(["experienceHighlightsOverlay", "kclTeachingAssistant"])}>
                     <img className="skeleton header" src="./images/companyLogos/KCL.jpg" alt="KCL" loading="lazy"/>
                     <h5>Graduate Teaching Assistant</h5>
                     <br/>
@@ -57,7 +57,7 @@ function WorkExperience() {
                     </div>
                 </div>
 
-                <div className="card long m-3" onClick={(e) => openElements(["experienceHighlightsOverlay", "leytonComputerScienceStudentMentor"])}>
+                <div className="card long m-3" onClick={(e) => openElements(["workExperienceOverlay", "leytonComputerScienceStudentMentor"])}>
                     <img className="skeleton header" src="./images/companyLogos/LeytonXIFormCollege.png" alt="Leyton XI Form College" loading="lazy"/>
                     <h5>Computer Science Student Mentor</h5>
                     <br/>

@@ -35,44 +35,30 @@ function JPSoftwareEngineerAnalystIntern() {
 }
 
 
-function LeytonComputerScienceStudentMentor() {
+function KCLTeachingAssistant() {
   return (
-    <div className="overlayInfo" id="leytonComputerScienceStudentMentor">
+    <div className="overlayInfo" id="kclTeachingAssistant">
       <div className="topRight">
-        <div className="file button marginLeft" onClick={(e) => closeElements(["experienceHighlightsOverlay", "leytonComputerScienceStudentMentor"])}>
+        <div className="file button marginLeft" onClick={(e) => closeElements(["experienceHighlightsOverlay", "kclTeachingAssistant"])}>
           &#10005;
         </div>
       </div>
 
       <div className="infoHeader">
-        <h1>Computer Science Student Mentor</h1>
-        <h5>Sep 2021 - Oct 2022</h5>
-        <h3>- Leyton Sixth Form College -</h3>
+        <h1>Graduate Teaching Assistant</h1>
+        <h5>Sep 2023 - Current</h5>
+        <h3>- King's College London -</h3>
       </div>
-
-      <a href="https://www.leyton.ac.uk/" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
-          <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
-          &nbsp;
-          Website
-      </a>
 
       <hr/>
 
-      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/csharp.png" alt="C#" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/php.png" alt="PHP" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/c++.png" alt="C++" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/scala.png" alt="Scala" loading="lazy"/>
       
       <hr/>
 
-      <h6>Flask | Tkinter | Unity | TensorFlow | Keras </h6>
-
-      <hr/>
-
       <ul>
-        <li>Advised students in all aspects of their coursework on a range of projects using a number of different technologies</li>
-        <li>Teaching students how to correctly design and document systems during development</li> 
-        <li>Primarily focused on web development and database systems, with other focuses including 3D game development, 2D game development and AI development</li>
+        <li>5CCS2PEP Practical Experiences of Programming</li>
       </ul>
     </div>
   );
@@ -142,7 +128,7 @@ function ExperienceHighlightsInfo() {
   return (
     <div className="overlayBackground" id="experienceHighlightsOverlay">
       <JPSoftwareEngineerAnalystIntern/>
-      <LeytonComputerScienceStudentMentor/>
+      <KCLTeachingAssistant/>
       <FuntechLocationCampManger/>
     </div>      
   );
