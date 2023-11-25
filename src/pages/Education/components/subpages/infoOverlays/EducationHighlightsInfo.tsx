@@ -119,7 +119,7 @@ function GCSEs() {
         <h3>- St.Aloysius R.C College -</h3>
       </div>
 
-      <a href="https://www.islington.media/news/2019-gcse-results" type="submit" target="_blank" className="file button justify-content-center text-center">
+      <a href="https://www.islington.media/news/2019-gcse-results" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
           <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
           &nbsp;
           Islington News Article
