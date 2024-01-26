@@ -29,9 +29,24 @@ function CompsciKCLUndergrad() {
       <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
 
       <hr/>
-
+      
       <h6>Django | Javafx | ROS | InfOS</h6>
 
+      <hr/>
+
+      <h6>Associateship of King's College London</h6>
+
+      <a href="./files/certificates/AKC SEM1 2021-22 Digital Dean's Commendation.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
+          <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
+          &nbsp;
+          Dean's Commendation Year 1 Sem 1
+      </a>
+
+      <a href="./files/certificates/AKC SEM2 2021-22 Digital Dean's Commendation.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
+          <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
+          &nbsp;
+          Dean's Commendation Year 1 Sem 2
+      </a>
       <hr/>
 
       <h6>Average: First (1st) class with honours</h6>
