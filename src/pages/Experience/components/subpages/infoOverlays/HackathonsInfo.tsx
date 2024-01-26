@@ -2,6 +2,38 @@ import React from 'react';
 
 import  { closeElements } from '../../../../../setup/components/displayControls';
 
+function BPuzzled() {
+  return (
+    <div className="overlayInfo" id="bpuzzled">
+      <div className="topRight">
+        <div className="file button marginLeft" onClick={(e) => closeElements(["hackathonsOverlay", "bpuzzled"])}>
+          &#10005;
+        </div>
+      </div>
+
+      <div className="infoHeader">
+        <h1>Bloomberg BPuzzled</h1>
+        <h5>Jan 2024</h5>
+        <h3>- Bloomberg -</h3>
+      </div>
+
+      <a href="https://careers.jpmorgan.com/us/en/students/programs/code-for-good" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
+          <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
+          &nbsp;
+          Website
+      </a>
+
+      <hr/>
+
+      <p>Created by Bloomberg Engineers, BPuzzled is a competition where contestants use problem solving, creative thinking, and teamwork to solve challenging and intricate puzzles that are logical in nature, similar to those found in escape rooms.</p>
+
+      <hr/>
+      <p>Worked in a team of 4 to achieve the joint highest score in the challenge amongst those participating in KCL.</p>
+      <img className="skeleton header looseImage" src="./images/general/Bloomberg BPuzzled.png" alt="Bloomberg" loading="lazy"/>
+    </div>
+  );
+}
+
 function CodeForGood() {
   return (
     <div className="overlayInfo" id="codeForGood">
@@ -144,6 +176,7 @@ function MetaGlobalHackathon() {
 function WorkExperienceInfo() {
   return (
     <div className="overlayBackground" id="hackathonsOverlay">
+      <BPuzzled/>
       <CodeForGood/>
       <PolygonxEasyA/>
       <MetaGlobalHackathon/>

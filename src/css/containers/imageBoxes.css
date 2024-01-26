@@ -25,3 +25,7 @@
 .file:hover .fileImage {
     box-shadow: 0.1em 0.1em 1em var(--highlight);
 }
+
+.looseImage {
+    max-width: 100%;
+}

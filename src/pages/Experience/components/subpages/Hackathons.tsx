@@ -33,6 +33,18 @@ function Hackathons() {
         </div>
 
         <div className="scrollBox" id="hackathonsScrollBox">
+          <div className="card long m-3" onClick={(e) => openElements(["hackathonsOverlay", "bpuzzled"])}>
+                <img className="skeleton header" src="./images/companyLogos/Bloomberg.png" alt="Bloomberg" loading="lazy"/>
+                <h5>Bloomberg BPuzzled</h5>
+                <br/>
+                <h6>Bloomberg</h6>
+                <h6>Jan 2024</h6>
+                <br/>
+                <div className="file button marginTop">
+                    More Info
+                </div>
+            </div>
+
           <div className="card long m-3" onClick={(e) => openElements(["hackathonsOverlay", "codeForGood"])}>
               <img className="skeleton header" src="./images/companyLogos/JPMorganChase.jpg" alt="JPMC" loading="lazy"/>
               <h5>Code For Good</h5>
