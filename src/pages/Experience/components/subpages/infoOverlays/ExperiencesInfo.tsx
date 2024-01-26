@@ -173,39 +173,6 @@ function TechnologyVirtualWorkExperience() {
 }
 
 
-function CareersCampCIC() {
-  return (
-    <div className="overlayInfo" id="careersCampCIC">
-      <div className="topRight">
-        <div className="file button marginLeft" onClick={(e) => closeElements(["experiencesOverlay", "careersCampCIC"])}>
-          &#10005;
-        </div>
-      </div>
-
-      <div className="infoHeader">
-        <h1>Design Competition</h1>
-        <h5>Nov 2019 - Dec 2019</h5>
-        <h3>- Careers Camp CIC -</h3>
-      </div>
-
-      <a href="./files/certificates/OpenAwardsEntryLevelAwardinEmployabilityandProfessionalDevelopment.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
-          <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
-          &nbsp;
-          Certificate
-      </a>
-
-      <hr/>
-
-      <ul>
-        <li>Competition for people from 14-28 supported by Waltham Forest Council</li>
-        <li>Qualifiers were tasked to design a product to help improve safety in the borough of Waltham Forest</li>
-        <li>Role of product and project manager in my group of 4, where our pitch and design of an app placed us 2nd</li>
-      </ul>
-    </div>
-  );
-}
-
-
 function ExperiencesInfo() {
   return (
     <div className="overlayBackground" id="experiencesOverlay">
@@ -214,7 +181,6 @@ function ExperiencesInfo() {
       <JPSpringInsightintoSoftwareEngineering/>
       <ConsultingWorkExperiencewithDeloitte/>
       <TechnologyVirtualWorkExperience/>
-      <CareersCampCIC/>
     </div>      
   );
 }

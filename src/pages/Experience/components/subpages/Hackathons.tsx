@@ -7,7 +7,7 @@ import { toggleCapitalise } from '../../../../setup/components/textEffects';
 import { collapseEventListeners } from '../../../../setup/components/eventListeners';
 
 function Hackathons() {
-  const title = "Hackathons".split("");
+  const title = "Competitons".split("");
   
   useEffect(() => {
     collapseEventListeners(["hackathonsScrollBox"]);
@@ -75,6 +75,18 @@ function Hackathons() {
               <br/>
               <h6>Meta</h6>
               <h6>Sept 2022</h6>
+              <br/>
+              <div className="file button marginTop">
+                  More Info
+              </div>
+          </div>
+
+          <div className="card long m-3" onClick={(e) => openElements(["hackathonsOverlay", "careersCampCIC"])}>
+              <img className="skeleton header" src="./images/companyLogos/CareerCamp.jpg" alt="Careers Camp CIC" loading="lazy"/>
+              <h5>Design Competition</h5>
+              <br/>
+              <h6>Careers Camp CIC</h6>
+              <h6>Nov 2019 - Dec 2019</h6>
               <br/>
               <div className="file button marginTop">
                   More Info

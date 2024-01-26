@@ -92,18 +92,6 @@ function Experiences() {
                         More Info
                     </div>
                 </div>
-
-                <div className="card long m-3" onClick={(e) => openElements(["experiencesOverlay", "careersCampCIC"])}>
-                    <img className="skeleton header" src="./images/companyLogos/CareerCamp.jpg" alt="Careers Camp CIC" loading="lazy"/>
-                    <h5>Design Competition</h5>
-                    <br/>
-                    <h6>Careers Camp CIC</h6>
-                    <h6>Nov 2019 - Dec 2019</h6>
-                    <br/>
-                    <div className="file button marginTop">
-                        More Info
-                    </div>
-                </div>
             </div>
         </div>
 
