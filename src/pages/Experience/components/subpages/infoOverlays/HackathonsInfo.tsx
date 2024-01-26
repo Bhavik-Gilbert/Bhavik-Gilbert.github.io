@@ -17,12 +17,6 @@ function BPuzzled() {
         <h3>- Bloomberg -</h3>
       </div>
 
-      <a href="https://careers.jpmorgan.com/us/en/students/programs/code-for-good" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
-          <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
-          &nbsp;
-          Website
-      </a>
-
       <hr/>
 
       <p>Created by Bloomberg Engineers, BPuzzled is a competition where contestants use problem solving, creative thinking, and teamwork to solve challenging and intricate puzzles that are logical in nature, similar to those found in escape rooms.</p>
