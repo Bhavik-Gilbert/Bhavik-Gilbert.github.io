@@ -58,7 +58,7 @@ function KCLTeachingAssistant() {
       <hr/>
 
       <ul>
-        <li>5CCS2PEP Practical Experiences of Programming</li>
+        <li>Taught and led computer labs, teaching C++ and Scala alongside their coding constructs, and guiding students through exercises for the 5CCS2PEP Practical Experiences of Programming module.</li>
       </ul>
     </div>
   );
