@@ -57,10 +57,10 @@ function CompsciKCLUndergrad() {
       
       <p>Highlights</p>
       <ul>
-        <li>Introduction to Robotics: 95% | 15 credits</li>
-        <li>Practical Experiences of Programming: 92% | 15 credits</li>
-        <li>Software Engineering Group Project: 87% | 30 credits</li>
-        <li>Foundations of Computing 2: 87% | 15 credits</li>
+        <li>5CCS2ITR Introduction to Robotics: 95% | 15 credits</li>
+        <li>5CCS2PEP Practical Experiences of Programming: 92% | 15 credits</li>
+        <li>5CCS2SEG Software Engineering Group Project: 87% | 30 credits</li>
+        <li>5CCS2FC2 Foundations of Computing 2: 87% | 15 credits</li>
       </ul>
 
       <br/>
@@ -68,10 +68,10 @@ function CompsciKCLUndergrad() {
       <h6>Year 1: First (1st) class with honours</h6>
       <p>Highlights</p>
       <ul>
-        <li>Foundations of Computing 1: 90% | 15 credits</li>
-        <li>Elementary Logic With Applications: 87% | 15 credits</li>
-        <li>Data Structures: 80% | 15 credits</li>
-        <li>Programming Practice and Applications: 78% | 30 credits</li>
+        <li>4CCS1FC1 Foundations of Computing 1: 90% | 15 credits</li>
+        <li>4CCS1ELA Elementary Logic With Applications: 87% | 15 credits</li>
+        <li>4CCS1DST Data Structures: 80% | 15 credits</li>
+        <li>4CCS1PPA Programming Practice and Applications: 78% | 30 credits</li>
       </ul>
     </div>
   );
