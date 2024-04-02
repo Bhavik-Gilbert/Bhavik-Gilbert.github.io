@@ -77,9 +77,8 @@ function ProjectHighlights() {
           <img className="skeleton highlightBoxImage" src="./images/projects/Exoplanet/PF1.png" alt="Phase Folding Kepler Exoplanets" loading="lazy"/>
 
           <div className="highlightBoxText">
-            <h5>Phase Folding Kepler Exoplanets</h5>
+            <h5>Phase Folding Kepler Exoplanet Luminosity</h5>
             <h6>Data Analysis & Graphical Manipulation </h6>
-            <h6>2 Collaborators</h6>
             <br/>
             <img className="skeleton fileImage small" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
           </div>

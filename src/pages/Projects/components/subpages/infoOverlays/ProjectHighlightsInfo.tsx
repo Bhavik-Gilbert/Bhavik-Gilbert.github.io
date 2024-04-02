@@ -228,7 +228,7 @@ function PhaseFoldingKeplerExoplanets() {
       </div>
 
       <div className="infoHeader">
-        <h1>Phase Folding Kepler Exoplanets</h1>
+        <h1>Phase Folding Kepler Exoplanet Luminosity</h1>
         <h3>- Data Analysis & Graphical Manipulation -</h3>
       </div>
 
@@ -248,11 +248,7 @@ function PhaseFoldingKeplerExoplanets() {
 
       <hr/>
 
-      <h6>2 Collaborators</h6>
-
-      <hr/>
-
-      <p>A program run by QMUL to calculate the radius and orbital period of an exoplanet from the luminosity of the star it's orbiting.</p>
+      <p>A program run by QMUL to calculate the radius and orbital period of an exoplanet from the change in luminosity of the star it's orbiting using phase folding.</p>
       <ul>
         <li>Data used from the Kepler mission</li>
         <li>Analyse and manipulate star luminosity data to produce the phase fold on the change in luminosity</li>
