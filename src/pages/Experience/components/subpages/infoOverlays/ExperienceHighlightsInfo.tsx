@@ -2,6 +2,40 @@ import React from 'react';
 
 import  { closeElements } from '../../../../../setup/components/displayControls';
 
+function JPSoftwareEngineer() {
+  return (
+    <div className="overlayInfo" id="jpSoftwareEngineer">
+      <div className="topRight">
+        <div className="file button marginLeft" onClick={(e) => closeElements(["experienceHighlightsOverlay", "jpSoftwareEngineer"])}>
+          &#10005;
+        </div>
+      </div>
+
+      <div className="infoHeader">
+        <h1>Software Engineer</h1>
+        <h5>Sep 2024 - Current</h5>
+        <h3>- J.P Morgan Chase & Co -</h3>
+      </div>
+
+      <hr/>
+
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
+
+      <hr/>
+
+      <h3>Software Engineer Analyst</h3>
+      <h5>Sep 2024 - Current</h5>
+      <ul>
+        {/* <li>Team Athena Market Data</li> */}
+        {/* <li>Full stack Development</li> */}
+        {/* <li>Worked on a codebase with over 50 million lines of code</li> */}
+        {/* <li>Implemented unit and integration testing methodologies</li> */}
+      </ul>
+    </div>
+  );
+}
+
 function JPSoftwareEngineerAnalystIntern() {
   return (
     <div className="overlayInfo" id="jpSoftwareEngineerAnalystIntern">
@@ -128,6 +162,7 @@ function FuntechLocationCampManger() {
 function ExperienceHighlightsInfo() {
   return (
     <div className="overlayBackground" id="experienceHighlightsOverlay">
+      <JPSoftwareEngineer/>
       <JPSoftwareEngineerAnalystIntern/>
       <KCLTeachingAssistant/>
       <FuntechLocationCampManger/>

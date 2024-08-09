@@ -24,14 +24,14 @@ function ExperienceHighlights() {
         </div>
 
         <div>
-          <div className="highlightBox marginBottom" onClick={(e) => openElements(["experienceHighlightsOverlay", "jpSoftwareEngineerAnalystIntern"])}>
-            <img className="skeleton highlightBoxImage" src="./images/companyLogos/JPMorganChase.jpg" alt="JPMC" loading="lazy"/>
+          <div className="highlightBox marginBottom" onClick={(e) => openElements(["experienceHighlightsOverlay", "jpSoftwareEngineer"])}>
+            <img className="skeleton highlightBoxImage" src="./images/companyLogos/JPMorganChasenew.jpeg" alt="JPMC" loading="lazy"/>
 
             <div className="highlightBoxText">
-              <h5>Software Engineer Analyst Intern</h5>
+              <h5>Software Engineer Analyst</h5>
               <br/>
-              <h6>J.P Morgan Chase & Co</h6>
-              <h6>Jun 2023 - Aug 2023</h6>
+              <h6>J.P Morgan Chase</h6>
+              <h6>Sep 2024 - Current</h6>
             </div>
             
             <div className="file button bottomRight">

@@ -33,6 +33,18 @@ function WorkExperience() {
             </div>
 
             <div className="scrollBox" id="workExperienceScrollBox">
+                <div className="card long m-3" onClick={(e) => openElements(["experienceHighlightsOverlay", "jpSoftwareEngineer"])}>
+                    <img className="skeleton header" src="./images/companyLogos/JPMorganChasenew.jpeg" alt="JPMC" loading="lazy"/>
+                    <h5>Software Engineer Analyst</h5>
+                    <br/>
+                    <h6>J.P Morgan Chase & Co</h6>
+                    <h6>Sep 2024 - Current</h6>
+                    <br/>
+                    <div className="file button marginTop">
+                        More Info
+                    </div>
+                </div>
+
                 <div className="card long m-3" onClick={(e) => openElements(["experienceHighlightsOverlay", "kclTeachingAssistant"])}>
                     <img className="skeleton header" src="./images/companyLogos/KCL.jpg" alt="KCL" loading="lazy"/>
                     <h5>Graduate Teaching Assistant</h5>
