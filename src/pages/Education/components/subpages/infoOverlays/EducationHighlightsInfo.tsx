@@ -13,11 +13,68 @@ function CompsciKCLUndergrad() {
 
       <div className="infoHeader">
         <h1>Computer Science BSc(Hons)</h1>
-        <h5>Undegraduate</h5>
+        <h5>First class (1:1) with honours</h5>
         <h3>- King's College London -</h3>
       </div>
 
       <hr/>
+
+      <h6>Associateship of King's College London</h6>
+
+      <a href="./files/certificates/AKC SEM1 2021-22 Digital Dean's Commendation.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
+          <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
+          &nbsp;
+          Dean's Commendation 21-22 Sem 1
+      </a>
+
+      <a href="./files/certificates/AKC SEM2 2021-22 Digital Dean's Commendation.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
+          <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
+          &nbsp;
+          Dean's Commendation 21-22 Sem 2
+      </a>
+      <a href="./files/certificates/AKC SEM1 2023-24 Digital Dean's Commendation.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
+          <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
+          &nbsp;
+          Dean's Commendation 23-24 Sem 1
+      </a>
+
+      <a href="./files/certificates/AKC SEM2 2023-24 Digital Dean's Commendation.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
+          <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
+          &nbsp;
+          Dean's Commendation 23-24 Sem 2
+      </a>
+      <hr/>
+
+      <h6>Dissertation: Web interface to interact with the TIAGo robot - Controller</h6>
+      <h6>Grade: First class (1:1) | 84%</h6>
+    
+      <br/>
+      <h6>Abstract</h6>
+      <p>
+        To the best of my knowledge, currently, there are not many accessible, simple, and reliable ways
+        to interact with robots developed using the Robot Operating System (ROS). From what I’ve
+        seen, most existing methods require either knowledge of how to create packages in the Robot
+        Operating System (ROS), how to interact with topics in the command line using the Robot
+        Operating System (ROS), or access to a physical controller, which may be prone to problems
+        such as joy-con drift or an unstable Bluetooth connection.
+        <br/>
+        This project aims to create an easy to use, reliable and quickly accessible web interface to
+        control and interact with a robot developed using the Robot Operating System (ROS). This
+        would allow users to control their robot with a more accessible device such as a smartphone
+        or laptop, connected over a more stable LAN connection, with a friendlier web interface. This
+        project will focus on developing the platform for a single model of robot, TIAGo, which could
+        then be easily expanded upon to work for other kinds of robots developed using the Robot
+        Operating System (ROS).
+      </p>
+
+      <a href="./files/projects/Bhavik Gilbert Final Year Project Web interface to interact with the TIAGo robot - Controller.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
+          <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
+          &nbsp;
+          Research Paper
+      </a>
+
+      <hr/>
+
 
       <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
       <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/c++.png" alt="C++" loading="lazy"/>
@@ -30,30 +87,24 @@ function CompsciKCLUndergrad() {
 
       <hr/>
       
-      <h6>Django | Javafx | ROS | InfOS</h6>
+      <h6>Django | Flask | React | Javafx | ROS | InfOS</h6>
 
       <hr/>
-
-      <h6>Associateship of King's College London</h6>
-
-      <a href="./files/certificates/AKC SEM1 2021-22 Digital Dean's Commendation.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
-          <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
-          &nbsp;
-          Dean's Commendation Year 1 Sem 1
-      </a>
-
-      <a href="./files/certificates/AKC SEM2 2021-22 Digital Dean's Commendation.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
-          <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
-          &nbsp;
-          Dean's Commendation Year 1 Sem 2
-      </a>
-      <hr/>
-
-      <h6>Average: First (1st) class with honours</h6>
+      
+      <br/>
+      <h6>Year 3: First class (1:1)</h6>
+      
+      <p>Highlights</p>
+      <ul>
+        <li>6CCS3PRJ Individual Project (Dissertation): 84% | 30 credits</li>
+        <li>6CCS3OME Optimization Methods: 77% | 15 credits</li>
+        <li>7CCSMSDV Introduction to Data Visualisation: 76% | 15 credits</li>
+        <li>6CCS3HCI Human-Computer Interaction: 76% | 15 credits</li>
+      </ul>
 
       <br/>
 
-      <h6>Year 2: First (1st) class with honours</h6>
+      <h6>Year 2: First class (1:1)</h6>
       
       <p>Highlights</p>
       <ul>
@@ -65,7 +116,7 @@ function CompsciKCLUndergrad() {
 
       <br/>
 
-      <h6>Year 1: First (1st) class with honours</h6>
+      <h6>Year 1: First class (1:1)</h6>
       <p>Highlights</p>
       <ul>
         <li>4CCS1FC1 Foundations of Computing 1: 90% | 15 credits</li>

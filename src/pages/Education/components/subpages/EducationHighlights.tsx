@@ -29,7 +29,7 @@ function EducationHighlights() {
 
             <div className="highlightBoxText">
               <h5>Computer Science BSc(Hons)</h5>
-              <h6>Undegraduate</h6>
+              <h6>First class (1:1) with honours</h6>
               <br/>
               <h6>King's College London</h6>
               <h6>Sep 2021 - May 2024</h6>
@@ -45,7 +45,7 @@ function EducationHighlights() {
 
             <div className="highlightBoxText">
               <h5>A Levels</h5>
-              <h5>4 A Levels</h5>
+              <h6>4 A Levels</h6>
               <br/>
               <h6>Leyton Sixth Form College</h6>
               <h6>Sep 2019 - May 2021</h6>
