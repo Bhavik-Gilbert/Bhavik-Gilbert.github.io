@@ -46,7 +46,7 @@ function ExperienceHighlights() {
               <h5>Graduate Teaching Assistant</h5>
               <br/>
               <h6>King's College London</h6>
-              <h6>Sep 2023 - Current</h6>
+              <h6>Sep 2023 - Aug 2023</h6>
             </div>
 
             <div className="file button bottomRight">
