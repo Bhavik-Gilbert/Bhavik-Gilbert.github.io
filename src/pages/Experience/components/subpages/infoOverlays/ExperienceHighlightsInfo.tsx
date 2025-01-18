@@ -27,8 +27,8 @@ function JPSoftwareEngineer() {
       <h3>Software Engineer Analyst</h3>
       <h5>Sep 2024 - Current</h5>
       <ul>
-        {/* <li>Team Athena Market Data</li> */}
-        {/* <li>Full stack Development</li> */}
+        <li>Team Athena Core Devtools</li>
+        <li>Full-Stack Development & Data Science</li>
         {/* <li>Worked on a codebase with over 50 million lines of code</li> */}
         {/* <li>Implemented unit and integration testing methodologies</li> */}
       </ul>
@@ -60,7 +60,7 @@ function JPSoftwareEngineerAnalystIntern() {
 
       <ul>
         <li>Team Athena Market Data</li>
-        <li>Full stack Development</li>
+        <li>Full-Stack Development</li>
         <li>Worked on a codebase with over 50 million lines of code</li>
         <li>Implemented unit and integration testing methodologies</li>
       </ul>
