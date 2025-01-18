@@ -61,7 +61,7 @@ function JPSoftwareEngineerAnalystIntern() {
 
       <ul>
         <li>Team Athena Market Data</li>
-        <li>Full-Stack Development</li>
+        <li>Full Stack Development and Data Science</li>
         <li>Worked on a codebase with over 50 million lines of code</li>
         <li>Implemented unit and integration testing methodologies</li>
       </ul>
