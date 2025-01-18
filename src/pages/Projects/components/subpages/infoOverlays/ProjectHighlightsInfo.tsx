@@ -36,7 +36,7 @@ function WebRobotController() {
       <hr/>
 
       <h6>Explanation/Demo Video (Skip to 7:02 for Demo)</h6>
-      <iframe width="100%" height="50%" src="https://www.youtube.com/embed/EU4MIpCM8JE"/>
+      <iframe title="Web Interface To Control ROS Robot Presentation" width="100%" height="50%" src="https://www.youtube.com/embed/EU4MIpCM8JE"/>
 
       <hr/>
 
