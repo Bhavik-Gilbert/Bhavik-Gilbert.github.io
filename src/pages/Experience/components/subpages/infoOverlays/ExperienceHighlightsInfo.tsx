@@ -20,6 +20,9 @@ function JPSoftwareEngineer() {
       <hr/>
 
       <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/react.png" alt="React" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/css.png" alt="CSS" loading="lazy"/>
       <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
 
       <hr/>
@@ -27,10 +30,8 @@ function JPSoftwareEngineer() {
       <h3>Software Engineer Analyst</h3>
       <h5>Sep 2024 - Current</h5>
       <ul>
-        {/* <li>Team Athena Market Data</li> */}
-        {/* <li>Full stack Development</li> */}
-        {/* <li>Worked on a codebase with over 50 million lines of code</li> */}
-        {/* <li>Implemented unit and integration testing methodologies</li> */}
+        <li>Team Athena Core Devtools</li>
+        <li>Full-Stack Development & Data Science</li>
       </ul>
     </div>
   );
@@ -60,7 +61,7 @@ function JPSoftwareEngineerAnalystIntern() {
 
       <ul>
         <li>Team Athena Market Data</li>
-        <li>Full stack Development</li>
+        <li>Full-Stack Development</li>
         <li>Worked on a codebase with over 50 million lines of code</li>
         <li>Implemented unit and integration testing methodologies</li>
       </ul>
