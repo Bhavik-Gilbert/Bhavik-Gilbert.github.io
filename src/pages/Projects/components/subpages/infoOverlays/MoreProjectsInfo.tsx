@@ -277,7 +277,7 @@ function TypingSpeedTest() {
 
       <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
       <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/react.png" alt="React" loading="lazy"/>
 
       <hr/>
 

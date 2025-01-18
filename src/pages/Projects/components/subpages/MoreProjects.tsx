@@ -106,7 +106,7 @@ function MoreProjects() {
                     <br/>
                     <img className="skeleton fileImage small" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
                     <img className="skeleton fileImage small" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
-                    <img className="skeleton fileImage small" src="./images/techLogos/html.png" alt="HTML" loading="lazy"/>
+                    <img className="skeleton fileImage small" src="./images/techLogos/react.png" alt="React" loading="lazy"/>
                     <br/>
                     <div className="file button marginTop">
                         More Info

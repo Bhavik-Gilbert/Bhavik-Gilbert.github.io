@@ -2,6 +2,74 @@ import React from 'react';
 
 import  { closeElements } from '../../../../../setup/components/displayControls';
 
+function WebRobotController() {
+  return (
+    <div className="overlayInfo" id="webInterfaceControlRobot">
+      <div className="topRight">
+        <div className="file button marginLeft" onClick={(e) => closeElements(["projectHighlightsOverlay", "webInterfaceControlRobot"])}>
+          &#10005;
+        </div>
+      </div>
+
+      <div className="infoHeader">
+        <h1>Web Interface To Control ROS Robot</h1>
+        <h3>- ROS & Flask & React Project -</h3>
+      </div>
+
+      <a href="./files/projects/Bhavik Gilbert Final Year Project Web interface to interact with the TIAGo robot - Controller.pdf" type="submit" target="_blank" className="file button justify-content-center text-center">
+          <img className="skeleton fileImage small" src="./images/logos/PDFLogo.png" alt="PDF" loading="lazy"/>
+          &nbsp;
+          Research Paper
+      </a>
+
+      <hr/>
+
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/>
+      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/react.png" alt="React" loading="lazy"/>
+
+      <hr/>
+
+      <h6>ROS | React | Flask | Node </h6>
+
+      <hr/>
+
+      <h6>Explanation/Demo Video (Skip to 7:02 for Demo)</h6>
+      <iframe width="100%" height="50%" src="https://www.youtube.com/embed/EU4MIpCM8JE"/>
+
+      <hr/>
+
+      <h6>Project Aims</h6>
+      <p>
+        This project aims to create an easy to use, reliable and quickly accessible web interface to
+        control and interact with a robot developed using the Robot Operating System (ROS). This
+        would allow users to control their robot with a more accessible device such as a smartphone
+        or laptop, connected over a more stable LAN connection, with a friendlier web interface. This
+        project will focus on developing the platform for a single model of robot, TIAGo, which could
+        then be easily expanded upon to work for other kinds of robots developed using the Robot
+        Operating System (ROS).
+      </p>
+
+      <br/>
+
+      <h6>Delivered Features</h6>
+      <ul>
+        <li>Web interface for all control actions</li>
+        <li>Control over movement</li>
+        <li>Emergency Stop</li>
+        <li>Proximity detection and crash prevention</li>
+        <li>Text to speech</li>
+        <li>Performing actions</li>
+        <li>Server connection sessions</li>
+        <li>Notifications</li>
+        <li>Search for pre-defined inputs</li>
+      </ul>
+    </div>
+  );
+}
+
+
 function GreggorFinancialCompanion() {
   return (
     <div className="overlayInfo" id="greggorFinancialCompanion">
@@ -273,6 +341,7 @@ function PhaseFoldingKeplerExoplanets() {
 function ProjectHighlightsInfo() {
   return (
     <div className="overlayBackground" id="projectHighlightsOverlay">
+      <WebRobotController/>
       <GreggorFinancialCompanion/>
       <RoboticStoreroomInventoryScanner/>
       <FacialRecognitionLoginSystem/>
