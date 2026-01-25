@@ -69,7 +69,7 @@ function WorkExperience() {
             />
             <h5>Software Engineer</h5>
             <br />
-            <h6>J.P Morgan Chase & Co</h6>
+            <h6>JPMorganChase</h6>
             <h6>Sep 2024 - Current</h6>
             <br />
             <div className="file button marginTop">More Info</div>
@@ -115,7 +115,7 @@ function WorkExperience() {
             />
             <h5>Software Engineer Intern</h5>
             <br />
-            <h6>J.P Morgan Chase & Co</h6>
+            <h6>JP Morgan Chase & Co.</h6>
             <h6>Jun 2023 - Aug 2023</h6>
             <br />
             <div className="file button marginTop">More Info</div>
