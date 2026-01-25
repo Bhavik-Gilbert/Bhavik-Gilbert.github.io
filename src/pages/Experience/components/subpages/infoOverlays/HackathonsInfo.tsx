@@ -40,7 +40,7 @@ function CodeForGood() {
       <div className="infoHeader">
         <h1>Code For Good</h1>
         <h5>Nov 2022</h5>
-        <h3>- J.P Morgan Chase & Co -</h3>
+        <h3>- JP Morgan Chase & Co. -</h3>
       </div>
 
       <a href="https://careers.jpmorgan.com/us/en/students/programs/code-for-good" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">

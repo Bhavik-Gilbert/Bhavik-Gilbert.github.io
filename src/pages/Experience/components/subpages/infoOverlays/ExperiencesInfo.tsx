@@ -81,7 +81,7 @@ function JPSpringInsightintoSoftwareEngineering() {
       <div className="infoHeader">
         <h1>Spring Insight into Software Engineering</h1>
         <h5>Apr 2022</h5>
-        <h3>- J.P Morgan Chase & Co. -</h3>
+        <h3>- J.P Morgan Chase & Co -</h3>
       </div>
 
       <hr/>

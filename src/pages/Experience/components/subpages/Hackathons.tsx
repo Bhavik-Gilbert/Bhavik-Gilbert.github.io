@@ -49,7 +49,7 @@ function Hackathons() {
               <img className="skeleton header" src="./images/companyLogos/JPMorganChase.jpg" alt="JPMC" loading="lazy"/>
               <h5>Code For Good</h5>
               <br/>
-              <h6>J.P Morgan Chase & Co</h6>
+              <h6>JP Morgan Chase & Co.</h6>
               <h6>Nov 2022</h6>
               <br/>
               <div className="file button marginTop">
