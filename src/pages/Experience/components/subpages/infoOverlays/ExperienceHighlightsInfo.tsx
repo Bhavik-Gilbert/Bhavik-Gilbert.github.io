@@ -19,7 +19,7 @@ function JPSoftwareEngineer() {
       <div className="infoHeader">
         <h1>Software Engineer</h1>
         <h5>Sep 2024 - Current</h5>
-        <h3>- J.P Morgan Chase & Co -</h3>
+        <h3>- JPMorganChase -</h3>
       </div>
 
       <hr />
@@ -97,7 +97,7 @@ function JPSoftwareEngineerAnalystIntern() {
       <div className="infoHeader">
         <h1>Software Engineer Intern</h1>
         <h5>Jun 2023 - Aug 2023</h5>
-        <h3>- J.P Morgan Chase & Co -</h3>
+        <h3>- JP Morgan Chase & Co. -</h3>
       </div>
 
       <hr />

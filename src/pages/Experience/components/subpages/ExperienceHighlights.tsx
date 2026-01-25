@@ -53,7 +53,7 @@ function ExperienceHighlights() {
             <div className="highlightBoxText">
               <h5>Software Engineer</h5>
               <br />
-              <h6>J.P Morgan Chase</h6>
+              <h6>JPMorganChase</h6>
               <h6>Sep 2024 - Current</h6>
             </div>
 

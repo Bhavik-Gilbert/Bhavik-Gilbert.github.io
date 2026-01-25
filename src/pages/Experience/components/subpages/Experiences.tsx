@@ -61,7 +61,7 @@ function Experiences() {
                     <img className="skeleton header" src="./images/companyLogos/JPMorganChase.jpg" alt="JPMC" loading="lazy"/>
                     <h5>Spring Insight into Software Engineering</h5>
                     <br/>
-                    <h6>J.P Morgan Chase & Co</h6>
+                    <h6>JP Morgan Chase & Co.</h6>
                     <h6>Apr 2022</h6>
                     <br/>
                     <div className="file button marginTop">
