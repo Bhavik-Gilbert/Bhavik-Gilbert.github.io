@@ -1,12 +1,17 @@
-import React from 'react';
+import React from "react";
 
-import  { closeElements } from '../../../../../setup/components/displayControls';
+import { closeElements } from "../../../../../setup/components/displayControls";
 
 function JPSoftwareEngineer() {
   return (
     <div className="overlayInfo" id="jpSoftwareEngineer">
       <div className="topRight">
-        <div className="file button marginLeft" onClick={(e) => closeElements(["experienceHighlightsOverlay", "jpSoftwareEngineer"])}>
+        <div
+          className="file button marginLeft"
+          onClick={(e) =>
+            closeElements(["experienceHighlightsOverlay", "jpSoftwareEngineer"])
+          }
+        >
           &#10005;
         </div>
       </div>
@@ -17,18 +22,51 @@ function JPSoftwareEngineer() {
         <h3>- J.P Morgan Chase & Co -</h3>
       </div>
 
-      <hr/>
+      <hr />
 
-      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/javascript.png" alt="Javascript" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/react.png" alt="React" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/css.png" alt="CSS" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
+      <img
+        className="skeleton fileImage small marginRight my-2"
+        src="./images/techLogos/python.png"
+        alt="Python"
+        loading="lazy"
+      />
+      <img
+        className="skeleton fileImage small marginRight my-2"
+        src="./images/techLogos/javascript.png"
+        alt="Javascript"
+        loading="lazy"
+      />
+      <img
+        className="skeleton fileImage small marginRight my-2"
+        src="./images/techLogos/react.png"
+        alt="React"
+        loading="lazy"
+      />
+      <img
+        className="skeleton fileImage small marginRight my-2"
+        src="./images/techLogos/css.png"
+        alt="CSS"
+        loading="lazy"
+      />
+      <img
+        className="skeleton fileImage small marginRight my-2"
+        src="./images/techLogos/SQL.png"
+        alt="SQL"
+        loading="lazy"
+      />
 
-      <hr/>
+      <hr />
 
-      <h3>Software Engineer Analyst</h3>
-      <h5>Sep 2024 - Current</h5>
+      <div style={{ display: "flex", alignItems: "center" }}>
+        <h3>Software Engineer II (Associate)</h3>
+        <h5 style={{ marginLeft: "auto" }}>Jan 2026 - Current</h5>
+      </div>
+
+      <div style={{ display: "flex", alignItems: "center" }}>
+        <h3>Software Engineer I (Analyst)</h3>
+        <h5 style={{ marginLeft: "auto" }}>Sep 2024 - Jan 2026</h5>
+      </div>
+
       <ul>
         <li>Team Athena Core Devtools</li>
         <li>Full-Stack Development & Data Science</li>
@@ -41,23 +79,41 @@ function JPSoftwareEngineerAnalystIntern() {
   return (
     <div className="overlayInfo" id="jpSoftwareEngineerAnalystIntern">
       <div className="topRight">
-        <div className="file button marginLeft" onClick={(e) => closeElements(["experienceHighlightsOverlay", "jpSoftwareEngineerAnalystIntern"])}>
+        <div
+          className="file button marginLeft"
+          onClick={(e) =>
+            closeElements([
+              "experienceHighlightsOverlay",
+              "jpSoftwareEngineerAnalystIntern",
+            ])
+          }
+        >
           &#10005;
         </div>
       </div>
 
       <div className="infoHeader">
-        <h1>Software Engineer Analyst Intern</h1>
+        <h1>Software Engineer Intern</h1>
         <h5>Jun 2023 - Aug 2023</h5>
         <h3>- J.P Morgan Chase & Co -</h3>
       </div>
 
-      <hr/>
+      <hr />
 
-      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/SQL.png" alt="SQL" loading="lazy"/>
-      
-      <hr/>
+      <img
+        className="skeleton fileImage small marginRight my-2"
+        src="./images/techLogos/python.png"
+        alt="Python"
+        loading="lazy"
+      />
+      <img
+        className="skeleton fileImage small marginRight my-2"
+        src="./images/techLogos/SQL.png"
+        alt="SQL"
+        loading="lazy"
+      />
+
+      <hr />
 
       <ul>
         <li>Team Athena Market Data</li>
@@ -69,12 +125,19 @@ function JPSoftwareEngineerAnalystIntern() {
   );
 }
 
-
 function KCLTeachingAssistant() {
   return (
     <div className="overlayInfo" id="kclTeachingAssistant">
       <div className="topRight">
-        <div className="file button marginLeft" onClick={(e) => closeElements(["experienceHighlightsOverlay", "kclTeachingAssistant"])}>
+        <div
+          className="file button marginLeft"
+          onClick={(e) =>
+            closeElements([
+              "experienceHighlightsOverlay",
+              "kclTeachingAssistant",
+            ])
+          }
+        >
           &#10005;
         </div>
       </div>
@@ -85,27 +148,47 @@ function KCLTeachingAssistant() {
         <h3>- King's College London -</h3>
       </div>
 
-      <hr/>
+      <hr />
 
-      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/c++.png" alt="C++" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/scala.png" alt="Scala" loading="lazy"/>
-      
-      <hr/>
+      <img
+        className="skeleton fileImage small marginRight my-2"
+        src="./images/techLogos/c++.png"
+        alt="C++"
+        loading="lazy"
+      />
+      <img
+        className="skeleton fileImage small marginRight my-2"
+        src="./images/techLogos/scala.png"
+        alt="Scala"
+        loading="lazy"
+      />
+
+      <hr />
 
       <ul>
         <li>Module: 5CCS2PEP Practical Experiences of Programming</li>
-        <li>Taught C++ and Scala with their coding constructs, alongside guiding students through programming exercises.</li>
+        <li>
+          Taught C++ and Scala with their coding constructs, alongside guiding
+          students through programming exercises.
+        </li>
       </ul>
     </div>
   );
 }
 
-
 function FuntechLocationCampManger() {
   return (
     <div className="overlayInfo" id="funtechLocationCampManger">
       <div className="topRight">
-        <div className="file button marginLeft" onClick={(e) => closeElements(["experienceHighlightsOverlay", "funtechLocationCampManger"])}>
+        <div
+          className="file button marginLeft"
+          onClick={(e) =>
+            closeElements([
+              "experienceHighlightsOverlay",
+              "funtechLocationCampManger",
+            ])
+          }
+        >
           &#10005;
         </div>
       </div>
@@ -116,30 +199,58 @@ function FuntechLocationCampManger() {
         <h3>- FunTech -</h3>
       </div>
 
-      <a href="https://funtech.co.uk/" type="submit" target="_blank" rel="noreferrer" className="file button justify-content-center text-center">
-          <img className="skeleton fileImage small" src="./images/logos/WebLogo.jpg" alt="Link" loading="lazy"/>
-          &nbsp;
-          Website
+      <a
+        href="https://funtech.co.uk/"
+        type="submit"
+        target="_blank"
+        rel="noreferrer"
+        className="file button justify-content-center text-center"
+      >
+        <img
+          className="skeleton fileImage small"
+          src="./images/logos/WebLogo.jpg"
+          alt="Link"
+          loading="lazy"
+        />
+        &nbsp; Website
       </a>
 
-      <hr/>
+      <hr />
 
-      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/python.png" alt="Python" loading="lazy"/>
-      <img className="skeleton fileImage small marginRight my-2" src="./images/techLogos/c++.png" alt="C++" loading="lazy"/>
-      <img className="skeleton fileImage small" src="./images/techLogos/java.png" alt="Java" loading="lazy"/>
-      
-      <hr/>
+      <img
+        className="skeleton fileImage small marginRight my-2"
+        src="./images/techLogos/python.png"
+        alt="Python"
+        loading="lazy"
+      />
+      <img
+        className="skeleton fileImage small marginRight my-2"
+        src="./images/techLogos/c++.png"
+        alt="C++"
+        loading="lazy"
+      />
+      <img
+        className="skeleton fileImage small"
+        src="./images/techLogos/java.png"
+        alt="Java"
+        loading="lazy"
+      />
+
+      <hr />
 
       <ul>
-        <li>Managed and supported tutors across several on-site locations to cultivate a safe and encouraging environment for learning</li>
+        <li>
+          Managed and supported tutors across several on-site locations to
+          cultivate a safe and encouraging environment for learning
+        </li>
         <li>
           Duties:
-            <ul>
-              <li>Providing technical and IT support across courses</li>
-              <li>Maintaining safeguarding standards</li>
-              <li>Liaising with tutors and communicating with clients</li>
-              <li>Troubleshooting issues of all natures as they came up</li>
-            </ul>
+          <ul>
+            <li>Providing technical and IT support across courses</li>
+            <li>Maintaining safeguarding standards</li>
+            <li>Liaising with tutors and communicating with clients</li>
+            <li>Troubleshooting issues of all natures as they came up</li>
+          </ul>
         </li>
         <li>
           Courses Managed:
@@ -159,15 +270,14 @@ function FuntechLocationCampManger() {
   );
 }
 
-
 function ExperienceHighlightsInfo() {
   return (
     <div className="overlayBackground" id="experienceHighlightsOverlay">
-      <JPSoftwareEngineer/>
-      <JPSoftwareEngineerAnalystIntern/>
-      <KCLTeachingAssistant/>
-      <FuntechLocationCampManger/>
-    </div>      
+      <JPSoftwareEngineer />
+      <JPSoftwareEngineerAnalystIntern />
+      <KCLTeachingAssistant />
+      <FuntechLocationCampManger />
+    </div>
   );
 }
 
