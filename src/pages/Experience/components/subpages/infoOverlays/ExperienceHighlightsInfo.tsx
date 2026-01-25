@@ -44,7 +44,7 @@ function JPSoftwareEngineer() {
       />
       <img
         className="skeleton fileImage small marginRight my-2"
-        src="./images/techLogos/css.png"
+        src="./images/techLogos/CSS.png"
         alt="CSS"
         loading="lazy"
       />

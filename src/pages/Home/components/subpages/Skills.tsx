@@ -22,7 +22,7 @@ function Skills() {
 
       <Marquee direction="right" className="marginTop" pauseOnHover={true}>
         <img className="skeleton fileImage medium marginLeft" src="./images/techLogos/python.png" alt="Python" loading="lazy"/> 
-        <img className="skeleton fileImage medium marginLeft" src="./images/techLogos/c.png" alt="C" loading="lazy"/> 
+        <img className="skeleton fileImage medium marginLeft" src="./images/techLogos/C.png" alt="C" loading="lazy"/> 
         <img className="skeleton fileImage medium marginLeft" src="./images/techLogos/c++.png" alt="C++" loading="lazy"/> 
         <img className="skeleton fileImage medium marginLeft" src="./images/techLogos/csharp.png" alt="C#" loading="lazy"/> 
         <img className="skeleton fileImage medium marginLeft" src="./images/techLogos/CSS.png" alt="CSS" loading="lazy"/> 
