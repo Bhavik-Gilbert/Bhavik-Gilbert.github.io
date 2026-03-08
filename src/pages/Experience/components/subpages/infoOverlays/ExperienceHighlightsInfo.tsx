@@ -146,7 +146,7 @@ function KCLTeachingAssistant() {
 
       <div className="infoHeader">
         <h1>Graduate Teaching Assistant</h1>
-        <h5>Sep 2023 - Current</h5>
+        <h5>Sep 2023 - Aug 2024</h5>
         <h3>- King's College London -</h3>
       </div>
 
